@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>ED9396CE-321D-4CEA-B5B8-7002C9BE928A</UUID>
-        <nextObjectID>295</nextObjectID>
+        <nextObjectID>300</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -259,7 +259,7 @@ bmZpZ3VyYXRpb24gRWRpdG9yCgpJZiB5b3UgZG9u4oCZdCBoYXZlIHRoZSBDb25maWd1cmF0aW9uIEVk
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z133"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z140 z213 z193 z169"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z300 z169 z140 z213 z193"></relationship>
     </object>
     <object type="ASSET" id="z132">
         <attribute name="sort" type="int32">-1</attribute>
@@ -1375,5 +1375,34 @@ Y3VycmVudGx5IGluc3RhbGxlZDoKICBzc2hwYXNzIEAxLjA0XzAgKGFjdGl2ZSkKCjIuIHN1ZG8gbmFu
         <relationship name="list" type="1/1" destination="LIST" idrefs="z261"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z294"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z262"></relationship>
+    </object>
+    <object type="ASSET" id="z296">
+        <attribute name="notes" type="string">http://www.debian-administration.org/article/280/HowTo_Setup_Basic_SMTP_AUTH_in_Exim4</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">README.mdown</attribute>
+        <attribute name="content" type="binary">RW5hYmxlIEJhc2ljIFNNVFAgQVVUSCBleHRlbnNpb24gaW4gRXhpbTQKLS0tCgoxLiBzdWRvIC91
+c3Ivc2hhcmUvZG9jL2V4aW00LWJhc2UvZXhhbXBsZXMvZXhpbS1nZW5jZXJ0Cgo9PT0gTWFjIE9TIFggPT09Ci9vcHQvbG9jYWwvZXRjL2V4aW0vZXhpbS5jb25mCgpFbmFibGUgdGhlIGZvbGxvd2luZyBsaW5lczoKUExBSU46CiAgZHJpdmVyICAgICAgICAgICAgICAgICAgICAgPSBwbGFpbnRleHQKICBzZXJ2ZXJfc2V0X2lkICAgICAgICAgICAgICA9ICRhdXRoMgogIHNlcnZlcl9wcm9tcHRzICAgICAgICAgICAgID0gOgogIHNlcnZlcl9jb25kaXRpb24gICAgICAgICAgID0gQXV0aGVudGljYXRpb24gaXMgbm90IHlldCBjb25maWd1cmVkCiAgc2VydmVyX2FkdmVydGlzZV9jb25kaXRpb24gPSAke2lmIGRlZjp0bHNfY2lwaGVyIH0KCj09PSBTUExJVCBGSUxFIENPTkZJRyA9PT0KKiBwbGFpbl9zZXJ2ZXIgZW50cnkgQCAvZXRjL2V4aW00L2NvbmYuZC9hdXRoLzMwX2V4aW00LWNvbmZpZ19leGFtcGxlcyAKKiBhZGQgdGhlICJNQUlOX1RMU19FTkFCTEUgPSB0cnVlIiBsaW5lIEAgL2V0Yy9leGltNC9jb25mLmQvbWFpbi8wMV9leGltNC1jb25maWdfbGlzdG1hY3Jvc2RlZnMgCgo9PT0gTU9OT0xJVEhJQyBGSUxFIENPTkZJRyA9PT0KKiBwbGFpbl9zZXJ2ZXIgZW50cnkgQCAvZXRjL2V4aW00L2V4aW00LmNvbmYudGVtcGxhdGUgCiogYWRkIHRoZSAiTUFJTl9UTFNfRU5BQkxFID0gdHJ1ZSIgbGluZSBAIC9ldGMvZXhpbTQvZXhpbTQuY29uZi5sb2NhbG1hY3JvcwoKMi4gInBsYWluX3NlcnZlciBlbnRyeSIgZmlsZSBtb2RpZmljYXRpb246CiMgcGxhaW5fc2VydmVyOgojICAgZHJpdmVyID0gcGxhaW50ZXh0CiMgICBwdWJsaWNfbmFtZSA9IFBMQUlOCiMgICBzZXJ2ZXJfY29uZGl0aW9uID0gIiR7aWYgY3J5cHRlcXskM317JHtleHRyYWN0ezF9ezp9eyR7bG9va3VweyQyfWxzZWFyY2h7Q09OJAojICAgc2VydmVyX3NldF9pZCA9ICQyCiMgICBzZXJ2ZXJfcHJvbXB0cyA9IDoKIyAgIC5pZm5kZWYgQVVUSF9TRVJWRVJfQUxMT1dfTk9UTFNfUEFTU1dPUkRTCiMgICBzZXJ2ZXJfYWR2ZXJ0aXNlX2NvbmRpdGlvbiA9ICR7aWYgZXF7JHRsc19jaXBoZXJ9e317fXsqfX0KIyAgIC5lbmRpZgozLiBBZGQgbGluZSB0byAvZXRjL2V4aW00L2V4aW00LmNvbmYubG9jYWxtYWNyb3M6Ck1BSU5fVExTX0VOQUJMRSA9IHRydWUKCjQuIFRvIGFjdHVhbGx5IHNldHVwIHRoZSB1c2VycyBhbmQgcGFzc3dvcmRzIGNyZWF0ZSAvZXRjL2V4aW00L3Bhc3N3ZDoKQ29weSBvdXRwdXQgZnJvbSBgaHRwYXNzd2QgLW5kIDxzbXRwLXVzZXJuYW1lPmAgaW50byB0aGlzIGZpbGUKCjUuIFJlcGVhdCBmb3IgYW55IG90aGVyIGxvZ2lucyB5b3UnZCBsaWtlIHRvIGFkZC4KCjYuIEVuYWJsZSBhbHRlcm5hdGl2ZSBTTVRQIHBvcnRzIDI1LCg0NjUpLDU4NzoKCj09PSBNYWMgT1MgWCA9PT0KL29wdC9sb2NhbC9ldGMvZXhpbS9leGltLmNvbmY6CglkYWVtb25fc210cF9wb3J0cyA9IDI1IDogNDY1IDogNTg3IDw9IFVuY29tbWVudCB0aGlzIGxpbmUKCSMgdGxzX29uX2Nvbm5lY3RfcG9ydHMgPSA0NjUKCj09PSBVYnVudHUgTGludXggPT09Ci9ldGMvZXhpbTQvY29uZi5kL21haW4vMDBfbG9jYWxfc2V0dGluZ3M6CglkYWVtb25fc210cF9wb3J0cyA9IHNtdHAgOiA1ODcKCjYuIE5vdyB5b3UncmUgZG9uZS4gVXBkYXRlIHlvdXIgY29uZmlndXJhdGlvbiBhbmQgUmVzdGFydCBFeGltNDoKCj09PSBNYWMgT1MgWCA9PT0KIyBwb3J0IHVubG9hZCBleGltCiMgcG9ydCBsb2FkIGV4aW0KCj09PSBVYnVudHUgTGludXggPT09CiMgdXBkYXRlLWV4aW00LmNvbmYKIyAvZXRjL2luaXQuZC9leGltNCByZXN0YXJ0Cg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z300"></relationship>
+    </object>
+    <object type="TAG" id="z297">
+        <attribute name="name" type="string">exim</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z300"></relationship>
+    </object>
+    <object type="TAG" id="z298">
+        <attribute name="name" type="string">smtp</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z300"></relationship>
+    </object>
+    <object type="TAG" id="z299">
+        <attribute name="name" type="string">auth</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z300"></relationship>
+    </object>
+    <object type="SNIPPET" id="z300">
+        <attribute name="name" type="string">Exim4: Enable Basic SMTP AUTH extension</attribute>
+        <attribute name="modified" type="date">335876991.79005098342895507812</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z131"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z296"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z297 z299 z298"></relationship>
     </object>
 </database>

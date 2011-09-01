@@ -1,0 +1,14 @@
+Social-Engineer Toolkit (SET)
+
+Written by: David Kennedy (ReL1K) @ www.secmaniac.com
+Development Team: Thomas Werth
+
+DISCLAIMER: This is only for testing purposes and can only be used where strict consent has been given. Do not use 
+this for illegal purposes period.                                                   
+                                                                            
+Any modifications, changes, or alterations to this application is acceptable, however, any public releases utilizing 
+this code must be approved by its creator. Check the LICENSE file for more information.
+
+The SET is designed to make complex social engineering tasks relatively simple for you by allowing you to utilize
+a robust framework for penetration tests. This tool was designed to be released around the same time as the release
+for the Social Engineer Framework campaign (http://social-engineer.org/).

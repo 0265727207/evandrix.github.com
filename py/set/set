@@ -1,0 +1,40 @@
+#!/usr/bin/env python
+#########################################
+#                                       #
+# This is just the import for SET, you  #
+# can find the main source for SET's    #
+# menu loader at src/core/set.py        #
+#                                       #
+# The Social-Engineer Toolkit (SET)     #
+# Written by: David Kennedy (ReL1K)     #
+# Email: davek@social-engineer.org      #
+#                                       #
+#########################################
+import sys,subprocess,re
+
+# import core
+from src.core.core import *
+
+# import the main set interface
+from src.core.set import *
+
+def kill_proc(port,flag):
+        proc=subprocess.Popen("netstat -antp | grep '%s'" % (port), shell=True, stdout=subprocess.PIPE)
+        stdout_value=proc.communicate()[0]
+	a=re.search("\d+/%s" % (flag), stdout_value)
+        if a:
+		b=a.group()
+		b=b.replace("/%s" % (flag),"")
+		subprocess.Popen("kill -9 %s 1> /dev/null 2> /dev/null" % (b), shell=True).wait()
+
+# cleans up stale processes from SET
+try:
+	# kill anything python running on 80
+	kill_proc("80","python")
+	# kill anything on 443 ruby which is generally a rogue listener
+	kill_proc("443", "ruby")
+
+# handle errors
+except Exception, error: 
+	log(error)
+	pass

