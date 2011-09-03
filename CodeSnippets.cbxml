@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>ED9396CE-321D-4CEA-B5B8-7002C9BE928A</UUID>
-        <nextObjectID>300</nextObjectID>
+        <nextObjectID>302</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -440,7 +440,7 @@ CiQgc3VkbyBnZW0gaW5zdGFsbCBybWFnaWNrCg==
     </object>
     <object type="TAG" id="z160">
         <attribute name="name" type="string">bash</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z213 z169 z193 z140"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169 z193 z140 z301 z213"></relationship>
     </object>
     <object type="SNIPPET" id="z161">
         <attribute name="name" type="string">shell utility (mate)</attribute>
@@ -1404,5 +1404,22 @@ c3Ivc2hhcmUvZG9jL2V4aW00LWJhc2UvZXhhbXBsZXMvZXhpbS1nZW5jZXJ0Cgo9PT0gTWFjIE9TIFgg
         <relationship name="list" type="1/1" destination="LIST" idrefs="z131"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z296"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z297 z299 z298"></relationship>
+    </object>
+    <object type="SNIPPET" id="z301">
+        <attribute name="name" type="string">Bash: For Loop File Names With Spaces</attribute>
+        <attribute name="modified" type="date">336652186.43734902143478393555</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z302"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z160"></relationship>
+    </object>
+    <object type="ASSET" id="z302">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">README.sh</attribute>
+        <attribute name="notes" type="string">http://www.cyberciti.biz/tips/handling-filenames-with-spaces-in-bash.html</attribute>
+        <attribute name="content" type="binary">PT09IFNldCAkSUZTIHZhcmlhYmxlID09PQoKIyEvYmluL2Jhc2gKU0FWRUlGUz0kSUZTCklGUz0k
+KGVjaG8gLWVuICJcblxiIikKCmZvciBmIGluICoKZG8KICBlY2hvICIkZiIKZG9uZQoKSUZTPSRTQVZFSUZTCg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z301"></relationship>
     </object>
 </database>
