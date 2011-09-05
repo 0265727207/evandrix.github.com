@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>ED9396CE-321D-4CEA-B5B8-7002C9BE928A</UUID>
-        <nextObjectID>302</nextObjectID>
+        <nextObjectID>304</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -815,7 +815,7 @@ YW1lPikKCjIuIEVkaXRpbmcgdGhlIFBvcnRmaWxlCglzdWRvIHBvcnQgZWRpdCAtLWVkaXRvciBuYW5v
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z221"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z289 z237 z280 z272 z225 z283 z215 z219"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z304 z215 z237 z283 z272 z289 z280 z225 z219"></relationship>
     </object>
     <object type="ASSET" id="z218">
         <attribute name="sort" type="int32">-1</attribute>
@@ -849,11 +849,11 @@ YW1lPikKCjIuIEVkaXRpbmcgdGhlIFBvcnRmaWxlCglzdWRvIHBvcnQgZWRpdCAtLWVkaXRvciBuYW5v
     </object>
     <object type="TAG" id="z222">
         <attribute name="name" type="string">MacPorts</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z289 z237 z280 z272 z225 z283 z215 z219"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z304 z215 z237 z283 z272 z289 z280 z225 z219"></relationship>
     </object>
     <object type="TAG" id="z223">
         <attribute name="name" type="string">port</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z237 z272 z283 z225 z289 z280"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z304 z237 z283 z272 z289 z280 z225"></relationship>
     </object>
     <object type="ASSET" id="z224">
         <attribute name="sort" type="int32">-1</attribute>
@@ -948,7 +948,7 @@ Z29kYgpjZCAkKHBvcnQgd29yayBtb25nb2RiKS9tb25nb2RiKgpzdWRvIGN1cmwgLU8gaHR0cHM6Ly9q
     </object>
     <object type="TAG" id="z236">
         <attribute name="name" type="string">lion</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z237 z272 z283 z289 z280"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z280 z283 z237 z304 z272 z289"></relationship>
     </object>
     <object type="SNIPPET" id="z237">
         <attribute name="name" type="string">port.mongodb</attribute>
@@ -1421,5 +1421,22 @@ c3Ivc2hhcmUvZG9jL2V4aW00LWJhc2UvZXhhbXBsZXMvZXhpbS1nZW5jZXJ0Cgo9PT0gTWFjIE9TIFgg
 KGVjaG8gLWVuICJcblxiIikKCmZvciBmIGluICoKZG8KICBlY2hvICIkZiIKZG9uZQoKSUZTPSRTQVZFSUZTCg==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z301"></relationship>
+    </object>
+    <object type="ASSET" id="z303">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">README.h</attribute>
+        <attribute name="notes" type="string">https://trac.macports.org/attachment/ticket/30403/openvpn-lion.diff</attribute>
+        <attribute name="content" type="binary">b3BlbnZwbi0yLjIuMS9zeXNoZWFkLmg6CgrigKYKLyogCiAqIERlZmluZSBhIHByb3BlciBJUCBz
+b2NrZXQgbGV2ZWwgaWYgbm90IGFscmVhZHkgZG9uZS4gCiAqLyAKI2lmbmRlZiBTT0xfSVAgCgkjZGVmaW5lIFNPTF9JUCBJUFBST1RPX0lQIAojZW5kaWYgCgovKiAKICogRGlzYWJsZSBFU0VDIAogKi8K4oCmCg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z304"></relationship>
+    </object>
+    <object type="SNIPPET" id="z304">
+        <attribute name="name" type="string">port.openvpn2</attribute>
+        <attribute name="modified" type="date">336871420.18048799037933349609</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z217"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z303"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z236 z222 z223"></relationship>
     </object>
 </database>

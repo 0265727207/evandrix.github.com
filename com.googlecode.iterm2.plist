@@ -23,7 +23,7 @@
 	<key>Custom Color Presets</key>
 	<dict/>
 	<key>Default Bookmark Guid</key>
-	<string>3EB50B45-8C36-48C5-9849-58A275546C3C</string>
+	<string>6BABAD7E-C2F4-4534-9389-752086D9ABE3</string>
 	<key>DimBackgroundWindows</key>
 	<true/>
 	<key>DimInactiveSplitPanes</key>
@@ -897,6 +897,8 @@
 				<key>Red Component</key>
 				<real>1</real>
 			</dict>
+			<key>Bonjour Service Address</key>
+			<string>172.16.104.1</string>
 			<key>Character Encoding</key>
 			<integer>4</integer>
 			<key>Close Sessions On End</key>
@@ -904,7 +906,7 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string>ssh 10.224.189.136</string>
+			<string>ssh 172.16.104.1</string>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -931,6 +933,8 @@
 			<string>No</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
+			<key>Description</key>
+			<string>missscatterbrain</string>
 			<key>Disable Printing</key>
 			<false/>
 			<key>Disable Smcup Rmcup</key>
@@ -949,7 +953,7 @@
 				<real>0.0</real>
 			</dict>
 			<key>Guid</key>
-			<string>3EB50B45-8C36-48C5-9849-58A275546C3C</string>
+			<string>B2794D02-A6C9-420A-84EB-4461107F01A4</string>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
 			<key>Idle Code</key>
@@ -1261,7 +1265,7 @@
 			<key>Normal Font</key>
 			<string>Inconsolata 15</string>
 			<key>Option Key Sends</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
@@ -1292,8 +1296,6 @@
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
-			<key>Shortcut</key>
-			<string></string>
 			<key>Silence Bell</key>
 			<true/>
 			<key>Smart Cursor Color</key>
@@ -1353,7 +1355,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2011-09-02T13:09:07Z</date>
+	<date>2011-09-04T19:31:15Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
