@@ -40,6 +40,7 @@ duplicity==0.6.15
 epydoc==3.0.1
 feedparser==5.0.1
 figleaf==0.6.1
+httplib2==0.7.1
 import-relative==0.1.0
 iniparse==0.4
 ipython==0.11
@@ -57,6 +58,7 @@ modulegraph==0.9.1
 nose==1.1.2
 numpy==1.6.1
 numscons==0.12.0
+oauth2==1.5.170
 paramiko==1.7.7.1
 pexpect==2.4
 pp==1.6.1
@@ -70,6 +72,7 @@ pydot==1.0.25
 pyficache==0.1.4
 pylint==0.24.0
 pymills==0d1424e1b0ab
+pyoperalink==0.1.0
 pyparsing==1.5.6
 pyrit==0.4.1-dev.-svn.r308-
 pysqlite==2.6.3

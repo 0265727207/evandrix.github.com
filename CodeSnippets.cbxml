@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>ED9396CE-321D-4CEA-B5B8-7002C9BE928A</UUID>
-        <nextObjectID>304</nextObjectID>
+        <nextObjectID>306</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -1108,8 +1108,8 @@ aWVzICh1c2luZyBgb3MucGF0aGApLCB5b3UgY2FuCiAgICBtYWtlIHlvdXIgbGl2ZSBtdWNoIGVhc2ll
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">README.mdown</attribute>
         <attribute name="notes" type="string">http://derwiki.tumblr.com/post/841579929/how-i-learned-to-stop-worrying-and-love-ssh</attribute>
-        <attribute name="content" type="binary">SG93IEkgTGVhcm5lZCB0byBTdG9wIFdvcnJ5aW5nIGFuZCBMb3ZlIFNTSAoKQmVmb3JlIHRoZXJl
-IHdlcmUgVlBOcywgdGhlcmUgd2FzIHNzaC4gQW5kIHdoZW4geW91IGRvbuKAmXQgaGF2ZSBhY2Nlc3MgdG8geW91ciBWUE4gb3IgY2Fu4oCZdCBzZXQgb25lIHVwLCB5b3UgY2FuIHN0aWxsIGdldCBtb3N0IG9mIHRoZSBmdW5jdGlvbmFsaXR5IG92ZXIgc3NoLgoKUXVpY2sgYW5kIGRpcnR5IEhUVFAgdHVubmVsaW5nCgpUaGlzIGlzIHVzZWZ1bCBpZiB5b3UgbmVlZCB0byBoaXQgYW4gaW50ZXJuYWwgc2VydmVyIHRocm91Z2ggYSBwcm94eSBzZXJ2ZXI6Cgpzc2ggLWYgLU4gLUwgMzE2MDk6aG9zdGlyZWFsbHl3YW50dG9nZXR0by5jb206ODAgcHJveHlob3N0LmNvbQoKYW5kIHRoZW4gbG9hZCBodHRwOi8vbG9jYWxob3N0OjMxNjA5IGluIHlvdXIgYnJvd3NlciBhbmQgaXQgd2lsbCBsb29rIGxpa2UgaHR0cDovL2hvc3RpcmVhbGx5d2FudHRvZ2V0dG8uY29tIGZyb20gcHJveHlob3N0LmNvbeKAmXMgcG9pbnQgb2Ygdmlldy4gU2ltaWxhcmx5OgoKc3NoIC1mIC1OIC1MIDMxNjEwOnNlY3VyZWhvc3QuY29tOjQ0MyBwcm94eWhvc3QuY29tCgp3aWxsIGZvcndhcmQgU1NMIHRyYWZmaWMgdG8gaHR0cHM6Ly9sb2NhbGhvc3Q6MzE2MTAvLiBOb3QgZ29ubmEgd29yayBjb21wbGV0ZWx5LCBidXQgaXTigJlzIGEgcXVpY2sgYW5kIGRpcnR5IHNvbHV0aW9uIEnigJl2ZSB1c2VkIHRvIGdldCB0byBpbnRlcm5hbCB3aWtpIHNlcnZlcnMgYmVmb3JlLgoKClF1aWNrZXIgYW5kIERpcnRpZXIgU1NIIHR1bm5lbGluZwoKVGhpcyBpc27igJl0IHZlcnkgZGlmZmVyZW50IGZyb20gc3No4oCZaW5nIGludG8gb25lIGJveCBhbmQgaW1tZWRpYXRlbHkgc3No4oCZaW5nIHRvIGFub3RoZXIuIEl0IGF2b2lkcyBhbiBleHRyYSBiYXNoIHByb2Nlc3MgYW5kIGl04oCZcyBxdWlja2VyLCBidXQgdGhhdOKAmXMgcmVhbGx5IGl0IOKAlCBleGNlcHQgZm9yIHRoZSBCQU1GIGZhY3RvcjoKCnNzaCAtdCBnYXRld2F5bWFjaGluZS5jb20gc3NoIGhvc3RpcmVhbGx5d2FudHRvZ2V0dG8KCgpSZXZlcnNlIFNTSCB0dW5uZWxpbmcgYSBzaGVsbAoKR290IGEgY29tcHV0ZXIgYmVoaW5kIGEgZmlyZXdhbGwgd2hvc2UgY29uZmlndXJhdGlvbiB5b3UgZG9u4oCZdCBoYXZlIGFjY2VzcyB0bz8gSXTigJlzIHByZXR0eSBlYXN5IHRvIGdldCB0aGUgY29tcHV0ZXIgYmVoaW5kIHRoZSBmaXJld2FsbCB0byBwb2tlIG91dCB0byBhbm90aGVyIHNlcnZlci4KCihzdGVwIDEsIGZyb20gdGhlIGNvbXB1dGVyIHlvdSB3aXNoIHRvIGFjY2VzcykKZGVyd2lraUBmaXJld2FsbGVkY29tcHV0ZXI6fiQgc3NoIC1SIGxvY2FsaG9zdDoyMDAyOmxvY2FsaG9zdDoyMiBteXB1YmxpY3NlcnZlci5jb20KCihzdGVwIDIsIGZyb20gYW55IGNvbXB1dGVyIHRoYW4gY2FuIGFjY2VzcyBteXB1YmxpY3NlcnZlci5jb20pCmRlcndpa2lAbXlsYXB0b3BvbnRoZWludGVybmV0On4kIHNzaCBteXB1YmxpY3NlcnZlci5jb20gLXAgMjAwMgooYXV0aGVudGljYXRlKQpkZXJ3aWtpQGZpcmV3YWxsZWRjb21wdXRlcjp+JAoKSeKAmXZlIGZvdW5kIHRoaXMgZXNwZWNpYWxseSB1c2VmdWwgdG8gZ2V0IGludG8gbXkgZGFk4oCZcyBjb21wdXRlciBhbmQgZml4IHRoaW5ncy4gSSBwdXQgdGhlIOKAnHNzaCAtUuKAnSBjb21tYW5kIGludG8gYSBzaGVsbCBzY3JpcHQgY2FsbGVkIOKAnGxldGFkYW1pbuKAnSwgbWFkZSBpdCBleGVjdXRhYmxlLCBhbmQgcHV0IGl0IG9uIGhpcyBkZXNrdG9wLiBOb3cgaXTigJlzIHN1cGVyIGVhc3kgZm9yIGhpbSB0byBncmFudCBtZSBhY2Nlc3MgaW4uCgoKVHVubmVsaW5nIFNDUCB0aHJvdWdoIGEgZ2F0ZXdheQoKU29tZXRpbWVzIHlvdSB3YW50IHRvIGZpbGUgdHJhbnNmZXIgdGhyb3VnaCBhIGdhdGV3YXkgbWFjaGluZToKCnNzaCAtTiAtTCAxMjM0OnRhcmdldG1hY2hpbmU6MjIgbXlwdWJsaWNzZXJ2ZXIuY29tCnNjcCAtUCAxMjM0IGxvY2FsaG9zdDp+L3JlbW90ZWZpbGUgbG9jYWxmaWxlCgoKUXVpY2tseSBzZXR0aW5nIHVwIHBhc3N3b3JkbGVzcyBTU0gKCkZpcnN0IG1ha2Ugc3VyZSB5b3XigJl2ZSBnZW5lcmF0ZWQgYSBrZXkgZmlsZTogc3NoLWtleWdlbgpVYnVudHUgKGFuZCBvdGhlciBMaW51eCBkaXN0cm9zKSBtYWtlIGl0IHJlYWxseSBlYXN5OiBzc2gtY29weS1pZCB1c2VyQHJlbW90ZWhvc3QKT1MgWCBzZWVtcyB0byBsYWNrIHRoaXMsIHNvIHRoZSBxdWljayBvbmUgbGluZXIgSSBoYXZlIGlzOgpjYXQgfi8uc3NoL2lkX2RzYS5wdWIgfCBzc2ggdXNlcm5hbWVAbXlzbGljZWhvc3RzZXJ2ZXIuY29tIOKAnGNhdCAtIMK7IH4vLnNzaC9hdXRob3JpemVkX2tleXPigJ0=
+        <attribute name="content" type="binary">QmVmb3JlIHRoZXJlIHdlcmUgVlBOcywgdGhlcmUgd2FzIHNzaC4gQW5kIHdoZW4geW91IGRvbuKA
+mXQgaGF2ZSBhY2Nlc3MgdG8geW91ciBWUE4gb3IgY2Fu4oCZdCBzZXQgb25lIHVwLCB5b3UgY2FuIHN0aWxsIGdldCBtb3N0IG9mIHRoZSBmdW5jdGlvbmFsaXR5IG92ZXIgc3NoLgoKUXVpY2sgYW5kIGRpcnR5IEhUVFAgdHVubmVsaW5nCgpUaGlzIGlzIHVzZWZ1bCBpZiB5b3UgbmVlZCB0byBoaXQgYW4gaW50ZXJuYWwgc2VydmVyIHRocm91Z2ggYSBwcm94eSBzZXJ2ZXI6Cgpzc2ggLWYgLU4gLUwgMzE2MDk6aG9zdGlyZWFsbHl3YW50dG9nZXR0by5jb206ODAgcHJveHlob3N0LmNvbQoKYW5kIHRoZW4gbG9hZCBodHRwOi8vbG9jYWxob3N0OjMxNjA5IGluIHlvdXIgYnJvd3NlciBhbmQgaXQgd2lsbCBsb29rIGxpa2UgaHR0cDovL2hvc3RpcmVhbGx5d2FudHRvZ2V0dG8uY29tIGZyb20gcHJveHlob3N0LmNvbeKAmXMgcG9pbnQgb2Ygdmlldy4gU2ltaWxhcmx5OgoKc3NoIC1mIC1OIC1MIDMxNjEwOnNlY3VyZWhvc3QuY29tOjQ0MyBwcm94eWhvc3QuY29tCgp3aWxsIGZvcndhcmQgU1NMIHRyYWZmaWMgdG8gaHR0cHM6Ly9sb2NhbGhvc3Q6MzE2MTAvLiBOb3QgZ29ubmEgd29yayBjb21wbGV0ZWx5LCBidXQgaXTigJlzIGEgcXVpY2sgYW5kIGRpcnR5IHNvbHV0aW9uIEnigJl2ZSB1c2VkIHRvIGdldCB0byBpbnRlcm5hbCB3aWtpIHNlcnZlcnMgYmVmb3JlLgoKClF1aWNrZXIgYW5kIERpcnRpZXIgU1NIIHR1bm5lbGluZwoKVGhpcyBpc27igJl0IHZlcnkgZGlmZmVyZW50IGZyb20gc3No4oCZaW5nIGludG8gb25lIGJveCBhbmQgaW1tZWRpYXRlbHkgc3No4oCZaW5nIHRvIGFub3RoZXIuIEl0IGF2b2lkcyBhbiBleHRyYSBiYXNoIHByb2Nlc3MgYW5kIGl04oCZcyBxdWlja2VyLCBidXQgdGhhdOKAmXMgcmVhbGx5IGl0IOKAlCBleGNlcHQgZm9yIHRoZSBCQU1GIGZhY3RvcjoKCnNzaCAtdCBnYXRld2F5bWFjaGluZS5jb20gc3NoIGhvc3RpcmVhbGx5d2FudHRvZ2V0dG8KClJldmVyc2UgU1NIIHR1bm5lbGluZyBhIHNoZWxsCgpHb3QgYSBjb21wdXRlciBiZWhpbmQgYSBmaXJld2FsbCB3aG9zZSBjb25maWd1cmF0aW9uIHlvdSBkb27igJl0IGhhdmUgYWNjZXNzIHRvPyBJdOKAmXMgcHJldHR5IGVhc3kgdG8gZ2V0IHRoZSBjb21wdXRlciBiZWhpbmQgdGhlIGZpcmV3YWxsIHRvIHBva2Ugb3V0IHRvIGFub3RoZXIgc2VydmVyLgoKKHN0ZXAgMSwgZnJvbSB0aGUgY29tcHV0ZXIgeW91IHdpc2ggdG8gYWNjZXNzKQpkZXJ3aWtpQGZpcmV3YWxsZWRjb21wdXRlcjp+JCBzc2ggLVIgbG9jYWxob3N0OjIwMDI6bG9jYWxob3N0OjIyIG15cHVibGljc2VydmVyLmNvbQoKKHN0ZXAgMiwgZnJvbSBhbnkgY29tcHV0ZXIgdGhhbiBjYW4gYWNjZXNzIG15cHVibGljc2VydmVyLmNvbSkKZGVyd2lraUBteWxhcHRvcG9udGhlaW50ZXJuZXQ6fiQgc3NoIG15cHVibGljc2VydmVyLmNvbSAtcCAyMDAyCihhdXRoZW50aWNhdGUpCmRlcndpa2lAZmlyZXdhbGxlZGNvbXB1dGVyOn4kCgpJ4oCZdmUgZm91bmQgdGhpcyBlc3BlY2lhbGx5IHVzZWZ1bCB0byBnZXQgaW50byBteSBkYWTigJlzIGNvbXB1dGVyIGFuZCBmaXggdGhpbmdzLiBJIHB1dCB0aGUg4oCcc3NoIC1S4oCdIGNvbW1hbmQgaW50byBhIHNoZWxsIHNjcmlwdCBjYWxsZWQg4oCcbGV0YWRhbWlu4oCdLCBtYWRlIGl0IGV4ZWN1dGFibGUsIGFuZCBwdXQgaXQgb24gaGlzIGRlc2t0b3AuIE5vdyBpdOKAmXMgc3VwZXIgZWFzeSBmb3IgaGltIHRvIGdyYW50IG1lIGFjY2VzcyBpbi4KCgpUdW5uZWxpbmcgU0NQIHRocm91Z2ggYSBnYXRld2F5CgpTb21ldGltZXMgeW91IHdhbnQgdG8gZmlsZSB0cmFuc2ZlciB0aHJvdWdoIGEgZ2F0ZXdheSBtYWNoaW5lOgoKc3NoIC1OIC1MIDEyMzQ6dGFyZ2V0bWFjaGluZToyMiBteXB1YmxpY3NlcnZlci5jb20Kc2NwIC1QIDEyMzQgbG9jYWxob3N0On4vcmVtb3RlZmlsZSBsb2NhbGZpbGUKCgpRdWlja2x5IHNldHRpbmcgdXAgcGFzc3dvcmRsZXNzIFNTSAoKRmlyc3QgbWFrZSBzdXJlIHlvdeKAmXZlIGdlbmVyYXRlZCBhIGtleSBmaWxlOiBzc2gta2V5Z2VuClVidW50dSAoYW5kIG90aGVyIExpbnV4IGRpc3Ryb3MpIG1ha2UgaXQgcmVhbGx5IGVhc3k6IHNzaC1jb3B5LWlkIHVzZXJAcmVtb3RlaG9zdApPUyBYIHNlZW1zIHRvIGxhY2sgdGhpcywgc28gdGhlIHF1aWNrIG9uZSBsaW5lciBJIGhhdmUgaXM6CmNhdCB+Ly5zc2gvaWRfZHNhLnB1YiB8IHNzaCB1c2VybmFtZUBteXNsaWNlaG9zdHNlcnZlci5jb20g4oCcY2F0IC0gwrsgfi8uc3NoL2F1dGhvcml6ZWRfa2V5c+KAnQ==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z263"></relationship>
     </object>
@@ -1123,11 +1123,11 @@ IHdlcmUgVlBOcywgdGhlcmUgd2FzIHNzaC4gQW5kIHdoZW4geW91IGRvbuKAmXQgaGF2ZSBhY2Nlc3Mg
     </object>
     <object type="TAG" id="z262">
         <attribute name="name" type="string">ssh</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z263 z295"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z263 z306 z295"></relationship>
     </object>
     <object type="SNIPPET" id="z263">
-        <attribute name="name" type="string">SSH</attribute>
-        <attribute name="modified" type="date">333935265.55062299966812133789</attribute>
+        <attribute name="name" type="string">How I Learned to Stop Worrying and Love SSH</attribute>
+        <attribute name="modified" type="date">336955984.98120301961898803711</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST" idrefs="z261"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z260"></relationship>
@@ -1369,8 +1369,8 @@ Y3VycmVudGx5IGluc3RhbGxlZDoKICBzc2hwYXNzIEAxLjA0XzAgKGFjdGl2ZSkKCjIuIHN1ZG8gbmFu
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z295"></relationship>
     </object>
     <object type="SNIPPET" id="z295">
-        <attribute name="name" type="string">Autologin</attribute>
-        <attribute name="modified" type="date">335493454.74800598621368408203</attribute>
+        <attribute name="name" type="string">sshpass: autologin</attribute>
+        <attribute name="modified" type="date">336955972.70837497711181640625</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST" idrefs="z261"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z294"></relationship>
@@ -1438,5 +1438,22 @@ b2NrZXQgbGV2ZWwgaWYgbm90IGFscmVhZHkgZG9uZS4gCiAqLyAKI2lmbmRlZiBTT0xfSVAgCgkjZGVm
         <relationship name="list" type="1/1" destination="LIST" idrefs="z217"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z303"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z236 z222 z223"></relationship>
+    </object>
+    <object type="ASSET" id="z305">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">README.mdown</attribute>
+        <attribute name="notes" type="string">http://wp.uberdose.com/2006/10/16/ssh-automatic-login/</attribute>
+        <attribute name="content" type="binary">fi8uc3NoOgoJc3NoLWtleWdlbiAtdCBkc2EJLSB0byBjcmVhdGUgYSBpZF9kc2EucHViCgljaG1v
+ZCA3MDAgfi8uc3NoCgpzY3Agfi8uc3NoL2lkX2RzYS5wdWIgcmVtb3RldXNlckByZW1vdGVzZXJ2ZXIuY29tOn4vLnNzaC8KCnNzaCByZW1vdGV1c2VyQHJlbW90ZXNlcnZlci5jb20KY2Qgfi8uc3NoCmNhdCBpZF9kc2EucHViID4+IC5zc2gvYXV0aG9yaXplZF9rZXlzCnJtIGlkX2RzYS5wdWIKCuKApm9yIG9uZS1saW5lcjoKCWBjYXQgfi8uc3NoL2lkX2RzYS5wdWIgfCBzc2ggLWwgcmVtb3RldXNlciByZW1vdGVzZXJ2ZXIuY29tICdjYXQgPj4gfi8uc3NoL2F1dGhvcml6ZWRfa2V5cydgCg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z306"></relationship>
+    </object>
+    <object type="SNIPPET" id="z306">
+        <attribute name="name" type="string">SSH Automatic Login (publickey)</attribute>
+        <attribute name="modified" type="date">336956016.01712900400161743164</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z305"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z262"></relationship>
     </object>
 </database>
