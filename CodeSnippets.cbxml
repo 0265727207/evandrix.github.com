@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>ED9396CE-321D-4CEA-B5B8-7002C9BE928A</UUID>
-        <nextObjectID>306</nextObjectID>
+        <nextObjectID>310</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -667,7 +667,7 @@ ZGVyOiAnamFyIC11ZiA8amFyLWZpbGUtbmFtZT4gcnNyYycsCiAgIGdpdmVuIHNoYXBlIG9mIGBwd2Rg
     </object>
     <object type="TAG" id="z195">
         <attribute name="name" type="string">python</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z154 z259 z201 z196"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z201 z308 z154 z196 z259"></relationship>
     </object>
     <object type="SNIPPET" id="z196">
         <attribute name="name" type="string">Python: mercurial "no matching architecture"</attribute>
@@ -1094,7 +1094,7 @@ aWVzICh1c2luZyBgb3MucGF0aGApLCB5b3UgY2FuCiAgICBtYWtlIHlvdXIgbGl2ZSBtdWNoIGVhc2ll
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z229"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z259"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z308 z259"></relationship>
     </object>
     <object type="SNIPPET" id="z259">
         <attribute name="name" type="string">Python Tricks</attribute>
@@ -1119,7 +1119,7 @@ mXQgaGF2ZSBhY2Nlc3MgdG8geW91ciBWUE4gb3IgY2Fu4oCZdCBzZXQgb25lIHVwLCB5b3UgY2FuIHN0
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z232"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z263 z295"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z306 z263 z295"></relationship>
     </object>
     <object type="TAG" id="z262">
         <attribute name="name" type="string">ssh</attribute>
@@ -1452,8 +1452,33 @@ ZCA3MDAgfi8uc3NoCgpzY3Agfi8uc3NoL2lkX2RzYS5wdWIgcmVtb3RldXNlckByZW1vdGVzZXJ2ZXIu
         <attribute name="name" type="string">SSH Automatic Login (publickey)</attribute>
         <attribute name="modified" type="date">336956016.01712900400161743164</attribute>
         <attribute name="locked" type="bool">0</attribute>
-        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z261"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z305"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z262"></relationship>
+    </object>
+    <object type="TAG" id="z307">
+        <attribute name="name" type="string">virtualenv</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z308"></relationship>
+    </object>
+    <object type="SNIPPET" id="z308">
+        <attribute name="name" type="string">IPython + virtualenv</attribute>
+        <attribute name="modified" type="date">337043521.53491699695587158203</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z258"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z310"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z309 z307 z195"></relationship>
+    </object>
+    <object type="TAG" id="z309">
+        <attribute name="name" type="string">ipython</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z308"></relationship>
+    </object>
+    <object type="ASSET" id="z310">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">README.py</attribute>
+        <attribute name="notes" type="string">http://blog.ufsoft.org/2009/1/29/ipython-and-virtualenv</attribute>
+        <attribute name="content" type="binary">UHJvYmxlbToKCVRoZSBpc3N1ZSBpcyB0aGF0IHZpcnR1YWxlbnYgY3JlYXRlcyBhIGRpZmZlcmVu
+dCBweXRob24gZXhlY3V0YWJsZSB0aGF0IGluY2x1ZGVzIHRoZSB2aXJ0dWFsZW524oCYcyBwYWNrYWdlcyBpbnRvIHN5cy5wYXRoIHdoaWxlIElQeXRob24gc3RheXMgdW5hd2FyZSBvZiB0aGUgdmlydHVhbGVuduKAmHMgcGFja2FnZXMuCgpTb2x1dGlvbjoKCjEuIGFsbG93IElQeXRob24gdG8gZ2V0IHZpcnR1YWxlbnbigJhzIHBhY2thZ2VzIGludG8gaXTigJlzIHN5cy5wYXRoCn4vLmlweXRob24vdmlydHVhbGVudi5weToKCWltcG9ydCBzaXRlCglmcm9tIG9zIGltcG9ydCBlbnZpcm9uCglmcm9tIG9zLnBhdGggaW1wb3J0IGpvaW4KCWZyb20gc3lzIGltcG9ydCB2ZXJzaW9uX2luZm8KCQoJaWYgJ1ZJUlRVQUxfRU5WJyBpbiBlbnZpcm9uOgoJICAgIHZpcnR1YWxfZW52ID0gam9pbihlbnZpcm9uLmdldCgnVklSVFVBTF9FTlYnKSwKCSAgICAgICAgICAgICAgICAgICAgICAgJ2xpYicsCgkgICAgICAgICAgICAgICAgICAgICAgICdweXRob24lZC4lZCcgJSB2ZXJzaW9uX2luZm9bOjJdLAoJICAgICAgICAgICAgICAgICAgICAgICAnc2l0ZS1wYWNrYWdlcycpCgkgICAgc2l0ZS5hZGRzaXRlZGlyKHZpcnR1YWxfZW52KQoJICAgIHByaW50ICdWSVJUVUFMX0VOViAtPicsIHZpcnR1YWxfZW52CgkgICAgZGVsIHZpcnR1YWxfZW52CglkZWwgc2l0ZSwgZW52aXJvbiwgam9pbiwgdmVyc2lvbl9pbmZvCgoyLiBlZGl0IH4vLmlweXRob24vaXB5X3VzZXJfY29uZi5weToKCQlkZWYgbWFpbigpOgoJCQlleGVjZignfi8uaXB5dGhvbi92aXJ0dWFsZW52LnB5JykKCeKApiBvciBmb3IgbGF0ZXIgdmVyc2lvbnMgb2YgSVB5dGhvbj49MC4xMQoJfi8uaXB5dGhvbi9wcm9maWxlX2RlZmF1bHQvaXB5dGhvbl9jb25maWcucHk6CgkJIyBMaXN0IG9mIGZpbGVzIHRvIHJ1biBhdCBJUHl0aG9uIHN0YXJ0dXAuCgkJaW1wb3J0IG9zCgkJYy5JbnRlcmFjdGl2ZVNoZWxsQXBwLmV4ZWNfZmlsZXMgPSBbIG9zLnBhdGguZXhwYW5kdXNlcignfi8uaXB5dGhvbi92aXJ0dWFsZW52LnB5JykgXQoK4oCmIG9yIGVhc3lfaW5zdGFsbCBpcHl0aG9uIGZyb20gd2l0aGluIHlvdXIgdmlydHVhbGVudiEK
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z308"></relationship>
     </object>
 </database>
