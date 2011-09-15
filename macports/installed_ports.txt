@@ -1,10 +1,13 @@
 The following ports are currently installed:
   apache-ant @1.8.2_0 (active)
-  apache2 @2.2.19_0+preforkmpm (active)
+  apache2 @2.2.19_0+preforkmpm
+  apache2 @2.2.20_0+preforkmpm
+  apache2 @2.2.21_0+preforkmpm (active)
   apr @1.4.5_1 (active)
   apr-util @1.3.12_0 (active)
   aquaterm @1.0.1_5 (active)
-  aria2 @1.11.2_0 (active)
+  aria2 @1.11.2_0
+  aria2 @1.12.1_0 (active)
   arpack @1_4+accelerate+gcc44 (active)
   arpwatch @2.1a15_2 (active)
   aspell @0.60.6_4+nonls (active)
@@ -27,20 +30,25 @@ The following ports are currently installed:
   calcurse @2.8_0 (active)
   cfitsio @3.280_1 (active)
   clamav @0.97.2_0 (active)
-  clojure @1.2.0_0 (active)
+  clojure @1.2.0_0
+  clojure @1.2.1_0 (active)
   clojure-contrib @1.2.0_0 (active)
   clusterit @2.5_0 (active)
   cmake @2.8.5_0 (active)
-  convmv @1.14_1 (active)
+  convmv @1.14_1
+  convmv @1.15_0 (active)
   coreutils @8.12_0 (active)
   Corkscrew @2.0_0 (active)
   cppunit @1.12.1_0 (active)
-  csshX @0.73_0 (active)
-  curl @7.21.7_0+ssl (active)
+  csshX @0.73_0
+  csshX @0.74_0 (active)
+  curl @7.21.7_0+ssl
+  curl @7.22.0_0+ssl (active)
   curl-ca-bundle @7.21.7_0
   curl-ca-bundle @7.21.7_1
   curl-ca-bundle @7.21.7_3
-  curl-ca-bundle @7.21.7_4 (active)
+  curl-ca-bundle @7.21.7_4
+  curl-ca-bundle @7.22.0_0 (active)
   cyrus-sasl2 @2.1.23_3+kerberos (active)
   daq @0.5_0 (active)
   db44 @4.4.20_1 (active)
@@ -48,6 +56,7 @@ The following ports are currently installed:
   dbus @1.4.12_0+universal (active)
   dbus-glib @0.94_0 (active)
   ddd @3.3.12_2 (active)
+  dejavu-fonts @2.33_0 (active)
   desktop-file-utils @0.15_1 (active)
   detex @2.8_1 (active)
   detox @1.2.0_0 (active)
@@ -67,11 +76,13 @@ The following ports are currently installed:
   duplicity @0.6.14_0
   duplicity @0.6.15_0 (active)
   duply @1.5.5.1_0 (active)
+  dvipng @1.14_1 (active)
   eggdbus @0.6_0 (active)
   emacs @23.3_3
   emacs @23.3_3+dbus (active)
   enchant @1.6.0_1 (active)
-  erlang @R14B03_1+ssl (active)
+  erlang @R14B03_1+ssl
+  erlang @R14B03_4+ssl (active)
   esound @0.2.41_1 (active)
   etherape @0.9.10_0 (active)
   ettercap @0.6.b_2 (active)
@@ -80,15 +91,19 @@ The following ports are currently installed:
   faac @1.28_2 (active)
   faad2 @2.7_0 (active)
   fcrackzip @1.0_0 (active)
-  ffmpeg @0.7.1_0 (active)
+  ffmpeg @0.7.1_0
+  ffmpeg @0.7.4_0 (active)
   fftw-3 @3.2.2_0
   fftw-3 @3.3_0 (active)
   fftw-3-single @3.3_0 (active)
-  file @5.07_0 (active)
+  file @5.07_0
+  file @5.08_0 (active)
   findutils @4.4.2_1 (active)
   flac @1.2.1_0 (active)
-  flac2mp3 @20041223_0 (active)
-  flex @2.5.35_0 (active)
+  flac2mp3 @20041223_0
+  flac2mp3 @20041223_1 (active)
+  flex @2.5.35_0
+  flex @2.5.35_1 (active)
   fontconfig @2.8.0_0 (active)
   fop @1.0_1 (active)
   foremost @1.5.4_0 (active)
@@ -113,18 +128,21 @@ The following ports are currently installed:
   ghostscript @9.02_0
   ghostscript @9.04_1 (active)
   git-core @1.7.6_0+doc+python27
-  git-core @1.7.6_1+doc+python27 (active)
+  git-core @1.7.6_1+doc+python27
+  git-core @1.7.6.1_1+doc+pcre+python27 (active)
   glib-networking @2.28.7_2 (active)
   glib1 @1.2.10_6 (active)
   glib2 @2.28.8_0+universal (active)
-  glibmm @2.28.0_1 (active)
+  glibmm @2.28.0_1
+  glibmm @2.28.2_0 (active)
   glpk @4.45_0 (active)
   gmake @3.82_0 (active)
   gmp @5.0.2_1
   gmp @5.0.2_1+universal (active)
   gnome-common @2.28.0_0 (active)
   gnome-doc-utils @0.20.6_0+python27 (active)
-  gnome-keyring @2.30.3_0 (active)
+  gnome-keyring @2.30.3_0
+  gnome-keyring @2.30.3_3 (active)
   gnome-mime-data @2.18.0_3 (active)
   gnome-vfs @2.24.4_0 (active)
   gnupg @1.4.11_0 (active)
@@ -133,16 +151,20 @@ The following ports are currently installed:
   gperf @3.0.4_2+universal (active)
   gradle-devel @1.0-milestone-4_0 (active)
   GraphicsMagick @1.3.12_2+q8 (active)
-  graphviz @2.28.0_1 (active)
+  graphviz @2.28.0_1
+  graphviz @2.28.0_2 (active)
   groff @1.21_1 (active)
   gsed @4.2.1_1 (active)
-  gsl @1.14_1 (active)
+  gsl @1.14_1
+  gsl @1.15_1 (active)
   gst-plugins-base @0.10.35_0 (active)
   gstreamer @0.10.35_0 (active)
   gtk-doc @1.17_0+python27 (active)
   gtk1 @1.2.10_9 (active)
-  gtk2 @2.24.4_0+x11 (active)
-  gtkmm @2.24.0_0 (active)
+  gtk2 @2.24.4_0+x11
+  gtk2 @2.24.6_0+x11 (active)
+  gtkmm @2.24.0_0
+  gtkmm @2.24.2_0 (active)
   gts @0.7.6_1 (active)
   gzip @1.4_0 (active)
   hamcrest-core @1.2_0 (active)
@@ -158,11 +180,16 @@ The following ports are currently installed:
   hydra @5.4_3 (active)
   icu @4.6.1_0 (active)
   iftop @0.17_1 (active)
-  ImageMagick @6.7.1-0_0+q16 (active)
-  intltool @0.40.6_0 (active)
-  iso-codes @3.27_0 (active)
+  ilmbase @1.0.2_0 (active)
+  ImageMagick @6.7.1-0_0+q16
+  ImageMagick @6.7.2-0_0+q16 (active)
+  intltool @0.40.6_0
+  intltool @0.40.6_1 (active)
+  iso-codes @3.27_0
+  iso-codes @3.27.1_0 (active)
   jasper @1.900.1_7 (active)
-  jbigkit @2.0_1 (active)
+  jbigkit @2.0_1
+  jbigkit @2.0_2 (active)
   jline @0.9.94_0 (active)
   john @1.7.6_0 (active)
   jpeg @8c_0+universal
@@ -172,11 +199,13 @@ The following ports are currently installed:
   jython @2.5.2_0+installer (active)
   lame @3.98.4_0 (active)
   latexdiff @0.5_1 (active)
-  latexmk @4.25_0 (active)
+  latexmk @4.25_0
+  latexmk @4.26_0 (active)
   lcms @1.19_2+universal (active)
   lcms2 @2.2_0 (active)
   lcov @1.9_0 (active)
-  lftp @4.1.2_0 (active)
+  lftp @4.1.2_0
+  lftp @4.3.1_0 (active)
   libao @1.1.0_0 (active)
   libarchive @2.8.4_0 (active)
   libart_lgpl @2.3.21_0 (active)
@@ -209,9 +238,11 @@ The following ports are currently installed:
   libmng @1.0.10_2+universal (active)
   libmpc @0.9_0 (active)
   libnet11 @1.1.5_0 (active)
-  libnetdude @0.11_0 (active)
+  libnetdude @0.11_0
+  libnetdude @0.12_0 (active)
   libnids @1.23_2+libnet11 (active)
-  libogg @1.2.2_0 (active)
+  libogg @1.2.2_0
+  libogg @1.3.0_0 (active)
   liboil @0.3.17_0 (active)
   libopennet @0.9.9_0 (active)
   libpaper @1.1.24_0 (active)
@@ -223,9 +254,12 @@ The following ports are currently installed:
   librsync @0.9.7_1 (active)
   libsamplerate @0.1.7_2 (active)
   libsdl @1.2.14_9+x11 (active)
-  libsigcxx2 @2.2.9_0 (active)
-  libsndfile @1.0.24_0 (active)
-  libsoup @2.34.2_0 (active)
+  libsigcxx2 @2.2.9_0
+  libsigcxx2 @2.2.10_0 (active)
+  libsndfile @1.0.24_0
+  libsndfile @1.0.25_0 (active)
+  libsoup @2.34.2_0
+  libsoup @2.34.3_0 (active)
   libssh @0.5.0_0 (active)
   libssh01 @0.11_1 (active)
   libssh2 @1.2.7_0 (active)
@@ -236,11 +270,13 @@ The following ports are currently installed:
   libusb @1.0.8_0 (active)
   libusb-compat @0.1.3_0 (active)
   libvorbis @1.3.2_0 (active)
-  libvpx @0.9.6_1 (active)
+  libvpx @0.9.6_1
+  libvpx @0.9.7-p1_0 (active)
   libxml2 @2.7.8_0 (active)
   libxslt @1.1.26_0 (active)
   libyaml @0.1.3_0 (active)
-  libzzip @0.13.60_0 (active)
+  libzzip @0.13.60_0
+  libzzip @0.13.60_1 (active)
   lua @5.1.4_4 (active)
   lynx @2.8.7rel.1_1+ssl (active)
   lzip @1.12_0 (active)
@@ -256,13 +292,16 @@ The following ports are currently installed:
   memcached @1.4.5_1 (active)
   mercurial @1.9_0
   mercurial @1.9.1_0 (active)
+  mesa @7.11_1+python27 (active)
   metis @4.0.3_1 (active)
   mhash @0.9.9.9_0 (active)
   mochiweb @16f560_1 (active)
-  mongodb @1.8.2_0 (active)
+  mongodb @1.8.2_0
+  mongodb @1.8.3_0 (active)
   mpfr @3.0.1-p3_0
   mpfr @3.0.1-p3_0+universal (active)
-  mpich2 @1.4_0 (active)
+  mpich2 @1.4_0
+  mpich2 @1.4.1p1_0 (active)
   mtr @0.80_0 (active)
   multitail @5.2.2_0 (active)
   mysql5-devel @5.5.2-m2_1 (active)
@@ -272,56 +311,63 @@ The following ports are currently installed:
   ncurses @5.9_1+universal (active)
   ncursesw @5.8_0 (active)
   neon @0.29.6_0 (active)
-  netdude @0.5.0_0 (active)
+  netdude @0.5.0_0
+  netdude @0.5.1_0 (active)
   nethack @3.4.3_2 (active)
-  netpbm @10.47.26_0 (active)
+  netpbm @10.47.26_0
+  netpbm @10.47.29_0 (active)
   netpipes @4.2_0 (active)
   netwalker-ircc @0.5.0_0 (active)
-  nginx @1.0.0_0 (active)
+  nginx @1.0.0_0
+  nginx @1.0.6_0+ipv6 (active)
   ngrep @1.45_0 (active)
   nmap @5.51_0 (active)
-  nodejs @0.4.10_0+ssl (active)
+  nodejs @0.4.10_0+ssl
+  nodejs @0.4.11_1+ssl (active)
   nspr @4.8.8_0
   nspr @4.8.8_0+universal (active)
   ocaml @3.12.1_0 (active)
   octave @3.2.4_6+atlas+gcc44 (active)
   oniguruma4 @4.7.1_0 (active)
   opencv @2.2.0_1 (active)
+  openexr @1.6.1_1 (active)
   openjpeg @1.4-r697_1 (active)
   openmotif @2.3.2_3 (active)
-  openssh @5.8p1_0 (active)
-  openssl @1.0.0d_0+universal (active)
+  openssh @5.8p1_0
+  openssh @5.9p1_0 (active)
+  openssl @1.0.0d_0+universal
+  openssl @1.0.0e_0+universal (active)
   openvpn @1.6.0_0 (active)
   openvpn2 @2.2.0_0 (active)
   ophcrack @3.3.1_2 (active)
   orbit2 @2.14.19_0 (active)
   orc @0.4.14_0 (active)
   ossp-uuid @1.6.2_0 (active)
-  p5-appconfig @1.66_1 (active)
-  p5-audio-flac-header @2.4_1 (active)
-  p5-clone @0.31_1 (active)
+  p5-appconfig @1.66_1
+  p5-audio-flac-header @2.4_1
+  p5-clone @0.31_1
   p5-cpan-meta-yaml @0.003_1
-  p5-dancer @1.3071_0 (active)
-  p5-dancer-plugin-database @1.41_0 (active)
-  p5-dbi @1.616_1 (active)
+  p5-dancer @1.3071_0
+  p5-dancer-plugin-database @1.41_0
+  p5-dbi @1.616_1
   p5-encode-locale @1.02_0
   p5-error @0.17016_1
   p5-extutils-cbuilder @0.280202_1
   p5-extutils-parsexs @2.2206_1
   p5-file-listing @6.02_0
-  p5-getopt-long @2.38_1 (active)
+  p5-getopt-long @2.38_1
   p5-html-form @6.00_0
   p5-html-parser @3.68_1
   p5-html-tagset @3.20_1
-  p5-html-tree @4.2_0 (active)
-  p5-http-body @1.11_1 (active)
+  p5-html-tree @4.2_0
+  p5-http-body @1.11_1
   p5-http-cookies @6.00_0
   p5-http-daemon @6.00_0
   p5-http-date @6.00_0
   p5-http-message @6.02_0
   p5-http-negotiate @6.00_0
-  p5-http-server-simple @0.43_1 (active)
-  p5-http-server-simple-psgi @0.14_1 (active)
+  p5-http-server-simple @0.43_1
+  p5-http-server-simple-psgi @0.14_1
   p5-io-socket-ssl @1.44_0
   p5-ipc-cmd @0.70_1
   p5-javascript-spidermonkey @0.200.0_3 (active)
@@ -330,9 +376,9 @@ The following ports are currently installed:
   p5-locale-maketext-simple @0.21_0
   p5-lwp-mediatypes @6.01_0
   p5-lwp-protocol-https @6.02_0
-  p5-lwp-useragent-determined @1.05_1 (active)
+  p5-lwp-useragent-determined @1.05_1
   p5-mime-base64 @3.13_1
-  p5-mime-types @1.26_1 (active)
+  p5-mime-types @1.26_1
   p5-module-build @0.3800_0
   p5-module-corelist @2.44_1
   p5-module-install @1.10.0_0 (active)
@@ -340,38 +386,44 @@ The following ports are currently installed:
   p5-module-load-conditional @0.44_1
   p5-module-metadata @1.000004_1
   p5-mozilla-ca @20110409_0
-  p5-mp3-info @1.24_1 (active)
+  p5-mp3-info @1.24_1
   p5-net-http @6.01_0
   p5-net-libidn @0.12_1
-  p5-net-pcap @0.16_1 (active)
-  p5-net-rawip @0.2_1 (active)
+  p5-net-pcap @0.16_1
+  p5-net-rawip @0.2_1
   p5-net-ssleay @1.36_1
   p5-params-check @0.28_1
-  p5-params-util @1.03_1 (active)
-  p5-pathtools @3.33_1 (active)
+  p5-params-util @1.03_1
+  p5-pathtools @3.33_1
   p5-perl-ostype @1.002_1
-  p5-scalar-list-utils @1.23_1 (active)
-  p5-sql-statement @1.33_1 (active)
-  p5-sub-uplevel @0.22_1 (active)
-  p5-template-toolkit @2.22_1 (active)
-  p5-test-deep @0.108_1 (active)
-  p5-test-exception @0.31_1 (active)
-  p5-test-nowarnings @1.02_1 (active)
+  p5-scalar-list-utils @1.23_1
+  p5-sql-statement @1.33_1
+  p5-sub-uplevel @0.22_1
+  p5-template-toolkit @2.22_1
+  p5-test-deep @0.108_1
+  p5-test-exception @0.31_1
+  p5-test-nowarnings @1.02_1
   p5-test-simple @0.96_1
-  p5-test-tester @0.107_1 (active)
-  p5-text-simpletable @2.03_1 (active)
+  p5-test-tester @0.107_1
+  p5-text-simpletable @2.03_1
   p5-uri @1.58_1
   p5-version @0.88_1
   p5-www-robotrules @6.01_0
   p5-xml-parser @2.40_1
   p5-xml-xpath @1.130.0_2 (active)
   p5-yaml @0.73_0
+  p5.12-appconfig @1.660.0_2 (active)
   p5.12-archive-tar @1.760.0_2 (active)
   p5.12-astro-fits-cfitsio @1.60.0_1 (active)
   p5.12-astro-fits-header @3.30.0_1 (active)
+  p5.12-audio-flac-header @2.400.0_2 (active)
+  p5.12-clone @0.310.0_2 (active)
   p5.12-compress-raw-bzip2 @2.37.0_1 (active)
   p5.12-compress-raw-zlib @2.35.0_1 (active)
   p5.12-cpan-meta-yaml @0.3.0_2 (active)
+  p5.12-dancer @1.307.100_1 (active)
+  p5.12-dancer-plugin-database @1.410.0_1 (active)
+  p5.12-dbi @1.616.0_2 (active)
   p5.12-devel-ppport @3.190.0_2 (active)
   p5.12-encode-locale @1.20.0_1 (active)
   p5.12-error @0.170.160_3 (active)
@@ -382,14 +434,19 @@ The following ports are currently installed:
   p5.12-file-listing @6.20.0_1 (active)
   p5.12-file-remove @1.460.0_2 (active)
   p5.12-gd @2.450.0_3 (active)
+  p5.12-getopt-long @2.380.0_2 (active)
   p5.12-html-form @6.0.0_1 (active)
   p5.12-html-parser @3.680.0_2 (active)
   p5.12-html-tagset @3.200.0_2 (active)
+  p5.12-html-tree @4.200.0_1 (active)
+  p5.12-http-body @1.110.0_2 (active)
   p5.12-http-cookies @6.0.0_1 (active)
   p5.12-http-daemon @6.0.0_1 (active)
   p5.12-http-date @6.0.0_1 (active)
   p5.12-http-message @6.20.0_1 (active)
   p5.12-http-negotiate @6.0.0_1 (active)
+  p5.12-http-server-simple @0.430.0_2 (active)
+  p5.12-http-server-simple-psgi @0.140.0_2 (active)
   p5.12-inline @0.460.0_3 (active)
   p5.12-io-compress @2.35.0_1 (active)
   p5.12-io-socket-ssl @1.440.0_1 (active)
@@ -402,7 +459,9 @@ The following ports are currently installed:
   p5.12-locale-maketext-simple @0.210.0_1 (active)
   p5.12-lwp-mediatypes @6.10.0_1 (active)
   p5.12-lwp-protocol-https @6.20.0_1 (active)
+  p5.12-lwp-useragent-determined @1.50.0_2 (active)
   p5.12-mime-base64 @3.130.0_2 (active)
+  p5.12-mime-types @1.260.0_2 (active)
   p5.12-module-build @0.380.0_1 (active)
   p5.12-module-corelist @2.440.0_2 (active)
   p5.12-module-install @1.10.0_0 (active)
@@ -410,20 +469,35 @@ The following ports are currently installed:
   p5.12-module-load-conditional @0.440.0_2 (active)
   p5.12-module-metadata @1.0.4_2 (active)
   p5.12-module-scandeps @0.980.0_2 (active)
-  p5.12-mozilla-ca @20110409_1 (active)
+  p5.12-mozilla-ca @20110409_1
+  p5.12-mozilla-ca @20110904_1 (active)
+  p5.12-mp3-info @1.240.0_2 (active)
   p5.12-net-http @6.10.0_1 (active)
   p5.12-net-libidn @0.120.0_2 (active)
+  p5.12-net-pcap @0.160.0_2 (active)
+  p5.12-net-rawip @0.200.0_2 (active)
   p5.12-net-ssleay @1.360.0_2 (active)
   p5.12-package-constants @0.20.0_2 (active)
   p5.12-par-dist @0.470.0_2 (active)
   p5.12-params-check @0.280.0_2 (active)
+  p5.12-params-util @1.30.0_2 (active)
   p5.12-parse-cpan-meta @1.400.0_2 (active)
   p5.12-parse-recdescent @1.965.1_2 (active)
+  p5.12-pathtools @3.330.0_2 (active)
   p5.12-perl-ostype @1.2.0_2 (active)
+  p5.12-scalar-list-utils @1.230.0_2 (active)
+  p5.12-sql-statement @1.330.0_2 (active)
+  p5.12-sub-uplevel @0.220.0_2 (active)
+  p5.12-template-toolkit @2.220.0_2 (active)
   p5.12-term-readkey @2.300.0_2 (active)
   p5.12-term-readline-gnu @1.200.0_2 (active)
+  p5.12-test-deep @0.108.0_2 (active)
+  p5.12-test-exception @0.310.0_2 (active)
+  p5.12-test-nowarnings @1.20.0_2 (active)
   p5.12-test-simple @0.960.0_2 (active)
+  p5.12-test-tester @0.107.0_2 (active)
   p5.12-text-balanced @2.20.0_2 (active)
+  p5.12-text-simpletable @2.30.0_2 (active)
   p5.12-uri @1.580.0_2 (active)
   p5.12-version @0.880.0_2 (active)
   p5.12-www-robotrules @6.10.0_1 (active)
@@ -435,60 +509,81 @@ The following ports are currently installed:
   p7zip @9.20.1_1 (active)
   pango @1.28.4_1+x11 (active)
   pangomm @2.28.2_0 (active)
-  parallel @20110722_0 (active)
+  parallel @20110722_0
+  parallel @20110822_0 (active)
   pcre @8.12_0 (active)
-  pdfjam @2.06_1 (active)
+  pcre++ @0.9.5_1 (active)
+  pcrexx @0.9.5_1 (active)
+  pdfjam @2.06_1
+  pdfjam @2.08_0 (active)
   pdflib @7.0.5_1 (active)
   perl5 @5.12.3_1+perl5_12 (active)
-  perl5.8 @5.8.9_4 (active)
+  perl5.8 @5.8.9_4
+  perl5.8 @5.8.9_5 (active)
   perl5.12 @5.12.3_1+universal
   perl5.12 @5.12.3_1+threads+universal
   perl5.12 @5.12.3_2+threads+universal (active)
-  perl5.14 @5.14.1_0+threads (active)
+  perl5.14 @5.14.1_0+threads
+  perl5.14 @5.14.1_1+threads (active)
   pgf @2.10_0 (active)
-  phantomjs @1.0.0_0 (active)
-  php5 @5.3.6_0+apache2 (active)
+  phantomjs @1.0.0_0
+  phantomjs @1.2.0_0 (active)
+  php5 @5.3.6_0+apache2
+  php5 @5.3.8_0+apache2 (active)
   php5-spidermonkey @0.1.4_0 (active)
   pkgconfig @0.26_0+universal (active)
-  policykit @0.101_0 (active)
-  poppler @0.16.6_0 (active)
-  poppler-data @0.4.4_0 (active)
+  policykit @0.101_0
+  policykit @0.102_0 (active)
+  poppler @0.16.6_0
+  poppler @0.16.7_0 (active)
+  poppler-data @0.4.4_0
+  poppler-data @0.4.5_0 (active)
   popt @1.16_0 (active)
-  postfix @2.8.4_0 (active)
+  postfix @2.8.4_0
+  postfix @2.8.5_0 (active)
   protobuf-cpp @2.4.1_0 (active)
   protobuf-java @2.4.1_0 (active)
   protobuf-python27 @2.4.1_0 (active)
-  pstree @2.33_0 (active)
+  pstree @2.33_0
+  pstree @2.33_1 (active)
   psutils @p17_1 (active)
   py-ctypes @1.0.2_1 (active)
   py-gmpy @1.01_0 (active)
   py-gnupg @0.3.2_1 (active)
   py-irclib @0.4.6_0 (active)
   py-libxml2 @2.7.8_0 (active)
-  py-nose @1.0.0_0 (active)
-  py-numpy @1.6.0_0 (active)
+  py-nose @1.0.0_0
+  py-numpy @1.6.0_0
   py-pycluster @1.50_0 (active)
   py-pylibpcap @0.6.2_0 (active)
-  py-setuptools @0.6c11_0 (active)
-  py24-nose @1.0.0_0 (active)
+  py-setuptools @0.6c11_0
+  py24-distribute @0.6.21_0 (active)
+  py24-nose @1.0.0_0
+  py24-nose @1.1.2_0 (active)
+  py24-numpy @1.6.1_0 (active)
   py25-crypto @2.3_0 (active)
-  py25-distribute @0.6.19_0 (active)
+  py25-distribute @0.6.19_0
+  py25-distribute @0.6.21_0 (active)
   py25-gnuplot @1.8_0 (active)
   py25-libdnet @1.12_0 (active)
-  py25-nose @1.0.0_0 (active)
-  py25-numpy @1.6.0_0 (active)
+  py25-nose @1.0.0_0
+  py25-nose @1.1.2_0 (active)
+  py25-numpy @1.6.0_0
+  py25-numpy @1.6.1_0 (active)
   py25-pylibpcap @0.6.2_0 (active)
   py25-pyx @0.10_1 (active)
   py25-readline @2.5.4_1 (active)
   py26-babel @0.9.6_0 (active)
   py26-crypto @2.3_0 (active)
   py26-distribute @0.6.19_0
-  py26-distribute @0.6.19_1 (active)
+  py26-distribute @0.6.19_1
+  py26-distribute @0.6.21_0 (active)
   py26-genshi @0.6_1 (active)
   py26-gnuplot @1.8_1 (active)
   py26-iniparse @0.3.1_0 (active)
   py26-libdnet @1.12_0 (active)
-  py26-nose @1.0.0_0 (active)
+  py26-nose @1.0.0_0
+  py26-nose @1.1.2_0 (active)
   py26-numpy @1.6.1_0 (active)
   py26-pygments @1.4_0 (active)
   py26-pylibpcap @0.6.2_0 (active)
@@ -499,7 +594,8 @@ The following ports are currently installed:
   py26-tz @2011h_0
   py26-tz @2011h_1 (active)
   py27-altgraph @0.9_0 (active)
-  py27-boto @1.9b_0 (active)
+  py27-boto @1.9b_0
+  py27-boto @2.0_1
   py27-cairo @1.8.10_1 (active)
   py27-distribute @0.6.19_0
   py27-distribute @0.6.21_0 (active)
@@ -510,7 +606,8 @@ The following ports are currently installed:
   py27-libxml2 @2.7.8_0 (active)
   py27-macholib @1.4.2_0 (active)
   py27-modulegraph @0.9.1_0 (active)
-  py27-nose @1.0.0_0 (active)
+  py27-nose @1.0.0_0
+  py27-nose @1.1.2_0
   py27-numpy @1.6.1_0 (active)
   py27-pp @1.6.1_0 (active)
   py27-py @1.1.1_0 (active)
@@ -519,16 +616,20 @@ The following ports are currently installed:
   py27-rope @0.9.2_0 (active)
   py27-tkinter @2.7.2_0 (active)
   python24 @2.4.6_9 (active)
-  python25 @2.5.6_0 (active)
+  python25 @2.5.6_0
+  python25 @2.5.6_1 (active)
   python26 @2.6.7_0
   python26 @2.6.7_1 (active)
   python27 @2.7.2_0
   python27 @2.7.2_1 (active)
-  python32 @3.2.1_0 (active)
+  python32 @3.2.1_0
+  python32 @3.2.2_0 (active)
   python_select @0.3_1 (active)
   qhull @2011.1_1 (active)
   qrupdate @1.1.1_3+gcc44 (active)
-  rabbitmq-server @2.5.1_0 (active)
+  qt3 @3.3.8_11 (active)
+  rabbitmq-server @2.5.1_0
+  rabbitmq-server @2.6.1_0 (active)
   rarian @0.8.1_0 (active)
   rb-rubygems @1.3.7_0+ruby (active)
   rb19-yajl @0.7.6_0 (active)
@@ -545,10 +646,12 @@ The following ports are currently installed:
   rtorrent @0.8.9_0 (active)
   ruby @1.8.7-p352_1+thread_hooks
   ruby @1.8.7-p352_2+thread_hooks (active)
-  ruby19 @1.9.2-p290_1 (active)
+  ruby19 @1.9.2-p290_1
+  ruby19 @1.9.2-p290_2 (active)
   scapy @2.0.1_0 (active)
   schroedinger @1.0.10_1 (active)
-  scons @2.0.1_0 (active)
+  scons @2.0.1_0
+  scons @2.0.1_1 (active)
   screen @4.0.3_3+vertical_split (active)
   serf0 @0.7.2_0 (active)
   shared-mime-info @0.90_0 (active)
@@ -569,54 +672,88 @@ The following ports are currently installed:
   stunnel @4.35_0+libwrap (active)
   subversion @1.6.17_1+mod_dav_svn (active)
   subversion-python26bindings @1.6.17_1 (active)
-  SuiteSparse @3.4.0_1 (active)
-  swi-prolog @5.10.4_0+mt (active)
+  SuiteSparse @3.4.0_1
+  SuiteSparse @3.4.0_2 (active)
+  swi-prolog @5.10.4_0+mt
+  swi-prolog @5.10.5_0+mt (active)
   swig @2.0.4_0 (active)
   swig-python @2.0.4_0 (active)
   szip @2.1_3 (active)
   t1lib @5.1.2_2 (active)
   task @1.9.4_0 (active)
-  tcl @8.5.9_0 (active)
+  tcl @8.5.9_0
+  tcl @8.5.10_0 (active)
   tcpdstat @1.0_0 (active)
   tcpdump @4.1.1_1 (active)
   tcptrace @6.6.7_0 (active)
   tcptraceroute @1.5beta7_1 (active)
   texi2html @5.0_0 (active)
   texinfo @4.13_2 (active)
-  texlive @2010_1+doc+medium (active)
-  texlive-basic @19496_4+doc (active)
-  texlive-bin @2010_4+motif (active)
-  texlive-bin-extra @19536_0+doc (active)
-  texlive-common @2010_1 (active)
-  texlive-context @19477_0+doc (active)
-  texlive-documentation-base @19544_0+doc (active)
-  texlive-documentation-english @19457_0+doc (active)
-  texlive-fonts-recommended @19478_0+doc (active)
-  texlive-fontutils @19534_0+doc (active)
-  texlive-generic-recommended @19515_0+doc (active)
-  texlive-lang-czechslovak @19005_1+doc (active)
-  texlive-lang-dutch @18673_1+doc (active)
-  texlive-lang-english @18673_1+doc (active)
-  texlive-lang-french @18673_1+doc (active)
-  texlive-lang-german @18673_1+doc (active)
-  texlive-lang-italian @19139_1+doc (active)
-  texlive-lang-polish @18835_1+doc (active)
-  texlive-lang-portuguese @18673_1+doc (active)
-  texlive-lang-spanish @18733_1+doc (active)
-  texlive-latex @19536_1+doc (active)
-  texlive-latex-recommended @19443_0+doc (active)
-  texlive-latex3 @19447_0+doc (active)
-  texlive-luatex @19484_0+doc (active)
-  texlive-math-extra @19459_0+doc (active)
-  texlive-metapost @19440_0+doc (active)
-  texlive-xetex @19506_0+doc (active)
+  texlive @2010_1+doc+medium
+  texlive @2011_0+doc+medium (active)
+  texlive-basic @19496_4+doc
+  texlive-basic @23152_1+doc (active)
+  texlive-bin @2010_4+motif
+  texlive-bin @2011_1+motif+x11 (active)
+  texlive-bin-extra @19536_0+doc
+  texlive-bin-extra @23089_1+doc (active)
+  texlive-common @2010_1
+  texlive-common @2011_0 (active)
+  texlive-context @19477_0+doc
+  texlive-context @23171_0+doc (active)
+  texlive-documentation-base @19544_0+doc
+  texlive-documentation-base @23160_0+doc (active)
+  texlive-documentation-english @19457_0+doc
+  texlive-documentation-english @22612_0+doc (active)
+  texlive-fonts-recommended @19478_0+doc
+  texlive-fonts-recommended @23165_0+doc (active)
+  texlive-fontutils @19534_0+doc
+  texlive-fontutils @23142_0+doc (active)
+  texlive-generic-recommended @19515_0+doc
+  texlive-generic-recommended @23088_0+doc (active)
+  texlive-lang-czechslovak @19005_1+doc
+  texlive-lang-czechslovak @23092_0+doc (active)
+  texlive-lang-dutch @18673_1+doc
+  texlive-lang-dutch @23092_0+doc (active)
+  texlive-lang-english @18673_1+doc
+  texlive-lang-english @23092_0+doc (active)
+  texlive-lang-french @18673_1+doc
+  texlive-lang-french @23092_0+doc (active)
+  texlive-lang-german @18673_1+doc
+  texlive-lang-german @23085_0+doc (active)
+  texlive-lang-italian @19139_1+doc
+  texlive-lang-italian @23092_0+doc (active)
+  texlive-lang-polish @18835_1+doc
+  texlive-lang-polish @23092_0+doc (active)
+  texlive-lang-portuguese @18673_1+doc
+  texlive-lang-portuguese @23092_0+doc (active)
+  texlive-lang-spanish @18733_1+doc
+  texlive-lang-spanish @23092_0+doc (active)
+  texlive-latex @19536_1+doc
+  texlive-latex @23089_0+doc (active)
+  texlive-latex-recommended @19443_0+doc
+  texlive-latex-recommended @23089_0+doc (active)
+  texlive-latex3 @19447_0+doc
+  texlive-luatex @19484_0+doc
+  texlive-luatex @23137_0+doc (active)
+  texlive-math-extra @19459_0+doc
+  texlive-math-extra @23089_0+doc (active)
+  texlive-metapost @19440_0+doc
+  texlive-metapost @23089_0+doc (active)
+  texlive-xetex @19506_0+doc
+  texlive-xetex @23080_0+doc (active)
   tiff @3.9.5_0+universal (active)
-  tk @8.5.9_0 (active)
-  tmux @1.4_2 (active)
-  tor @0.2.1.29_0 (active)
+  tk @8.5.9_0
+  tk @8.5.10_0 (active)
+  tmux @1.4_2
+  tmux @1.5_0 (active)
+  tor @0.2.1.29_0
+  tor @0.2.2.32_0 (active)
   trac @0.12.2_0 (active)
-  tsung @1.3.3_0 (active)
+  tsung @1.3.3_0
+  tsung @1.3.3_2 (active)
   tuntaposx @20090913_1 (active)
+  unsermake @0.4-20070824_2 (active)
   urlview @0.9-19_0 (active)
   urw-fonts @1.0.7pre44_0 (active)
   vte @0.28.0_0+python27 (active)
@@ -624,7 +761,8 @@ The following ports are currently installed:
   wavpack @4.60.1_0 (active)
   webkit-gtk @1.2.7_0 (active)
   weechat @0.3.5_0 (active)
-  wget @1.12_3+ssl (active)
+  wget @1.12_3+ssl
+  wget @1.13.3_0+ssl (active)
   wyrd @1.4.4_0 (active)
   x264 @20110628_0 (active)
   xauth @1.0.6_0 (active)
@@ -637,7 +775,9 @@ The following ports are currently installed:
   xorg-bigreqsproto @1.1.1_0 (active)
   xorg-compositeproto @0.4.2_0 (active)
   xorg-damageproto @1.2.1_0 (active)
+  xorg-dri2proto @2.6_0 (active)
   xorg-fixesproto @5.0_0 (active)
+  xorg-glproto @1.4.14_0 (active)
   xorg-inputproto @2.0.2_0 (active)
   xorg-kbproto @1.0.5_0 (active)
   xorg-libice @1.0.7_0 (active)
@@ -675,14 +815,15 @@ The following ports are currently installed:
   xorg-xtrans @1.2.6_0 (active)
   xpm @3.5.9_0 (active)
   xrender @0.9.6_0 (active)
-  XviD @1.3.2_0 (active)
+  XviD @1.3.2_0
+  XviD @1.3.2_1 (active)
   xz @5.0.3_0
   xz @5.0.3_0+universal (active)
   yajl @1.0.9_0 (active)
   yasm @1.1.0_0 (active)
   yersinia @0.7.1_0 (active)
-  zlib @1.2.5_0+universal
-  zlib @1.2.5_0 (active)
+  zlib @1.2.5_0
+  zlib @1.2.5_0+universal (active)
   zsh @4.2.7_1 (active)
   zsh-devel @4.3.12_1
   zsh-templates-osx @2.0.4_0 (active)

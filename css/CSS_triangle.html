@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <style type="text/css">
+/*<![CDATA[*/
+  body {
+      color: #464646;
+      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+      font-size: 15px;
+      line-height: 20px;
+  }
+  body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+      margin: 0;
+      padding: 0;
+  }
+  .post-header, .aside {
+    background-color: #F5F4F0;
+  }
+  .section, .aside {
+    line-height: 27px;
+  }
+  .aside {
+    float: left;
+    font-size: 13px;
+    width: 350px;
+  }
+  .demo-box .demo-inner {
+      bottom: 70px;
+      left: 70px;
+      position: absolute;
+      right: 70px;
+  }
+  .demo-box h3 {
+      font-family: 'hero';
+      font-size: 20px;
+      line-height: 20px;
+      margin-left: 35px;
+      margin-top: 35px;
+      text-transform: uppercase;
+  }
+  .demo-box {
+    -moz-box-shadow: 0 0 10px rgba(203, 203, 199, 0.6) inset;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAMAAABG8BK2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0REMTk2QTYyNDNBMTFFMEIzMDFERTkzMTIzMENGODciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0REMTk2QTcyNDNBMTFFMEIzMDFERTkzMTIzMENGODciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3REQxOTZBNDI0M0ExMUUwQjMwMURFOTMxMjMwQ0Y4NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3REQxOTZBNTI0M0ExMUUwQjMwMURFOTMxMjMwQ0Y4NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PhmICRQAAACfUExURe/u6u7t6fDv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%3D) repeat scroll 0 0 #F5F4F0;
+    border: 1px solid #CBCBC7;
+    height: 349px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .css-arrow-big {
+  border-color:transparent transparent rgb(85,85,85);
+  border-style:solid;
+  border-width:0 105px 105px;
+  height:0;
+  width:0;
+  }
+
+  .css-arrow-multicolor {
+  border-color: red green blue orange;
+  border-style:solid;
+  border-width:20px;
+  width:0;
+  height:0;
+  }
+
+  .css-arrow-acute {
+  border-color: red green blue orange;
+  border-style:solid;
+  border-width:25px 10px 15px 30px;
+  width:0;
+  height:0;
+  }
+
+  .chat-bubble {
+  background-color:#EDEDED;
+  border:2px solid #666666;
+  font-size:23px;
+  line-height:1.3em;
+  margin:10px auto;
+  padding:10px;
+  position:relative;
+  text-align:center;
+  width:185px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-box-shadow:0 0 5px #888888;
+  -webkit-box-shadow:0 0 5px #888888;
+  }
+
+  .chat-bubble-arrow-border {
+  border-color: #666666 transparent transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+  height:0;
+  width:0;
+  position:absolute;
+  bottom:-22px;
+  left:30px;
+  }
+
+  .chat-bubble-arrow {
+  border-color: #EDEDED transparent transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+  height:0;
+  width:0;
+  position:absolute;
+  bottom:-19px;
+  left:30px;
+  }
+  
+  /* IE6 */
+  .chat-bubble-arrow {
+      _border-left-color: pink;
+      _border-bottom-color: pink;
+      _border-right-color: pink;
+      _filter: chroma(color=pink);
+  }
+  /*]]>*/
+  </style>
+
+  <title></title>
+</head>
+
+<body>
+  <div class="aside">
+  <div class="demo-box">
+    <h3>Demo</h3>
+    <div class="demo-inner">
+      <div class="chat-bubble">
+        Buongiorno!
+        <div class="chat-bubble-arrow-border"></div>
+        <div class="chat-bubble-arrow"></div>
+      </div>
+      <div class="css-arrow-big"></div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
