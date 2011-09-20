@@ -193,6 +193,11 @@
 
 ---
 
+### Scala > Tutorials
+ * [Scala school](http://twitter.github.com/scala_school)
+
+---
+
 ### Textmate > Bundles repo
  * @ http://ebundles.googlecode.com/svn/trunk/Bundles
 
