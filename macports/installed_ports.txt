@@ -86,6 +86,7 @@ The following ports are currently installed:
   esound @0.2.41_1 (active)
   etherape @0.9.10_0 (active)
   ettercap @0.6.b_2 (active)
+  evolution-data-server @2.30.3_2 (active)
   exim @4.71_1 (active)
   expat @2.0.1_1+universal (active)
   faac @1.28_2 (active)
@@ -111,7 +112,8 @@ The following ports are currently installed:
   freetype @2.4.6_0 (active)
   ftgl @2.1.3-rc5_0 (active)
   gawk @4.0.0_0 (active)
-  gcc43 @4.3.6_0 (active)
+  gcc43 @4.3.6_0
+  gcc43 @4.3.6_1 (active)
   gcc44 @4.4.6_0 (active)
   gcc45 @4.5.3_0 (active)
   gcc_select @0.1_5 (active)
@@ -141,12 +143,15 @@ The following ports are currently installed:
   gmp @5.0.2_1+universal (active)
   gnome-common @2.28.0_0 (active)
   gnome-doc-utils @0.20.6_0+python27 (active)
+  gnome-icon-theme @2.30.3_0 (active)
   gnome-keyring @2.30.3_0
   gnome-keyring @2.30.3_3 (active)
   gnome-mime-data @2.18.0_3 (active)
+  gnome-themes @2.30.2_1 (active)
   gnome-vfs @2.24.4_0 (active)
   gnupg @1.4.11_0 (active)
   gnuplot @4.4.3_0 (active)
+  gnuregex @0.12_2 (active)
   gnutls @2.8.6_1 (active)
   gperf @3.0.4_2+universal (active)
   gradle-devel @1.0-milestone-4_0 (active)
@@ -160,6 +165,7 @@ The following ports are currently installed:
   gst-plugins-base @0.10.35_0 (active)
   gstreamer @0.10.35_0 (active)
   gtk-doc @1.17_0+python27 (active)
+  gtk-engines2 @2.20.2_1 (active)
   gtk1 @1.2.10_9 (active)
   gtk2 @2.24.4_0+x11
   gtk2 @2.24.6_0+x11 (active)
@@ -178,6 +184,7 @@ The following ports are currently installed:
   hugs98 @plus-Sep2006_0 (active)
   hunspell @1.3.2_0 (active)
   hydra @5.4_3 (active)
+  icon-naming-utils @0.8.90_1 (active)
   icu @4.6.1_0 (active)
   iftop @0.17_1 (active)
   ilmbase @1.0.2_0 (active)
@@ -197,6 +204,7 @@ The following ports are currently installed:
   jslint @2011-05-10_0 (active)
   junit @4.6_2 (active)
   jython @2.5.2_0+installer (active)
+  ksh93 @2010-06-21_0 (active)
   lame @3.98.4_0 (active)
   latexdiff @0.5_1 (active)
   latexmk @4.25_0
@@ -225,6 +233,8 @@ The following ports are currently installed:
   libgnomecanvas @2.30.3_0 (active)
   libgnomeui @2.24.5_0 (active)
   libgpg-error @1.10_0 (active)
+  libgweather @2.30.3_3+python27 (active)
+  libical @0.43_1 (active)
   libiconv @1.13.1_0+universal
   libiconv @1.14_0+universal (active)
   libid3tag @0.15.1b_2 (active)
@@ -326,6 +336,7 @@ The following ports are currently installed:
   nodejs @0.4.11_1+ssl (active)
   nspr @4.8.8_0
   nspr @4.8.8_0+universal (active)
+  nss @3.12.10_0 (active)
   ocaml @3.12.1_0 (active)
   octave @3.2.4_6+atlas+gcc44 (active)
   oniguruma4 @4.7.1_0 (active)
@@ -391,6 +402,7 @@ The following ports are currently installed:
   p5-net-libidn @0.12_1
   p5-net-pcap @0.16_1
   p5-net-rawip @0.2_1
+  p5-net-ssh2 @0.330.0_2 (active)
   p5-net-ssleay @1.36_1
   p5-params-check @0.28_1
   p5-params-util @1.03_1
@@ -476,6 +488,7 @@ The following ports are currently installed:
   p5.12-net-libidn @0.120.0_2 (active)
   p5.12-net-pcap @0.160.0_2 (active)
   p5.12-net-rawip @0.200.0_2 (active)
+  p5.12-net-ssh2 @0.330.0_2 (active)
   p5.12-net-ssleay @1.360.0_2 (active)
   p5.12-package-constants @0.20.0_2 (active)
   p5.12-par-dist @0.470.0_2 (active)
@@ -501,7 +514,11 @@ The following ports are currently installed:
   p5.12-uri @1.580.0_2 (active)
   p5.12-version @0.880.0_2 (active)
   p5.12-www-robotrules @6.10.0_1 (active)
+  p5.12-xml-namespacesupport @1.110.0_3 (active)
   p5.12-xml-parser @2.400.0_2 (active)
+  p5.12-xml-sax @0.960.0_3 (active)
+  p5.12-xml-sax-expat @0.400.0_3 (active)
+  p5.12-xml-simple @2.180.0_2 (active)
   p5.12-xml-xpath @1.130.0_2 (active)
   p5.12-yaml @0.730.0_1 (active)
   p5.12-yaml-syck @1.170.0_2 (active)
@@ -517,6 +534,7 @@ The following ports are currently installed:
   pdfjam @2.06_1
   pdfjam @2.08_0 (active)
   pdflib @7.0.5_1 (active)
+  pdksh @5.2.14_0
   perl5 @5.12.3_1+perl5_12 (active)
   perl5.8 @5.8.9_4
   perl5.8 @5.8.9_5 (active)
@@ -541,6 +559,7 @@ The following ports are currently installed:
   popt @1.16_0 (active)
   postfix @2.8.4_0
   postfix @2.8.5_0 (active)
+  proctools @0.4pre1_2 (active)
   protobuf-cpp @2.4.1_0 (active)
   protobuf-java @2.4.1_0 (active)
   protobuf-python27 @2.4.1_0 (active)
@@ -615,6 +634,7 @@ The following ports are currently installed:
   py27-pymacs @0.23_0 (active)
   py27-rope @0.9.2_0 (active)
   py27-tkinter @2.7.2_0 (active)
+  py27-zmq @2.1.9_1 (active)
   python24 @2.4.6_9 (active)
   python25 @2.5.6_0
   python25 @2.5.6_1 (active)
@@ -633,6 +653,8 @@ The following ports are currently installed:
   rarian @0.8.1_0 (active)
   rb-rubygems @1.3.7_0+ruby (active)
   rb19-yajl @0.7.6_0 (active)
+  rdesktop @1.6.0_5 (active)
+  rdesktop-devel @cvs_4
   readline @6.2.000_0
   readline @6.2.000_0+universal (active)
   redis @2.2.5_0 (active)
@@ -669,6 +691,7 @@ The following ports are currently installed:
   sshfs-gui @1.3_0 (active)
   sshpass @1.04_0 (active)
   sslh @1.9_0 (active)
+  startup-notification @0.12_0 (active)
   stunnel @4.35_0+libwrap (active)
   subversion @1.6.17_1+mod_dav_svn (active)
   subversion-python26bindings @1.6.17_1 (active)
@@ -824,6 +847,7 @@ The following ports are currently installed:
   yersinia @0.7.1_0 (active)
   zlib @1.2.5_0
   zlib @1.2.5_0+universal (active)
+  zmq @2.1.9_0 (active)
   zsh @4.2.7_1 (active)
   zsh-devel @4.3.12_1
   zsh-templates-osx @2.0.4_0 (active)

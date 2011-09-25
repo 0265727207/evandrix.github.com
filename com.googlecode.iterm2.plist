@@ -1503,7 +1503,7 @@
 				<real>1</real>
 			</dict>
 			<key>Bonjour Service Address</key>
-			<string>0:0:fe80::5ab0:35ff</string>
+			<string>192.168.0.2</string>
 			<key>Character Encoding</key>
 			<integer>4</integer>
 			<key>Close Sessions On End</key>
@@ -1511,7 +1511,7 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string>ssh 0:0:fe80::5ab0:35ff</string>
+			<string>ssh 192.168.0.2</string>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -1558,7 +1558,7 @@
 				<real>0.0</real>
 			</dict>
 			<key>Guid</key>
-			<string>6818A10C-35FB-40FD-B2F6-D12B6CF3B22B</string>
+			<string>E3EDE38D-C156-46D8-9D99-4EE798FDD8E2</string>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
 			<key>Idle Code</key>
@@ -1960,7 +1960,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2011-09-14T23:44:54Z</date>
+	<date>2011-09-21T09:46:41Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
