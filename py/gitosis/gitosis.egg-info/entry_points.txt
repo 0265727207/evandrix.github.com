@@ -1,0 +1,5 @@
+[console_scripts]
+gitosis-init = gitosis.init:Main.run
+gitosis-run-hook = gitosis.run_hook:Main.run
+gitosis-serve = gitosis.serve:Main.run
+
