@@ -1,0 +1,1169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		014CEA440018CDF011CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA450018CDF011CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_LDFLAGS = "-seg1addr 0xb0000000";
+				PRODUCT_NAME = Lua;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//030
+//031
+//032
+//033
+//034
+		034768DFFF38A50411DB9C8B = {
+			children = (
+				8DC2EF5B0486A6940098B216,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//030
+//031
+//032
+//033
+//034
+//080
+//081
+//082
+//083
+//084
+		0867D690FE84028FC02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA440018CDF011CA2923,
+				014CEA450018CDF011CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 0867D691FE84028FC02AAC07;
+			productRefGroup = 034768DFFF38A50411DB9C8B;
+			projectDirPath = "";
+			targets = (
+				8DC2EF4F0486A6940098B216,
+			);
+		};
+		0867D691FE84028FC02AAC07 = {
+			children = (
+				8531EA8206F46EDC0095BD90,
+				8531EA6B06F46E560095BD90,
+				08FB77AEFE84172EC02AAC07,
+				32C88DFF0371C24200C91783,
+				089C1665FE841158C02AAC07,
+				0867D69AFE84028FC02AAC07,
+				034768DFFF38A50411DB9C8B,
+			);
+			isa = PBXGroup;
+			name = LuaFramework;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 = {
+			children = (
+				1058C7B0FEA5585E11CA2CBB,
+				1058C7B2FEA5585E11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 = {
+			children = (
+				8DC2EF5A0486A6940098B216,
+				089C1666FE841158C02AAC07,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1666FE841158C02AAC07 = {
+			children = (
+				089C1667FE841158C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1667FE841158C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 = {
+			children = (
+				8531EA1D06F46E380095BD90,
+				8531EA1E06F46E380095BD90,
+				8531EA1F06F46E380095BD90,
+				8531EA2006F46E380095BD90,
+				8531EA2106F46E380095BD90,
+				8531EA2206F46E380095BD90,
+				8531EA2306F46E380095BD90,
+				8531EA2406F46E380095BD90,
+				8531EA2506F46E380095BD90,
+				8531EA2606F46E380095BD90,
+				8531EA2706F46E380095BD90,
+				8531EA2806F46E380095BD90,
+				8531EA2906F46E380095BD90,
+				8531EA2A06F46E380095BD90,
+				8531EA2B06F46E380095BD90,
+				8531EA2C06F46E380095BD90,
+				8531EA2D06F46E380095BD90,
+				8531EA2E06F46E380095BD90,
+				8531EA2F06F46E380095BD90,
+				8531EA3006F46E380095BD90,
+				8531EA3106F46E380095BD90,
+				8531EA3206F46E380095BD90,
+				8531EA3306F46E380095BD90,
+				8531EA3406F46E380095BD90,
+				8531EA3506F46E380095BD90,
+				8531EA3606F46E380095BD90,
+				8531EA3706F46E380095BD90,
+				8531EA3806F46E380095BD90,
+				8531EA3906F46E380095BD90,
+				8531EA3A06F46E380095BD90,
+				8531EA3B06F46E380095BD90,
+				8531EA3C06F46E380095BD90,
+				8531EA3D06F46E380095BD90,
+				8531EA3E06F46E380095BD90,
+				8531EA3F06F46E380095BD90,
+				8531EA4006F46E380095BD90,
+				8531EA4106F46E380095BD90,
+				8531EA4206F46E380095BD90,
+				8531EA4306F46E380095BD90,
+			);
+			isa = PBXGroup;
+			name = Lua;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7B0FEA5585E11CA2CBB = {
+			children = (
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB = {
+			children = (
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//100
+//101
+//102
+//103
+//104
+//320
+//321
+//322
+//323
+//324
+		32C88DFF0371C24200C91783 = {
+			children = (
+				32DBCF5E0370ADEE00C91783,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		32DBCF5E0370ADEE00C91783 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = LuaFramework_Prefix.pch;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//320
+//321
+//322
+//323
+//324
+//850
+//851
+//852
+//853
+//854
+		8531EA1D06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lapi.c;
+			path = "lua-5.0.2/src/lapi.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA1E06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lapi.h;
+			path = "lua-5.0.2/src/lapi.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA1F06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lcode.c;
+			path = "lua-5.0.2/src/lcode.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2006F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lcode.h;
+			path = "lua-5.0.2/src/lcode.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2106F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = ldebug.c;
+			path = "lua-5.0.2/src/ldebug.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2206F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ldebug.h;
+			path = "lua-5.0.2/src/ldebug.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2306F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = ldo.c;
+			path = "lua-5.0.2/src/ldo.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2406F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ldo.h;
+			path = "lua-5.0.2/src/ldo.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2506F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = ldump.c;
+			path = "lua-5.0.2/src/ldump.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2606F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lfunc.c;
+			path = "lua-5.0.2/src/lfunc.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2706F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lfunc.h;
+			path = "lua-5.0.2/src/lfunc.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2806F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lgc.c;
+			path = "lua-5.0.2/src/lgc.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2906F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lgc.h;
+			path = "lua-5.0.2/src/lgc.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2A06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = llex.c;
+			path = "lua-5.0.2/src/llex.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2B06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = llex.h;
+			path = "lua-5.0.2/src/llex.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2C06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = llimits.h;
+			path = "lua-5.0.2/src/llimits.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2D06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lmem.c;
+			path = "lua-5.0.2/src/lmem.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2E06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lmem.h;
+			path = "lua-5.0.2/src/lmem.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA2F06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lobject.c;
+			path = "lua-5.0.2/src/lobject.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3006F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lobject.h;
+			path = "lua-5.0.2/src/lobject.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3106F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lopcodes.c;
+			path = "lua-5.0.2/src/lopcodes.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3206F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lopcodes.h;
+			path = "lua-5.0.2/src/lopcodes.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3306F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lparser.c;
+			path = "lua-5.0.2/src/lparser.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3406F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lparser.h;
+			path = "lua-5.0.2/src/lparser.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3506F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lstate.c;
+			path = "lua-5.0.2/src/lstate.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3606F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lstate.h;
+			path = "lua-5.0.2/src/lstate.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3706F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lstring.c;
+			path = "lua-5.0.2/src/lstring.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3806F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lstring.h;
+			path = "lua-5.0.2/src/lstring.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3906F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = ltable.c;
+			path = "lua-5.0.2/src/ltable.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3A06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ltable.h;
+			path = "lua-5.0.2/src/ltable.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3B06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = ltests.c;
+			path = "lua-5.0.2/src/ltests.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3C06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = ltm.c;
+			path = "lua-5.0.2/src/ltm.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3D06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ltm.h;
+			path = "lua-5.0.2/src/ltm.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3E06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lundump.c;
+			path = "lua-5.0.2/src/lundump.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA3F06F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lundump.h;
+			path = "lua-5.0.2/src/lundump.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA4006F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lvm.c;
+			path = "lua-5.0.2/src/lvm.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA4106F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lvm.h;
+			path = "lua-5.0.2/src/lvm.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA4206F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lzio.c;
+			path = "lua-5.0.2/src/lzio.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA4306F46E380095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lzio.h;
+			path = "lua-5.0.2/src/lzio.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA4406F46E380095BD90 = {
+			fileRef = 8531EA1D06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA4506F46E380095BD90 = {
+			fileRef = 8531EA1E06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA4606F46E380095BD90 = {
+			fileRef = 8531EA1F06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA4706F46E380095BD90 = {
+			fileRef = 8531EA2006F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA4806F46E380095BD90 = {
+			fileRef = 8531EA2106F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA4906F46E380095BD90 = {
+			fileRef = 8531EA2206F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA4A06F46E380095BD90 = {
+			fileRef = 8531EA2306F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA4B06F46E380095BD90 = {
+			fileRef = 8531EA2406F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA4C06F46E380095BD90 = {
+			fileRef = 8531EA2506F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA4D06F46E380095BD90 = {
+			fileRef = 8531EA2606F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA4E06F46E380095BD90 = {
+			fileRef = 8531EA2706F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA4F06F46E380095BD90 = {
+			fileRef = 8531EA2806F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5006F46E380095BD90 = {
+			fileRef = 8531EA2906F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5106F46E380095BD90 = {
+			fileRef = 8531EA2A06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5206F46E380095BD90 = {
+			fileRef = 8531EA2B06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5306F46E380095BD90 = {
+			fileRef = 8531EA2C06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5406F46E380095BD90 = {
+			fileRef = 8531EA2D06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5506F46E380095BD90 = {
+			fileRef = 8531EA2E06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5606F46E380095BD90 = {
+			fileRef = 8531EA2F06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5706F46E380095BD90 = {
+			fileRef = 8531EA3006F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5806F46E380095BD90 = {
+			fileRef = 8531EA3106F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5906F46E380095BD90 = {
+			fileRef = 8531EA3206F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5A06F46E380095BD90 = {
+			fileRef = 8531EA3306F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5B06F46E380095BD90 = {
+			fileRef = 8531EA3406F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5C06F46E380095BD90 = {
+			fileRef = 8531EA3506F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5D06F46E380095BD90 = {
+			fileRef = 8531EA3606F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5E06F46E380095BD90 = {
+			fileRef = 8531EA3706F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA5F06F46E380095BD90 = {
+			fileRef = 8531EA3806F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6006F46E380095BD90 = {
+			fileRef = 8531EA3906F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6106F46E380095BD90 = {
+			fileRef = 8531EA3A06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6206F46E380095BD90 = {
+			fileRef = 8531EA3B06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6306F46E380095BD90 = {
+			fileRef = 8531EA3C06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6406F46E380095BD90 = {
+			fileRef = 8531EA3D06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6506F46E380095BD90 = {
+			fileRef = 8531EA3E06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6606F46E380095BD90 = {
+			fileRef = 8531EA3F06F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6706F46E380095BD90 = {
+			fileRef = 8531EA4006F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6806F46E380095BD90 = {
+			fileRef = 8531EA4106F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6906F46E380095BD90 = {
+			fileRef = 8531EA4206F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6A06F46E380095BD90 = {
+			fileRef = 8531EA4306F46E380095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA6B06F46E560095BD90 = {
+			children = (
+				8531EA6C06F46E7D0095BD90,
+				8531EA6D06F46E7D0095BD90,
+				8531EA6E06F46E7D0095BD90,
+				8531EA6F06F46E7D0095BD90,
+				8531EA7006F46E7D0095BD90,
+				8531EA7106F46E7D0095BD90,
+				8531EA7206F46E7D0095BD90,
+				8531EA7306F46E7D0095BD90,
+			);
+			isa = PBXGroup;
+			name = LuaLib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA6C06F46E7D0095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lauxlib.c;
+			path = "lua-5.0.2/src/lib/lauxlib.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA6D06F46E7D0095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lbaselib.c;
+			path = "lua-5.0.2/src/lib/lbaselib.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA6E06F46E7D0095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = ldblib.c;
+			path = "lua-5.0.2/src/lib/ldblib.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA6F06F46E7D0095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = liolib.c;
+			path = "lua-5.0.2/src/lib/liolib.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA7006F46E7D0095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lmathlib.c;
+			path = "lua-5.0.2/src/lib/lmathlib.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA7106F46E7D0095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = loadlib.c;
+			path = "lua-5.0.2/src/lib/loadlib.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA7206F46E7D0095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = lstrlib.c;
+			path = "lua-5.0.2/src/lib/lstrlib.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA7306F46E7D0095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = ltablib.c;
+			path = "lua-5.0.2/src/lib/ltablib.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA7406F46E7D0095BD90 = {
+			fileRef = 8531EA6C06F46E7D0095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA7506F46E7D0095BD90 = {
+			fileRef = 8531EA6D06F46E7D0095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA7606F46E7D0095BD90 = {
+			fileRef = 8531EA6E06F46E7D0095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA7706F46E7D0095BD90 = {
+			fileRef = 8531EA6F06F46E7D0095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA7806F46E7D0095BD90 = {
+			fileRef = 8531EA7006F46E7D0095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA7906F46E7D0095BD90 = {
+			fileRef = 8531EA7106F46E7D0095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA7A06F46E7D0095BD90 = {
+			fileRef = 8531EA7206F46E7D0095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA7B06F46E7D0095BD90 = {
+			fileRef = 8531EA7306F46E7D0095BD90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8531EA7C06F46ED30095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lauxlib.h;
+			path = "lua-5.0.2/include/lauxlib.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA7D06F46ED30095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lua.h;
+			path = "lua-5.0.2/include/lua.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA7E06F46ED30095BD90 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = lualib.h;
+			path = "lua-5.0.2/include/lualib.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8531EA7F06F46ED30095BD90 = {
+			fileRef = 8531EA7C06F46ED30095BD90;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		8531EA8006F46ED30095BD90 = {
+			fileRef = 8531EA7D06F46ED30095BD90;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		8531EA8106F46ED30095BD90 = {
+			fileRef = 8531EA7E06F46ED30095BD90;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		8531EA8206F46EDC0095BD90 = {
+			children = (
+				8531EA7C06F46ED30095BD90,
+				8531EA7D06F46ED30095BD90,
+				8531EA7E06F46ED30095BD90,
+			);
+			isa = PBXGroup;
+			name = Headers;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//850
+//851
+//852
+//853
+//854
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+		8DC2EF4F0486A6940098B216 = {
+			buildPhases = (
+				8DC2EF500486A6940098B216,
+				8DC2EF520486A6940098B216,
+				8DC2EF540486A6940098B216,
+				8DC2EF560486A6940098B216,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 5.0.0;
+				DYLIB_CURRENT_VERSION = 5.0.2;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LuaFramework_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LIBRARY_STYLE = DYNAMIC;
+				PRODUCT_NAME = LuaFramework;
+				WRAPPER_EXTENSION = framework;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = Lua;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = LuaFramework;
+			productReference = 8DC2EF5B0486A6940098B216;
+			productType = "com.apple.product-type.framework";
+		};
+		8DC2EF500486A6940098B216 = {
+			buildActionMask = 2147483647;
+			files = (
+				8531EA4506F46E380095BD90,
+				8531EA4706F46E380095BD90,
+				8531EA4906F46E380095BD90,
+				8531EA4B06F46E380095BD90,
+				8531EA4E06F46E380095BD90,
+				8531EA5006F46E380095BD90,
+				8531EA5206F46E380095BD90,
+				8531EA5306F46E380095BD90,
+				8531EA5506F46E380095BD90,
+				8531EA5706F46E380095BD90,
+				8531EA5906F46E380095BD90,
+				8531EA5B06F46E380095BD90,
+				8531EA5D06F46E380095BD90,
+				8531EA5F06F46E380095BD90,
+				8531EA6106F46E380095BD90,
+				8531EA6406F46E380095BD90,
+				8531EA6606F46E380095BD90,
+				8531EA6806F46E380095BD90,
+				8531EA6A06F46E380095BD90,
+				8531EA7F06F46ED30095BD90,
+				8531EA8006F46ED30095BD90,
+				8531EA8106F46ED30095BD90,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 = {
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF530486A6940098B216 = {
+			fileRef = 089C1666FE841158C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DC2EF540486A6940098B216 = {
+			buildActionMask = 2147483647;
+			files = (
+				8531EA4406F46E380095BD90,
+				8531EA4606F46E380095BD90,
+				8531EA4806F46E380095BD90,
+				8531EA4A06F46E380095BD90,
+				8531EA4C06F46E380095BD90,
+				8531EA4D06F46E380095BD90,
+				8531EA4F06F46E380095BD90,
+				8531EA5106F46E380095BD90,
+				8531EA5406F46E380095BD90,
+				8531EA5606F46E380095BD90,
+				8531EA5806F46E380095BD90,
+				8531EA5A06F46E380095BD90,
+				8531EA5C06F46E380095BD90,
+				8531EA5E06F46E380095BD90,
+				8531EA6006F46E380095BD90,
+				8531EA6206F46E380095BD90,
+				8531EA6306F46E380095BD90,
+				8531EA6506F46E380095BD90,
+				8531EA6706F46E380095BD90,
+				8531EA6906F46E380095BD90,
+				8531EA7406F46E7D0095BD90,
+				8531EA7506F46E7D0095BD90,
+				8531EA7606F46E7D0095BD90,
+				8531EA7706F46E7D0095BD90,
+				8531EA7806F46E7D0095BD90,
+				8531EA7906F46E7D0095BD90,
+				8531EA7A06F46E7D0095BD90,
+				8531EA7B06F46E7D0095BD90,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF5A0486A6940098B216 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist;
+			path = Info.plist;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DC2EF5B0486A6940098B216 = {
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = Lua.framework;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+	};
+	rootObject = 0867D690FE84028FC02AAC07;
+}
