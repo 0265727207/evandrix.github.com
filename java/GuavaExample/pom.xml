@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+<!--
+    mvn exec:java -Dexec.mainClass="GuavaExample" -Dexec.classpathScope=runtime -Dexec.args=""
+-->
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>group</groupId>
+  <artifactId>guavaProject</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Sample Guava project</name>
+  <url>http://code.google.com/p/guava-libraries</url>
+
+  <dependencies>
+      <dependency>
+          <groupId>com.google.guava</groupId>
+          <artifactId>guava</artifactId>
+          <version>10.0.1</version>
+      </dependency>
+  </dependencies>
+
+    <!--<build>
+    <sourceDirectory>.</sourceDirectory>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <configuration>
+          <instructions>
+            <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+            <Export-Package>
+              !${project.artifactId}.impl.*,
+              ${project.artifactId}*;version=${project.version};-noimport:=true
+            </Export-Package>
+            <Import-Package>
+              org.springframework.*;version="[2.5,4)",
+              org.apache.commons.logging.*;version="[1.1,2)",
+              *
+            </Import-Package>
+          </instructions>
+        </configuration>
+      </plugin>
+    </plugins>
+    </build>-->
+    
+    <build>
+     <plugins>
+      <plugin>
+       <groupId>org.codehaus.mojo</groupId>
+       <artifactId>exec-maven-plugin</artifactId>
+       <version>1.1.1</version>
+       <executions>
+        <execution>
+         <phase>test</phase>
+         <goals>
+          <goal>java</goal>
+         </goals>
+         <configuration>
+          <mainClass>GuavaExample</mainClass>
+          <arguments>
+          </arguments>
+         </configuration>
+        </execution>
+       </executions>
+      </plugin>
+     </plugins>
+    </build>
+</project>
