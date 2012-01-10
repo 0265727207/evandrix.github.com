@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/">
+	<head>
+		<title>JS GameBoy Color Game Center</title>
+		<meta property="og:title" content="GameBoy Color Game Center">
+		<meta property="og:type" content="game">
+		<meta property="og:url" content="http://www.grantgalitz.org/gamecenter/">
+		<meta property="og:image" content="http://www.grantgalitz.org/gamecenter/images/gbc.png">
+		<meta property="fb:admins" content="1022230064">
+		<meta property="og:site_name" content="Grant Galitz">
+		<meta property="og:description" content="A GameBoy Color emulator written in JavaScript with loads of gameboy and gameboy color games ready to play! No plugins necessary, since it is fully HTML5!">
+		<link rel="stylesheet" href="gamecenter.css">
+		<link rel="shortcut icon" href="http://www.grantgalitz.org/gamecenter/images/gbc.gif">
+		<script src="js/gamecenter.js"></script>
+		<script src="base64.js"></script>
+		<script src="transportHandler.js"></script>
+		<script src="json2.js"></script>
+		<script src="swfobject.js"></script>
+		<script src="resampler.js"></script>
+		<script src="XAudioServer.js"></script>
+		<script src="GameBoyCore.js"></script>
+		<script src="GameBoyIO.js"></script>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-10443319-2']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+	<body>
+		<!--[if lt IE 9]>
+			<div id="ie_warning">
+				Your browser is too outdated to run this webpage, please upgrade to either IE9, Firefox, Chrome, Safari, or Opera.
+			</div>
+		<![endif]-->
+		<div id="master_container">
+			<div id="site_banner">
+				<span id="banner_title">JS GameBoy Color Game Center</span>
+			</div>
+			<div id="gameboy">
+				<canvas id="game_canvas" width="160" height="144"></canvas>
+			</div>
+			<div id="bottom_container">
+				<div id="dropdown">
+					<select id="dropdown_select">
+						<option value="none">--Select A Game--</option>
+						<option value="SuperMarioLand.gb">Super Mario Land</option>
+						<option value="SuperMarioLand2.gb">Super Mario Land 2</option>
+						<option value="SuperMarioBrosDeluxe.gbc">Super Mario Bros. Deluxe</option>
+						<option value="link_awakening.gbc">Zelda: Link's Awakening DX</option>
+						<option value="ZeldaOracleOfSeasons.gbc">Zelda: Oracle of Seasons</option>
+						<option value="ZeldaOracleOfAges.gbc">Zelda: Oracle of Ages</option>
+						<option value="megaman.gb">Mega Man: Dr. Wily's Revenge</option>
+						<option value="megaman2.gb">Mega Man II</option>
+						<option value="megaman3.gb">Mega Man III</option>
+						<option value="megaman4.gb">Mega Man IV</option>
+						<option value="MegaManXtreme.gbc">Mega Man Xtreme</option>
+						<option value="MegaManXtreme2.gbc">Mega Man Xtreme 2</option>
+						<option value="MetroidII.gb">Metroid II - Return of Samus</option>
+						<option value="Tetris.gb">Tetris</option>
+						<option value="TetrisAttack.gb">Tetris Attack</option>
+						<option value="TetrisDX.gbc">Tetris DX</option>
+						<option value="WarioLand.gb">Wario Land</option>
+						<option value="WarioLand2.gbc">Wario Land 2</option>
+						<option value="WarioLand3.gbc">Wario Land 3</option>
+						<option value="DonkeyKongCountry.gbc">Donkey Kong Country</option>
+						<option value="DonkeyKong.gb">Donkey Kong</option>
+						<option value="DonkeyKongLand.gb">Donkey Kong Land</option>
+						<option value="DonkeyKongLand2.gb">Donkey Kong Land 2</option>
+						<option value="DonkeyKongLand3.gb">Donkey Kong Land 3</option>
+						<option value="PokemonRed.gb">Pokemon Red</option>
+						<option value="PokemonBlue.gb">Pokemon Blue</option>
+						<option value="PokemonYellow.gbc">Pokemon Yellow</option>
+						<option value="PokemonSilver.gbc">Pokemon Silver</option>
+						<option value="PokemonGold.gbc">Pokemon Gold</option>
+						<option value="PokemonCrystal.gbc">Pokemon Crystal</option>
+						<option value="PokemonPinball.gbc">Pokemon Pinball</option>
+						<option value="PokemonTradingCardGame.gbc">Pokemon Trading Card Game</option>
+						<option value="PokemonCardGame2.gbc">Pokemon Trading Card Game 2 (Buggy Fan Translation Hack)</option>
+						<option value="GWG1.gb">Game And Watch Gallery 1</option>
+						<option value="GWG2.gb">Game And Watch Gallery 2</option>
+						<option value="GWG3.gbc">Game And Watch Gallery 3</option>
+						<option value="alleyway.gb">Alleyway</option>
+						<option value="ducktales.gb">Duck Tales</option>
+						<option value="PacMan.gbc">Pac-Man</option>
+						<option value="battletoads.gb">Battletoads</option>
+						<option value="KirbysDreamLand.gb">Kirby's Dream Land</option>
+						<option value="KirbysDreamLand2.gb">Kirby's Dream Land 2</option>
+						<option value="KirbyPinballLand.gb">Kirby's Pinball Land</option>
+						<option value="KirbyStarStacker.gb">Kirby's Star Stacker</option>
+						<option value="KirbysTiltnTumble.gbc">Kirby's Tilt 'N' Tumble (Gyro Required)</option>
+						<option value="MicrosoftPinballArcade.gbc">Microsoft Pinball Arcade</option>
+						<option value="BombermanMaxBlue.gbc">Bomberman Max (Blue)</option>
+						<option value="MarioTennis.gbc">Mario Tennis</option>
+						<option value="MarioGolf.gbc">Mario Golf</option>
+						<option value="MarioPicross.gb">Mario's Picross</option>
+						<option value="cannonfodder.gbc">Cannon Fodder</option>
+						<option value="centipede.gbc">Centipede</option>
+						<option value="atlantis.gbc">Atlantis: The Lost Empire</option>
+						<option value="shrek.gbc">Shrek: Fairytale Freakdown</option>
+						<option value="FinalFantasy.gb">Final Fantasy</option>
+						<option value="Rayman.gbc">Rayman</option>
+						<option value="Gex3.gbc">Gex 3</option>
+						<option value="croc2.gbc">Croc 2</option>
+						<option value="Shantae.gbc">Shantae</option>
+						<option value="RoadRash.gbc">Road Rash</option>
+						<option value="tyrian2000.gbc">Tyrian 2000</option>
+						<option value="looneytunes.gb">Looney Tunes</option>
+						<option value="prehistorik.gb">Prehistorik Man</option>
+						<option value="pht-mr.gbc">Mental Respirator Demoscene Demo</option>
+						<option value="demotronic.gbc">Demotronic Demoscene Demo</option>
+						<option value="demo3d.gb">3D "FX" Demo</option>
+						<option value="LSDJ.gbc">LSDJ Demo</option>
+					</select>
+					<progress id="dropdown_progress">Loading...</progress>
+					<div id="button_master">
+						<span id="button_map">Button Map:</span>
+						<div id="button_group">
+							<ul id="button_list">
+								<li>X = A</li>
+								<li>Z = B</li>
+								<li>Shift = Select</li>
+								<li>Enter = Start</li>
+								<li>D-Pad = JoyPad</li>
+							</ul>
+						</div>
+					</div>
+					<div class="setting">
+						<span>Enable Sound:</span><input type="checkbox" id="enable_sound" checked="checked">
+						<span>Run as DMG:</span><input type="checkbox" id="gb_boot_rom_utilized">
+					</div>
+				</div>
+				<div id="about">
+					<h3>About:</h3>
+					<p>This is a GameBoy Color emulator written in JavaScript. This page takes advantage of modern browser
+					capabilities like HTML5 and JIT engines to provide a desktop emulator experience right inside a webpage
+					without the use of plugins (If you disable plugins on a browser, the graphics will still work, though
+					the audio might stop working for users that need flash to run the audio output).</p>
+					<p>You can either select a game from a list, or drag and drop a .gb or .gbc file into the emulator.</p>
+					<div class="follow">
+						<iframe src="http://www.facebook.com/plugins/like.php?app_id=132203710202478&amp;href=http%3A%2F%2Fwww.grantgalitz.org%2Fgamecenter%2F&amp;send=false&amp;layout=standard&amp;width=250&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:40px;" allowTransparency="true"></iframe>
+					</div>
+				</div>
+				<div id="getfirefox">
+					<a href="http://www.mozilla.org/firefox?WT.mc_id=aff_en08&amp;WT.mc_ev=click" target="_new"><img src="http://www.mozilla.org/contribute/buttons/120x240bubble_b.png" alt="Firefox Download Button"></a>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div id="debug_log"></div>
+		</div>
+		<script>
+			try {
+				addEvent("DOMContentLoaded", document, windowingPreInitUnsafe);
+				addEvent("readystatechange", document, windowingPreInitSafe);
+			}
+			catch (error) {
+				alert("Could not initialize the emulator properly. Please try using a standards compliant browser.");
+			}
+		</script>
+	</body>
+</html>

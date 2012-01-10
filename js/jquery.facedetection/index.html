@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Face Detection jQuery Plugin</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<style>
+		.face {
+			border:2px solid #FFF;
+		}
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+	<script src="js/facedetection/ccv.js"></script> 
+	<script src="js/facedetection/face.js"></script>
+	<script src="js/jquery.facedetection.js"></script> 
+	<script>
+	$(function() {
+		$('a#try').click(function() {
+		    console.log($('img#myPicture'));
+			var $this = $(this);
+			var coords = $('img#myPicture').faceDetection({
+				complete:function() {
+					$this.text('Done!');
+				},
+				error:function(img, code, message) {
+					$this.text('error!');
+					alert('Error: '+message);
+				}
+			});
+			for (var i = 0; i < coords.length; i++) {
+				$('<div>', {
+					'class':'face',
+					'css': {
+						'position':	'absolute',
+						'left':		coords[i].positionX +'px',
+						'top':		coords[i].positionY +'px',
+						'width': 	coords[i].width		+'px',
+						'height': 	coords[i].height	+'px'
+					}
+				})
+				.appendTo('#content');
+			}
+		});
+		return false;
+	});
+	</script>
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+		<h1>jQuery Face detection</h1>
+		<p><a href="http://facedetection.jaysalvat.com">Visit the website</a></p>
+	</div>
+	<div id="content">
+		<pre>var coords = $('#myPicture').faceDetection();</pre>
+		<a href="#" id="try">TRY IT NOW!</a>
+		<img src="img/test.jpg" id="myPicture"/>
+		<ul>
+			<li>Plugin by <a href="http://jaysalvat.com">Jay Salvat</a></li>
+			<li>Source on <a href="https://github.com/jaysalvat/jquery.facedetection">Github</a></li>
+			<li>Original algorithm by <a href="https://github.com/liuliu/ccv">Liu Liu</a>.</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
