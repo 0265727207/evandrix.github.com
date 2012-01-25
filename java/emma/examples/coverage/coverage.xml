@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Nov 08 17:03:51 GMT 2011 -->
+
+<report>
+  <stats>
+    <packages value="110"/>
+    <classes value="1578"/>
+    <methods value="9929"/>
+    <srcfiles value="690"/>
+    <srclines value="63881"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="1%   (10/1578)"/>
+      <coverage type="method, %" value="1%   (64/9929)"/>
+      <coverage type="block, %" value="1%   (2371/369524)"/>
+      <coverage type="line, %" value="1%   (465.1/63881)"/>
+
+      <package name="jmt.commandline">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/4)"/>
+        <coverage type="block, %" value="0%   (0/146)"/>
+        <coverage type="line, %" value="0%   (0/38)"/>
+      </package>
+      <package name="jmt.common">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/5)"/>
+        <coverage type="block, %" value="0%   (0/51)"/>
+        <coverage type="line, %" value="0%   (0/22)"/>
+      </package>
+      <package name="jmt.common.exception">
+        <coverage type="class, %" value="0%   (0/7)"/>
+        <coverage type="method, %" value="0%   (0/22)"/>
+        <coverage type="block, %" value="0%   (0/103)"/>
+        <coverage type="line, %" value="0%   (0/47)"/>
+      </package>
+      <package name="jmt.engine.NetStrategies">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/4)"/>
+        <coverage type="block, %" value="0%   (0/10)"/>
+        <coverage type="line, %" value="0%   (0/4)"/>
+      </package>
+      <package name="jmt.engine.NetStrategies.QueueGetStrategies">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/6)"/>
+        <coverage type="block, %" value="0%   (0/18)"/>
+        <coverage type="line, %" value="0%   (0/6)"/>
+      </package>
+      <package name="jmt.engine.NetStrategies.QueuePutStrategies">
+        <coverage type="class, %" value="0%   (0/4)"/>
+        <coverage type="method, %" value="0%   (0/12)"/>
+        <coverage type="block, %" value="0%   (0/162)"/>
+        <coverage type="line, %" value="0%   (0/48)"/>
+      </package>
+      <package name="jmt.engine.NetStrategies.RoutingStrategies">
+        <coverage type="class, %" value="0%   (0/8)"/>
+        <coverage type="method, %" value="0%   (0/19)"/>
+        <coverage type="block, %" value="0%   (0/1225)"/>
+        <coverage type="line, %" value="0%   (0/289)"/>
+      </package>
+      <package name="jmt.engine.NetStrategies.ServiceStrategies">
+        <coverage type="class, %" value="0%   (0/5)"/>
+        <coverage type="method, %" value="0%   (0/20)"/>
+        <coverage type="block, %" value="0%   (0/266)"/>
+        <coverage type="line, %" value="0%   (0/73)"/>
+      </package>
+      <package name="jmt.engine.NodeSections">
+        <coverage type="class, %" value="0%   (0/20)"/>
+        <coverage type="method, %" value="0%   (0/120)"/>
+        <coverage type="block, %" value="0%   (0/3454)"/>
+        <coverage type="line, %" value="0%   (0/811)"/>
+      </package>
+      <package name="jmt.engine.QueueNet">
+        <coverage type="class, %" value="0%   (0/21)"/>
+        <coverage type="method, %" value="0%   (0/354)"/>
+        <coverage type="block, %" value="0%   (0/6308)"/>
+        <coverage type="line, %" value="0%   (0/1501)"/>
+      </package>
+      <package name="jmt.engine.dataAnalysis">
+        <coverage type="class, %" value="0%   (0/11)"/>
+        <coverage type="method, %" value="0%   (0/171)"/>
+        <coverage type="block, %" value="0%   (0/7051)"/>
+        <coverage type="line, %" value="0%   (0/1406)"/>
+      </package>
+      <package name="jmt.engine.dataAnalysis.measureOutputs">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/9)"/>
+        <coverage type="block, %" value="0%   (0/574)"/>
+        <coverage type="line, %" value="0%   (0/104)"/>
+      </package>
+      <package name="jmt.engine.dataAnalysis.sorting">
+        <coverage type="class, %" value="0%   (0/4)"/>
+        <coverage type="method, %" value="0%   (0/13)"/>
+        <coverage type="block, %" value="0%   (0/657)"/>
+        <coverage type="line, %" value="0%   (0/132)"/>
+      </package>
+      <package name="jmt.engine.graphic">
+        <coverage type="class, %" value="0%   (0/3)"/>
+        <coverage type="method, %" value="0%   (0/118)"/>
+        <coverage type="block, %" value="0%   (0/3193)"/>
+        <coverage type="line, %" value="0%   (0/471)"/>
+      </package>
+      <package name="jmt.engine.jaba">
+        <coverage type="class, %" value="0%   (0/23)"/>
+        <coverage type="method, %" value="0%   (0/228)"/>
+        <coverage type="block, %" value="0%   (0/15343)"/>
+        <coverage type="line, %" value="0%   (0/2089)"/>
+      </package>
+      <package name="jmt.engine.jaba.Hull">
+        <coverage type="class, %" value="0%   (0/8)"/>
+        <coverage type="method, %" value="0%   (0/51)"/>
+        <coverage type="block, %" value="0%   (0/1858)"/>
+        <coverage type="line, %" value="0%   (0/345)"/>
+      </package>
+      <package name="jmt.engine.jaba.convexHull3d">
+        <coverage type="class, %" value="0%   (0/5)"/>
+        <coverage type="method, %" value="0%   (0/87)"/>
+        <coverage type="block, %" value="0%   (0/2009)"/>
+        <coverage type="line, %" value="0%   (0/495)"/>
+      </package>
+      <package name="jmt.engine.jaba.convexHull3d.exceptions">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/2)"/>
+        <coverage type="block, %" value="0%   (0/8)"/>
+        <coverage type="line, %" value="0%   (0/4)"/>
+      </package>
+      <package name="jmt.engine.jwat">
+        <coverage type="class, %" value="0%   (0/13)"/>
+        <coverage type="method, %" value="0%   (0/127)"/>
+        <coverage type="block, %" value="0%   (0/3231)"/>
+        <coverage type="line, %" value="0%   (0/585)"/>
+      </package>
+      <package name="jmt.engine.jwat.filters">
+        <coverage type="class, %" value="0%   (0/7)"/>
+        <coverage type="method, %" value="0%   (0/18)"/>
+        <coverage type="block, %" value="0%   (0/291)"/>
+        <coverage type="line, %" value="0%   (0/83)"/>
+      </package>
+      <package name="jmt.engine.jwat.fitting">
+        <coverage type="class, %" value="0%   (0/3)"/>
+        <coverage type="method, %" value="0%   (0/19)"/>
+        <coverage type="block, %" value="0%   (0/13579)"/>
+        <coverage type="line, %" value="0%   (0/94)"/>
+      </package>
+      <package name="jmt.engine.jwat.fitting.utils">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/16)"/>
+        <coverage type="block, %" value="0%   (0/265)"/>
+        <coverage type="line, %" value="0%   (0/51)"/>
+      </package>
+      <package name="jmt.engine.jwat.input">
+        <coverage type="class, %" value="0%   (0/20)"/>
+        <coverage type="method, %" value="0%   (0/88)"/>
+        <coverage type="block, %" value="0%   (0/3011)"/>
+        <coverage type="line, %" value="0%   (0/680)"/>
+      </package>
+      <package name="jmt.engine.jwat.trafficAnalysis">
+        <coverage type="class, %" value="0%   (0/3)"/>
+        <coverage type="method, %" value="0%   (0/39)"/>
+        <coverage type="block, %" value="0%   (0/634)"/>
+        <coverage type="line, %" value="0%   (0/139)"/>
+      </package>
+      <package name="jmt.engine.jwat.workloadAnalysis">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/15)"/>
+        <coverage type="block, %" value="0%   (0/710)"/>
+        <coverage type="line, %" value="0%   (0/124)"/>
+      </package>
+      <package name="jmt.engine.jwat.workloadAnalysis.clustering">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/3)"/>
+        <coverage type="block, %" value="0%   (0/11)"/>
+        <coverage type="line, %" value="0%   (0/5)"/>
+      </package>
+      <package name="jmt.engine.jwat.workloadAnalysis.clustering.fuzzyKMean">
+        <coverage type="class, %" value="0%   (0/7)"/>
+        <coverage type="method, %" value="0%   (0/28)"/>
+        <coverage type="block, %" value="0%   (0/2313)"/>
+        <coverage type="line, %" value="0%   (0/283)"/>
+      </package>
+      <package name="jmt.engine.jwat.workloadAnalysis.clustering.kMean">
+        <coverage type="class, %" value="0%   (0/7)"/>
+        <coverage type="method, %" value="0%   (0/26)"/>
+        <coverage type="block, %" value="0%   (0/3294)"/>
+        <coverage type="line, %" value="0%   (0/417)"/>
+      </package>
+      <package name="jmt.engine.jwat.workloadAnalysis.exceptions">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/2)"/>
+        <coverage type="block, %" value="0%   (0/9)"/>
+        <coverage type="line, %" value="0%   (0/4)"/>
+      </package>
+      <package name="jmt.engine.jwat.workloadAnalysis.utils">
+        <coverage type="class, %" value="0%   (0/13)"/>
+        <coverage type="method, %" value="0%   (0/63)"/>
+        <coverage type="block, %" value="0%   (0/2090)"/>
+        <coverage type="line, %" value="0%   (0/394)"/>
+      </package>
+      <package name="jmt.engine.log">
+        <coverage type="class, %" value="0%   (0/4)"/>
+        <coverage type="method, %" value="0%   (0/41)"/>
+        <coverage type="block, %" value="0%   (0/924)"/>
+        <coverage type="line, %" value="0%   (0/213)"/>
+      </package>
+      <package name="jmt.engine.math">
+        <coverage type="class, %" value="0%   (0/22)"/>
+        <coverage type="method, %" value="0%   (0/188)"/>
+        <coverage type="block, %" value="0%   (0/12924)"/>
+        <coverage type="line, %" value="0%   (0/1840)"/>
+      </package>
+      <package name="jmt.engine.math.colt">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/2)"/>
+        <coverage type="block, %" value="0%   (0/11)"/>
+        <coverage type="line, %" value="0%   (0/5)"/>
+      </package>
+      <package name="jmt.engine.math.parser">
+        <coverage type="class, %" value="0%   (0/8)"/>
+        <coverage type="method, %" value="0%   (0/85)"/>
+        <coverage type="block, %" value="0%   (0/1870)"/>
+        <coverage type="line, %" value="0%   (0/350)"/>
+      </package>
+      <package name="jmt.engine.random">
+        <coverage type="class, %" value="0%   (0/34)"/>
+        <coverage type="method, %" value="0%   (0/251)"/>
+        <coverage type="block, %" value="0%   (0/5475)"/>
+        <coverage type="line, %" value="0%   (0/1157)"/>
+      </package>
+      <package name="jmt.engine.random.engine">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/21)"/>
+        <coverage type="block, %" value="0%   (0/883)"/>
+        <coverage type="line, %" value="0%   (0/147)"/>
+      </package>
+      <package name="jmt.engine.simDispatcher">
+        <coverage type="class, %" value="0%   (0/4)"/>
+        <coverage type="method, %" value="0%   (0/59)"/>
+        <coverage type="block, %" value="0%   (0/3035)"/>
+        <coverage type="line, %" value="0%   (0/699)"/>
+      </package>
+      <package name="jmt.engine.simEngine">
+        <coverage type="class, %" value="0%   (0/23)"/>
+        <coverage type="method, %" value="0%   (0/209)"/>
+        <coverage type="block, %" value="0%   (0/5796)"/>
+        <coverage type="line, %" value="0%   (0/1286)"/>
+      </package>
+      <package name="jmt.engine.testSystem">
+        <coverage type="class, %" value="0%   (0/3)"/>
+        <coverage type="method, %" value="0%   (0/32)"/>
+        <coverage type="block, %" value="0%   (0/2773)"/>
+        <coverage type="line, %" value="0%   (0/545)"/>
+      </package>
+      <package name="jmt.framework.gui.components">
+        <coverage type="class, %" value="0%   (0/12)"/>
+        <coverage type="method, %" value="0%   (0/78)"/>
+        <coverage type="block, %" value="0%   (0/1339)"/>
+        <coverage type="line, %" value="0%   (0/351)"/>
+      </package>
+      <package name="jmt.framework.gui.controller">
+        <coverage type="class, %" value="0%   (0/5)"/>
+        <coverage type="method, %" value="0%   (0/20)"/>
+        <coverage type="block, %" value="0%   (0/193)"/>
+        <coverage type="line, %" value="0%   (0/58)"/>
+      </package>
+      <package name="jmt.framework.gui.graph">
+        <coverage type="class, %" value="0%   (0/11)"/>
+        <coverage type="method, %" value="0%   (0/44)"/>
+        <coverage type="block, %" value="0%   (0/1937)"/>
+        <coverage type="line, %" value="0%   (0/334)"/>
+      </package>
+      <package name="jmt.framework.gui.help">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/9)"/>
+        <coverage type="block, %" value="0%   (0/75)"/>
+        <coverage type="line, %" value="0%   (0/25)"/>
+      </package>
+      <package name="jmt.framework.gui.image">
+        <coverage type="class, %" value="0%   (0/3)"/>
+        <coverage type="method, %" value="0%   (0/15)"/>
+        <coverage type="block, %" value="0%   (0/535)"/>
+        <coverage type="line, %" value="0%   (0/95)"/>
+      </package>
+      <package name="jmt.framework.gui.layouts">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/12)"/>
+        <coverage type="block, %" value="0%   (0/1237)"/>
+        <coverage type="line, %" value="0%   (0/223)"/>
+      </package>
+      <package name="jmt.framework.gui.listeners">
+        <coverage type="class, %" value="0%   (0/4)"/>
+        <coverage type="method, %" value="0%   (0/30)"/>
+        <coverage type="block, %" value="0%   (0/243)"/>
+        <coverage type="line, %" value="0%   (0/83)"/>
+      </package>
+      <package name="jmt.framework.gui.table.editors">
+        <coverage type="class, %" value="0%   (0/4)"/>
+        <coverage type="method, %" value="0%   (0/21)"/>
+        <coverage type="block, %" value="0%   (0/320)"/>
+        <coverage type="line, %" value="0%   (0/81)"/>
+      </package>
+      <package name="jmt.framework.gui.wizard">
+        <coverage type="class, %" value="0%   (0/9)"/>
+        <coverage type="method, %" value="0%   (0/48)"/>
+        <coverage type="block, %" value="0%   (0/770)"/>
+        <coverage type="line, %" value="0%   (0/170)"/>
+      </package>
+      <package name="jmt.framework.net">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/2)"/>
+        <coverage type="block, %" value="0%   (0/143)"/>
+        <coverage type="line, %" value="0%   (0/20)"/>
+      </package>
+      <package name="jmt.gui.common">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/16)"/>
+        <coverage type="block, %" value="0%   (0/348)"/>
+        <coverage type="line, %" value="0%   (0/91)"/>
+      </package>
+      <package name="jmt.gui.common.animation">
+        <coverage type="class, %" value="0%   (0/14)"/>
+        <coverage type="method, %" value="0%   (0/94)"/>
+        <coverage type="block, %" value="0%   (0/3035)"/>
+        <coverage type="line, %" value="0%   (0/485)"/>
+      </package>
+      <package name="jmt.gui.common.controller">
+        <coverage type="class, %" value="0%   (0/6)"/>
+        <coverage type="method, %" value="0%   (0/132)"/>
+        <coverage type="block, %" value="0%   (0/4232)"/>
+        <coverage type="line, %" value="0%   (0/1031)"/>
+      </package>
+      <package name="jmt.gui.common.definitions">
+        <coverage type="class, %" value="0%   (0/18)"/>
+        <coverage type="method, %" value="0%   (0/299)"/>
+        <coverage type="block, %" value="0%   (0/8751)"/>
+        <coverage type="line, %" value="0%   (0/1713)"/>
+      </package>
+      <package name="jmt.gui.common.definitions.parametric">
+        <coverage type="class, %" value="0%   (0/9)"/>
+        <coverage type="method, %" value="0%   (0/102)"/>
+        <coverage type="block, %" value="0%   (0/3767)"/>
+        <coverage type="line, %" value="0%   (0/850)"/>
+      </package>
+      <package name="jmt.gui.common.distributions">
+        <coverage type="class, %" value="0%   (0/42)"/>
+        <coverage type="method, %" value="0%   (0/180)"/>
+        <coverage type="block, %" value="0%   (0/3208)"/>
+        <coverage type="line, %" value="0%   (0/566)"/>
+      </package>
+      <package name="jmt.gui.common.editors">
+        <coverage type="class, %" value="0%   (0/45)"/>
+        <coverage type="method, %" value="0%   (0/170)"/>
+        <coverage type="block, %" value="0%   (0/6157)"/>
+        <coverage type="line, %" value="0%   (0/1258)"/>
+      </package>
+      <package name="jmt.gui.common.panels">
+        <coverage type="class, %" value="0%   (0/71)"/>
+        <coverage type="method, %" value="0%   (0/323)"/>
+        <coverage type="block, %" value="0%   (0/10258)"/>
+        <coverage type="line, %" value="0%   (0/1894)"/>
+      </package>
+      <package name="jmt.gui.common.panels.parametric">
+        <coverage type="class, %" value="0%   (0/61)"/>
+        <coverage type="method, %" value="0%   (0/233)"/>
+        <coverage type="block, %" value="0%   (0/12773)"/>
+        <coverage type="line, %" value="0%   (0/2310)"/>
+      </package>
+      <package name="jmt.gui.common.resources">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/9)"/>
+        <coverage type="block, %" value="0%   (0/42)"/>
+        <coverage type="line, %" value="0%   (0/12)"/>
+      </package>
+      <package name="jmt.gui.common.routingStrategies">
+        <coverage type="class, %" value="0%   (0/9)"/>
+        <coverage type="method, %" value="0%   (0/54)"/>
+        <coverage type="block, %" value="0%   (0/252)"/>
+        <coverage type="line, %" value="0%   (0/90)"/>
+      </package>
+      <package name="jmt.gui.common.serviceStrategies">
+        <coverage type="class, %" value="0%   (0/3)"/>
+        <coverage type="method, %" value="0%   (0/27)"/>
+        <coverage type="block, %" value="0%   (0/520)"/>
+        <coverage type="line, %" value="0%   (0/114)"/>
+      </package>
+      <package name="jmt.gui.common.startScreen">
+        <coverage type="class, %" value="0%   (0/35)"/>
+        <coverage type="method, %" value="0%   (0/108)"/>
+        <coverage type="block, %" value="0%   (0/2655)"/>
+        <coverage type="line, %" value="0%   (0/509)"/>
+      </package>
+      <package name="jmt.gui.common.startScreen.sampleAnimation">
+        <coverage type="class, %" value="0%   (0/3)"/>
+        <coverage type="method, %" value="0%   (0/15)"/>
+        <coverage type="block, %" value="0%   (0/1423)"/>
+        <coverage type="line, %" value="0%   (0/90)"/>
+      </package>
+      <package name="jmt.gui.common.xml">
+        <coverage type="class, %" value="0%   (0/18)"/>
+        <coverage type="method, %" value="0%   (0/138)"/>
+        <coverage type="block, %" value="0%   (0/8259)"/>
+        <coverage type="line, %" value="0%   (0/1676)"/>
+      </package>
+      <package name="jmt.gui.exact.ld">
+        <coverage type="class, %" value="0%   (0/15)"/>
+        <coverage type="method, %" value="0%   (0/74)"/>
+        <coverage type="block, %" value="0%   (0/1350)"/>
+        <coverage type="line, %" value="0%   (0/300)"/>
+      </package>
+      <package name="jmt.gui.exact.ld.eval">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/6)"/>
+        <coverage type="block, %" value="0%   (0/103)"/>
+        <coverage type="line, %" value="0%   (0/24)"/>
+      </package>
+      <package name="jmt.gui.exact.link">
+        <coverage type="class, %" value="0%   (0/3)"/>
+        <coverage type="method, %" value="0%   (0/12)"/>
+        <coverage type="block, %" value="0%   (0/248)"/>
+        <coverage type="line, %" value="0%   (0/75)"/>
+      </package>
+      <package name="jmt.gui.exact.panels">
+        <coverage type="class, %" value="0%   (0/59)"/>
+        <coverage type="method, %" value="0%   (0/440)"/>
+        <coverage type="block, %" value="0%   (0/10785)"/>
+        <coverage type="line, %" value="0%   (0/2180)"/>
+      </package>
+      <package name="jmt.gui.exact.table">
+        <coverage type="class, %" value="0%   (0/28)"/>
+        <coverage type="method, %" value="0%   (0/174)"/>
+        <coverage type="block, %" value="0%   (0/2706)"/>
+        <coverage type="line, %" value="0%   (0/661)"/>
+      </package>
+      <package name="jmt.gui.jaba">
+        <coverage type="class, %" value="0%   (0/12)"/>
+        <coverage type="method, %" value="0%   (0/158)"/>
+        <coverage type="block, %" value="0%   (0/4899)"/>
+        <coverage type="line, %" value="0%   (0/993)"/>
+      </package>
+      <package name="jmt.gui.jaba.cartesian">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/13)"/>
+        <coverage type="block, %" value="0%   (0/555)"/>
+        <coverage type="line, %" value="0%   (0/71)"/>
+      </package>
+      <package name="jmt.gui.jaba.graphs">
+        <coverage type="class, %" value="0%   (0/18)"/>
+        <coverage type="method, %" value="0%   (0/164)"/>
+        <coverage type="block, %" value="0%   (0/9938)"/>
+        <coverage type="line, %" value="0%   (0/1608)"/>
+      </package>
+      <package name="jmt.gui.jaba.label">
+        <coverage type="class, %" value="0%   (0/4)"/>
+        <coverage type="method, %" value="0%   (0/7)"/>
+        <coverage type="block, %" value="0%   (0/343)"/>
+        <coverage type="line, %" value="0%   (0/58)"/>
+      </package>
+      <package name="jmt.gui.jaba.link">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/5)"/>
+        <coverage type="block, %" value="0%   (0/349)"/>
+        <coverage type="line, %" value="0%   (0/80)"/>
+      </package>
+      <package name="jmt.gui.jaba.panels">
+        <coverage type="class, %" value="0%   (0/38)"/>
+        <coverage type="method, %" value="0%   (0/324)"/>
+        <coverage type="block, %" value="0%   (0/10943)"/>
+        <coverage type="line, %" value="0%   (0/1898)"/>
+      </package>
+      <package name="jmt.gui.jmodel">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/6)"/>
+        <coverage type="block, %" value="0%   (0/123)"/>
+        <coverage type="line, %" value="0%   (0/29)"/>
+      </package>
+      <package name="jmt.gui.jmodel.JGraphMod">
+        <coverage type="class, %" value="0%   (0/25)"/>
+        <coverage type="method, %" value="0%   (0/136)"/>
+        <coverage type="block, %" value="0%   (0/10082)"/>
+        <coverage type="line, %" value="0%   (0/1463)"/>
+      </package>
+      <package name="jmt.gui.jmodel.controller">
+        <coverage type="class, %" value="0%   (0/15)"/>
+        <coverage type="method, %" value="0%   (0/258)"/>
+        <coverage type="block, %" value="0%   (0/10088)"/>
+        <coverage type="line, %" value="0%   (0/1942)"/>
+      </package>
+      <package name="jmt.gui.jmodel.controller.actions">
+        <coverage type="class, %" value="0%   (0/36)"/>
+        <coverage type="method, %" value="0%   (0/76)"/>
+        <coverage type="block, %" value="0%   (0/955)"/>
+        <coverage type="line, %" value="0%   (0/278)"/>
+      </package>
+      <package name="jmt.gui.jmodel.definitions">
+        <coverage type="class, %" value="0%   (0/4)"/>
+        <coverage type="method, %" value="0%   (0/41)"/>
+        <coverage type="block, %" value="0%   (0/1121)"/>
+        <coverage type="line, %" value="0%   (0/207)"/>
+      </package>
+      <package name="jmt.gui.jmodel.mainGui">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/11)"/>
+        <coverage type="block, %" value="0%   (0/372)"/>
+        <coverage type="line, %" value="0%   (0/83)"/>
+      </package>
+      <package name="jmt.gui.jmodel.panels">
+        <coverage type="class, %" value="0%   (0/10)"/>
+        <coverage type="method, %" value="0%   (0/45)"/>
+        <coverage type="block, %" value="0%   (0/2463)"/>
+        <coverage type="line, %" value="0%   (0/388)"/>
+      </package>
+      <package name="jmt.gui.jsim">
+        <coverage type="class, %" value="0%   (0/16)"/>
+        <coverage type="method, %" value="0%   (0/76)"/>
+        <coverage type="block, %" value="0%   (0/2346)"/>
+        <coverage type="line, %" value="0%   (0/463)"/>
+      </package>
+      <package name="jmt.gui.jsim.definitions">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/9)"/>
+        <coverage type="block, %" value="0%   (0/230)"/>
+        <coverage type="line, %" value="0%   (0/59)"/>
+      </package>
+      <package name="jmt.gui.jsim.panels">
+        <coverage type="class, %" value="0%   (0/53)"/>
+        <coverage type="method, %" value="0%   (0/245)"/>
+        <coverage type="block, %" value="0%   (0/6660)"/>
+        <coverage type="line, %" value="0%   (0/1302)"/>
+      </package>
+      <package name="jmt.gui.jwat">
+        <coverage type="class, %" value="0%   (0/52)"/>
+        <coverage type="method, %" value="0%   (0/195)"/>
+        <coverage type="block, %" value="0%   (0/4959)"/>
+        <coverage type="line, %" value="0%   (0/933)"/>
+      </package>
+      <package name="jmt.gui.jwat.fitting.charts">
+        <coverage type="class, %" value="0%   (0/30)"/>
+        <coverage type="method, %" value="0%   (0/97)"/>
+        <coverage type="block, %" value="0%   (0/3481)"/>
+        <coverage type="line, %" value="0%   (0/617)"/>
+      </package>
+      <package name="jmt.gui.jwat.fitting.panels">
+        <coverage type="class, %" value="0%   (0/32)"/>
+        <coverage type="method, %" value="0%   (0/143)"/>
+        <coverage type="block, %" value="0%   (0/4683)"/>
+        <coverage type="line, %" value="0%   (0/759)"/>
+      </package>
+      <package name="jmt.gui.jwat.trafficAnalysis.panels">
+        <coverage type="class, %" value="0%   (0/47)"/>
+        <coverage type="method, %" value="0%   (0/217)"/>
+        <coverage type="block, %" value="0%   (0/8257)"/>
+        <coverage type="line, %" value="0%   (0/1474)"/>
+      </package>
+      <package name="jmt.gui.jwat.trafficAnalysis.utils">
+        <coverage type="class, %" value="0%   (0/12)"/>
+        <coverage type="method, %" value="0%   (0/42)"/>
+        <coverage type="block, %" value="0%   (0/1013)"/>
+        <coverage type="line, %" value="0%   (0/215)"/>
+      </package>
+      <package name="jmt.gui.jwat.workloadAnalysis.chart">
+        <coverage type="class, %" value="0%   (0/113)"/>
+        <coverage type="method, %" value="0%   (0/556)"/>
+        <coverage type="block, %" value="0%   (0/21424)"/>
+        <coverage type="line, %" value="0%   (0/2711)"/>
+      </package>
+      <package name="jmt.gui.jwat.workloadAnalysis.clustering.fuzzyKMean.panels">
+        <coverage type="class, %" value="0%   (0/30)"/>
+        <coverage type="method, %" value="0%   (0/138)"/>
+        <coverage type="block, %" value="0%   (0/3963)"/>
+        <coverage type="line, %" value="0%   (0/644)"/>
+      </package>
+      <package name="jmt.gui.jwat.workloadAnalysis.clustering.kMean.panels">
+        <coverage type="class, %" value="0%   (0/19)"/>
+        <coverage type="method, %" value="0%   (0/91)"/>
+        <coverage type="block, %" value="0%   (0/2870)"/>
+        <coverage type="line, %" value="0%   (0/486)"/>
+      </package>
+      <package name="jmt.gui.jwat.workloadAnalysis.panels">
+        <coverage type="class, %" value="0%   (0/68)"/>
+        <coverage type="method, %" value="0%   (0/332)"/>
+        <coverage type="block, %" value="0%   (0/10765)"/>
+        <coverage type="line, %" value="0%   (0/1802)"/>
+      </package>
+      <package name="jmt.gui.jwat.workloadAnalysis.tables">
+        <coverage type="class, %" value="0%   (0/17)"/>
+        <coverage type="method, %" value="0%   (0/106)"/>
+        <coverage type="block, %" value="0%   (0/2573)"/>
+        <coverage type="line, %" value="0%   (0/466)"/>
+      </package>
+      <package name="jmt.gui.jwat.workloadAnalysis.tables.renderers">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/2)"/>
+        <coverage type="block, %" value="0%   (0/38)"/>
+        <coverage type="line, %" value="0%   (0/11)"/>
+      </package>
+      <package name="jmt.jmarkov">
+        <coverage type="class, %" value="0%   (0/44)"/>
+        <coverage type="method, %" value="0%   (0/209)"/>
+        <coverage type="block, %" value="0%   (0/5792)"/>
+        <coverage type="line, %" value="0%   (0/1140)"/>
+      </package>
+      <package name="jmt.jmarkov.Graphics">
+        <coverage type="class, %" value="0%   (0/8)"/>
+        <coverage type="method, %" value="0%   (0/155)"/>
+        <coverage type="block, %" value="0%   (0/7291)"/>
+        <coverage type="line, %" value="0%   (0/1138)"/>
+      </package>
+      <package name="jmt.jmarkov.Graphics.constants">
+        <coverage type="class, %" value="0%   (0/3)"/>
+        <coverage type="method, %" value="0%   (0/42)"/>
+        <coverage type="block, %" value="0%   (0/210)"/>
+        <coverage type="line, %" value="0%   (0/51)"/>
+      </package>
+      <package name="jmt.jmarkov.Queues">
+        <coverage type="class, %" value="0%   (0/7)"/>
+        <coverage type="method, %" value="0%   (0/75)"/>
+        <coverage type="block, %" value="0%   (0/1244)"/>
+        <coverage type="line, %" value="0%   (0/236)"/>
+      </package>
+      <package name="jmt.jmarkov.Queues.Exceptions">
+        <coverage type="class, %" value="0%   (0/4)"/>
+        <coverage type="method, %" value="0%   (0/16)"/>
+        <coverage type="block, %" value="0%   (0/64)"/>
+        <coverage type="line, %" value="0%   (0/32)"/>
+      </package>
+      <package name="jmt.jmarkov.utils">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/14)"/>
+        <coverage type="block, %" value="0%   (0/408)"/>
+        <coverage type="line, %" value="0%   (0/84)"/>
+      </package>
+      <package name="jmt.test.analytical">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/28)"/>
+        <coverage type="block, %" value="0%   (0/4096)"/>
+        <coverage type="line, %" value="0%   (0/596)"/>
+      </package>
+      <package name="jmt.test.engine">
+        <coverage type="class, %" value="0%   (0/13)"/>
+        <coverage type="method, %" value="0%   (0/39)"/>
+        <coverage type="block, %" value="0%   (0/1672)"/>
+        <coverage type="line, %" value="0%   (0/451)"/>
+      </package>
+      <package name="jmt.framework.data">
+        <coverage type="class, %" value="17%  (1/6)"/>
+        <coverage type="method, %" value="3%   (3/106)"/>
+        <coverage type="block, %" value="2%   (73/4085)"/>
+        <coverage type="line, %" value="2%   (14/760)"/>
+      </package>
+      <package name="jmt.analytical">
+        <coverage type="class, %" value="33%  (4/12)"/>
+        <coverage type="method, %" value="17%  (21/124)"/>
+        <coverage type="block, %" value="4%   (812/18724)"/>
+        <coverage type="line, %" value="6%   (147.8/2596)"/>
+      </package>
+      <package name="jmt.gui.exact">
+        <coverage type="class, %" value="8%   (1/12)"/>
+        <coverage type="method, %" value="22%  (34/153)"/>
+        <coverage type="block, %" value="19%  (1345/6987)"/>
+        <coverage type="line, %" value="20%  (268.3/1347)"/>
+      </package>
+      <package name="jmt.common.xml.resources">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="33%  (1/3)"/>
+        <coverage type="block, %" value="33%  (8/24)"/>
+        <coverage type="line, %" value="33%  (3/9)"/>
+      </package>
+      <package name="default package">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="50%  (1/2)"/>
+        <coverage type="block, %" value="63%  (27/43)"/>
+        <coverage type="line, %" value="67%  (6/9)"/>
+      </package>
+      <package name="jmt.framework.xml">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="50%  (4/8)"/>
+        <coverage type="block, %" value="65%  (106/162)"/>
+        <coverage type="line, %" value="70%  (26/37)"/>
+      </package>
+    </all>
+  </data>
+</report>

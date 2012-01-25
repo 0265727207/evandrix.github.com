@@ -1,0 +1,1809 @@
+[EMMA v2.0.5312 report, generated Tue Nov 08 17:03:51 GMT 2011]
+-------------------------------------------------------------------------------
+OVERALL COVERAGE SUMMARY:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+1%   (10/1578)!	1%   (64/9929)!	1%   (2371/369524)!	1%   (465.1/63881)!	all classes
+
+OVERALL STATS SUMMARY:
+
+total packages:	110
+total classes:	1578
+total methods:	9929
+total executable files:	690
+total executable lines:	63881
+
+COVERAGE BREAKDOWN BY PACKAGE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/4)!	0%   (0/146)!	0%   (0/38)!	jmt.commandline
+0%   (0/1)!	0%   (0/5)!	0%   (0/51)!	0%   (0/22)!	jmt.common
+0%   (0/7)!	0%   (0/22)!	0%   (0/103)!	0%   (0/47)!	jmt.common.exception
+0%   (0/2)!	0%   (0/4)!	0%   (0/10)!	0%   (0/4)!	jmt.engine.NetStrategies
+0%   (0/2)!	0%   (0/6)!	0%   (0/18)!	0%   (0/6)!	jmt.engine.NetStrategies.QueueGetStrategies
+0%   (0/4)!	0%   (0/12)!	0%   (0/162)!	0%   (0/48)!	jmt.engine.NetStrategies.QueuePutStrategies
+0%   (0/8)!	0%   (0/19)!	0%   (0/1225)!	0%   (0/289)!	jmt.engine.NetStrategies.RoutingStrategies
+0%   (0/5)!	0%   (0/20)!	0%   (0/266)!	0%   (0/73)!	jmt.engine.NetStrategies.ServiceStrategies
+0%   (0/20)!	0%   (0/120)!	0%   (0/3454)!	0%   (0/811)!	jmt.engine.NodeSections
+0%   (0/21)!	0%   (0/354)!	0%   (0/6308)!	0%   (0/1501)!	jmt.engine.QueueNet
+0%   (0/11)!	0%   (0/171)!	0%   (0/7051)!	0%   (0/1406)!	jmt.engine.dataAnalysis
+0%   (0/2)!	0%   (0/9)!	0%   (0/574)!	0%   (0/104)!	jmt.engine.dataAnalysis.measureOutputs
+0%   (0/4)!	0%   (0/13)!	0%   (0/657)!	0%   (0/132)!	jmt.engine.dataAnalysis.sorting
+0%   (0/3)!	0%   (0/118)!	0%   (0/3193)!	0%   (0/471)!	jmt.engine.graphic
+0%   (0/23)!	0%   (0/228)!	0%   (0/15343)!	0%   (0/2089)!	jmt.engine.jaba
+0%   (0/8)!	0%   (0/51)!	0%   (0/1858)!	0%   (0/345)!	jmt.engine.jaba.Hull
+0%   (0/5)!	0%   (0/87)!	0%   (0/2009)!	0%   (0/495)!	jmt.engine.jaba.convexHull3d
+0%   (0/2)!	0%   (0/2)!	0%   (0/8)!	0%   (0/4)!	jmt.engine.jaba.convexHull3d.exceptions
+0%   (0/13)!	0%   (0/127)!	0%   (0/3231)!	0%   (0/585)!	jmt.engine.jwat
+0%   (0/7)!	0%   (0/18)!	0%   (0/291)!	0%   (0/83)!	jmt.engine.jwat.filters
+0%   (0/3)!	0%   (0/19)!	0%   (0/13579)!	0%   (0/94)!	jmt.engine.jwat.fitting
+0%   (0/1)!	0%   (0/16)!	0%   (0/265)!	0%   (0/51)!	jmt.engine.jwat.fitting.utils
+0%   (0/20)!	0%   (0/88)!	0%   (0/3011)!	0%   (0/680)!	jmt.engine.jwat.input
+0%   (0/3)!	0%   (0/39)!	0%   (0/634)!	0%   (0/139)!	jmt.engine.jwat.trafficAnalysis
+0%   (0/1)!	0%   (0/15)!	0%   (0/710)!	0%   (0/124)!	jmt.engine.jwat.workloadAnalysis
+0%   (0/1)!	0%   (0/3)!	0%   (0/11)!	0%   (0/5)!	jmt.engine.jwat.workloadAnalysis.clustering
+0%   (0/7)!	0%   (0/28)!	0%   (0/2313)!	0%   (0/283)!	jmt.engine.jwat.workloadAnalysis.clustering.fuzzyKMean
+0%   (0/7)!	0%   (0/26)!	0%   (0/3294)!	0%   (0/417)!	jmt.engine.jwat.workloadAnalysis.clustering.kMean
+0%   (0/1)!	0%   (0/2)!	0%   (0/9)!	0%   (0/4)!	jmt.engine.jwat.workloadAnalysis.exceptions
+0%   (0/13)!	0%   (0/63)!	0%   (0/2090)!	0%   (0/394)!	jmt.engine.jwat.workloadAnalysis.utils
+0%   (0/4)!	0%   (0/41)!	0%   (0/924)!	0%   (0/213)!	jmt.engine.log
+0%   (0/22)!	0%   (0/188)!	0%   (0/12924)!	0%   (0/1840)!	jmt.engine.math
+0%   (0/1)!	0%   (0/2)!	0%   (0/11)!	0%   (0/5)!	jmt.engine.math.colt
+0%   (0/8)!	0%   (0/85)!	0%   (0/1870)!	0%   (0/350)!	jmt.engine.math.parser
+0%   (0/34)!	0%   (0/251)!	0%   (0/5475)!	0%   (0/1157)!	jmt.engine.random
+0%   (0/2)!	0%   (0/21)!	0%   (0/883)!	0%   (0/147)!	jmt.engine.random.engine
+0%   (0/4)!	0%   (0/59)!	0%   (0/3035)!	0%   (0/699)!	jmt.engine.simDispatcher
+0%   (0/23)!	0%   (0/209)!	0%   (0/5796)!	0%   (0/1286)!	jmt.engine.simEngine
+0%   (0/3)!	0%   (0/32)!	0%   (0/2773)!	0%   (0/545)!	jmt.engine.testSystem
+0%   (0/12)!	0%   (0/78)!	0%   (0/1339)!	0%   (0/351)!	jmt.framework.gui.components
+0%   (0/5)!	0%   (0/20)!	0%   (0/193)!	0%   (0/58)!	jmt.framework.gui.controller
+0%   (0/11)!	0%   (0/44)!	0%   (0/1937)!	0%   (0/334)!	jmt.framework.gui.graph
+0%   (0/1)!	0%   (0/9)!	0%   (0/75)!	0%   (0/25)!	jmt.framework.gui.help
+0%   (0/3)!	0%   (0/15)!	0%   (0/535)!	0%   (0/95)!	jmt.framework.gui.image
+0%   (0/2)!	0%   (0/12)!	0%   (0/1237)!	0%   (0/223)!	jmt.framework.gui.layouts
+0%   (0/4)!	0%   (0/30)!	0%   (0/243)!	0%   (0/83)!	jmt.framework.gui.listeners
+0%   (0/4)!	0%   (0/21)!	0%   (0/320)!	0%   (0/81)!	jmt.framework.gui.table.editors
+0%   (0/9)!	0%   (0/48)!	0%   (0/770)!	0%   (0/170)!	jmt.framework.gui.wizard
+0%   (0/1)!	0%   (0/2)!	0%   (0/143)!	0%   (0/20)!	jmt.framework.net
+0%   (0/2)!	0%   (0/16)!	0%   (0/348)!	0%   (0/91)!	jmt.gui.common
+0%   (0/14)!	0%   (0/94)!	0%   (0/3035)!	0%   (0/485)!	jmt.gui.common.animation
+0%   (0/6)!	0%   (0/132)!	0%   (0/4232)!	0%   (0/1031)!	jmt.gui.common.controller
+0%   (0/18)!	0%   (0/299)!	0%   (0/8751)!	0%   (0/1713)!	jmt.gui.common.definitions
+0%   (0/9)!	0%   (0/102)!	0%   (0/3767)!	0%   (0/850)!	jmt.gui.common.definitions.parametric
+0%   (0/42)!	0%   (0/180)!	0%   (0/3208)!	0%   (0/566)!	jmt.gui.common.distributions
+0%   (0/45)!	0%   (0/170)!	0%   (0/6157)!	0%   (0/1258)!	jmt.gui.common.editors
+0%   (0/71)!	0%   (0/323)!	0%   (0/10258)!	0%   (0/1894)!	jmt.gui.common.panels
+0%   (0/61)!	0%   (0/233)!	0%   (0/12773)!	0%   (0/2310)!	jmt.gui.common.panels.parametric
+0%   (0/2)!	0%   (0/9)!	0%   (0/42)!	0%   (0/12)!	jmt.gui.common.resources
+0%   (0/9)!	0%   (0/54)!	0%   (0/252)!	0%   (0/90)!	jmt.gui.common.routingStrategies
+0%   (0/3)!	0%   (0/27)!	0%   (0/520)!	0%   (0/114)!	jmt.gui.common.serviceStrategies
+0%   (0/35)!	0%   (0/108)!	0%   (0/2655)!	0%   (0/509)!	jmt.gui.common.startScreen
+0%   (0/3)!	0%   (0/15)!	0%   (0/1423)!	0%   (0/90)!	jmt.gui.common.startScreen.sampleAnimation
+0%   (0/18)!	0%   (0/138)!	0%   (0/8259)!	0%   (0/1676)!	jmt.gui.common.xml
+0%   (0/15)!	0%   (0/74)!	0%   (0/1350)!	0%   (0/300)!	jmt.gui.exact.ld
+0%   (0/1)!	0%   (0/6)!	0%   (0/103)!	0%   (0/24)!	jmt.gui.exact.ld.eval
+0%   (0/3)!	0%   (0/12)!	0%   (0/248)!	0%   (0/75)!	jmt.gui.exact.link
+0%   (0/59)!	0%   (0/440)!	0%   (0/10785)!	0%   (0/2180)!	jmt.gui.exact.panels
+0%   (0/28)!	0%   (0/174)!	0%   (0/2706)!	0%   (0/661)!	jmt.gui.exact.table
+0%   (0/12)!	0%   (0/158)!	0%   (0/4899)!	0%   (0/993)!	jmt.gui.jaba
+0%   (0/1)!	0%   (0/13)!	0%   (0/555)!	0%   (0/71)!	jmt.gui.jaba.cartesian
+0%   (0/18)!	0%   (0/164)!	0%   (0/9938)!	0%   (0/1608)!	jmt.gui.jaba.graphs
+0%   (0/4)!	0%   (0/7)!	0%   (0/343)!	0%   (0/58)!	jmt.gui.jaba.label
+0%   (0/1)!	0%   (0/5)!	0%   (0/349)!	0%   (0/80)!	jmt.gui.jaba.link
+0%   (0/38)!	0%   (0/324)!	0%   (0/10943)!	0%   (0/1898)!	jmt.gui.jaba.panels
+0%   (0/2)!	0%   (0/6)!	0%   (0/123)!	0%   (0/29)!	jmt.gui.jmodel
+0%   (0/25)!	0%   (0/136)!	0%   (0/10082)!	0%   (0/1463)!	jmt.gui.jmodel.JGraphMod
+0%   (0/15)!	0%   (0/258)!	0%   (0/10088)!	0%   (0/1942)!	jmt.gui.jmodel.controller
+0%   (0/36)!	0%   (0/76)!	0%   (0/955)!	0%   (0/278)!	jmt.gui.jmodel.controller.actions
+0%   (0/4)!	0%   (0/41)!	0%   (0/1121)!	0%   (0/207)!	jmt.gui.jmodel.definitions
+0%   (0/2)!	0%   (0/11)!	0%   (0/372)!	0%   (0/83)!	jmt.gui.jmodel.mainGui
+0%   (0/10)!	0%   (0/45)!	0%   (0/2463)!	0%   (0/388)!	jmt.gui.jmodel.panels
+0%   (0/16)!	0%   (0/76)!	0%   (0/2346)!	0%   (0/463)!	jmt.gui.jsim
+0%   (0/1)!	0%   (0/9)!	0%   (0/230)!	0%   (0/59)!	jmt.gui.jsim.definitions
+0%   (0/53)!	0%   (0/245)!	0%   (0/6660)!	0%   (0/1302)!	jmt.gui.jsim.panels
+0%   (0/52)!	0%   (0/195)!	0%   (0/4959)!	0%   (0/933)!	jmt.gui.jwat
+0%   (0/30)!	0%   (0/97)!	0%   (0/3481)!	0%   (0/617)!	jmt.gui.jwat.fitting.charts
+0%   (0/32)!	0%   (0/143)!	0%   (0/4683)!	0%   (0/759)!	jmt.gui.jwat.fitting.panels
+0%   (0/47)!	0%   (0/217)!	0%   (0/8257)!	0%   (0/1474)!	jmt.gui.jwat.trafficAnalysis.panels
+0%   (0/12)!	0%   (0/42)!	0%   (0/1013)!	0%   (0/215)!	jmt.gui.jwat.trafficAnalysis.utils
+0%   (0/113)!	0%   (0/556)!	0%   (0/21424)!	0%   (0/2711)!	jmt.gui.jwat.workloadAnalysis.chart
+0%   (0/30)!	0%   (0/138)!	0%   (0/3963)!	0%   (0/644)!	jmt.gui.jwat.workloadAnalysis.clustering.fuzzyKMean.panels
+0%   (0/19)!	0%   (0/91)!	0%   (0/2870)!	0%   (0/486)!	jmt.gui.jwat.workloadAnalysis.clustering.kMean.panels
+0%   (0/68)!	0%   (0/332)!	0%   (0/10765)!	0%   (0/1802)!	jmt.gui.jwat.workloadAnalysis.panels
+0%   (0/17)!	0%   (0/106)!	0%   (0/2573)!	0%   (0/466)!	jmt.gui.jwat.workloadAnalysis.tables
+0%   (0/1)!	0%   (0/2)!	0%   (0/38)!	0%   (0/11)!	jmt.gui.jwat.workloadAnalysis.tables.renderers
+0%   (0/44)!	0%   (0/209)!	0%   (0/5792)!	0%   (0/1140)!	jmt.jmarkov
+0%   (0/8)!	0%   (0/155)!	0%   (0/7291)!	0%   (0/1138)!	jmt.jmarkov.Graphics
+0%   (0/3)!	0%   (0/42)!	0%   (0/210)!	0%   (0/51)!	jmt.jmarkov.Graphics.constants
+0%   (0/7)!	0%   (0/75)!	0%   (0/1244)!	0%   (0/236)!	jmt.jmarkov.Queues
+0%   (0/4)!	0%   (0/16)!	0%   (0/64)!	0%   (0/32)!	jmt.jmarkov.Queues.Exceptions
+0%   (0/1)!	0%   (0/14)!	0%   (0/408)!	0%   (0/84)!	jmt.jmarkov.utils
+0%   (0/1)!	0%   (0/28)!	0%   (0/4096)!	0%   (0/596)!	jmt.test.analytical
+0%   (0/13)!	0%   (0/39)!	0%   (0/1672)!	0%   (0/451)!	jmt.test.engine
+17%  (1/6)!	3%   (3/106)!	2%   (73/4085)!	2%   (14/760)!	jmt.framework.data
+33%  (4/12)!	17%  (21/124)!	4%   (812/18724)!	6%   (147.8/2596)!	jmt.analytical
+8%   (1/12)!	22%  (34/153)!	19%  (1345/6987)!	20%  (268.3/1347)!	jmt.gui.exact
+100% (1/1)	33%  (1/3)!	33%  (8/24)!	33%  (3/9)!	jmt.common.xml.resources
+100% (1/1)	50%  (1/2)!	63%  (27/43)!	67%  (6/9)!	default package
+100% (2/2)	50%  (4/8)!	65%  (106/162)!	70%  (26/37)!	jmt.framework.xml
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.commandline]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/4)!	0%   (0/146)!	0%   (0/38)!	jmt.commandline
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/61)!	0%   (0/15)!	JMVASolver.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/85)!	0%   (0/23)!	JSIMSolver.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.common]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/5)!	0%   (0/51)!	0%   (0/22)!	jmt.common
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/5)!	0%   (0/51)!	0%   (0/22)!	GlobalSettings.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.common.exception]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/7)!	0%   (0/22)!	0%   (0/103)!	0%   (0/47)!	jmt.common.exception
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/3)!	0%   (0/15)!	0%   (0/6)!	ExpressionParseException.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/7)!	0%   (0/4)!	IncorrectDistributionParameterException.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/7)!	0%   (0/4)!	IncorrectMeasureParameterException.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/16)!	0%   (0/8)!	InputDataException.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/9)!	0%   (0/4)!	LoadException.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/33)!	0%   (0/13)!	NetException.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/16)!	0%   (0/8)!	SolverException.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.NetStrategies]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/4)!	0%   (0/10)!	0%   (0/4)!	jmt.engine.NetStrategies
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/5)!	0%   (0/2)!	RoutingStrategy.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/5)!	0%   (0/2)!	ServiceStrategy.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.NetStrategies.QueueGetStrategies]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/6)!	0%   (0/18)!	0%   (0/6)!	jmt.engine.NetStrategies.QueueGetStrategies
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/3)!	0%   (0/9)!	0%   (0/3)!	FCFSstrategy.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/9)!	0%   (0/3)!	LCFSstrategy.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.NetStrategies.QueuePutStrategies]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/4)!	0%   (0/12)!	0%   (0/162)!	0%   (0/48)!	jmt.engine.NetStrategies.QueuePutStrategies
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/3)!	0%   (0/13)!	0%   (0/4)!	HeadStrategy.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/68)!	0%   (0/20)!	HeadStrategyPriority.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/13)!	0%   (0/4)!	TailStrategy.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/68)!	0%   (0/20)!	TailStrategyPriority.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.NetStrategies.RoutingStrategies]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/8)!	0%   (0/19)!	0%   (0/1225)!	0%   (0/289)!	jmt.engine.NetStrategies.RoutingStrategies
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/174)!	0%   (0/34)!	DelayedShortestQLength.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/214)!	0%   (0/50)!	EmpiricalStrategy.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/176)!	0%   (0/44)!	FastestServiceRoutingStrategy.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/162)!	0%   (0/40)!	LeastUtilizationRoutingStrategy.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/89)!	0%   (0/20)!	RandomStrategy.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/68)!	0%   (0/18)!	RoundRobinStrategy.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/177)!	0%   (0/40)!	ShortestQueueLengthRoutingStrategy.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/165)!	0%   (0/43)!	ShortestResponseTimeRoutingStrategy.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.NetStrategies.ServiceStrategies]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/5)!	0%   (0/20)!	0%   (0/266)!	0%   (0/73)!	jmt.engine.NetStrategies.ServiceStrategies
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/8)!	0%   (0/77)!	0%   (0/22)!	LDParameter.java
+0%   (0/2)!	0%   (0/5)!	0%   (0/151)!	0%   (0/34)!	LoadDependentStrategy.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/33)!	0%   (0/14)!	ServiceTimeStrategy.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/5)!	0%   (0/3)!	ZeroServiceTimeStrategy.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.NodeSections]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/20)!	0%   (0/120)!	0%   (0/3454)!	0%   (0/811)!	jmt.engine.NodeSections
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/10)!	0%   (0/358)!	0%   (0/103)!	BlockingQueue.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/54)!	0%   (0/15)!	BlockingRouter.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/88)!	0%   (0/24)!	Delay.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/155)!	0%   (0/37)!	Fork.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/29)!	0%   (0/8)!	InputSection.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/57)!	0%   (0/16)!	JobSink.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/138)!	0%   (0/31)!	Join.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/327)!	0%   (0/57)!	LogTunnel.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/29)!	0%   (0/8)!	OutputSection.java
+0%   (0/3)!	0%   (0/24)!	0%   (0/540)!	0%   (0/114)!	PSServer.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/10)!	0%   (0/4)!	PipeSection.java
+0%   (0/1)!	0%   (0/20)!	0%   (0/787)!	0%   (0/168)!	Queue.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/178)!	0%   (0/44)!	RandomSource.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/142)!	0%   (0/42)!	Router.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/251)!	0%   (0/64)!	Server.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/42)!	0%   (0/10)!	ServiceSection.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/41)!	0%   (0/12)!	ServiceTunnel.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/228)!	0%   (0/54)!	Terminal.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.QueueNet]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/21)!	0%   (0/354)!	0%   (0/6308)!	0%   (0/1501)!	jmt.engine.QueueNet
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/22)!	0%   (0/555)!	0%   (0/125)!	BlockingRegion.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/29)!	0%   (0/10)!	ForkJob.java
+0%   (0/1)!	0%   (0/18)!	0%   (0/642)!	0%   (0/131)!	GlobalJobInfoList.java
+0%   (0/1)!	0%   (0/13)!	0%   (0/70)!	0%   (0/28)!	Job.java
+0%   (0/1)!	0%   (0/11)!	0%   (0/64)!	0%   (0/26)!	JobClass.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/59)!	0%   (0/17)!	JobClassList.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/19)!	0%   (0/8)!	JobInfo.java
+0%   (0/1)!	0%   (0/55)!	0%   (0/1331)!	0%   (0/312)!	LinkedJobInfoList.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/96)!	0%   (0/32)!	NetController.java
+0%   (0/1)!	0%   (0/1)!	0%   (0/3)!	0%   (0/1)!	NetEvent.java
+0%   (0/1)!	0%   (0/18)!	0%   (0/105)!	0%   (0/36)!	NetMessage.java
+0%   (0/1)!	0%   (0/37)!	0%   (0/1118)!	0%   (0/246)!	NetNode.java
+0%   (0/1)!	0%   (0/23)!	0%   (0/366)!	0%   (0/119)!	NetSystem.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/69)!	0%   (0/19)!	NetworkList.java
+0%   (0/1)!	0%   (0/11)!	0%   (0/78)!	0%   (0/20)!	NodeList.java
+0%   (0/1)!	0%   (0/37)!	0%   (0/669)!	0%   (0/132)!	NodeSection.java
+0%   (0/1)!	0%   (0/50)!	0%   (0/656)!	0%   (0/130)!	PSJobInfoList.java
+0%   (0/1)!	0%   (0/20)!	0%   (0/323)!	0%   (0/94)!	QueueNetwork.java
+0%   (0/1)!	0%   (0/1)!	0%   (0/3)!	0%   (0/1)!	SimConstants.java
+0%   (0/1)!	0%   (0/1)!	0%   (0/37)!	0%   (0/8)!	SimulationOutput.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/16)!	0%   (0/6)!	WaitingRequest.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.dataAnalysis]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/11)!	0%   (0/171)!	0%   (0/7051)!	0%   (0/1406)!	jmt.engine.dataAnalysis
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/28)!	0%   (0/2230)!	0%   (0/389)!	DynamicDataAnalyzerImpl.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/83)!	0%   (0/18)!	InverseMeasure.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/119)!	0%   (0/39)!	Log.java
+0%   (0/1)!	0%   (0/39)!	0%   (0/925)!	0%   (0/221)!	Measure.java
+0%   (0/1)!	0%   (0/1)!	0%   (0/9)!	0%   (0/4)!	MeasureOutput.java
+0%   (0/1)!	0%   (0/26)!	0%   (0/1651)!	0%   (0/291)!	NewDynamicDataAnalyzer.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/458)!	0%   (0/75)!	PolyFit.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/301)!	0%   (0/58)!	QuantileDataAnalyzer.java
+0%   (0/1)!	0%   (0/27)!	0%   (0/118)!	0%   (0/49)!	SimParameters.java
+0%   (0/1)!	0%   (0/18)!	0%   (0/184)!	0%   (0/49)!	TempMeasure.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/973)!	0%   (0/213)!	XMLSimulationOutput.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.dataAnalysis.measureOutputs]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/9)!	0%   (0/574)!	0%   (0/104)!	jmt.engine.dataAnalysis.measureOutputs
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/4)!	0%   (0/220)!	0%   (0/23)!	CSVMeasureOutput.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/354)!	0%   (0/81)!	XMLMeasureOutput.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.dataAnalysis.sorting]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/4)!	0%   (0/13)!	0%   (0/657)!	0%   (0/132)!	jmt.engine.dataAnalysis.sorting
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/4)!	0%   (0/334)!	0%   (0/55)!	EQSort.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/89)!	0%   (0/20)!	FastQSort.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/100)!	0%   (0/23)!	HeapSort.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/134)!	0%   (0/34)!	MergeSort.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.graphic]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/118)!	0%   (0/3193)!	0%   (0/471)!	jmt.engine.graphic
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/51)!	0%   (0/1727)!	0%   (0/265)!	Matrix4.java
+0%   (0/1)!	0%   (0/24)!	0%   (0/439)!	0%   (0/84)!	ScreenProjector.java
+0%   (0/1)!	0%   (0/43)!	0%   (0/1027)!	0%   (0/122)!	Vector4.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jaba]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/23)!	0%   (0/228)!	0%   (0/15343)!	0%   (0/2089)!	jmt.engine.jaba
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/4)!	0%   (0/394)!	0%   (0/30)!	Beta2D.java
+0%   (0/1)!	0%   (0/17)!	0%   (0/4439)!	0%   (0/373)!	Beta3D.java
+0%   (0/1)!	0%   (0/13)!	0%   (0/454)!	0%   (0/66)!	BetaVertex.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/1628)!	0%   (0/295)!	Calc.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/129)!	0%   (0/34)!	DPoint.java
+0%   (0/1)!	0%   (0/19)!	0%   (0/860)!	0%   (0/144)!	EngineConvex2D.java
+0%   (0/1)!	0%   (0/11)!	0%   (0/501)!	0%   (0/77)!	Faces3D.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/250)!	0%   (0/38)!	FinalSect2D.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/89)!	0%   (0/18)!	Mapping3D.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/86)!	0%   (0/16)!	OneDominator.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/430)!	0%   (0/56)!	PerformanceEngine.java
+0%   (0/1)!	0%   (0/18)!	0%   (0/426)!	0%   (0/69)!	Sector2D.java
+0%   (0/1)!	0%   (0/36)!	0%   (0/1260)!	0%   (0/184)!	Sector3D.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/1686)!	0%   (0/304)!	SectorEngine.java
+0%   (0/1)!	0%   (0/18)!	0%   (0/674)!	0%   (0/74)!	Segment3D.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/18)!	0%   (0/7)!	Station2D.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/58)!	0%   (0/15)!	Station3D.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/344)!	0%   (0/58)!	Util2d.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/285)!	0%   (0/39)!	grahamScan.java
+0%   (0/1)!	0%   (0/12)!	0%   (0/523)!	0%   (0/58)!	newFace.java
+0%   (0/2)!	0%   (0/8)!	0%   (0/567)!	0%   (0/93)!	newGraham.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/242)!	0%   (0/41)!	newPoint.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jaba.Hull]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/8)!	0%   (0/51)!	0%   (0/1858)!	0%   (0/345)!	jmt.engine.jaba.Hull
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/8)!	0%   (0/465)!	0%   (0/115)!	ConvexHull.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/7)!	0%   (0/4)!	ConvexHullException.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/26)!	0%   (0/7)!	DSurface.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/72)!	0%   (0/10)!	Edge.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/89)!	0%   (0/19)!	Polygon.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/202)!	0%   (0/36)!	Surface.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/502)!	0%   (0/92)!	Triangle.java
+0%   (0/1)!	0%   (0/12)!	0%   (0/495)!	0%   (0/62)!	Vertex.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jaba.convexHull3d]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/5)!	0%   (0/87)!	0%   (0/2009)!	0%   (0/495)!	jmt.engine.jaba.convexHull3d
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/17)!	0%   (0/751)!	0%   (0/195)!	ConvexHull3D.java
+0%   (0/1)!	0%   (0/20)!	0%   (0/248)!	0%   (0/76)!	HullEdge.java
+0%   (0/1)!	0%   (0/28)!	0%   (0/778)!	0%   (0/176)!	HullFace.java
+0%   (0/1)!	0%   (0/18)!	0%   (0/223)!	0%   (0/44)!	HullVertex.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/9)!	0%   (0/4)!	Point3D.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jaba.convexHull3d.exceptions]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/2)!	0%   (0/8)!	0%   (0/4)!	jmt.engine.jaba.convexHull3d.exceptions
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/1)!	0%   (0/4)!	0%   (0/2)!	AllPointsCollinearException.java
+0%   (0/1)!	0%   (0/1)!	0%   (0/4)!	0%   (0/2)!	AllPointsCoplanarExceptions.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/13)!	0%   (0/127)!	0%   (0/3231)!	0%   (0/585)!	jmt.engine.jwat
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/4)!	0%   (0/46)!	0%   (0/14)!	DinamicFormat.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/396)!	0%   (0/91)!	JwatSession.java
+0%   (0/1)!	0%   (0/14)!	0%   (0/364)!	0%   (0/68)!	MatrixOsservazioni.java
+0%   (0/1)!	0%   (0/12)!	0%   (0/176)!	0%   (0/38)!	Observation.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/173)!	0%   (0/22)!	StatBivariate.java
+0%   (0/4)!	0%   (0/15)!	0%   (0/136)!	0%   (0/35)!	TimeConsumingWorker.java
+0%   (0/1)!	0%   (0/14)!	0%   (0/319)!	0%   (0/51)!	UnivariateStatistics.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/56)!	0%   (0/9)!	VariableDate.java
+0%   (0/1)!	0%   (0/48)!	0%   (0/1506)!	0%   (0/248)!	VariableNumber.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/59)!	0%   (0/9)!	VariableString.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat.filters]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/7)!	0%   (0/18)!	0%   (0/291)!	0%   (0/83)!	jmt.engine.jwat.filters
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/4)!	0%   (0/68)!	0%   (0/23)!	FilterOnData.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/32)!	0%   (0/8)!	FilterOnNumeric.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/40)!	0%   (0/9)!	FilterOnString.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/21)!	0%   (0/7)!	IntervalFilter.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/81)!	0%   (0/18)!	RandomFilter.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/21)!	0%   (0/7)!	TrimmingBetweenFilter.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/28)!	0%   (0/11)!	TrimmingFilter.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat.fitting]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/19)!	0%   (0/13579)!	0%   (0/94)!	jmt.engine.jwat.fitting
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/7)!	0%   (0/13266)!	0%   (0/41)!	ExponentialFitting.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/19)!	0%   (0/9)!	FittingSession.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/294)!	0%   (0/44)!	ParetoFitting.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat.fitting.utils]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/16)!	0%   (0/265)!	0%   (0/51)!	jmt.engine.jwat.fitting.utils
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/16)!	0%   (0/265)!	0%   (0/51)!	ModelFitting.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat.input]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/20)!	0%   (0/88)!	0%   (0/3011)!	0%   (0/680)!	jmt.engine.jwat.input
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/449)!	0%   (0/105)!	AllInputLoader.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/30)!	0%   (0/9)!	DataMapping.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/11)!	0%   (0/5)!	EventFinishAbort.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/23)!	0%   (0/9)!	EventFinishLoad.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/11)!	0%   (0/5)!	EventSessionLoaded.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/48)!	0%   (0/10)!	InputLoader.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/494)!	0%   (0/109)!	IntervalInputLoader.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/239)!	0%   (0/54)!	Loader.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/49)!	0%   (0/14)!	Mapping.java
+0%   (0/1)!	0%   (0/20)!	0%   (0/332)!	0%   (0/65)!	Parameter.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/8)!	0%   (0/2)!	PositionalMapping.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/53)!	0%   (0/16)!	ProgressMonitorShow.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/542)!	0%   (0/123)!	RndInputLoader.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/474)!	0%   (0/101)!	SessionLoader.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/65)!	0%   (0/12)!	StringMapping.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/82)!	0%   (0/14)!	VariableMapping.java
+0%   (0/4)!	0%   (0/12)!	0%   (0/101)!	0%   (0/27)!	WorkerLoader.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat.trafficAnalysis]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/39)!	0%   (0/634)!	0%   (0/139)!	jmt.engine.jwat.trafficAnalysis
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/19)!	0%   (0/403)!	0%   (0/84)!	BurstEngine.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/57)!	0%   (0/17)!	ModelTrafficAnalysis.java
+0%   (0/1)!	0%   (0/13)!	0%   (0/174)!	0%   (0/38)!	TrafficAnalysisSession.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat.workloadAnalysis]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/15)!	0%   (0/710)!	0%   (0/124)!	jmt.engine.jwat.workloadAnalysis
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/15)!	0%   (0/710)!	0%   (0/124)!	WorkloadAnalysisSession.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat.workloadAnalysis.clustering]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/3)!	0%   (0/11)!	0%   (0/5)!	jmt.engine.jwat.workloadAnalysis.clustering
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/3)!	0%   (0/11)!	0%   (0/5)!	EventClusteringDone.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat.workloadAnalysis.clustering.fuzzyKMean]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/7)!	0%   (0/28)!	0%   (0/2313)!	0%   (0/283)!	jmt.engine.jwat.workloadAnalysis.clustering.fuzzyKMean
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/2)!	0%   (0/32)!	0%   (0/7)!	ClusterInfoFuzzy.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/949)!	0%   (0/88)!	ClusteringInfosFuzzy.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/66)!	0%   (0/18)!	FuzzyKMean.java
+0%   (0/2)!	0%   (0/5)!	0%   (0/925)!	0%   (0/107)!	FuzzyKMeanClusteringEngine.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/341)!	0%   (0/63)!	MainFuzzyKMean.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat.workloadAnalysis.clustering.kMean]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/7)!	0%   (0/26)!	0%   (0/3294)!	0%   (0/417)!	jmt.engine.jwat.workloadAnalysis.clustering.kMean
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/2)!	0%   (0/32)!	0%   (0/7)!	ClusterInfoKMean.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/1054)!	0%   (0/115)!	ClusteringInfosKMean.java
+0%   (0/1)!	0%   (0/11)!	0%   (0/183)!	0%   (0/34)!	KMean.java
+0%   (0/2)!	0%   (0/6)!	0%   (0/1673)!	0%   (0/200)!	KMeanClusteringEngine.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/352)!	0%   (0/61)!	MainKMean.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat.workloadAnalysis.exceptions]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/9)!	0%   (0/4)!	jmt.engine.jwat.workloadAnalysis.exceptions
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/9)!	0%   (0/4)!	TrasformException.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.jwat.workloadAnalysis.utils]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/13)!	0%   (0/63)!	0%   (0/2090)!	0%   (0/394)!	jmt.engine.jwat.workloadAnalysis.utils
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/11)!	0%   (0/269)!	0%   (0/60)!	FormatFileReader.java
+0%   (0/1)!	0%   (0/1)!	0%   (0/141)!	0%   (0/19)!	FormatFileWriter.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/40)!	0%   (0/12)!	JWatWorkloadManager.java
+0%   (0/3)!	0%   (0/13)!	0%   (0/566)!	0%   (0/102)!	JavaWatColor.java
+0%   (0/1)!	0%   (0/13)!	0%   (0/134)!	0%   (0/40)!	ModelWorkloadAnalysis.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/54)!	0%   (0/9)!	PrintKmeanClustInfo.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/18)!	0%   (0/8)!	SingleDirFileSystem.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/131)!	0%   (0/28)!	SteppedComboBox.java
+0%   (0/2)!	0%   (0/4)!	0%   (0/103)!	0%   (0/19)!	SteppedComboBoxUI.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/634)!	0%   (0/97)!	WorkloadResultLoader.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.log]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/4)!	0%   (0/41)!	0%   (0/924)!	0%   (0/213)!	jmt.engine.log
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/10)!	0%   (0/232)!	0%   (0/59)!	CSVLogger.java
+0%   (0/1)!	0%   (0/18)!	0%   (0/170)!	0%   (0/57)!	JSimLogger.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/103)!	0%   (0/24)!	JSimLoggerFactory.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/419)!	0%   (0/73)!	LoggerParameters.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.math]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/22)!	0%   (0/188)!	0%   (0/12924)!	0%   (0/1840)!	jmt.engine.math
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/17)!	0%   (0/1408)!	0%   (0/109)!	Arithmetic.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/421)!	0%   (0/64)!	BatchCircularList.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/199)!	0%   (0/45)!	BetaFun.java
+0%   (0/1)!	0%   (0/1)!	0%   (0/3)!	0%   (0/2)!	Constants.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/252)!	0%   (0/39)!	DirectCircularList.java
+0%   (0/1)!	0%   (0/13)!	0%   (0/925)!	0%   (0/204)!	DoubleArrayList.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/145)!	0%   (0/30)!	DoubleArrayListOld.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/66)!	0%   (0/13)!	Erlang.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/345)!	0%   (0/60)!	FDistribution.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/490)!	0%   (0/93)!	FFT.java
+0%   (0/1)!	0%   (0/11)!	0%   (0/1733)!	0%   (0/365)!	Gamma.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/117)!	0%   (0/22)!	GammaFun.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/946)!	0%   (0/103)!	Normal.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/47)!	0%   (0/10)!	Polynomial.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/55)!	0%   (0/11)!	Printer.java
+0%   (0/1)!	0%   (0/21)!	0%   (0/1118)!	0%   (0/168)!	Probability.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/171)!	0%   (0/39)!	SampleMean.java
+0%   (0/1)!	0%   (0/13)!	0%   (0/344)!	0%   (0/71)!	SampleMeanVar.java
+0%   (0/1)!	0%   (0/20)!	0%   (0/2028)!	0%   (0/234)!	Sfun.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/114)!	0%   (0/20)!	Spectrum.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/1773)!	0%   (0/79)!	TStudent.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/224)!	0%   (0/59)!	WeightedMeanVar.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.math.colt]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/11)!	0%   (0/5)!	jmt.engine.math.colt
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/11)!	0%   (0/5)!	PersistentObject.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.math.parser]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/8)!	0%   (0/85)!	0%   (0/1870)!	0%   (0/350)!	jmt.engine.math.parser
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/13)!	0%   (0/131)!	0%   (0/31)!	ConstantNode.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/16)!	0%   (0/8)!	EvaluationException.java
+0%   (0/1)!	0%   (0/12)!	0%   (0/402)!	0%   (0/57)!	FunctionNode.java
+0%   (0/1)!	0%   (0/12)!	0%   (0/297)!	0%   (0/52)!	OperatorNode.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/23)!	0%   (0/10)!	ParseError.java
+0%   (0/2)!	0%   (0/29)!	0%   (0/923)!	0%   (0/170)!	Parser.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/78)!	0%   (0/22)!	VariableNode.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.random]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/34)!	0%   (0/251)!	0%   (0/5475)!	0%   (0/1157)!	jmt.engine.random
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/1)!	0%   (0/6)!	0%   (0/3)!	AbstractDistribution.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/10)!	0%   (0/3)!	AbstractParameter.java
+0%   (0/1)!	0%   (0/13)!	0%   (0/307)!	0%   (0/74)!	Burst.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/47)!	0%   (0/18)!	BurstPar.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/79)!	0%   (0/23)!	ConstantDistr.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/61)!	0%   (0/19)!	ConstantDistrPar.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/15)!	0%   (0/6)!	DistributionContainer.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/212)!	0%   (0/53)!	Empirical.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/48)!	0%   (0/20)!	EmpiricalEntry.java
+0%   (0/1)!	0%   (0/13)!	0%   (0/222)!	0%   (0/49)!	EmpiricalPar.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/173)!	0%   (0/34)!	Erlang.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/98)!	0%   (0/33)!	ErlangPar.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/105)!	0%   (0/24)!	Exponential.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/58)!	0%   (0/19)!	ExponentialPar.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/756)!	0%   (0/104)!	GammaDistr.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/94)!	0%   (0/25)!	GammaDistrPar.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/66)!	0%   (0/16)!	HyperExp.java
+0%   (0/1)!	0%   (0/16)!	0%   (0/297)!	0%   (0/61)!	HyperExpPar.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/73)!	0%   (0/20)!	MAP.java
+0%   (0/1)!	0%   (0/12)!	0%   (0/81)!	0%   (0/20)!	MAPPar.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/136)!	0%   (0/26)!	MMPP2Distr.java
+0%   (0/1)!	0%   (0/11)!	0%   (0/152)!	0%   (0/31)!	MMPP2Par.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/203)!	0%   (0/38)!	Normal.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/57)!	0%   (0/19)!	NormalPar.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/156)!	0%   (0/31)!	Pareto.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/107)!	0%   (0/28)!	ParetoPar.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/876)!	0%   (0/127)!	Poisson.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/45)!	0%   (0/15)!	PoissonPar.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/38)!	0%   (0/10)!	Replayer.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/215)!	0%   (0/65)!	ReplayerPar.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/169)!	0%   (0/29)!	StudentT.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/56)!	0%   (0/13)!	StudentTPar.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/329)!	0%   (0/71)!	Uniform.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/128)!	0%   (0/30)!	UniformPar.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.random.engine]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/21)!	0%   (0/883)!	0%   (0/147)!	jmt.engine.random.engine
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/17)!	0%   (0/866)!	0%   (0/140)!	MersenneTwister.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/17)!	0%   (0/7)!	RandomEngine.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.simDispatcher]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/4)!	0%   (0/59)!	0%   (0/3035)!	0%   (0/699)!	jmt.engine.simDispatcher
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/27)!	0%   (0/2070)!	0%   (0/463)!	Dispatcher_jMVAschema.java
+0%   (0/1)!	0%   (0/24)!	0%   (0/652)!	0%   (0/159)!	Dispatcher_jSIMschema.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/313)!	0%   (0/77)!	ModelTransformer.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.simEngine]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/23)!	0%   (0/209)!	0%   (0/5796)!	0%   (0/1286)!	jmt.engine.simEngine
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/28)!	0%   (0/914)!	0%   (0/161)!	CircularEventQueue.java
+0%   (0/4)!	0%   (0/22)!	0%   (0/338)!	0%   (0/77)!	HybridEventQueue.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/63)!	0%   (0/18)!	ListEventQueue.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/20)!	0%   (0/8)!	RemoveToken.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/5)!	0%   (0/3)!	SimAnyP.java
+0%   (0/1)!	0%   (0/27)!	0%   (0/210)!	0%   (0/64)!	SimEntity.java
+0%   (0/1)!	0%   (0/16)!	0%   (0/173)!	0%   (0/45)!	SimEvent.java
+0%   (0/3)!	0%   (0/18)!	0%   (0/2057)!	0%   (0/429)!	SimLoader.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/5)!	0%   (0/3)!	SimNoneP.java
+0%   (0/1)!	0%   (0/1)!	0%   (0/3)!	0%   (0/1)!	SimPredicate.java
+0%   (0/1)!	0%   (0/26)!	0%   (0/557)!	0%   (0/154)!	SimSystem.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/83)!	0%   (0/20)!	SimTypeP.java
+0%   (0/4)!	0%   (0/52)!	0%   (0/1368)!	0%   (0/303)!	Simulation.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.engine.testSystem]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/32)!	0%   (0/2773)!	0%   (0/545)!	jmt.engine.testSystem
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/7)!	0%   (0/249)!	0%   (0/58)!	BatchTest.java
+0%   (0/1)!	0%   (0/15)!	0%   (0/1424)!	0%   (0/274)!	RandomMVAModelGenerator.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/1100)!	0%   (0/213)!	ResultsCheck.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.gui.components]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/12)!	0%   (0/78)!	0%   (0/1339)!	0%   (0/351)!	jmt.framework.gui.components
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/3)!	0%   (0/91)!	0%   (0/24)!	CustomSeparator.java
+0%   (0/2)!	0%   (0/9)!	0%   (0/120)!	0%   (0/37)!	HtmlPanel.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/57)!	0%   (0/20)!	JMTButtonGroup.java
+0%   (0/2)!	0%   (0/14)!	0%   (0/173)!	0%   (0/43)!	JMTDialog.java
+0%   (0/2)!	0%   (0/17)!	0%   (0/199)!	0%   (0/56)!	JMTFrame.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/135)!	0%   (0/33)!	JMTMenuBar.java
+0%   (0/2)!	0%   (0/22)!	0%   (0/530)!	0%   (0/128)!	JMTToolBar.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/34)!	0%   (0/10)!	QuickHTMLViewer.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.gui.controller]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/5)!	0%   (0/20)!	0%   (0/193)!	0%   (0/58)!	jmt.framework.gui.controller
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/4)!	0%   (0/60)!	0%   (0/16)!	Manager.java
+0%   (0/4)!	0%   (0/16)!	0%   (0/133)!	0%   (0/42)!	SwingWorker.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.gui.graph]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/11)!	0%   (0/44)!	0%   (0/1937)!	0%   (0/334)!	jmt.framework.gui.graph
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/7)!	0%   (0/741)!	0%   (0/95)!	FastGraph.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/380)!	0%   (0/76)!	PAPlot.java
+0%   (0/9)!	0%   (0/27)!	0%   (0/816)!	0%   (0/163)!	WhatIfPlot.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.gui.help]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/9)!	0%   (0/75)!	0%   (0/25)!	jmt.framework.gui.help
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/9)!	0%   (0/75)!	0%   (0/25)!	HoverHelp.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.gui.image]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/15)!	0%   (0/535)!	0%   (0/95)!	jmt.framework.gui.image
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/9)!	0%   (0/363)!	0%   (0/56)!	ImageLoader.java
+0%   (0/2)!	0%   (0/6)!	0%   (0/172)!	0%   (0/39)!	ImagePanel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.gui.layouts]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/12)!	0%   (0/1237)!	0%   (0/223)!	jmt.framework.gui.layouts
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/7)!	0%   (0/895)!	0%   (0/150)!	MultiBorderLayout.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/342)!	0%   (0/73)!	SpringUtilities.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.gui.listeners]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/4)!	0%   (0/30)!	0%   (0/243)!	0%   (0/83)!	jmt.framework.gui.listeners
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/15)!	0%   (0/108)!	0%   (0/35)!	AbstractJMTAction.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/20)!	0%   (0/10)!	KeyFocusAdapter.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/53)!	0%   (0/21)!	MenuAction.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/62)!	0%   (0/17)!	SelectedActionButtonChangeListener.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.gui.table.editors]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/4)!	0%   (0/21)!	0%   (0/320)!	0%   (0/81)!	jmt.framework.gui.table.editors
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/5)!	0%   (0/20)!	0%   (0/9)!	ButtonCellEditor.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/154)!	0%   (0/35)!	ColorCellEditor.java
+0%   (0/2)!	0%   (0/10)!	0%   (0/146)!	0%   (0/37)!	ComboBoxCellEditor.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.gui.wizard]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/9)!	0%   (0/48)!	0%   (0/770)!	0%   (0/170)!	jmt.framework.gui.wizard
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/8)!	0%   (0/195)!	0%   (0/24)!	TestWizardPanel.java
+0%   (0/7)!	0%   (0/29)!	0%   (0/554)!	0%   (0/134)!	Wizard.java
+0%   (0/1)!	0%   (0/11)!	0%   (0/21)!	0%   (0/12)!	WizardPanel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.net]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/143)!	0%   (0/20)!	jmt.framework.net
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/143)!	0%   (0/20)!	BareBonesBrowserLaunch.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/16)!	0%   (0/348)!	0%   (0/91)!	jmt.gui.common
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/40)!	0%   (0/11)!	CommonConstants.java
+0%   (0/1)!	0%   (0/14)!	0%   (0/308)!	0%   (0/80)!	Defaults.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.animation]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/14)!	0%   (0/94)!	0%   (0/3035)!	0%   (0/485)!	jmt.gui.common.animation
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/5)!	0%   (0/90)!	0%   (0/28)!	Animator.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/447)!	0%   (0/40)!	DefaultIcons.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/444)!	0%   (0/42)!	DefaultIconsToolkit.java
+0%   (0/1)!	0%   (0/16)!	0%   (0/581)!	0%   (0/101)!	EdgeAnimation.java
+0%   (0/1)!	0%   (0/1)!	0%   (0/3)!	0%   (0/1)!	IconsToolkit.java
+0%   (0/1)!	0%   (0/19)!	0%   (0/185)!	0%   (0/46)!	JobAnimation.java
+0%   (0/3)!	0%   (0/9)!	0%   (0/128)!	0%   (0/27)!	OptimizedQNAnimation.java
+0%   (0/1)!	0%   (0/15)!	0%   (0/491)!	0%   (0/103)!	QueueNetAnimation.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/39)!	0%   (0/11)!	RandomPath.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/445)!	0%   (0/41)!	RoutingBulletPre_Test.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/47)!	0%   (0/9)!	SinglePath.java
+0%   (0/1)!	0%   (0/11)!	0%   (0/135)!	0%   (0/36)!	StationAnimation.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.controller]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/6)!	0%   (0/132)!	0%   (0/4232)!	0%   (0/1031)!	jmt.gui.common.controller
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/21)!	0%   (0/651)!	0%   (0/161)!	DispatcherThread.java
+0%   (0/1)!	0%   (0/100)!	0%   (0/3071)!	0%   (0/729)!	ModelChecker.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/344)!	0%   (0/93)!	PADispatcherThread.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/166)!	0%   (0/48)!	PATimerThread.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.definitions]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/18)!	0%   (0/299)!	0%   (0/8751)!	0%   (0/1713)!	jmt.gui.common.definitions
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/9)!	0%   (0/163)!	0%   (0/4278)!	0%   (0/930)!	CommonModel.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/1477)!	0%   (0/256)!	ModelConverter.java
+0%   (0/3)!	0%   (0/49)!	0%   (0/1327)!	0%   (0/220)!	PAResultsModel.java
+0%   (0/2)!	0%   (0/39)!	0%   (0/857)!	0%   (0/163)!	ResultsModel.java
+0%   (0/3)!	0%   (0/43)!	0%   (0/812)!	0%   (0/144)!	StoredResultsModel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.definitions.parametric]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/9)!	0%   (0/102)!	0%   (0/3767)!	0%   (0/850)!	jmt.gui.common.definitions.parametric
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/17)!	0%   (0/776)!	0%   (0/174)!	ArrivalRateParametricAnalysis.java
+0%   (0/1)!	0%   (0/16)!	0%   (0/956)!	0%   (0/213)!	NumberOfCustomerParametricAnalysis.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/94)!	0%   (0/20)!	ParametricAnalysis.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/271)!	0%   (0/67)!	ParametricAnalysisChecker.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/47)!	0%   (0/16)!	ParametricAnalysisDefinition.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/60)!	0%   (0/12)!	ParametricAnalysisModelFactory.java
+0%   (0/1)!	0%   (0/16)!	0%   (0/598)!	0%   (0/128)!	PopulationMixParametricAnalysis.java
+0%   (0/1)!	0%   (0/12)!	0%   (0/128)!	0%   (0/34)!	SeedParametricAnalysis.java
+0%   (0/1)!	0%   (0/20)!	0%   (0/837)!	0%   (0/186)!	ServiceTimesParametricAnalysis.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.distributions]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/42)!	0%   (0/180)!	0%   (0/3208)!	0%   (0/566)!	jmt.gui.common.distributions
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/8)!	0%   (0/185)!	0%   (0/27)!	Burst.java
+0%   (0/2)!	0%   (0/8)!	0%   (0/102)!	0%   (0/19)!	Constant.java
+0%   (0/2)!	0%   (0/38)!	0%   (0/656)!	0%   (0/170)!	Distribution.java
+0%   (0/3)!	0%   (0/12)!	0%   (0/232)!	0%   (0/36)!	Erlang.java
+0%   (0/2)!	0%   (0/8)!	0%   (0/109)!	0%   (0/19)!	Exponential.java
+0%   (0/3)!	0%   (0/12)!	0%   (0/230)!	0%   (0/36)!	Gamma.java
+0%   (0/4)!	0%   (0/14)!	0%   (0/349)!	0%   (0/47)!	Hyperexponential.java
+0%   (0/3)!	0%   (0/8)!	0%   (0/106)!	0%   (0/14)!	MAP.java
+0%   (0/5)!	0%   (0/12)!	0%   (0/236)!	0%   (0/32)!	MMPP2.java
+0%   (0/3)!	0%   (0/12)!	0%   (0/222)!	0%   (0/36)!	Normal.java
+0%   (0/3)!	0%   (0/12)!	0%   (0/253)!	0%   (0/38)!	Pareto.java
+0%   (0/2)!	0%   (0/8)!	0%   (0/102)!	0%   (0/19)!	Poisson.java
+0%   (0/2)!	0%   (0/7)!	0%   (0/62)!	0%   (0/14)!	Replayer.java
+0%   (0/2)!	0%   (0/6)!	0%   (0/82)!	0%   (0/13)!	StudentT.java
+0%   (0/4)!	0%   (0/15)!	0%   (0/282)!	0%   (0/46)!	Uniform.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.editors]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/45)!	0%   (0/170)!	0%   (0/6157)!	0%   (0/1258)!	jmt.gui.common.editors
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/16)!	0%   (0/53)!	0%   (0/1970)!	0%   (0/399)!	DefaultsEditor.java
+0%   (0/11)!	0%   (0/37)!	0%   (0/2004)!	0%   (0/390)!	DistributionsEditor.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/36)!	0%   (0/8)!	GrayCellRenderer.java
+0%   (0/5)!	0%   (0/22)!	0%   (0/651)!	0%   (0/148)!	ImagedComboBoxCellEditorFactory.java
+0%   (0/9)!	0%   (0/35)!	0%   (0/1030)!	0%   (0/214)!	LDStrategyEditor.java
+0%   (0/3)!	0%   (0/21)!	0%   (0/466)!	0%   (0/99)!	RoutingProbabilitiesEditor.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.panels]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/71)!	0%   (0/323)!	0%   (0/10258)!	0%   (0/1894)!	jmt.gui.common.panels
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/12)!	0%   (0/492)!	0%   (0/96)!	AboutDialogFactory.java
+0%   (0/6)!	0%   (0/33)!	0%   (0/853)!	0%   (0/161)!	BlockingRegionParameterPanel.java
+0%   (0/4)!	0%   (0/11)!	0%   (0/395)!	0%   (0/76)!	ForkSectionPanel.java
+0%   (0/7)!	0%   (0/33)!	0%   (0/882)!	0%   (0/162)!	InputSectionPanel.java
+0%   (0/13)!	0%   (0/45)!	0%   (0/1674)!	0%   (0/275)!	LoggerSectionPanel.java
+0%   (0/5)!	0%   (0/29)!	0%   (0/806)!	0%   (0/145)!	MeasurePanel.java
+0%   (0/8)!	0%   (0/26)!	0%   (0/1759)!	0%   (0/316)!	ResultsWindow.java
+0%   (0/3)!	0%   (0/25)!	0%   (0/464)!	0%   (0/100)!	RoutingSectionPanel.java
+0%   (0/6)!	0%   (0/28)!	0%   (0/724)!	0%   (0/128)!	ServiceSectionPanel.java
+0%   (0/11)!	0%   (0/38)!	0%   (0/1186)!	0%   (0/225)!	SimulationPanel.java
+0%   (0/2)!	0%   (0/18)!	0%   (0/496)!	0%   (0/95)!	StationParameterPanel.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/190)!	0%   (0/47)!	WarningScrollTable.java
+0%   (0/3)!	0%   (0/17)!	0%   (0/337)!	0%   (0/68)!	WarningWindow.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.panels.parametric]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/61)!	0%   (0/233)!	0%   (0/12773)!	0%   (0/2310)!	jmt.gui.common.panels.parametric
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/6)!	0%   (0/24)!	0%   (0/1229)!	0%   (0/214)!	ArrivalRatesPanel.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/36)!	0%   (0/11)!	EmptyPanel.java
+0%   (0/10)!	0%   (0/35)!	0%   (0/1851)!	0%   (0/352)!	NumberOfCustomersPanel.java
+0%   (0/2)!	0%   (0/23)!	0%   (0/1230)!	0%   (0/241)!	PAProgressWindow.java
+0%   (0/24)!	0%   (0/75)!	0%   (0/4883)!	0%   (0/850)!	PAResultsWindow.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/87)!	0%   (0/19)!	ParameterOptionPanel.java
+0%   (0/3)!	0%   (0/15)!	0%   (0/614)!	0%   (0/125)!	ParametricAnalysisPanel.java
+0%   (0/5)!	0%   (0/17)!	0%   (0/842)!	0%   (0/153)!	PopulationMixPanel.java
+0%   (0/2)!	0%   (0/8)!	0%   (0/344)!	0%   (0/67)!	SeedPanel.java
+0%   (0/7)!	0%   (0/29)!	0%   (0/1657)!	0%   (0/278)!	ServiceTimesPanel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.resources]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/9)!	0%   (0/42)!	0%   (0/12)!	jmt.gui.common.resources
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/7)!	0%   (0/2)!	ImageLoaderImpl.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/35)!	0%   (0/10)!	JMTImageLoader.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.routingStrategies]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/9)!	0%   (0/54)!	0%   (0/252)!	0%   (0/90)!	jmt.gui.common.routingStrategies
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/6)!	0%   (0/18)!	0%   (0/8)!	DelayedSQL.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/18)!	0%   (0/8)!	FastestServiceRouting.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/18)!	0%   (0/8)!	LeastUtilizationRouting.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/33)!	0%   (0/11)!	ProbabilityRouting.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/18)!	0%   (0/8)!	RandomRouting.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/18)!	0%   (0/8)!	RoundRobinRouting.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/93)!	0%   (0/23)!	RoutingStrategy.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/18)!	0%   (0/8)!	ShortestQueueLengthRouting.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/18)!	0%   (0/8)!	ShortestResponseTimeRouting.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.serviceStrategies]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/27)!	0%   (0/520)!	0%   (0/114)!	jmt.gui.common.serviceStrategies
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/23)!	0%   (0/509)!	0%   (0/110)!	LDStrategy.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/11)!	0%   (0/4)!	ZeroStrategy.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.startScreen]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/35)!	0%   (0/108)!	0%   (0/2655)!	0%   (0/509)!	jmt.gui.common.startScreen
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/4)!	0%   (0/14)!	0%   (0/448)!	0%   (0/84)!	AlphaNumStartScreen.java
+0%   (0/10)!	0%   (0/29)!	0%   (0/731)!	0%   (0/138)!	GraphStartScreen.java
+0%   (0/5)!	0%   (0/12)!	0%   (0/100)!	0%   (0/36)!	QNAnimator.java
+0%   (0/6)!	0%   (0/21)!	0%   (0/621)!	0%   (0/113)!	StartScreen.java
+0%   (0/10)!	0%   (0/32)!	0%   (0/755)!	0%   (0/138)!	UniqueStartScreen.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.startScreen.sampleAnimation]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/15)!	0%   (0/1423)!	0%   (0/90)!	jmt.gui.common.startScreen.sampleAnimation
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/15)!	0%   (0/1423)!	0%   (0/90)!	SampleQNAnimation.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.common.xml]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/18)!	0%   (0/138)!	0%   (0/8259)!	0%   (0/1676)!	jmt.gui.common.xml
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/6)!	0%   (0/419)!	0%   (0/79)!	GuiXMLReader.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/360)!	0%   (0/96)!	GuiXMLWriter.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/42)!	0%   (0/7)!	JmtErrorHandler.java
+0%   (0/3)!	0%   (0/20)!	0%   (0/816)!	0%   (0/206)!	ModelLoader.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/278)!	0%   (0/73)!	XMLArchiver.java
+0%   (0/2)!	0%   (0/29)!	0%   (0/2579)!	0%   (0/490)!	XMLReader.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/680)!	0%   (0/135)!	XMLResultsReader.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/392)!	0%   (0/87)!	XMLResultsWriter.java
+0%   (0/7)!	0%   (0/43)!	0%   (0/2693)!	0%   (0/503)!	XMLWriter.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.exact.ld]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/15)!	0%   (0/74)!	0%   (0/1350)!	0%   (0/300)!	jmt.gui.exact.ld
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/12)!	0%   (0/57)!	0%   (0/1015)!	0%   (0/219)!	LDEditingWindow.java
+0%   (0/1)!	0%   (0/13)!	0%   (0/167)!	0%   (0/43)!	LDEditor.java
+0%   (0/2)!	0%   (0/4)!	0%   (0/168)!	0%   (0/38)!	LDHelpDialog.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.exact.ld.eval]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/6)!	0%   (0/103)!	0%   (0/24)!	jmt.gui.exact.ld.eval
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/6)!	0%   (0/103)!	0%   (0/24)!	FastEvaluator.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.exact.link]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/12)!	0%   (0/248)!	0%   (0/75)!	jmt.gui.exact.link
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/12)!	0%   (0/248)!	0%   (0/75)!	SolverClient.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.exact.panels]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/59)!	0%   (0/440)!	0%   (0/10785)!	0%   (0/2180)!	jmt.gui.exact.panels
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/8)!	0%   (0/66)!	0%   (0/1451)!	0%   (0/311)!	ClassesPanel.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/127)!	0%   (0/35)!	DescriptionPanel.java
+0%   (0/7)!	0%   (0/41)!	0%   (0/1622)!	0%   (0/290)!	GraphPanel.java
+0%   (0/2)!	0%   (0/10)!	0%   (0/426)!	0%   (0/61)!	IterationSelector.java
+0%   (0/3)!	0%   (0/11)!	0%   (0/524)!	0%   (0/108)!	ProgressWindow.java
+0%   (0/2)!	0%   (0/11)!	0%   (0/182)!	0%   (0/40)!	QueueLenPanel.java
+0%   (0/2)!	0%   (0/14)!	0%   (0/189)!	0%   (0/39)!	ResTimePanel.java
+0%   (0/4)!	0%   (0/43)!	0%   (0/748)!	0%   (0/151)!	ServiceDemandsPanel.java
+0%   (0/4)!	0%   (0/42)!	0%   (0/673)!	0%   (0/140)!	ServiceTimesPanel.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/192)!	0%   (0/43)!	SolutionPanel.java
+0%   (0/8)!	0%   (0/64)!	0%   (0/1254)!	0%   (0/268)!	StationsPanel.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/217)!	0%   (0/60)!	SynopsisPanel.java
+0%   (0/2)!	0%   (0/12)!	0%   (0/142)!	0%   (0/36)!	SysPowerPanel.java
+0%   (0/2)!	0%   (0/14)!	0%   (0/189)!	0%   (0/39)!	ThroughputPanel.java
+0%   (0/2)!	0%   (0/14)!	0%   (0/191)!	0%   (0/40)!	UtilizationPanel.java
+0%   (0/3)!	0%   (0/27)!	0%   (0/383)!	0%   (0/92)!	VisitsPanel.java
+0%   (0/7)!	0%   (0/49)!	0%   (0/2275)!	0%   (0/427)!	WhatIfPanel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.exact.table]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/28)!	0%   (0/174)!	0%   (0/2706)!	0%   (0/661)!	jmt.gui.exact.table
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/22)!	0%   (0/212)!	0%   (0/51)!	ClickableTableHeader.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/62)!	0%   (0/16)!	ComboBoxCell.java
+0%   (0/1)!	0%   (0/1)!	0%   (0/4)!	0%   (0/2)!	DeletableRowExactTable.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/41)!	0%   (0/11)!	DisabledCellRenderer.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/19)!	0%   (0/5)!	ExactCellEditor.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/78)!	0%   (0/20)!	ExactCellRenderer.java
+0%   (0/11)!	0%   (0/75)!	0%   (0/1571)!	0%   (0/371)!	ExactTable.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/29)!	0%   (0/10)!	ExactTableModel.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/70)!	0%   (0/11)!	ListOp.java
+0%   (0/2)!	0%   (0/7)!	0%   (0/145)!	0%   (0/35)!	ResultsTable.java
+0%   (0/4)!	0%   (0/35)!	0%   (0/411)!	0%   (0/108)!	RowHeader.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/64)!	0%   (0/21)!	TableSelectionListener.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jaba]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/12)!	0%   (0/158)!	0%   (0/4899)!	0%   (0/993)!	jmt.gui.jaba
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/77)!	0%   (0/3295)!	0%   (0/638)!	JabaModel.java
+0%   (0/1)!	0%   (0/32)!	0%   (0/124)!	0%   (0/51)!	JabaResults.java
+0%   (0/10)!	0%   (0/49)!	0%   (0/1480)!	0%   (0/304)!	JabaWizard.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jaba.cartesian]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/13)!	0%   (0/555)!	0%   (0/71)!	jmt.gui.jaba.cartesian
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/13)!	0%   (0/555)!	0%   (0/71)!	CartesianPositivePlane.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jaba.graphs]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/18)!	0%   (0/164)!	0%   (0/9938)!	0%   (0/1608)!	jmt.gui.jaba.graphs
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/32)!	0%   (0/2615)!	0%   (0/377)!	Convex2DGraph.java
+0%   (0/4)!	0%   (0/65)!	0%   (0/3709)!	0%   (0/649)!	Convex3DGraph.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/174)!	0%   (0/46)!	JabaCanvas.java
+0%   (0/6)!	0%   (0/19)!	0%   (0/370)!	0%   (0/70)!	JabaGraph.java
+0%   (0/1)!	0%   (0/13)!	0%   (0/1055)!	0%   (0/162)!	PerformanceIndices2DGraph.java
+0%   (0/1)!	0%   (0/11)!	0%   (0/587)!	0%   (0/108)!	Sectors2DGraph.java
+0%   (0/3)!	0%   (0/19)!	0%   (0/1428)!	0%   (0/196)!	Sectors3DGraph.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jaba.label]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/4)!	0%   (0/7)!	0%   (0/343)!	0%   (0/58)!	jmt.gui.jaba.label
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/1)!	0%   (0/9)!	0%   (0/4)!	LabelPlacer.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/146)!	0%   (0/21)!	Sectors2DPlacer.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/105)!	0%   (0/19)!	XAxisPlacer.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/83)!	0%   (0/14)!	YAxisPlacer.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jaba.link]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/5)!	0%   (0/349)!	0%   (0/80)!	jmt.gui.jaba.link
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/5)!	0%   (0/349)!	0%   (0/80)!	SolverDispatcher.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jaba.panels]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/38)!	0%   (0/324)!	0%   (0/10943)!	0%   (0/1898)!	jmt.gui.jaba.panels
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/6)!	0%   (0/205)!	0%   (0/47)!	AllInOnePanel.java
+0%   (0/8)!	0%   (0/65)!	0%   (0/1413)!	0%   (0/304)!	ClassesPanel.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/578)!	0%   (0/121)!	ConvexHullPanel.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/126)!	0%   (0/35)!	DescriptionPanel.java
+0%   (0/1)!	0%   (0/22)!	0%   (0/2781)!	0%   (0/311)!	PainterConvex2D.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/202)!	0%   (0/51)!	PerformanceIndicesPanel.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/893)!	0%   (0/106)!	Sectors2DPanel.java
+0%   (0/3)!	0%   (0/14)!	0%   (0/1400)!	0%   (0/186)!	Sectors3DPanel.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/162)!	0%   (0/43)!	SectorsGraphicPanel.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/285)!	0%   (0/65)!	SectorsTextualPanel.java
+0%   (0/4)!	0%   (0/41)!	0%   (0/647)!	0%   (0/135)!	ServiceDemandsPanel.java
+0%   (0/4)!	0%   (0/40)!	0%   (0/581)!	0%   (0/126)!	ServiceTimesPanel.java
+0%   (0/8)!	0%   (0/64)!	0%   (0/1274)!	0%   (0/275)!	StationsPanel.java
+0%   (0/3)!	0%   (0/29)!	0%   (0/396)!	0%   (0/93)!	VisitsPanel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jmodel]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/6)!	0%   (0/123)!	0%   (0/29)!	jmt.gui.jmodel
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/6)!	0%   (0/123)!	0%   (0/29)!	DialogFactory.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jmodel.JGraphMod]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/25)!	0%   (0/136)!	0%   (0/10082)!	0%   (0/1463)!	jmt.gui.jmodel.JGraphMod
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/5)!	0%   (0/132)!	0%   (0/26)!	BlockingRegion.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/18)!	0%   (0/6)!	CellComponent.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/248)!	0%   (0/62)!	CellFactory.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/36)!	0%   (0/9)!	DelayCell.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/38)!	0%   (0/10)!	ForkCell.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/1030)!	0%   (0/175)!	GraphicalQueueState.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/17)!	0%   (0/5)!	InputPort.java
+0%   (0/1)!	0%   (0/16)!	0%   (0/360)!	0%   (0/72)!	JmtCell.java
+0%   (0/1)!	0%   (0/1)!	0%   (0/6)!	0%   (0/3)!	JmtDefaultCellViewFactory.java
+0%   (0/1)!	0%   (0/21)!	0%   (0/1571)!	0%   (0/270)!	JmtEdge.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/2573)!	0%   (0/201)!	JmtEdgeRenderer.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/45)!	0%   (0/14)!	JmtEdgeView.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/8)!	0%   (0/2)!	JmtGraphConstants.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/51)!	0%   (0/12)!	JmtGraphLayoutCache.java
+0%   (0/1)!	0%   (0/15)!	0%   (0/243)!	0%   (0/63)!	JmtJGraph.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/2399)!	0%   (0/338)!	JmtOverlapping.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/1044)!	0%   (0/125)!	JmtRouting.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/38)!	0%   (0/10)!	JoinCell.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/36)!	0%   (0/9)!	LoggerCell.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/17)!	0%   (0/5)!	OutputPort.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/36)!	0%   (0/9)!	RoutingStationCell.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/36)!	0%   (0/9)!	ServerCell.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/31)!	0%   (0/9)!	SinkCell.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/31)!	0%   (0/9)!	SourceCell.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/38)!	0%   (0/10)!	TerminalCell.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jmodel.controller]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/15)!	0%   (0/258)!	0%   (0/10088)!	0%   (0/1942)!	jmt.gui.jmodel.controller
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/9)!	0%   (0/245)!	0%   (0/55)!	ConnectState.java
+0%   (0/1)!	0%   (0/29)!	0%   (0/226)!	0%   (0/72)!	GraphMouseListner.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/45)!	0%   (0/11)!	InsertState.java
+0%   (0/2)!	0%   (0/7)!	0%   (0/450)!	0%   (0/80)!	JmtClipboard.java
+0%   (0/2)!	0%   (0/11)!	0%   (0/234)!	0%   (0/62)!	JmtGraphUI.java
+0%   (0/3)!	0%   (0/166)!	0%   (0/7361)!	0%   (0/1359)!	Mediator.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/71)!	0%   (0/24)!	ModelSnapshot.java
+0%   (0/1)!	0%   (0/6)!	0%   (0/748)!	0%   (0/130)!	SelectState.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/674)!	0%   (0/129)!	SimulationStateChecker.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/15)!	0%   (0/11)!	UIStateDefault.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/19)!	0%   (0/9)!	UndoManagerProxy.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jmodel.controller.actions]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/36)!	0%   (0/76)!	0%   (0/955)!	0%   (0/278)!	jmt.gui.jmodel.controller.actions
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/15)!	0%   (0/6)!	About.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/18)!	0%   (0/7)!	AbstractJmodelAction.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/42)!	0%   (0/12)!	AbstractUndoRedoAction.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/34)!	0%   (0/9)!	ActionCopy.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/34)!	0%   (0/9)!	ActionCut.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/46)!	0%   (0/12)!	ActionDelete.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/34)!	0%   (0/9)!	ActionPaste.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/40)!	0%   (0/12)!	ActionRedo.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/25)!	0%   (0/7)!	ActionRotate.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/27)!	0%   (0/8)!	ActionSetRight.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/40)!	0%   (0/12)!	ActionUndo.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/24)!	0%   (0/7)!	AddBlockingRegion.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/23)!	0%   (0/7)!	CloseModel.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/21)!	0%   (0/6)!	EditDefaults.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/24)!	0%   (0/7)!	EditMeasures.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/24)!	0%   (0/7)!	EditPAParams.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/24)!	0%   (0/7)!	EditSimParams.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/24)!	0%   (0/7)!	EditUserClasses.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/20)!	0%   (0/6)!	Exit.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/27)!	0%   (0/7)!	NewModel.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/21)!	0%   (0/6)!	OpenHelp.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/27)!	0%   (0/7)!	OpenModel.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/17)!	0%   (0/6)!	PauseSimulation.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/30)!	0%   (0/8)!	SaveModel.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/24)!	0%   (0/7)!	SaveModelAs.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/23)!	0%   (0/8)!	SetConnectState.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/52)!	0%   (0/11)!	SetInsertState.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/17)!	0%   (0/5)!	SetOptions.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/23)!	0%   (0/8)!	SetSelectState.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/28)!	0%   (0/9)!	ShowResults.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/30)!	0%   (0/8)!	Simulate.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/13)!	0%   (0/5)!	SolveAnalytic.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/13)!	0%   (0/5)!	SolveApprox.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/17)!	0%   (0/6)!	StopSimulation.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/30)!	0%   (0/8)!	SwitchToExactSolver.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/24)!	0%   (0/7)!	TakeScreenShot.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jmodel.definitions]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/4)!	0%   (0/41)!	0%   (0/1121)!	0%   (0/207)!	jmt.gui.jmodel.definitions
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/30)!	0%   (0/1045)!	0%   (0/179)!	JMODELModel.java
+0%   (0/1)!	0%   (0/11)!	0%   (0/76)!	0%   (0/28)!	JMTPoint.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jmodel.mainGui]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/11)!	0%   (0/372)!	0%   (0/83)!	jmt.gui.jmodel.mainGui
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/166)!	0%   (0/37)!	ComponentBar.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/206)!	0%   (0/46)!	MainWindow.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jmodel.panels]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/10)!	0%   (0/45)!	0%   (0/2463)!	0%   (0/388)!	jmt.gui.jmodel.panels
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/5)!	0%   (0/21)!	0%   (0/1895)!	0%   (0/290)!	JModelProblemsWindow.java
+0%   (0/2)!	0%   (0/12)!	0%   (0/124)!	0%   (0/30)!	StationNamePanel.java
+0%   (0/3)!	0%   (0/12)!	0%   (0/444)!	0%   (0/68)!	jmodelClassesPanel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jsim]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/16)!	0%   (0/76)!	0%   (0/2346)!	0%   (0/463)!	jmt.gui.jsim
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/16)!	0%   (0/76)!	0%   (0/2346)!	0%   (0/463)!	JSIMMain.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jsim.definitions]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/9)!	0%   (0/230)!	0%   (0/59)!	jmt.gui.jsim.definitions
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/9)!	0%   (0/230)!	0%   (0/59)!	JSIMModel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jsim.panels]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/53)!	0%   (0/245)!	0%   (0/6660)!	0%   (0/1302)!	jmt.gui.jsim.panels
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/9)!	0%   (0/43)!	0%   (0/997)!	0%   (0/208)!	AllBlockingRegionsPanel.java
+0%   (0/4)!	0%   (0/18)!	0%   (0/338)!	0%   (0/68)!	AllStationsParametersPanel.java
+0%   (0/6)!	0%   (0/25)!	0%   (0/688)!	0%   (0/138)!	BlockingStationPanel.java
+0%   (0/11)!	0%   (0/39)!	0%   (0/1156)!	0%   (0/227)!	ClassesPanel.java
+0%   (0/5)!	0%   (0/25)!	0%   (0/385)!	0%   (0/90)!	ConnectionsPanel.java
+0%   (0/6)!	0%   (0/24)!	0%   (0/1743)!	0%   (0/276)!	JSimProblemsWindow.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/119)!	0%   (0/34)!	RSPLPanel.java
+0%   (0/3)!	0%   (0/19)!	0%   (0/288)!	0%   (0/74)!	RefSourcePanel.java
+0%   (0/8)!	0%   (0/44)!	0%   (0/946)!	0%   (0/187)!	StationsPanel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jwat]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/52)!	0%   (0/195)!	0%   (0/4959)!	0%   (0/933)!	jmt.gui.jwat
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/3)!	0%   (0/61)!	0%   (0/17)!	ColumnHeaderToolTips.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/46)!	0%   (0/14)!	DinamicFormat.java
+0%   (0/9)!	0%   (0/29)!	0%   (0/797)!	0%   (0/143)!	JWatMainPanel.java
+0%   (0/8)!	0%   (0/26)!	0%   (0/441)!	0%   (0/85)!	JWatStartScreen.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/289)!	0%   (0/65)!	JWatWizard.java
+0%   (0/3)!	0%   (0/13)!	0%   (0/566)!	0%   (0/102)!	JavaWatColor.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/35)!	0%   (0/10)!	LoadPanel.java
+0%   (0/24)!	0%   (0/95)!	0%   (0/2591)!	0%   (0/455)!	MainJwatWizard.java
+0%   (0/4)!	0%   (0/16)!	0%   (0/133)!	0%   (0/42)!	SwingWorker.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jwat.fitting.charts]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/30)!	0%   (0/97)!	0%   (0/3481)!	0%   (0/617)!	jmt.gui.jwat.fitting.charts
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/7)!	0%   (0/21)!	0%   (0/886)!	0%   (0/158)!	EnlargeCDF.java
+0%   (0/7)!	0%   (0/21)!	0%   (0/795)!	0%   (0/144)!	EnlargePDF.java
+0%   (0/7)!	0%   (0/21)!	0%   (0/771)!	0%   (0/144)!	EnlargeQQPlot.java
+0%   (0/3)!	0%   (0/12)!	0%   (0/308)!	0%   (0/53)!	SmallCDF.java
+0%   (0/3)!	0%   (0/10)!	0%   (0/387)!	0%   (0/61)!	SmallPDF.java
+0%   (0/3)!	0%   (0/12)!	0%   (0/334)!	0%   (0/57)!	SmallQQPlot.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jwat.fitting.panels]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/32)!	0%   (0/143)!	0%   (0/4683)!	0%   (0/759)!	jmt.gui.jwat.fitting.panels
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/16)!	0%   (0/812)!	0%   (0/79)!	FittingPanel.java
+0%   (0/26)!	0%   (0/107)!	0%   (0/3474)!	0%   (0/606)!	InputPanel.java
+0%   (0/4)!	0%   (0/20)!	0%   (0/397)!	0%   (0/74)!	LoadDemoFittingPanel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jwat.trafficAnalysis.panels]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/47)!	0%   (0/217)!	0%   (0/8257)!	0%   (0/1474)!	jmt.gui.jwat.trafficAnalysis.panels
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/14)!	0%   (0/228)!	0%   (0/42)!	EpochPanel.java
+0%   (0/6)!	0%   (0/44)!	0%   (0/2850)!	0%   (0/509)!	GraphArrivalPanel.java
+0%   (0/6)!	0%   (0/30)!	0%   (0/1031)!	0%   (0/189)!	GraphPanel.java
+0%   (0/26)!	0%   (0/106)!	0%   (0/3519)!	0%   (0/611)!	InputPanel.java
+0%   (0/6)!	0%   (0/23)!	0%   (0/629)!	0%   (0/123)!	TextualPanel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jwat.trafficAnalysis.utils]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/12)!	0%   (0/42)!	0%   (0/1013)!	0%   (0/215)!	jmt.gui.jwat.trafficAnalysis.utils
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/14)!	0%   (0/196)!	0%   (0/51)!	Loader.java
+0%   (0/9)!	0%   (0/28)!	0%   (0/817)!	0%   (0/164)!	NewPlot.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jwat.workloadAnalysis.chart]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/113)!	0%   (0/556)!	0%   (0/21424)!	0%   (0/2711)!	jmt.gui.jwat.workloadAnalysis.chart
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/5)!	0%   (0/31)!	0%   (0/1025)!	0%   (0/163)!	DispFuzzyMatrix.java
+0%   (0/5)!	0%   (0/27)!	0%   (0/1005)!	0%   (0/140)!	DispKMeanMatrix.java
+0%   (0/6)!	0%   (0/25)!	0%   (0/855)!	0%   (0/131)!	DispMatrix.java
+0%   (0/6)!	0%   (0/26)!	0%   (0/827)!	0%   (0/133)!	DispQQPlotMatrix.java
+0%   (0/9)!	0%   (0/27)!	0%   (0/919)!	0%   (0/167)!	EnlargePlotDistGraph.java
+0%   (0/7)!	0%   (0/21)!	0%   (0/1497)!	0%   (0/176)!	EnlargeQQPlot.java
+0%   (0/7)!	0%   (0/21)!	0%   (0/928)!	0%   (0/162)!	EnlargeQQPlotVarVar.java
+0%   (0/12)!	0%   (0/69)!	0%   (0/2586)!	0%   (0/296)!	FuzzyKSingleClusterScatter.java
+0%   (0/11)!	0%   (0/65)!	0%   (0/2519)!	0%   (0/285)!	KFuzzyScatter.java
+0%   (0/12)!	0%   (0/69)!	0%   (0/2601)!	0%   (0/299)!	KMeanScatter.java
+0%   (0/2)!	0%   (0/9)!	0%   (0/158)!	0%   (0/26)!	KMeanScatterPanelChoose.java
+0%   (0/12)!	0%   (0/70)!	0%   (0/2586)!	0%   (0/296)!	KMeanSingleClusterScatter.java
+0%   (0/2)!	0%   (0/9)!	0%   (0/213)!	0%   (0/44)!	QQPlotPreviewPanel.java
+0%   (0/10)!	0%   (0/61)!	0%   (0/2470)!	0%   (0/268)!	Scatter.java
+0%   (0/4)!	0%   (0/13)!	0%   (0/296)!	0%   (0/47)!	SmallPlotDistGraph.java
+0%   (0/3)!	0%   (0/13)!	0%   (0/939)!	0%   (0/78)!	SmallQQPlot.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jwat.workloadAnalysis.clustering.fuzzyKMean.panels]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/30)!	0%   (0/138)!	0%   (0/3963)!	0%   (0/644)!	jmt.gui.jwat.workloadAnalysis.clustering.fuzzyKMean.panels
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/8)!	0%   (0/328)!	0%   (0/45)!	DispersionFuzzyPanel.java
+0%   (0/9)!	0%   (0/35)!	0%   (0/911)!	0%   (0/139)!	FuzzyClusterDetails.java
+0%   (0/4)!	0%   (0/26)!	0%   (0/735)!	0%   (0/129)!	FuzzyInfoCluster.java
+0%   (0/3)!	0%   (0/19)!	0%   (0/475)!	0%   (0/92)!	FuzzyInfoClustering.java
+0%   (0/3)!	0%   (0/15)!	0%   (0/607)!	0%   (0/100)!	FuzzyOptPanel.java
+0%   (0/9)!	0%   (0/35)!	0%   (0/907)!	0%   (0/139)!	SingleKMeanClusterInfo.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jwat.workloadAnalysis.clustering.kMean.panels]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/19)!	0%   (0/91)!	0%   (0/2870)!	0%   (0/486)!	jmt.gui.jwat.workloadAnalysis.clustering.kMean.panels
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/2)!	0%   (0/7)!	0%   (0/232)!	0%   (0/34)!	DispersionkMeanPanel.java
+0%   (0/4)!	0%   (0/25)!	0%   (0/723)!	0%   (0/125)!	KMeansInfoCluster.java
+0%   (0/10)!	0%   (0/45)!	0%   (0/1422)!	0%   (0/243)!	KMeansInfoClustering.java
+0%   (0/3)!	0%   (0/14)!	0%   (0/493)!	0%   (0/84)!	KMeansOptPanel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jwat.workloadAnalysis.panels]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/68)!	0%   (0/332)!	0%   (0/10765)!	0%   (0/1802)!	jmt.gui.jwat.workloadAnalysis.panels
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/5)!	0%   (0/32)!	0%   (0/763)!	0%   (0/148)!	ClusterPanel.java
+0%   (0/12)!	0%   (0/67)!	0%   (0/1789)!	0%   (0/300)!	ClusteringInfoPanel.java
+0%   (0/26)!	0%   (0/107)!	0%   (0/3501)!	0%   (0/609)!	InputPanel.java
+0%   (0/4)!	0%   (0/20)!	0%   (0/397)!	0%   (0/74)!	LoadDemoPanel.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/75)!	0%   (0/26)!	LogVisualizer.java
+0%   (0/3)!	0%   (0/9)!	0%   (0/127)!	0%   (0/27)!	ScrollBivariatePanel.java
+0%   (0/17)!	0%   (0/95)!	0%   (0/4113)!	0%   (0/618)!	StatsPanel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jwat.workloadAnalysis.tables]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/17)!	0%   (0/106)!	0%   (0/2573)!	0%   (0/466)!	jmt.gui.jwat.workloadAnalysis.tables
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/24)!	0%   (0/8)!	JWatBivariateStatsTable.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/98)!	0%   (0/30)!	JWatBivariateStatsTableModel.java
+0%   (0/4)!	0%   (0/17)!	0%   (0/593)!	0%   (0/73)!	JWatUnivariateStatsTable.java
+0%   (0/1)!	0%   (0/8)!	0%   (0/260)!	0%   (0/42)!	JWatUnivariateStatsTableModel.java
+0%   (0/9)!	0%   (0/42)!	0%   (0/788)!	0%   (0/151)!	JWatVariableInputTable.java
+0%   (0/1)!	0%   (0/29)!	0%   (0/810)!	0%   (0/162)!	JWatVariableInputTableModel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.jwat.workloadAnalysis.tables.renderers]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/38)!	0%   (0/11)!	jmt.gui.jwat.workloadAnalysis.tables.renderers
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/38)!	0%   (0/11)!	RowHeaderRenderer.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.jmarkov]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/44)!	0%   (0/209)!	0%   (0/5792)!	0%   (0/1140)!	jmt.jmarkov
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/12)!	0%   (0/46)!	0%   (0/943)!	0%   (0/184)!	CustomDialog.java
+0%   (0/7)!	0%   (0/24)!	0%   (0/690)!	0%   (0/137)!	CustomDialogMethod.java
+0%   (0/1)!	0%   (0/23)!	0%   (0/133)!	0%   (0/55)!	Job.java
+0%   (0/23)!	0%   (0/97)!	0%   (0/3593)!	0%   (0/660)!	MMQueues.java
+0%   (0/1)!	0%   (0/19)!	0%   (0/433)!	0%   (0/104)!	Simulator.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.jmarkov.Graphics]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/8)!	0%   (0/155)!	0%   (0/7291)!	0%   (0/1138)!	jmt.jmarkov.Graphics
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/18)!	0%   (0/470)!	0%   (0/82)!	JobsDrawer.java
+0%   (0/1)!	0%   (0/20)!	0%   (0/451)!	0%   (0/117)!	LogFile.java
+0%   (0/2)!	0%   (0/54)!	0%   (0/3717)!	0%   (0/504)!	QueueDrawer.java
+0%   (0/1)!	0%   (0/32)!	0%   (0/2027)!	0%   (0/317)!	StatiDrawer.java
+0%   (0/3)!	0%   (0/31)!	0%   (0/626)!	0%   (0/118)!	TANotifier.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.jmarkov.Graphics.constants]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/3)!	0%   (0/42)!	0%   (0/210)!	0%   (0/51)!	jmt.jmarkov.Graphics.constants
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/14)!	0%   (0/70)!	0%   (0/17)!	DrawBig.java
+0%   (0/1)!	0%   (0/14)!	0%   (0/70)!	0%   (0/17)!	DrawNormal.java
+0%   (0/1)!	0%   (0/14)!	0%   (0/70)!	0%   (0/17)!	DrawSmall.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.jmarkov.Queues]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/7)!	0%   (0/75)!	0%   (0/1244)!	0%   (0/236)!	jmt.jmarkov.Queues
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/10)!	0%   (0/239)!	0%   (0/56)!	Arrivals.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/15)!	0%   (0/7)!	JobQueue.java
+0%   (0/1)!	0%   (0/16)!	0%   (0/115)!	0%   (0/26)!	MM1Logic.java
+0%   (0/1)!	0%   (0/9)!	0%   (0/153)!	0%   (0/20)!	MM1dLogic.java
+0%   (0/1)!	0%   (0/12)!	0%   (0/206)!	0%   (0/31)!	MMNLogic.java
+0%   (0/1)!	0%   (0/14)!	0%   (0/311)!	0%   (0/47)!	MMNdLogic.java
+0%   (0/1)!	0%   (0/10)!	0%   (0/205)!	0%   (0/49)!	Processor.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.jmarkov.Queues.Exceptions]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/4)!	0%   (0/16)!	0%   (0/64)!	0%   (0/32)!	jmt.jmarkov.Queues.Exceptions
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/4)!	0%   (0/16)!	0%   (0/8)!	InfiniteBufferException.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/16)!	0%   (0/8)!	InfiniteException.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/16)!	0%   (0/8)!	NoJobsException.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/16)!	0%   (0/8)!	NonErgodicException.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.jmarkov.utils]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/14)!	0%   (0/408)!	0%   (0/84)!	jmt.jmarkov.utils
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/14)!	0%   (0/408)!	0%   (0/84)!	Formatter.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.test.analytical]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/28)!	0%   (0/4096)!	0%   (0/596)!	jmt.test.analytical
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/28)!	0%   (0/4096)!	0%   (0/596)!	TestAnalytical.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.test.engine]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/13)!	0%   (0/39)!	0%   (0/1672)!	0%   (0/451)!	jmt.test.engine
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/2)!	0%   (0/10)!	0%   (0/3)!	BatchTestSimulation.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/291)!	0%   (0/135)!	CommandLineSimulator.java
+0%   (0/6)!	0%   (0/15)!	0%   (0/254)!	0%   (0/90)!	PauseThreadTest.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/260)!	0%   (0/71)!	TestClassPriorityStrategy.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/34)!	0%   (0/13)!	TestDispatcher.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/437)!	0%   (0/66)!	TestGiuliano.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/32)!	0%   (0/10)!	TestLDService.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/354)!	0%   (0/63)!	TestSimulationTimer.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.data]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+17%  (1/6)!	3%   (3/106)!	2%   (73/4085)!	2%   (14/760)!	jmt.framework.data
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/22)!	0%   (0/1410)!	0%   (0/224)!	BDMapImpl.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/214)!	0%   (0/47)!	CachedBDMap.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/39)!	0%   (0/11)!	CachedHashMap.java
+0%   (0/1)!	0%   (0/28)!	0%   (0/861)!	0%   (0/171)!	CircularList.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/22)!	0%   (0/7)!	ConstMap.java
+100% (1/1)	7%   (3/45)!	5%   (73/1539)!	5%   (14/300)!	ArrayUtils.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.analytical]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+33%  (4/12)!	17%  (21/124)!	4%   (812/18724)!	6%   (147.8/2596)!	jmt.analytical
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/4)!	0%   (0/69)!	0%   (0/25)!	CommandLineSolver.java
+0%   (0/1)!	0%   (0/15)!	0%   (0/354)!	0%   (0/65)!	Solver.java
+0%   (0/1)!	0%   (0/13)!	0%   (0/3069)!	0%   (0/392)!	SolverMultiClosedMVA.java
+0%   (0/1)!	0%   (0/5)!	0%   (0/1038)!	0%   (0/136)!	SolverMultiMixed.java
+0%   (0/1)!	0%   (0/7)!	0%   (0/1130)!	0%   (0/145)!	SolverSingleClosedExact.java
+0%   (0/1)!	0%   (0/3)!	0%   (0/747)!	0%   (0/97)!	SolverSingleClosedExactDyn.java
+0%   (0/1)!	0%   (0/17)!	0%   (0/9103)!	0%   (0/1189)!	SolverSingleClosedMVA.java
+0%   (0/1)!	0%   (0/4)!	0%   (0/212)!	0%   (0/34)!	SolverSingleOpen.java
+100% (1/1)	100% (5/5)	9%   (35/410)!	24%  (13.5/57)!	ModelFESCApproximator.java
+100% (1/1)	32%  (6/19)!	16%  (216/1373)!	19%  (54.3/288)!	SolverDispatcher.java
+100% (1/1)	23%  (6/26)!	27%  (207/778)!	34%  (39/116)!	SolverMulti.java
+100% (1/1)	67%  (4/6)!	80%  (354/441)	79%  (41/52)!	SolverMultiOpen.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.gui.exact]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+8%   (1/12)!	22%  (34/153)!	19%  (1345/6987)!	20%  (268.3/1347)!	jmt.gui.exact
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/10)!	0%   (0/51)!	0%   (0/1607)!	0%   (0/344)!	ExactWizard.java
+0%   (0/1)!	0%   (0/2)!	0%   (0/22)!	0%   (0/9)!	TestExact.java
+100% (1/1)	34%  (34/100)!	25%  (1345/5358)!	27%  (268.3/994)!	ExactModel.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.common.xml.resources]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (1/1)	33%  (1/3)!	33%  (8/24)!	33%  (3/9)!	jmt.common.xml.resources
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (1/1)	33%  (1/3)!	33%  (8/24)!	33%  (3/9)!	XSDSchemaLoader.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [default package]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (1/1)	50%  (1/2)!	63%  (27/43)!	67%  (6/9)!	default package
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (1/1)	50%  (1/2)!	63%  (27/43)!	67%  (6/9)!	Main.java
+-------------------------------------------------------------------------------
+COVERAGE SUMMARY FOR PACKAGE [jmt.framework.xml]:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (2/2)	50%  (4/8)!	65%  (106/162)!	70%  (26/37)!	jmt.framework.xml
+
+COVERAGE BREAKDOWN BY SOURCE FILE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (2/2)	50%  (4/8)!	65%  (106/162)!	70%  (26/37)!	XMLUtils.java
+-------------------------------------------------------------------------------
