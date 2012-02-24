@@ -1,0 +1,46 @@
+CC=gcc
+CFLAGS=-Wall -O3 -DNLGLOG -DNDEBUG -DNCHKSOL -DNLGLPICOSAT $(PROF)
+LIBS=-lm
+LDEPS=
+HDEPS=
+all: targets
+-include makefile.mbt
+targets: liblgl.a lingeling plingeling
+liblgl.a: lglib.o lglbnr.o makefile
+	libtool -o $@ lglib.o lglbnr.o
+lingeling: lglmain.o liblgl.a makefile $(LDEPS)
+	$(CC) $(CFLAGS) -o $@ lglmain.o -L. -llgl $(LIBS)
+plingeling: plingeling.o liblgl.a makefile $(LDEPS)
+	$(CC) $(CFLAGS) -pthread -o $@ plingeling.o -L. -llgl $(LIBS)
+feedback:
+	make clean-other
+	touch makefile
+	PROF=-fprofile-generate make targets
+	--./lingeling profile.cnf.gz
+	touch makefile
+	PROF=-fprofile-use make targets
+lglmain.o: lglmain.c lglib.h makefile
+	$(CC) $(CFLAGS) -c lglmain.c
+plingeling.o: plingeling.c lglib.h makefile
+	$(CC) $(CFLAGS) -c plingeling.c
+lglib.o: lglib.c lglib.h makefile $(HDEPS)
+	$(CC) $(CFLAGS) -c lglib.c
+lglib.s: lglib.c lglib.h makefile $(HDEPS)
+	$(CC) $(CFLAGS) -S lglib.c
+lglbnr.o: lglbnr.c lglcfg.h lglcflags.h makefile
+	$(CC) $(CFLAGS) -c lglbnr.c
+lglcfg.h: VERSION mkconfig lglbnr.c lglib.c lglmain.c lglcflags.h makefile
+	rm -f $@
+	./mkconfig > $@
+lglcflags.h: makefile
+	rm -f $@
+	echo '#define LGL_CC "$(shell $(CC) --version|head -1)"' >> $@
+	echo '#define LGL_CFLAGS "$(CFLAGS)"' >> $@
+clean: clean-other clean-config
+clean-config:
+	rm -f makefile lglcfg.h lglcflags.h
+clean-other:
+	rm -f lingeling plingeling
+	rm -f *.gcno *.gcda cscope.out gmon.out *.gcov
+	rm -f *.o *.s *.a log/*.log 
+.PHONY: all targets feedback clean clean-config clean-other

@@ -1,0 +1,146 @@
+Fast strongly universal hashing
+Software documentation 
+February 2012
+
+
+== Dependencies ==
+
+This package assumes GNU GCC though it should
+be portable.
+
+== Main tests ==
+
+We test various fast hashing techniques using the C programs
+hashfunctionsreal.c (generates 32-bit hash values) and
+hashfunctions32.c (generates 16-bit hash values).
+
+Compiling should be simple:
+
+gcc -O3 -funroll-loops -mno-sse2 -o hashfunctionsrealnosse hashfunctionsreal.c
+gcc -O3 -funroll-loops -mno-sse2 -o hashfunctions32nosse hashfunctions32.c
+gcc -O3 -funroll-loops -o hashfunctionsreal hashfunctionsreal.c
+gcc -O3 -funroll-loops -o hashfunctions32 hashfunctions32.c
+
+You can then execute them using the command line:
+
+./hashfunctionsrealnosse
+./hashfunctions32nosse
+./hashfunctionsreal
+./hashfunctions32
+
+If you have a recent desktop processor with support for 
+carryless multiplications, try this command line:
+
+gcc -O3 -funroll-loops -Wall -maes -msse4 -mpclmul  -o hashfunctionsreal hashfunctionsreal.c
+
+(this will call on the additional file clmul.h). You can
+then execute it with
+
+./hashfunctionsreal 
+
+
+== Compiling for the iPad ==
+
+This assumes you have Xcode on a Mac. (It is not
+possible to compile for iPad without a Mac.)
+
+We used a first-generation iPad for our tests.
+The ipadcompile.sh should build the executable files:
+(you may need to adapt the script depending on where 
+your files are located)
+
+  ipadhashfunctionreal 
+  ipadhashfunctionreal32
+  ipadhashfunctionrealunroll
+  ipadhashfunction32unroll 
+
+You then have to copy the executable on the iPad. This can 
+be achieved by jailbreaking the iPad and installing an ssh
+server on it. The default password on a rooted iPad is often
+"alpine".
+
+You can then execute them, using a command line.
+
+== Compiling for an android device ==
+
+
+Download the Android NDK, install it at a place like ~/android-ndk-r6
+
+ *) use the following command to generate a 
+    custom toolchain
+     ~/android-ndk-r6/build/tools/make-standalone-toolchain.sh  --platform=android-9
+
+ *) This generate a tar ball at 
+   /tmp/ndk-lemire/arm-linux-androideabi-4.4.3.tar.bz2
+  copy it at ~/myandroid
+      cp /tmp/ndk-`whoami`/arm-linux-androideabi-4.4.3.tar.bz2 ~/myandroid/
+ and open it
+  tar xjvf arm-linux-androideabi-4.4.3.tar.bz2 
+  cd ~/myandroid/
+
+Use the androidcompile.sh script to compile for android (you may
+need to adapt the script depending on where your files are located):
+
+  hashfunctionsrealandroid
+  hashfunctions32android
+  hashfunctionsrealandroidunroll
+  hashfunctions32androidunroll
+
+Using a rooted android device, you can upload these binary files
+via ssh and execute them using the command line.
+
+== Using the GMP library ==
+
+We tried hashing using words larger than 32 or 64 bits
+using the GMP library.
+
+First install the GMP library 
+See http://gmplib.org/
+Inside the content of the archive, simply type
+./configure, then make, and then "make install" as root.
+
+Then you can time the following:
+
+ $ gcc -O3 -DBITS_IN=32 -o gmp_hash gmp_hash.c  -lgmp
+ $./gmp_hash
+
+ $ gcc -O3 -DBITS_IN=64 -o gmp_hash gmp_hash.c  -lgmp
+ $./gmp_hash
+
+ $ gcc -O3 -DBITS_IN=128 -o gmp_hash gmp_hash.c  -lgmp
+ $./gmp_hash
+
+ $ gcc -O3 -DBITS_IN=256 -o gmp_hash gmp_hash.c  -lgmp
+ $./gmp_hash
+
+ $ gcc -O3 -DBITS_IN=1024 -o gmp_hash gmp_hash.c  -lgmp
+ $./gmp_hash
+
+
+== Using the MPFQ library ==
+
+We tested the applicability of the MPFQ library for
+fast strongly universal hashing.
+
+First, build and install the  MPFQ library from INRIA.
+
+http://mpfq.gforge.inria.fr/
+
+(For some versions of mpfq, you need to go in the src
+directory, type "cmake ./" then "make" and then "make install"
+as root. You may need to install cmake if it is not present
+on your machine.)
+
+Make sure you have the gmp library as well.
+
+You can then compile and execute a test:
+
+$ gcc owenmpfq.c -O3 -lgmp -lmpfq_gf2n
+$ ./a.out
+
+
+== authors ==
+
+Owen Kaser and Daniel Lemire
+
+Questions or comments: get in touch with Daniel Lemire (http://lemire.me/me/).
