@@ -20,7 +20,7 @@ var server = http.createServer(function (request, result) {
 //  result.finish(); 
 });
 
-server.listen(64000);
+server.listen(2222);
 
 // Set up WebSocket and handlers.
 var ioServer = io.listen(server); 

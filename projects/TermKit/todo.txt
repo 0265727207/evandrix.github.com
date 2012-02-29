@@ -1,0 +1,135 @@
+Tasks:
+[ ] autocomplete history
+[ ] backgrounding / new command trigger
+
+[ ] move escapeUnixText into front-end, unixLegacy widget
+[ ] command aliases
+[ ] async popup / completion keystroke buffering
+[ ] multiple http get
+[ ] command decoration
+[ ] interactive execution
+[ ] inline man-pages tips
+[ ] version control
+[ ] interactive quicklook
+[ ] interactive unix command attempt
+
+
+blog about:
+[ ] type coercion for multiple files: cat A B C, grep A B C
+[ ] ansi coloring / escapes
+[ ] hex viewer: | hex, or hex <file> [file ...]
+
+
+Prototype:
+
+1) UI prototypes
+
+[:] Token field
+  [X] plain text
+  [X] encapsed string
+  [X] token transmutation
+  [X] refactored code into separate files + object literal style
+  [X] design mockup
+  [X] commandstream mockup
+  [X] move validity of selection anchor/focus pos into selection obj, out of caret obj
+  [X] caret left/right with fulltoken input
+  [X] autocomplete popup / edit mode
+  [X] clickable mouse position
+  [X] fix event bindings lost when clicking inside textfield
+  [X] Unify tokenlist and commandlist into collection class, derive from.
+  [X] fix backspacing around edges of tokens
+  [X] add icon/spinner support to tokens
+  [ ] caret positions around allowempty tokens and ^/$
+  [.] | and >> token support
+  [ ] caret.remove() shouldn't need to touch tokenList when pruning empties -> let triggers do it
+  [ ] mouseclick caret is off by ~8px, but only in first token 
+  [ ] switch between inline and block tokens -> input vs textarea.
+  [ ] fix wrapping of tokens
+    
+[X] inline autocomplete
+  [X] panel overlayed on token
+  [X] alignment
+  [X] keyboard controls up/down
+  [X] hit enter after autocomplete in empty token -> undefined
+  [X] escape to close popup
+  [X] autocomplete icons
+  
+[:] command view
+  [X] list of collapsible sections
+  [X] host token field
+  [X] context bar by command
+  [X] anchored scrolling
+  [X] host output
+  [X] make outputnode tree changes reflect in DOM transparently
+  [X] fix view.add mid-node insertion
+  [X] auto-expand to fill view
+  [ ] command history
+  [ ] alt-up/down to change focus
+  [ ] tabbed views
+  [ ] add forking the view with tabs and hosted/nested sessions
+
+2) Command/token autocomplete
+  [X] token multi-regexp patterns
+  [X] triggers system, unify with token field triggers a bit?
+  [X] autocomplete a string / command
+  [X] autocomplete empties
+  [X] autocomplete commands
+  [X] autocomplete filesystem
+  [X] autocomplete label / contents / icon
+  [X] autocomplete dir / file distinction
+  [X] badge tokens with icons
+
+3) Smart output with selectable things
+  [X] research FastCGI socket protocol
+  [X] add socket.io to client
+  [X] make socket connection to daemon
+  [X] set up client handling
+  [X] establish controller for stream
+  [X] invoke new session
+  [X] basic message output
+  [X] view parser/tree on client side
+  [X] list of files
+  [X] file icons
+  [X] implement view DOM v2 with path targeting
+  [X] auto-layout mechanism w/ padded max-height on view
+  [ ] unified viewcontroller class w/ self-dom insertion
+  [ ] intercontrol focus / caret, set up global manager
+  [ ] tab, switch between widgets.
+  [ ] working widget callbacks
+  [ ] auto-layout column width (preferred size from widgets + widget variant/style)
+  [ ] make file icons cacheable long-term in webkit cache
+  [ ] stable multi-column layout
+  [ ] smart tab-tabling layout for plain-text
+
+4) NodeKit daemon
+  [X] socket.io listener
+  [X] keep state of sessions
+  [X] export environment
+  [X] allow path navigation
+  [X] worker process
+    [X] refactor processor.js handler/return handling
+    [X] spawn process
+    [X] stream in/out json packets
+    [X] view proxy object on worker side
+    [X] make ls / cd commands
+    [X] simplify message format to raw json
+    [X] viewstream integration
+    [X] data reader
+    [ ] arrange view pipes for command/view for unix processes
+  [X] output formatter
+    [X] full mime header parser/generator
+    [X] smart binary output
+    [ ] handle encodings
+  [ ] backgrounding / new command trigger
+  [ ] command aliases
+  [X] preferences
+  [ ] sudo support (askpass env?)
+
+5) Command Suite
+[X] JSON grep
+[X] code syntax highlighter
+[ ] make a script for git (arguments, file/dir, ...)
+[ ] basic top/w infographs + live update
+[ ] robust unix basics
+[ ] mysql console
+[ ] ssh support
