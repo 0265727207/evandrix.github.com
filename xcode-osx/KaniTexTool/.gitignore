@@ -1,0 +1,25 @@
+#global ignores
+.DS_Store
+
+#Xcode resources
+*.xcworkspace
+xcuserdata
+*.xcuserdatad
+*.xcuserstate
+*.xcscheme
+
+#MSVC resources
+*.suo
+*.ncb
+*.vcproj.*.*.user
+*.obj
+*.manifest
+*.ilk
+*.res
+*.pdb
+*.idb
+*.dep
+*/BuildLog.htm
+
+#Assets
+assets/*
