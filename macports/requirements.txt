@@ -18,7 +18,7 @@ Impacket==0.9.6.0
 Jinja2==2.6
 JitViewer==0.1.1
 Kemvi==0.1.0
-LEPL==5.0.1
+LEPL==5.1.0
 Langscape==0.1
 Mako==0.6.2
 Markdown==2.1.1
@@ -70,7 +70,7 @@ argparse==1.2.1
 bdist-mpkg==0.4.4
 bibliograph.core==1.0.3
 bibliograph.rendering==1.0.2
-boto==2.1.1
+boto==2.2.2
 buildbot==0.8.5
 bunch==1.0.0
 bytecodehacks==April2000
@@ -154,7 +154,8 @@ newrelic==1.1.0.192
 nltk==2.0.1rc4
 nose==1.1.2
 numpy==1.6.1
-oauth2==1.5.211
+oauth==1.0.1
+oauth2==1.0.2
 opencl-for-python==0.5.2
 pandas==0.7.1
 paramiko==1.7.7.1
@@ -189,6 +190,7 @@ pyflakes==0.5.0
 pygame==1.9.2pre
 pygccxml==1.1.0
 pylast==0.5.11
+pylibusb==0.2
 pylint==0.25.1
 pylogsparser==0.4
 pymills==0d1424e1b0ab
@@ -199,6 +201,8 @@ pyparsing==1.5.6
 pypng==0.0.12
 pyrasite==1.0
 pyrit==0.4.1-dev.-svn.r308-
+pysandbox==1.6
+pyserial==2.6
 pysolr==2.1.0-beta
 pysqlite==2.6.3
 pystache==0.4.0
@@ -215,6 +219,7 @@ pythoscope==0.4.3
 pytilities==1.2.0
 pytools==2011.5
 pytz==2012b
+pyusb==1.0.0-a1
 pyzmq==2.1.11
 rdflib==3.2.0
 readline==6.2.2
