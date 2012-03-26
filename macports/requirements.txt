@@ -47,7 +47,7 @@ Pymacs==0.23
 Pyrex==0.9.8.6
 RunSnakeRun==2.0.2a1
 SQLAlchemy==0.7.5
-Scrapy==0.14.1
+Scrapy==0.14.2
 SimpleCV==1.2
 Sphinx==1.1.2
 SquareMap==1.0.1b3
@@ -68,6 +68,7 @@ antlr-python-runtime==3.1.3
 anyjson==0.3.1
 argparse==1.2.1
 bdist-mpkg==0.4.4
+beautifulsoup4==4.0.1
 bibliograph.core==1.0.3
 bibliograph.rendering==1.0.2
 boto==2.2.2
@@ -190,6 +191,7 @@ pyflakes==0.5.0
 pygame==1.9.2pre
 pygccxml==1.1.0
 pylast==0.5.11
+pylibmc==1.2.2
 pylibusb==0.2
 pylint==0.25.1
 pylogsparser==0.4
