@@ -10,6 +10,7 @@ Coherence==0.6.6.2
 CommandLineApp==3.0.7
 DecoratorTools==1.8
 Django==1.3.1
+Elixir==0.7.1
 Fabric==1.4.0
 Flask==0.8
 FormEncode==1.2.4
@@ -85,7 +86,7 @@ buildbot==0.8.5
 bunch==1.0.0
 bytecodehacks==April2000
 byteplay==0.2
-bzr==2.5.0
+bzr==2.5.1
 calabash==0.0.3
 celery==2.5.1
 certifi==0.0.8
@@ -102,7 +103,7 @@ configobj==4.6.0
 construct==2.06
 coverage==3.5.1
 cx-Freeze==4.2.3
-decorator==3.3.2
+decorator==3.3.3
 demjson==1.6
 dexml==0.4.2
 distribute==0.6.25
@@ -125,6 +126,7 @@ gateone==0.9
 gdata==2.0.16
 gevent==0.13.7
 gitosis==0.2
+gmpy==1.15
 google-appengine==1.5.1
 googlecl==0.9.13
 goto==0.1.3
@@ -193,7 +195,7 @@ protobuf==2.4.1
 pry==0.2
 psyco==1.6
 pudb==2012.1
-py==1.1.1
+py==1.4.8
 py-kqueue==2.0.1
 py-notify==0.3.1
 py2app==0.6.4
@@ -202,8 +204,7 @@ pyOpenSSL==0.13
 pycallgraph==0.5.1
 pycassa==1.5.1
 pyclj==0.1.3
-pycrypto==2.5
-pycuda==2011.2.2
+pycrypto==2.6
 pycurl==7.19.0
 pydasm==1.5
 pydbgr==0.1.5
@@ -213,8 +214,9 @@ pyficache==0.1.4
 pyflakes==0.5.0
 pygame==1.9.1release
 pygccxml==1.1.0
+pygraphviz==1.1
 pylast==0.5.11
-pylibmc==1.2.2
+pylibmc==1.2.3
 pylibusb==0.2
 pylint==0.25.1
 pylogsparser==0.4
@@ -234,7 +236,7 @@ pysolr==2.1.0-beta
 pysqlite==2.6.3
 pystache==0.4.0
 pystream==0.1
-pytest==2.2.3
+pytest==2.2.4
 python-commons==0.7
 python-daemon==1.6
 python-dateutil==1.5

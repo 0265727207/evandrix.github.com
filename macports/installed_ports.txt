@@ -1,1039 +1,1056 @@
-The following ports are currently installed:
-  aalib @1.4rc5_4 (active)
-  abook @0.5.6_0 (active)
-  adns @1.4_0 (active)
-  aescrypt @0.7_0 (active)
-  aesutil @1.0.7_1 (active)
-  antlr @2.7.7_1 (active)
-  antlr3 @3.2_0 (active)
-  apache-ant @1.8.2_0 (active)
-  apache-ivy @2.2.0_2 (active)
-  apache-solr @3.6.0_0 (active)
-  apache2 @2.2.22_2+preforkmpm (active)
-  apachetop @0.12.6_1 (active)
-  apple-gcc42 @5666.3_7 (active)
-  apr @1.4.6_1 (active)
-  apr-util @1.4.1_0 (active)
-  aquaterm @1.0.1_5 (active)
-  aria2 @1.15.0_0 (active)
-  arpack @3.1.0_1+accelerate+gcc44 (active)
-  arpwatch @2.1a15_2 (active)
-  asciidoc @8.6.7_0+python27 (active)
-  aspell @0.60.6_4+nonls (active)
-  astyle @2.02.1_1 (active)
-  atk @2.2.0_0+universal (active)
-  atkmm @2.22.6_0 (active)
-  atlas @3.9.75_0+clang (active)
-  auctex @11.86_0 (active)
-  audiofile @0.3.4_0+universal (active)
-  authforce @0.9.9_0 (active)
-  autobench @2.1.2_2 (active)
-  autoconf @2.69_0 (active)
-  autoconf213 @2.13_1 (active)
-  autoconf263 @2.63_0 (active)
-  autojump @20_0 (active)
-  automake @1.12_0 (active)
-  autossh @1.4c_0 (active)
-  babl @0.1.6_0 (active)
-  base64 @1.5_0 (active)
-  bdftopcf @1.0.3_0 (active)
-  beecrypt @4.2.1_3 (active)
-  bind9 @9.9.1_0 (active)
-  binutils @2.21_0 (active)
-  bison @2.5_0 (active)
-  boehmgc @7.1_2 (active)
-  boost @1.49.0_0 (active)
-  botan @1.8.13_1 (active)
-  bzip2 @1.0.6_0+universal (active)
-  bzr @2.5.0_0 (active)
-  cairo @1.12.2_0+universal+x11 (active)
-  cairomm @1.10.0_0 (active)
-  calcurse @2.9.2_0 (active)
-  cclient @2007e_1 (active)
-  cctools @822_2+llvm30 (active)
-  cctools-headers @822_2 (active)
-  cedet @1.0_0 (active)
-  cfitsio @3.280_1 (active)
-  cfv @1.18.3_2+python27 (active)
-  clamav @0.97.4_0 (active)
-  clojure @1.3.0_0 (active)
-  clojure-contrib @1.2.0_0 (active)
-  cloog @0.16.3_2 (active)
-  clusterit @2.5_0 (active)
-  cmake @2.8.8_0 (active)
-  commons-beanutils @1.8.2_0 (active)
-  commons-collections @3.2.1_0 (active)
-  commons-digester @2.0_0 (active)
-  commons-fileupload @1.2.2_0 (active)
-  commons-lang @2.4_0 (active)
-  commons-logging @1.1.1_0 (active)
-  commons-validator @1.3.1_1 (active)
-  convmv @1.15_0 (active)
-  coreutils @8.16_0 (active)
-  Corkscrew @2.0_0 (active)
-  couchdb @1.2.0_0 (active)
-  cowsay @3.03_1 (active)
-  cppunit @1.12.1_0 (active)
-  csshX @0.74_0 (active)
-  curl @7.25.0_1+ssl (active)
-  curl-ca-bundle @7.25.0_0 (active)
-  cyrus-sasl2 @2.1.23_3+kerberos (active)
-  daq @0.6.2_1 (active)
-  db44 @4.4.20_1 (active)
-  db46 @4.6.21_6+universal (active)
-  dbus @1.4.20_1+startupitem (active)
-  dbus-glib @0.98_0 (active)
-  dbus-python27 @0.84.0_0 (active)
-  dcraw @9.12-20111226123200_0 (active)
-  ddd @3.3.12_2 (active)
-  dejavu-fonts @2.33_0 (active)
-  desktop-file-utils @0.15_1 (active)
-  detex @2.8_1 (active)
-  detox @1.2.0_0 (active)
-  dialog @1.1-20120215_0 (active)
-  dirac @1.0.2_1 (active)
-  dnstracer @1.9_0 (active)
-  docbook-xml @5.0_0 (active)
-  docbook-xml-4.1.2 @4.1.2_1 (active)
-  docbook-xml-4.2 @4.2_0 (active)
-  docbook-xml-4.3 @4.3_0 (active)
-  docbook-xml-4.4 @4.4_0 (active)
-  docbook-xml-4.5 @4.5_0 (active)
-  docbook-xml-5.0 @5.0_0 (active)
-  docbook-xsl @1.76.1_1 (active)
-  dos2unix @5.1.1_0 (active)
-  doxygen @1.8.0_1 (active)
-  drill @1.6.8_0 (active)
-  dtach @0.8_0 (active)
-  duplicity @0.6.18_0 (active)
-  duply @1.5.5.1_0 (active)
-  dvipng @1.14_2 (active)
-  dyld-headers @195.6_1 (active)
-  ecb @2.40_2 (active)
-  eggdbus @0.6_0 (active)
-  eigen3 @3.0.5_0+cmake (active)
-  elinks @0.11.7_3 (active)
-  emacs @23.4_1+dbus (active)
-  emacs-app @23.4_1 (active)
-  emacs-w3m @1.4.4_0 (active)
-  enca @1.13_0 (active)
-  enchant @1.6.0_1 (active)
-  epubcheck @1.2_0 (active)
-  erc @5.3_0 (active)
-  erlang @R15B_1+ssl (active)
-  esound @0.2.41_3+universal (active)
-  etherape @0.9.10_0 (active)
-  ettercap @0.6.b_2 (active)
-  ettercap-ng @0.7.3_5+gtk+plugins (active)
-  evolution-data-server @2.30.3_2 (active)
-  exif @0.6.19_0 (active)
-  exiftags @1.01_1 (active)
-  exim @4.71_2 (active)
-  exiv2 @0.22_0 (active)
-  expat @2.1.0_0+universal (active)
-  faac @1.28_2 (active)
-  faad2 @2.7_0 (active)
-  fast-md5 @2.6.2_0 (active)
-  fcrackzip @1.0_0 (active)
-  ffmpeg @0.7.11_1 (active)
-  fftw-3 @3.3.2_0 (active)
-  fftw-3-single @3.3.2_0 (active)
-  file @5.11_0 (active)
-  findutils @4.4.2_1 (active)
-  flac @1.2.1_1+universal (active)
-  flac2mp3 @20041223_1 (active)
-  flex @2.5.35_1 (active)
-  font-mutt-misc @1.0.3_0 (active)
-  fontconfig @2.9.0_1+universal (active)
-  fop @1.0_1 (active)
-  foremost @1.5.4_0 (active)
-  fortune @6.2.0-RELEASE_0 (active)
-  fping @2.4b2_1 (active)
-  freetds @0.91_0 (active)
-  freetype @2.4.9_1+universal (active)
-  fsharp @1.9.4.19_0 (active)
-  ftgl @2.1.3-rc5_0 (active)
-  fusil @0.7_0 (active)
-  gawk @4.0.0_0+universal (active)
-  gcc43 @4.3.6_3 (active)
-  gcc44 @4.4.7_1 (active)
-  gcc45 @4.5.3_4 (active)
-  gcc46 @4.6.3_2 (active)
-  gcc47 @4.7.0_3 (active)
-  gcc_select @0.1_6 (active)
-  gccxml-devel @20120517_0 (active)
-  gconf @2.28.1_2 (active)
-  gd2 @2.0.35_12+universal (active)
-  gdb @7.3_1 (active)
-  gdbm @1.10_1+universal (active)
-  gdk-pixbuf2 @2.26.1_0+universal (active)
-  geany @0.21_0 (active)
-  gegl @0.1.8_1+python27 (active)
-  getopt @1.1.4_1+universal (active)
-  gettext @0.18.1.1_2+universal (active)
-  ghc @6.10.4_5 (active)
-  ghostscript @9.05_2 (active)
-  giflib @4.2.0_2+x11 (active)
-  gimp @2.6.12_0 (active)
-  gimp-app @2.6.12_0 (active)
-  gimp-help-en @2.6.1_0 (active)
-  gimp-jp2 @2.2.0_4 (active)
-  gimp-lqr-plugin @0.7.1_1 (active)
-  gimp2 @2.6.12_0+help_browser+python27 (active)
-  git-core @1.7.10.2_0+credential_osxkeychain+doc+pcre+python27 (active)
-  glib-networking @2.28.7_2 (active)
-  glib1 @1.2.10_7+universal (active)
-  glib2 @2.32.3_0+universal (active)
-  glibmm @2.32.0_0 (active)
-  glpk @4.47_0 (active)
-  gmake @3.82_0 (active)
-  gmp @5.0.4_0+universal (active)
-  gnome-common @2.28.0_0 (active)
-  gnome-doc-utils @0.20.6_0+python27 (active)
-  gnome-icon-theme @2.30.3_0 (active)
-  gnome-keyring @2.30.3_3 (active)
-  gnome-mime-data @2.18.0_3 (active)
-  gnome-themes @2.30.2_1 (active)
-  gnome-vfs @2.24.4_0 (active)
-  gnupg @1.4.12_0 (active)
-  gnuplot @4.6.0_0+luaterm+pangocairo (active)
-  gnuregex @0.12_2 (active)
-  gnustep-make @2.6.1_0+gnustep_layout (active)
-  gnutls @2.12.19_0+universal (active)
-  go @60.3_1 (active)
-  gobject-introspection @1.32.1_1 (active)
-  gperf @3.0.4_2+universal (active)
-  gpgme @1.3.1_0 (active)
-  gradle-devel @1.0-rc-2_0 (active)
-  grails-devel @2.1.0.RC1_0 (active)
-  GraphicsMagick @1.3.15_0+q8 (active)
-  graphviz @2.28.0_3 (active)
-  groff @1.21_2 (active)
-  groovy @1.8.6_0 (active)
-  gsed @4.2.1_2 (active)
-  gsl @1.15_1 (active)
-  gss @1.0.2_0 (active)
-  gst-plugins-base @0.10.36_1 (active)
-  gstreamer @0.10.36_1 (active)
-  gtk-doc @1.18_0+python27 (active)
-  gtk-engines2 @2.20.2_1 (active)
-  gtk-nodoka-engine @0.7.5_1 (active)
-  gtk1 @1.2.10_10+universal (active)
-  gtk2 @2.24.10_0+universal+x11 (active)
-  gtkimageview @1.6.4_3 (active)
-  gtkmm @2.24.2_0 (active)
-  gtksourceview @1.8.5_2 (active)
-  gtksourceview2 @2.10.5_2 (active)
-  gtksourceviewmm2 @2.10.2_0 (active)
-  gts @0.7.6_1 (active)
-  guile @1.8.7_3 (active)
-  gutenprint @5.2.7_0 (active)
-  gzip @1.4_0 (active)
-  hadoop @1.0.2_0+pseudo (active)
-  hamcrest-core @1.2_0 (active)
-  haproxy @1.4.18_2 (active)
-  haskell-mode.el @2.4_0 (active)
-  hdf5-18 @1.8.9_0 (active)
-  help2man @1.40.5_3+universal (active)
-  hicolor-icon-theme @0.12_0 (active)
-  hping2 @rc3_2 (active)
-  hping3 @20051105_1 (active)
-  hs-binary @0.5.0.2_0 (active)
-  hs-citeproc @0.3.1_1 (active)
-  hs-digest @0.0.0.9_0 (active)
-  hs-dlist @0.5_0 (active)
-  hs-ghc-paths @0.1.0.6_0 (active)
-  hs-haddock @2.5.0_1 (active)
-  hs-HTTP @4000.1.1_0 (active)
-  hs-json @0.4.4_0 (active)
-  hs-pandoc-types @1.8_0 (active)
-  hs-platform-HTTP @4000.0.6_0 (active)
-  hs-platform-zlib @0.5.0.0_0 (active)
-  hs-tagsoup @0.12_0 (active)
-  hs-texmath @0.5_0 (active)
-  hs-utf8-string @0.3.6_0 (active)
-  hs-xml @1.3.7_0 (active)
-  hs-zlib @0.5.2.0_0 (active)
-  htop @0.8.2.1_0 (active)
-  httperf @0.9.0_2 (active)
-  hugs98 @plus-Sep2006_2 (active)
-  hunspell @1.3.2_0 (active)
-  hydra @5.4_3 (active)
-  icns-gimp @0.1_1 (active)
-  icon-naming-utils @0.8.90_1 (active)
-  icu @4.8.1_0 (active)
-  iftop @1.0_0 (active)
-  ilmbase @1.0.2_0 (active)
-  ImageMagick @6.7.7-0_0+q16 (active)
-  intltool @0.50.2_0 (active)
-  irssi @0.8.15_2+perl (active)
-  isl @0.07_1 (active)
-  iso-codes @3.34_0 (active)
-  jabber @1.4.2_5 (active)
-  jabberd @2.2.9_3 (active)
-  jakarta-log4j @1.2.16_0 (active)
-  jakarta-oro @2.0.8_0 (active)
-  jakarta-taglibs-standard-11 @1.1.2_1 (active)
-  jasper @1.900.1_9+universal (active)
-  jbig2dec @0.11_1 (active)
-  jbigkit @2.0_2 (active)
-  jikes @1.22_0+universal (active)
-  jline @0.9.94_0 (active)
-  john @1.7.6_0 (active)
-  jpeg @8d_0+universal (active)
-  jslint @2011-05-10_0 (active)
-  junit @4.6_2 (active)
-  jython @2.5.2_0+installer (active)
-  kerberos5 @1.7.2_0 (active)
-  ksh93 @2011-02-08_0 (active)
-  lame @3.99_1 (active)
-  lastfmsubmitd @0.35_0 (active)
-  latexdiff @0.5_1 (active)
-  latexmk @4.31_0 (active)
-  lbdb @0.36_1 (active)
-  lcms @1.19_2+universal (active)
-  lcms2 @2.3_0 (active)
-  lcov @1.9_0 (active)
-  ld64 @128.2_4+llvm30 (active)
-  ldns @1.6.10_0 (active)
-  ldns-tools @1.6.10_0 (active)
-  lensfun @0.2.5_1 (active)
-  less @444_0 (active)
-  lesspipe @1.72_0 (active)
-  lftp @4.3.5_0 (active)
-  libao @1.1.0_0 (active)
-  libarchive @2.8.4_0 (active)
-  libart_lgpl @2.3.21_0+universal (active)
-  libassuan @2.0.2_0 (active)
-  libbonobo @2.32.1_0 (active)
-  libbonoboui @2.24.5_2 (active)
-  libcroco @0.6.3_0 (active)
-  libcryptopp @5.6.1_0 (active)
-  libdnet @1.12_1 (active)
-  libdshconfig @0.20.13_0 (active)
-  libedit @20110802-3.0_0+universal (active)
-  libelf @0.8.13_2 (active)
-  libevent @2.0.19_0 (active)
-  libevent1 @1.4.14b_0 (active)
-  libewf @20100226_0 (active)
-  libexif @0.6.20_0 (active)
-  libffi @3.0.10_2+universal (active)
-  libgcrypt @1.5.0_0+universal (active)
-  libgdiplus @2.10_0 (active)
-  libgeoip @1.4.8_0+universal (active)
-  libglade2 @2.6.4_4 (active)
-  libgnome @2.30.0_2 (active)
-  libgnome-keyring @2.30.1_1 (active)
-  libgnomecanvas @2.30.3_1 (active)
-  libgnomecups @0.2.3_2 (active)
-  libgnomemm @2.30.0_1 (active)
-  libgnomeprint @2.18.8_0 (active)
-  libgnomeprintui @2.18.6_1 (active)
-  libgnomeui @2.24.5_2 (active)
-  libgpg-error @1.10_0+universal (active)
-  libgsasl @1.6.1_0 (active)
-  libgsf @1.14.22_0 (active)
-  libgtop @2.28.4_0 (active)
-  libgweather @2.30.3_3+python27 (active)
-  libical @0.43_1 (active)
-  libiconv @1.14_0+universal (active)
-  libid3tag @0.15.1b_2 (active)
-  libidl @0.8.14_1 (active)
-  libidn @1.22_0+universal (active)
-  libLASi @1.1.0_0 (active)
-  liblqr @1-0.4.1_0 (active)
-  liblzma @5.0.3_0 (active)
-  libmad @0.15.1b_3 (active)
-  libmcrypt @2.5.8_1 (active)
-  libmd @0.3_1 (active)
-  libmemcached @1.0.4_0 (active)
-  libmikmod @3.2.0-beta2_2+universal (active)
-  libmng @1.0.10_2+universal (active)
-  libmowgli @0.7.1_0 (active)
-  libmpc @0.9_0 (active)
-  libmpdclient @2.6_0 (active)
-  libnet11 @1.1.6_0+universal (active)
-  libnetdude @0.12_0 (active)
-  libnids @1.24_0+libnet11+universal (active)
-  libnotify @0.5.2_2 (active)
-  libogg @1.3.0_1+universal (active)
-  liboil @0.3.17_1 (active)
-  libopennet @0.9.9_0 (active)
-  libopenraw @0.0.9_0 (active)
-  libotr @3.2.0_0 (active)
-  libpaper @1.1.24_0 (active)
-  libpcap @1.1.1_0+universal (active)
-  libpcapnav @0.8_0 (active)
-  libpixman @0.24.4_0+universal (active)
-  libpng @1.4.11_0+universal (active)
-  libproxy @0.4.7_0+python27 (active)
-  librsvg @2.34.2_1 (active)
-  librsync @0.9.7_3 (active)
-  libsamplerate @0.1.8_0 (active)
-  libsdl @1.2.15_0+universal+x11 (active)
-  libsdl_image @1.2.12_0 (active)
-  libsdl_mixer @1.2.12_0+universal (active)
-  libsdl_net @1.2.8_0 (active)
-  libsdl_ttf @2.0.11_0 (active)
-  libsigcxx2 @2.2.10_0 (active)
-  libsndfile @1.0.25_0 (active)
-  libsoup @2.38.0_0 (active)
-  libspiro @20071029_0 (active)
-  libssh @0.5.2_0 (active)
-  libssh01 @0.11_1 (active)
-  libssh2 @1.2.7_0 (active)
-  libsvm @3.12_0+java+tools (active)
-  libtasn1 @2.11_0+universal (active)
-  libtheora @1.1.1_1 (active)
-  libtomcrypt @1.17_0 (active)
-  libtool @2.4.2_0+universal (active)
-  libtorrent @0.12.9_0 (active)
-  libudns @0.0.9_0 (active)
-  libunwind-headers @30_4 (active)
-  libusb @1.0.9_0 (active)
-  libusb-compat @0.1.4_0 (active)
-  libusb-devel @1.0.8.20101017_2 (active)
-  libvorbis @1.3.2_1+universal (active)
-  libvpx @1.0.0_0 (active)
-  libwmf @0.2.8.4_5 (active)
-  libxml2 @2.7.8_0+universal (active)
-  libxslt @1.1.26_0+universal (active)
-  libyaml @0.1.4_1 (active)
-  libzzip @0.13.62_0 (active)
-  links @2.5_0 (active)
-  llvm-3.0 @3.0_4 (active)
-  llvm_select @0.2_0 (active)
-  lua @5.1.4_4 (active)
-  luarocks @2.0.8_0+curl+openssl (active)
-  lynx @2.8.7rel.1_1+ssl (active)
-  lzip @1.12_0 (active)
-  lzo @1.08_0 (active)
-  lzo2 @2.05_1+universal (active)
-  m4 @1.4.16_0+universal (active)
-  macfuse @2.0.3_5 (active)
-  macutil @2.0b3_0 (active)
-  MailtoMutt @0.4.1_1 (active)
-  makedepend @1.0.4_0 (active)
-  makeicns @1.4.10_0 (active)
-  makepasswd @1.10-3_1 (active)
-  maven2 @2.2.1_3 (active)
-  maven3 @3.0.4_0 (active)
-  maven_select @0.3_1 (active)
-  mcabber @0.9.10_0 (active)
-  mcrypt @2.6.8_0 (active)
-  md5deep @4.1_0 (active)
-  md5sha1sum @0.9.5_1 (active)
-  memcached @1.4.13_0 (active)
-  mercurial @2.2.1_0 (active)
-  mesa @8.0.2_4+python27 (active)
-  metis @4.0.3_1 (active)
-  mhash @0.9.9.9_0 (active)
-  mkfontdir @1.0.7_0 (active)
-  mkfontscale @1.1.0_0 (active)
-  mmv @1.01b-14_0 (active)
-  mochiweb @2.3.0_0 (active)
-  mono @2.10.9_0 (active)
-  mosh @1.2_0 (active)
-  mosml @2.01_2 (active)
-  mpc @0.21_0 (active)
-  mpfr @3.1.0-p3_1+universal (active)
-  mpich2 @1.4.1p1_0 (active)
-  MPlayer @1.0rc4_4 (active)
-  msmtp @1.4.28_0 (active)
-  mtr @0.82_0 (active)
-  multimarkdown @3.5_0 (active)
-  multitail @5.2.2_0 (active)
-  mutt-devel @1.5.21_2+gnuregex+gpgme+headercache+imap+pop+sasl+smtp+ssl+tokyocabinet (active)
-  muttils @1.1_0 (active)
-  muttprint @0.72d_1 (active)
-  mysql5 @5.1.62_0 (active)
-  mysql5-server @5.1.62_0 (active)
-  nasm @2.10_0 (active)
-  nbtscan @1.5.1_1 (active)
-  ncftp @3.2.5_0 (active)
-  ncurses @5.9_1+universal (active)
-  ncursesw @5.8_0 (active)
-  neon @0.29.6_1 (active)
-  net-snmp @5.7.1_1 (active)
-  netdude @0.5.1_0 (active)
-  nethack @3.4.3_2 (active)
-  netpbm @10.47.31_0 (active)
-  netpipes @4.2_0 (active)
-  netwalker-ircc @0.5.0_0 (active)
-  nginx @1.2.0_2 (active)
-  ngrep @1.45_0 (active)
-  nload @0.7.2_0 (active)
-  nmap @6.00_0 (active)
-  nodejs @0.6.18_0+python27+ssl (active)
-  nosetests_select @0.1_0 (active)
-  npm @1.1.22_0 (active)
-  nspr @4.8.9_0+universal (active)
-  nss @3.13.3_1 (active)
-  ntfs-3g @2012.1.15_2 (active)
-  oath-toolkit @1.10.4_0 (active)
-  ocaml @3.12.1_5 (active)
-  oniguruma4 @4.7.1_0 (active)
-  opencore-amr @0.1.3_0 (active)
-  opencv @2.4.0_0 (active)
-  openexr @1.7.0_0 (active)
-  openjpeg @1.5.0_1 (active)
-  openldap @2.4.21_5 (active)
-  openmotif @2.3.3_0 (active)
-  openmpi @1.5.5_0+gcc44 (active)
-  openssh @5.9p1_3 (active)
-  openssl @1.0.1c_0+universal (active)
-  openvpn @1.6.0_1 (active)
-  openvpn2 @2.2.1_0 (active)
-  ophcrack @3.3.1_2 (active)
-  orbit2 @2.14.19_0 (active)
-  orc @0.4.16_0 (active)
-  ossp-uuid @1.6.2_0 (active)
-  p5-cam-pdf @1.520.0_3 (active)
-  p5-carp-assert @0.200.0_2 (active)
-  p5-carp-assert-more @1.120.0_2 (active)
-  p5-carp-clan @6.40.0_2 (active)
-  p5-curses @1.150.0_2 (active)
-  p5-data-dump @1.210.0_0 (active)
-  p5-getopt-long @2.380.0_2 (active)
-  p5-html-format @2.90.0_1 (active)
-  p5-io-kqueue @0.320.0_2 (active)
-  p5-io-pty-easy @0.70.0_2 (active)
-  p5-javascript-spidermonkey @0.200.0_3 (active)
-  p5-locale-gettext @1.50.0_6 (active)
-  p5-mojolicious @2.460.0_0 (active)
-  p5-net-ssh2 @0.330.0_2 (active)
-  p5-pdf-api2 @2.16.0_2 (active)
-  p5-pdf-reuse @0.330.0_2 (active)
-  p5-soap-lite @0.712.0_2 (active)
-  p5-text-pdf @0.290.0_2 (active)
-  p5-www-mechanize @1.660.0_1 (active)
-  p5-xml-xpath @1.130.0_2 (active)
-  p5.12-appconfig @1.660.0_2 (active)
-  p5.12-archive-tar @1.840.0_0 (active)
-  p5.12-astro-fits-cfitsio @1.60.0_1 (active)
-  p5.12-astro-fits-header @3.30.0_1 (active)
-  p5.12-audio-flac-header @2.400.0_2 (active)
-  p5.12-cam-pdf @1.520.0_3 (active)
-  p5.12-carp-assert @0.200.0_2 (active)
-  p5.12-carp-assert-more @1.120.0_2 (active)
-  p5.12-carp-clan @6.40.0_2 (active)
-  p5.12-class-inspector @1.250.0_2 (active)
-  p5.12-clone @0.310.0_2 (active)
-  p5.12-compress-raw-bzip2 @2.52.0_0 (active)
-  p5.12-compress-raw-zlib @2.54.0_0 (active)
-  p5.12-cpan-meta-yaml @0.5.0_0 (active)
-  p5.12-crypt-passwdmd5 @1.300.0_2 (active)
-  p5.12-crypt-rc4 @2.20.0_2 (active)
-  p5.12-curses @1.150.0_2 (active)
-  p5.12-dancer @1.309.200_0 (active)
-  p5.12-dancer-plugin-database @1.810.0_0 (active)
-  p5.12-data-dump @1.210.0_0 (active)
-  p5.12-dbi @1.616.0_2 (active)
-  p5.12-devel-ppport @3.200.0_0 (active)
-  p5.12-encode-locale @1.20.0_1 (active)
-  p5.12-error @0.170.160_3 (active)
-  p5.12-extutils-cbuilder @0.280.202_2 (active)
-  p5.12-extutils-f77 @1.160.0_2 (active)
-  p5.12-extutils-install @1.540.0_2 (active)
-  p5.12-extutils-parsexs @2.220.600_2 (active)
-  p5.12-file-listing @6.20.0_1 (active)
-  p5.12-file-remove @1.520.0_0 (active)
-  p5.12-file-temp @0.220.0_2 (active)
-  p5.12-font-afm @1.200.0_1 (active)
-  p5.12-font-ttf @0.480.0_2 (active)
-  p5.12-gd @2.450.0_3 (active)
-  p5.12-getopt-long @2.380.0_2 (active)
-  p5.12-html-form @6.0.0_1 (active)
-  p5.12-html-format @2.90.0_1 (active)
-  p5.12-html-parser @3.690.0_0 (active)
-  p5.12-html-tagset @3.200.0_2 (active)
-  p5.12-html-tree @4.200.0_1 (active)
-  p5.12-http-body @1.110.0_2 (active)
-  p5.12-http-cookies @6.0.0_1 (active)
-  p5.12-http-daemon @6.0.0_1 (active)
-  p5.12-http-date @6.0.0_1 (active)
-  p5.12-http-message @6.20.0_1 (active)
-  p5.12-http-negotiate @6.0.0_1 (active)
-  p5.12-http-server-simple @0.430.0_2 (active)
-  p5.12-http-server-simple-psgi @0.140.0_2 (active)
-  p5.12-inline @0.460.0_3 (active)
-  p5.12-io-compress @2.52.0_0 (active)
-  p5.12-io-kqueue @0.320.0_2 (active)
-  p5.12-io-pty-easy @0.70.0_2 (active)
-  p5.12-io-socket-ssl @1.440.0_1 (active)
-  p5.12-io-stringy @2.110.0_2 (active)
-  p5.12-io-tty @1.70.0_2 (active)
-  p5.12-io-zlib @1.100.0_2 (active)
-  p5.12-ipc-cmd @0.760.0_0 (active)
-  p5.12-javascript-spidermonkey @0.200.0_3 (active)
-  p5.12-json @2.530.0_1 (active)
-  p5.12-libwww-perl @6.30.0_1+ssl (active)
-  p5.12-locale-gettext @1.50.0_6+universal (active)
-  p5.12-locale-maketext-simple @0.210.0_1 (active)
-  p5.12-lwp-mediatypes @6.10.0_1 (active)
-  p5.12-lwp-protocol-https @6.20.0_1 (active)
-  p5.12-lwp-useragent-determined @1.50.0_2 (active)
-  p5.12-mailtools @2.80.0_1 (active)
-  p5.12-mime-base64 @3.130.0_2 (active)
-  p5.12-mime-tools @5.428.0_2 (active)
-  p5.12-mime-types @1.260.0_2 (active)
-  p5.12-module-build @0.380.0_1 (active)
-  p5.12-module-corelist @2.600.0_0 (active)
-  p5.12-module-install @1.60.0_0 (active)
-  p5.12-module-load @0.220.0_0 (active)
-  p5.12-module-load-conditional @0.460.0_0 (active)
-  p5.12-module-metadata @1.0.9_0 (active)
-  p5.12-module-scandeps @1.80.0_0 (active)
-  p5.12-mojolicious @2.460.0_0 (active)
-  p5.12-mozilla-ca @20110904_1 (active)
-  p5.12-mp3-info @1.240.0_2 (active)
-  p5.12-net-http @6.10.0_1 (active)
-  p5.12-net-libidn @0.120.0_2 (active)
-  p5.12-net-pcap @0.160.0_2 (active)
-  p5.12-net-rawip @0.200.0_2 (active)
-  p5.12-net-ssh2 @0.330.0_2 (active)
-  p5.12-net-ssleay @1.420.0_0 (active)
-  p5.12-package-constants @0.20.0_2 (active)
-  p5.12-par-dist @0.480.0_0 (active)
-  p5.12-params-check @0.320.0_0 (active)
-  p5.12-params-util @1.30.0_2 (active)
-  p5.12-parse-cpan-meta @1.440.400_0 (active)
-  p5.12-parse-recdescent @1.965.1_2 (active)
-  p5.12-pathtools @3.330.0_2+universal (active)
-  p5.12-pdf-api2 @2.16.0_2 (active)
-  p5.12-pdf-reuse @0.330.0_2 (active)
-  p5.12-perl-ostype @1.2.0_2 (active)
-  p5.12-scalar-list-utils @1.230.0_2+universal (active)
-  p5.12-soap-lite @0.712.0_2 (active)
-  p5.12-sql-statement @1.330.0_2 (active)
-  p5.12-sub-uplevel @0.220.0_2 (active)
-  p5.12-task-weaken @1.30.0_2 (active)
-  p5.12-template-toolkit @2.220.0_2 (active)
-  p5.12-term-readkey @2.300.0_2 (active)
-  p5.12-term-readline-gnu @1.200.0_2 (active)
-  p5.12-test-deep @0.108.0_2 (active)
-  p5.12-test-exception @0.310.0_2 (active)
-  p5.12-test-mockobject @1.90.0_3 (active)
-  p5.12-test-nowarnings @1.20.0_2 (active)
-  p5.12-test-simple @0.980.0_0 (active)
-  p5.12-test-tester @0.107.0_2 (active)
-  p5.12-test-warn @0.220.0_2 (active)
-  p5.12-text-balanced @2.20.0_2 (active)
-  p5.12-text-iconv @1.400.0_2 (active)
-  p5.12-text-pdf @0.290.0_2 (active)
-  p5.12-text-simpletable @2.30.0_2 (active)
-  p5.12-timedate @1.200.0_2 (active)
-  p5.12-tree-dag_node @1.60.0_2 (active)
-  p5.12-try-tiny @0.90.0_2 (active)
-  p5.12-universal-can @1.160.0_3 (active)
-  p5.12-universal-isa @1.30.0_3 (active)
-  p5.12-uri @1.590.0_1 (active)
-  p5.12-version @0.970.0_0 (active)
-  p5.12-www-mechanize @1.660.0_1 (active)
-  p5.12-www-robotrules @6.10.0_1 (active)
-  p5.12-xml-namespacesupport @1.110.0_3 (active)
-  p5.12-xml-parser @2.400.0_3+universal (active)
-  p5.12-xml-sax @0.990.0_0 (active)
-  p5.12-xml-sax-base @1.80.0_0 (active)
-  p5.12-xml-sax-expat @0.400.0_3 (active)
-  p5.12-xml-simple @2.180.0_2 (active)
-  p5.12-xml-xpath @1.130.0_2 (active)
-  p5.12-yaml @0.730.0_1 (active)
-  p5.12-yaml-syck @1.170.0_2 (active)
-  p5.12-yaml-tiny @1.510.0_0 (active)
-  p7zip @9.20.1_1 (active)
-  pamtester @0.1.2_0 (active)
-  pango @1.30.0_0+universal+x11 (active)
-  pangomm @2.28.4_0 (active)
-  parallel @20120522_0 (active)
-  pcre @8.30_0 (active)
-  pcrexx @0.9.5_2 (active)
-  pdfjam @2.08_0 (active)
-  pdflib @7.0.5_1 (active)
-  perl5 @5.12.3_1+perl5_12 (active)
-  perl5.8 @5.8.9_7 (active)
-  perl5.12 @5.12.4_0+threads+universal (active)
-  perl5.14 @5.14.2_0+threads (active)
-  pgf @2.10_0 (active)
-  php5 @5.3.12_0+apache2 (active)
-  php5-apc @3.1.9_1 (active)
-  php5-calendar @5.3.12_0 (active)
-  php5-curl @5.3.12_0 (active)
-  php5-dba @5.3.12_0 (active)
-  php5-exif @5.3.12_0 (active)
-  php5-ftp @5.3.12_0 (active)
-  php5-gd @5.3.12_0 (active)
-  php5-gettext @5.3.12_0 (active)
-  php5-gmp @5.3.12_0 (active)
-  php5-iconv @5.3.12_0 (active)
-  php5-imap @5.3.12_0 (active)
-  php5-mbstring @5.3.12_0 (active)
-  php5-mcrypt @5.3.12_0 (active)
-  php5-memcache @2.2.6_0 (active)
-  php5-mssql @5.3.12_0 (active)
-  php5-mysql @5.3.12_0+mysqlnd (active)
-  php5-odbc @5.3.12_0+unixodbc (active)
-  php5-openssl @5.3.12_0 (active)
-  php5-pcntl @5.3.12_0 (active)
-  php5-posix @5.3.12_0 (active)
-  php5-postgresql @5.3.12_0+postgresql91 (active)
-  php5-soap @5.3.12_0 (active)
-  php5-sockets @5.3.12_0 (active)
-  php5-spidermonkey @0.1.4_0 (active)
-  php5-SPL_Types @0.3.0_1 (active)
-  php5-sqlite @5.3.12_0 (active)
-  php5-tidy @5.3.12_0 (active)
-  php5-wddx @5.3.12_0 (active)
-  php5-xmlrpc @5.3.12_0 (active)
-  php5-xsl @5.3.12_0 (active)
-  php5-zip @5.3.12_0 (active)
-  pipebench @0.40_0 (active)
-  pkgconfig @0.26_1+universal (active)
-  policykit @0.103_0 (active)
-  poppler @0.18.4_4 (active)
-  poppler-data @0.4.5_0 (active)
-  popt @1.16_0 (active)
-  portaudio @19.20111121_2 (active)
-  postgresql91 @9.1.3_2 (active)
-  postgresql_select @0.1_0 (active)
-  ppl @0.12.1_2 (active)
-  proctools @0.4pre1_2 (active)
-  prolog-mode.el @1.22_1 (active)
-  protobuf-cpp @2.4.1_0 (active)
-  protobuf-java @2.4.1_0 (active)
-  protobuf-python @2.3.0_0 (active)
-  protobuf-python27 @2.4.1_0 (active)
-  pstree @2.33_1 (active)
-  psutils @p17_1 (active)
-  pth @2.0.7_0 (active)
-  pv @1.2.0_0 (active)
-  py-beautifulsoup @3.2.0_1 (active)
-  py-cairo @1.4.12_4 (active)
-  py-construct @2.00_0 (active)
-  py-crypto @2.5_0 (active)
-  py-ctypes @1.0.2_1 (active)
-  py-exif @1.0.2_0 (active)
-  py-gmpy @1.01_0 (active)
-  py-gnupg @0.3.0_0 (active)
-  py-gobject @2.18.0_0 (active)
-  py-gtk2 @2.12.1_1 (active)
-  py-gtkmvc @0.9.2_0 (active)
-  py-jabber @0.5-0_1 (active)
-  py-kqueue @2.0.1_0 (active)
-  py-lepl @5.1.2_0 (active)
-  py-libxml2 @2.7.8_0 (active)
-  py-numpy @1.6.1_0 (active)
-  py-openssl @0.9_1 (active)
-  py-pexpect @2.4_0 (active)
-  py-pipedream @0.2.0_1 (active)
-  py-pycluster @1.50_0 (active)
-  py-pylibmc @1.2.2_3 (active)
-  py24-crypto @2.5_0 (active)
-  py24-distribute @0.6.27_0 (active)
-  py24-irclib @0.4.8_0 (active)
-  py24-nose @1.1.2_2 (active)
-  py24-numpy @1.6.2_0 (active)
-  py24-pexpect @2.4_0 (active)
-  py24-pylibpcap @0.6.4_0 (active)
-  py24-readline @6.2.2_0 (active)
-  py25-crypto @2.5_0 (active)
-  py25-distribute @0.6.27_0 (active)
-  py25-gnuplot @1.8_1 (active)
-  py25-libdnet @1.12_0 (active)
-  py25-nose @1.1.2_2 (active)
-  py25-numpy @1.6.2_0 (active)
-  py25-pylibpcap @0.6.4_0 (active)
-  py25-pyx @0.11.1_3 (active)
-  py25-readline @6.2.2_0 (active)
-  py26-babel @0.9.6_0 (active)
-  py26-crypto @2.5_0 (active)
-  py26-distribute @0.6.27_0 (active)
-  py26-genshi @0.6_1 (active)
-  py26-gnuplot @1.8_1 (active)
-  py26-iniparse @0.3.1_0 (active)
-  py26-libdnet @1.12_0 (active)
-  py26-nose @1.1.2_2 (active)
-  py26-numpy @1.6.2_0 (active)
-  py26-pygments @1.4_1 (active)
-  py26-pylibpcap @0.6.4_0 (active)
-  py26-pyx @0.11.1_3 (active)
-  py26-scapy @2.1.0_0 (active)
-  py26-sip @4.13.2_0 (active)
-  py26-sqlite @2.6.3_0 (active)
-  py26-tz @2012c_0 (active)
-  py27-altgraph @0.9_0 (active)
-  py27-bdist_mpkg @0.4.4_0 (active)
-  py27-boto @2.2.2_1 (active)
-  py27-cairo @1.8.10_1 (active)
-  py27-configobj @4.6.0_0 (active)
-  py27-crypto @2.5_0 (active)
-  py27-curl @7.19.0_0 (active)
-  py27-dateutil @1.5_1 (active)
-  py27-distribute @0.6.27_0 (active)
-  py27-docutils @0.9_0 (active)
-  py27-game @1.9.1_4 (active)
-  py27-gevent @0.13.7_0 (active)
-  py27-gnupg @0.3.0_0 (active)
-  py27-gobject @2.26.0_2 (active)
-  py27-greenlet @0.3.4_0 (active)
-  py27-gtk @2.22.0_1 (active)
-  py27-imread @0.2.1_0 (active)
-  py27-lepl @5.1.2_0 (active)
-  py27-libdnet @1.12_0 (active)
-  py27-libxml2 @2.7.8_0+universal (active)
-  py27-macholib @1.4.3_0 (active)
-  py27-matplotlib @1.1.0_3+tkinter (active)
-  py27-modulegraph @0.9.1_0 (active)
-  py27-mysql @1.2.3_0+mysql5 (active)
-  py27-nltk @2.0.1rc1_0 (active)
-  py27-nose @1.1.2_2 (active)
-  py27-numpy @1.6.2_0 (active)
-  py27-opengl @3.0.1_0 (active)
-  py27-opengl-accelerate @3.0.1_0 (active)
-  py27-paramiko @1.7.7.1_0 (active)
-  py27-pil @1.1.7_4 (active)
-  py27-ply @3.4_1 (active)
-  py27-pp @1.6.1_0 (active)
-  py27-psyco @dev_0 (active)
-  py27-py @1.1.1_0 (active)
-  py27-pygccxml-devel @20120123_1 (active)
-  py27-pygments @1.4_1 (active)
-  py27-pylibmc @1.2.2_3 (active)
-  py27-pymacs @0.23_0 (active)
-  py27-pyobjc @2.3_0 (active)
-  py27-pyobjc-cocoa @2.3_0 (active)
-  py27-pyplusplus-devel @20120123_1 (active)
-  py27-pyrex @0.9.9_0 (active)
-  py27-pyusb-devel @1.0.0-a1_0 (active)
-  py27-readline @6.2.2_0 (active)
-  py27-redis @2.4.13_0 (active)
-  py27-roman @1.4.0_0 (active)
-  py27-rope @0.9.2_0 (active)
-  py27-scipy @0.10.1_1+gcc45 (active)
-  py27-tkinter @2.7.3_0 (active)
-  py27-tz @2012c_0 (active)
-  py27-yaml @3.10_0 (active)
-  py27-zmq @2.2.0_0 (active)
-  pypy @1.8_0 (active)
-  python-mode.el @1.0_0 (active)
-  python24 @2.4.6_10 (active)
-  python25 @2.5.6_4 (active)
-  python26 @2.6.8_0 (active)
-  python27 @2.7.3_0+universal (active)
-  python33 @3.3.0a3_0 (active)
-  python_select @0.3_1 (active)
-  qhull @2012.1_2 (active)
-  qt3 @3.3.8_11 (active)
-  rabbitmq-server @2.8.2_0 (active)
-  rarian @0.8.1_0+universal (active)
-  rb-cheat @1.2.1_0 (active)
-  rb-compass @0.10.6_0 (active)
-  rb-rubygems @1.3.7_0+ruby (active)
-  rb19-archive-tar-minitar @0.5.2_0 (active)
-  rb19-bundler @1.0.21_0 (active)
-  rb19-core_source @0.1.4_0 (active)
-  rb19-hpricot @0.8.4_0 (active)
-  rb19-mustache @0.11.2_0 (active)
-  rb19-rdiscount @1.6.5_0 (active)
-  rb19-ronn @0.7.3_0 (active)
-  rb19-rspec @1.3.0_0 (active)
-  rb19-yajl @0.7.6_0 (active)
-  rdesktop @1.6.0_5 (active)
-  re2 @20111209-d49d9934b9aa_0 (active)
-  readline @6.2.000_0+universal (active)
-  readown @1.0.4_0 (active)
-  redis @2.4.10_0 (active)
-  remind @03.01.09_0 (active)
-  renameutils @0.10.0_0 (active)
-  rlwrap @0.37_1 (active)
-  rmtrash @0.3.3_2 (active)
-  rrdtool @1.4.7_0+universal (active)
-  rsync @3.0.8_1 (active)
-  rtorrent @0.8.9_0 (active)
-  ruby @1.8.7-p358_0+thread_hooks (active)
-  ruby19 @1.9.3-p194_1+doc (active)
-  sane-backends @1.0.22_2 (active)
-  scala29 @2.9.2_1 (active)
-  scala_select @0.1_2 (active)
-  scapy @2.2.0_0 (active)
-  schroedinger @1.0.11_0 (active)
-  scons @2.0.1_1 (active)
-  screen @4.0.3_3+universal+vertical_split (active)
-  serf0 @0.7.2_0 (active)
-  serf1 @1.0.3_0 (active)
-  servlet23-api @1_0 (active)
-  servlet24-api @5.5.28_0 (active)
-  Shakespeare @1.2.1_0 (active)
-  shapelib @1.2.10_0 (active)
-  shared-mime-info @1.0_0+universal (active)
-  shmux @1.0.2_1 (active)
-  sic @1.1_0 (active)
-  sloccount @2.26_0 (active)
-  slurm @0.3.3_0 (active)
-  smlnj @110.72_0 (active)
-  smpeg @0.4.4_9+universal (active)
-  snappy @1.0.4_0 (active)
-  snort @2.9.1.2_0 (active)
-  sox @14.4.0_1 (active)
-  speex @1.2rc1_0 (active)
-  spidermonkey @1.7.0_5+fileobject+universal (active)
-  sqlite3 @3.7.12.1_0+universal (active)
-  squid @2.7.STABLE9_3+openssl (active)
-  sshfs @2.4_0 (active)
-  sshfs-gui @1.3_0 (active)
-  sshpass @1.04_0 (active)
-  sslh @1.12_0 (active)
-  startup-notification @0.12_0 (active)
-  struts @1.2.7_1 (active)
-  stunnel @4.47_0+libwrap (active)
-  subversion @1.7.5_0 (active)
-  subversion-python26bindings @1.7.5_0 (active)
-  subversion-python27bindings @1.7.5_0 (active)
-  SuiteSparse @3.4.0_3 (active)
-  swi-prolog @6.0.2_0+mt (active)
-  swig @2.0.6_1 (active)
-  swig-python @2.0.6_0 (active)
-  szip @2.1_4 (active)
-  t1lib @5.1.2_2 (active)
-  task @1.9.4_0 (active)
-  tcl @8.5.11_0+universal (active)
-  tcp_wrappers @20_2 (active)
-  tcpdstat @1.0_0 (active)
-  tcpdump @4.2.1_0 (active)
-  tcptrace @6.6.7_0 (active)
-  tcptraceroute @1.5beta7_1 (active)
-  testdisk @6.13_0 (active)
-  texi2html @5.0_0 (active)
-  texinfo @4.13_2+universal (active)
-  texlive @2011_0+doc+medium (active)
-  texlive-basic @23152_1+doc (active)
-  texlive-bin @2011_5+motif+x11 (active)
-  texlive-bin-extra @23089_1+doc (active)
-  texlive-common @2011_0 (active)
-  texlive-context @23171_0+doc (active)
-  texlive-documentation-base @23160_0+doc (active)
-  texlive-documentation-english @22612_0+doc (active)
-  texlive-fonts-recommended @23165_0+doc (active)
-  texlive-fontutils @23142_0+doc (active)
-  texlive-generic-recommended @23088_0+doc (active)
-  texlive-lang-czechslovak @23092_0+doc (active)
-  texlive-lang-dutch @23092_0+doc (active)
-  texlive-lang-english @23092_0+doc (active)
-  texlive-lang-french @23092_0+doc (active)
-  texlive-lang-german @23085_0+doc (active)
-  texlive-lang-italian @23092_0+doc (active)
-  texlive-lang-polish @23092_0+doc (active)
-  texlive-lang-portuguese @23092_0+doc (active)
-  texlive-lang-spanish @23092_0+doc (active)
-  texlive-latex @23089_0+doc (active)
-  texlive-latex-extra @22931_0+doc (active)
-  texlive-latex-recommended @23089_0+doc (active)
-  texlive-luatex @23137_0+doc (active)
-  texlive-math-extra @23089_0+doc (active)
-  texlive-metapost @23089_0+doc (active)
-  texlive-pictures @22961_1+doc (active)
-  texlive-xetex @23080_0+doc (active)
-  tidy @20090325_0 (active)
-  tiff @3.9.5_0+universal (active)
-  tk @8.5.11_0 (active)
-  tmux @1.6_1 (active)
-  tokyocabinet @1.4.47_1 (active)
-  tor @0.2.2.35_0 (active)
-  trac @0.12.3_0+subversion (active)
-  tripwire @2.4.1.2_2 (active)
-  tsocks @1.8.4_2 (active)
-  tsung @1.4.2_0 (active)
-  twolame @0.3.13_1 (active)
-  udis86 @1.7_0 (active)
-  ufraw @0.18_1 (active)
-  uncrustify @0.59_0 (active)
-  unhash @1.1_1 (active)
-  unison @2.40.63_0 (active)
-  unixODBC @2.3.1_0 (active)
-  unsermake @0.4-20070824_2 (active)
-  urlview @0.9-19_0 (active)
-  urw-fonts @1.0.7pre44_0 (active)
-  valgrind-devel @3.8.0-r12339_0 (active)
-  vantages @0.8.8b_1 (active)
-  vte @0.28.2_0+python27 (active)
-  vtk5 @5.8.0_0+python26+tcltk+x11 (active)
-  w3m @0.5.3_1 (active)
-  watch @3.2.8_1 (active)
-  wavpack @4.60.1_0 (active)
-  webkit-gtk @1.6.3_2+svg+video (active)
-  webp @0.1.3_0 (active)
-  weechat @0.3.7_1 (active)
-  wget @1.13.4_0+ssl+universal (active)
-  wxWidgets @2.8.12_0 (active)
-  wyrd @1.4.4_0 (active)
-  x264 @20111210_0 (active)
-  xalanj @2.7.1_0 (active)
-  xauth @1.0.7_0 (active)
-  xbitmaps @1.1.1_0 (active)
-  xercesj @2.11.0_0 (active)
-  Xft2 @2.3.0_0+universal (active)
-  xinetd @2.3.14_0 (active)
-  xjobs @20100311_0 (active)
-  xmlcatmgr @2.2_1+universal (active)
-  xmlto @0.0.25_0 (active)
-  xorg-bigreqsproto @1.1.2_0 (active)
-  xorg-compositeproto @0.4.2_0 (active)
-  xorg-damageproto @1.2.1_0 (active)
-  xorg-dri2proto @2.6_0 (active)
-  xorg-fixesproto @5.0_0 (active)
-  xorg-font-util @1.3.0_0 (active)
-  xorg-fontsproto @2.1.2_0 (active)
-  xorg-glproto @1.4.15_0 (active)
-  xorg-inputproto @2.2_0 (active)
-  xorg-kbproto @1.0.6_0 (active)
-  xorg-libfontenc @1.1.1_0 (active)
-  xorg-libice @1.0.8_0+universal (active)
-  xorg-libpthread-stubs @0.3_0 (active)
-  xorg-libsm @1.2.1_0+universal (active)
-  xorg-libX11 @1.4.99.901_0+universal (active)
-  xorg-libXau @1.0.7_0+universal (active)
-  xorg-libXaw @1.0.10_0 (active)
-  xorg-libxcb @1.8.1_2+python27+universal (active)
-  xorg-libXcomposite @0.4.3_0+universal (active)
-  xorg-libXcursor @1.1.13_0+universal (active)
-  xorg-libXdamage @1.1.3_0+universal (active)
-  xorg-libXdmcp @1.1.1_0+universal (active)
-  xorg-libXext @1.3.1_0+universal (active)
-  xorg-libXfixes @5.0_0+universal (active)
-  xorg-libXfont @1.4.5_0 (active)
-  xorg-libXi @1.6.1_0+universal (active)
-  xorg-libXinerama @1.1.2_0+universal (active)
-  xorg-libXmu @1.1.1_0+universal (active)
-  xorg-libXp @1.0.1_0 (active)
-  xorg-libXrandr @1.3.2_0+universal (active)
-  xorg-libXScrnSaver @1.2.2_0 (active)
-  xorg-libXt @1.1.3_0+universal (active)
-  xorg-libXtst @1.2.1_0+universal (active)
-  xorg-printproto @1.0.5_0 (active)
-  xorg-randrproto @1.3.2_0 (active)
-  xorg-recordproto @1.14.2_0 (active)
-  xorg-renderproto @0.11.1_0 (active)
-  xorg-scrnsaverproto @1.2.2_0 (active)
-  xorg-util-macros @1.17_0 (active)
-  xorg-xcb-proto @1.7.1_0+python27 (active)
-  xorg-xcb-util @0.3.8_0+universal (active)
-  xorg-xcmiscproto @1.2.2_0 (active)
-  xorg-xextproto @7.2.1_0 (active)
-  xorg-xf86bigfontproto @1.2.0_0 (active)
-  xorg-xineramaproto @1.2.1_0 (active)
-  xorg-xproto @7.0.23_0 (active)
-  xorg-xtrans @1.2.7_0 (active)
-  xpm @3.5.10_0+universal (active)
-  xrender @0.9.7_0+universal (active)
-  xsane @0.998_0 (active)
-  XviD @1.3.2_2 (active)
-  xz @5.0.3_0+universal (active)
-  yajl @2.0.4_0 (active)
-  yasm @1.1.0_0 (active)
-  yersinia @0.7.1_0 (active)
-  youtube-dl @2012.02.27_0 (active)
-  ZendFramework @1.11.11_0 (active)
-  zlib @1.2.7_0+universal (active)
-  zmq @2.2.0_0 (active)
-  zsh @4.2.7_1 (active)
-  zsh-templates-osx @2.0.4_0 (active)
+aalib                          @1.4rc5         graphics/aalib
+abook                          @0.5.6          mail/abook
+adns                           @1.4            net/adns
+aescrypt                       @0.7            security/aescrypt
+aesutil                        @1.0.7          security/aesutil
+aircrack-ng                    @1.1            security/aircrack-ng
+antlr                          @2.7.7          lang/antlr
+antlr3                         @3.2            lang/antlr3
+apache-ant                     @1.8.4          devel/apache-ant
+apache-ivy                     @2.2.0          devel/apache-ivy
+apache-solr                    @3.6.0          java/apache-solr
+apache2                        @2.2.22         www/apache2
+apachetop                      @0.12.6         sysutils/apachetop
+apiextractor                   @0.10.10        devel/apiextractor
+apple-gcc42                    @5666.3         lang/apple-gcc42
+apr                            @1.4.6          devel/apr
+apr-util                       @1.4.1          devel/apr-util
+aquaterm                       @1.0.1          aqua/aquaterm
+aria2                          @1.15.1         net/aria2
+arpack                         @3.1.1          math/arpack
+arpwatch                       @2.1a15         net/arpwatch
+asciidoc                       @8.6.8          textproc/asciidoc
+asciidoc                       @8.6.8          textproc/asciidoc
+aspell                         @0.60.6         textproc/aspell
+astyle                         @2.02.1         devel/astyle
+atk                            @2.2.0          devel/atk
+atkmm                          @2.22.6         gnome/atkmm
+atlas                          @3.10.0         math/atlas
+auctex                         @11.86          editors/auctex
+audiofile                      @0.3.4          audio/audiofile
+authforce                      @0.9.9          security/authforce
+autobench                      @2.1.2          www/autobench
+autoconf                       @2.69           devel/autoconf
+autoconf213                    @2.13           devel/autoconf213
+autoconf263                    @2.63           devel/autoconf263
+autojump                       @20.9           sysutils/autojump
+automake                       @1.12.2         devel/automake
+automake                       @1.12.2         devel/automake
+autossh                        @1.4c           net/autossh
+babl                           @0.1.10         graphics/babl
+babl                           @0.1.10         graphics/babl
+base64                         @1.5            mail/base64
+bdftopcf                       @1.0.3          x11/bdftopcf
+beecrypt                       @4.2.1          devel/beecrypt
+bind9                          @9.9.1-P1       net/bind9
+binutils                       @2.21           devel/binutils
+bison                          @2.6            devel/bison
+boehmgc                        @7.2c           devel/boehmgc
+boost                          @1.50.0         devel/boost
+botan                          @1.8.13         security/botan
+bzip2                          @1.0.6          archivers/bzip2
+bzr                            @2.5.1          devel/bzr
+cairo                          @1.12.2         graphics/cairo
+cairomm                        @1.10.0         graphics/cairomm
+calcurse                       @2.9.2          sysutils/calcurse
+cclient                        @2007e          mail/cclient
+cctools                        @822            devel/cctools
+cctools-headers                @822            devel/cctools-headers
+cedet                          @1.1            editors/cedet
+cfitsio                        @3.300          science/cfitsio
+cfv                            @1.18.3         security/cfv
+clamav                         @0.97.5         sysutils/clamav
+clojure                        @1.4.0          lang/clojure
+clojure-contrib                @1.2.0          lang/clojure-contrib
+cloog                          @0.16.3         devel/cloog
+clusterit                      @2.5            net/clusterit
+cmake                          @2.8.8          devel/cmake
+commons-beanutils              @1.8.2          java/commons-beanutils
+commons-collections            @3.2.1          java/commons-collections
+commons-digester               @2.0            java/commons-digester
+commons-fileupload             @1.2.2          java/commons-fileupload
+commons-lang                   @2.4            java/commons-lang
+commons-logging                @1.1.1          java/commons-logging
+commons-validator              @1.3.1          java/commons-validator
+convmv                         @1.15           sysutils/convmv
+coreutils                      @8.17           sysutils/coreutils
+corkscrew                      @2.0            net/corkscrew
+couchdb                        @1.2.0          databases/couchdb
+cowsay                         @3.03           textproc/cowsay
+cppunit                        @1.12.1         devel/cppunit
+csshX                          @0.74           net/csshX
+curl                           @7.26.0         net/curl
+curl-ca-bundle                 @7.26.0         net/curl-ca-bundle
+cyrus-sasl2                    @2.1.25         security/cyrus-sasl2
+daq                            @0.6.2          net/daq
+db44                           @4.4.20         databases/db44
+db46                           @4.6.21         databases/db46
+dbus                           @1.4.20         devel/dbus
+dbus-glib                      @0.100          devel/dbus-glib
+dbus-python27                  @0.84.0         devel/dbus-python27
+dcraw                          @9.16-20120705004100 graphics/dcraw
+ddd                            @3.3.12         devel/ddd
+dejavu-fonts                   @2.33           x11/dejavu-fonts
+desktop-file-utils             @0.15           gnome/desktop-file-utils
+detex                          @2.8            tex/detex
+detox                          @1.2.0          sysutils/detox
+dialog                         @1.1-20120706   devel/dialog
+dirac                          @1.0.2          multimedia/dirac
+dnstracer                      @1.9            net/dnstracer
+docbook-xml                    @5.0            textproc/docbook-xml
+docbook-xml-4.1.2              @4.1.2          textproc/docbook-xml-4.1.2
+docbook-xml-4.2                @4.2            textproc/docbook-xml-4.2
+docbook-xml-4.3                @4.3            textproc/docbook-xml-4.3
+docbook-xml-4.4                @4.4            textproc/docbook-xml-4.4
+docbook-xml-4.5                @4.5            textproc/docbook-xml-4.5
+docbook-xml-5.0                @5.0            textproc/docbook-xml-5.0
+docbook-xsl                    @1.76.1         textproc/docbook-xsl
+dos2unix                       @6.0            textproc/dos2unix
+doxygen                        @1.8.1.1        textproc/doxygen
+drill                          @1.6.8          net/drill
+dtach                          @0.8            sysutils/dtach
+duplicity                      @0.6.18         sysutils/duplicity
+duply                          @1.5.7          sysutils/duply
+duply                          @1.5.7          sysutils/duply
+dvipng                         @1.14           tex/dvipng
+dyld-headers                   @195.6          devel/dyld-headers
+ecb                            @2.40           editors/ecb
+eggdbus                        @0.6            devel/eggdbus
+eigen3                         @3.1.0          math/eigen3
+elinks                         @0.11.7         www/elinks
+emacs                          @24.1           editors/emacs
+emacs-app                      @24.1           aqua/emacs-app
+emacs-w3m                      @1.4.4          www/emacs-w3m
+enca                           @1.13           textproc/enca
+enchant                        @1.6.0          textproc/enchant
+epubcheck                      @1.2            textproc/epubcheck
+erc                            @5.3            irc/erc
+erlang                         @R15B01         lang/erlang
+esound                         @0.2.41         audio/esound
+etherape                       @0.9.10         net/etherape
+ettercap                       @0.6.b          net/ettercap
+ettercap-ng                    @0.7.3          net/ettercap-ng
+evolution-data-server          @2.30.3         gnome/evolution-data-server
+exif                           @0.6.19         graphics/exif
+exiftags                       @1.01           graphics/exiftags
+exim                           @4.71           mail/exim
+exiv2                          @0.22           graphics/exiv2
+expat                          @2.1.0          textproc/expat
+faac                           @1.28           audio/faac
+faad2                          @2.7            audio/faad2
+fast-md5                       @2.6.2          java/fast-md5
+fcrackzip                      @1.0            security/fcrackzip
+ffmpeg                         @0.7.11         multimedia/ffmpeg
+fftw-3                         @3.3.2          math/fftw-3
+fftw-3-single                  @3.3.2          math/fftw-3
+file                           @5.11           sysutils/file
+findutils                      @4.4.2          sysutils/findutils
+flac                           @1.2.1          audio/flac
+flac2mp3                       @20041223       audio/flac2mp3
+flex                           @2.5.36         devel/flex
+font-mutt-misc                 @1.0.3          x11/font-mutt-misc
+fontconfig                     @2.9.0          graphics/fontconfig
+fop                            @1.0            textproc/fop
+foremost                       @1.5.4          sysutils/foremost
+fortune                        @6.2.0-RELEASE  games/fortune
+fping                          @2.4b2          net/fping
+freetds                        @0.91           databases/freetds
+freetype                       @2.4.10         print/freetype
+fsharp                         @1.9.4.19       lang/fsharp
+ftgl                           @2.1.3-rc5      graphics/ftgl
+fuse4x                         @0.9.1          fuse/fuse4x
+fuse4x-kext                    @0.9.1          fuse/fuse4x-kext
+fusil                          @0.7            security/fusil
+gawk                           @4.0.0          lang/gawk
+gcc43                          @4.3.6          lang/gcc43
+gcc44                          @4.4.7          lang/gcc44
+gcc45                          @4.5.4          lang/gcc45
+gcc46                          @4.6.3          lang/gcc46
+gcc47                          @4.7.1          lang/gcc47
+gcc_select                     @0.1            sysutils/gcc_select
+gccxml-devel                   @20120517       lang/gccxml-devel
+gconf                          @2.28.1         gnome/gconf
+gd2                            @2.0.35         graphics/gd2
+gdb                            @7.3            devel/gdb
+gdbm                           @1.10           databases/gdbm
+gdk-pixbuf2                    @2.26.1         graphics/gdk-pixbuf2
+geany                          @0.21           devel/geany
+gegl                           @0.2.0          graphics/gegl
+gegl                           @0.2.0          graphics/gegl
+generatorrunner                @0.6.16         devel/generatorrunner
+getopt                         @1.1.4          sysutils/getopt
+gettext                        @0.18.1.1       devel/gettext
+ghc                            @6.10.4         lang/ghc
+ghostscript                    @9.05           print/ghostscript
+giflib                         @4.2.0          graphics/giflib
+gimp                           @2.8.0          graphics/gimp
+gimp-app                       @2.8.0          aqua/gimp-app
+gimp-help-en                   @2.8.0          graphics/gimp-help-en
+gimp-jp2                       @2.2.0          graphics/gimp-jp2
+gimp-lqr-plugin                @0.7.1          graphics/gimp-lqr-plugin
+gimp2                          @2.8.0          graphics/gimp2
+git-core                       @1.7.11.3       devel/git-core
+glib-networking                @2.28.7         gnome/glib-networking
+glib1                          @1.2.10         devel/glib1
+glib2                          @2.32.4         devel/glib2
+glib2                          @2.32.4         devel/glib2
+glibmm                         @2.32.1         devel/glibmm
+glpk                           @4.47           math/glpk
+gmake                          @3.82           devel/gmake
+gmp                            @5.0.4          devel/gmp
+gnome-common                   @2.28.0         gnome/gnome-common
+gnome-doc-utils                @0.20.10        gnome/gnome-doc-utils
+gnome-icon-theme               @2.30.3         gnome/gnome-icon-theme
+gnome-keyring                  @2.30.3         gnome/gnome-keyring
+gnome-mime-data                @2.18.0         gnome/gnome-mime-data
+gnome-themes                   @2.30.2         gnome/gnome-themes
+gnome-vfs                      @2.24.4         gnome/gnome-vfs
+gnupg                          @1.4.12         mail/gnupg
+gnuplot                        @4.6.0          math/gnuplot
+gnuregex                       @0.12           sysutils/gnuregex
+gnustep-make                   @2.6.1          gnustep/gnustep-make
+gnutls                         @2.12.19        devel/gnutls
+go                             @60.3           lang/go
+gobject-introspection          @1.32.1         gnome/gobject-introspection
+gperf                          @3.0.4          devel/gperf
+gpgme                          @1.3.1          devel/gpgme
+gradle-devel                   @1.0-rc-2       devel/gradle-devel
+grails-devel                   @2.1.0.RC1      devel/grails-devel
+GraphicsMagick                 @1.3.16         graphics/GraphicsMagick
+graphviz                       @2.28.0         graphics/graphviz
+groff                          @1.21           sysutils/groff
+groovy                         @2.0.0          java/groovy
+gsed                           @4.2.1          textproc/gsed
+gsl                            @1.15           math/gsl
+gss                            @1.0.2          security/gss
+gst-plugins-base               @0.10.36        gnome/gst-plugins-base
+gstreamer                      @0.10.36        gnome/gstreamer
+gtk-doc                        @1.18           gnome/gtk-doc
+gtk-engines2                   @2.20.2         x11/gtk-engines2
+gtk-nodoka-engine              @0.7.5          x11/gtk-nodoka-engine
+gtk1                           @1.2.10         x11/gtk1
+gtk2                           @2.24.10        gnome/gtk2
+gtkimageview                   @1.6.4          devel/gtkimageview
+gtkmm                          @2.24.2         x11/gtkmm
+gtksourceview                  @1.8.5          gnome/gtksourceview
+gtksourceview2                 @2.10.5         gnome/gtksourceview2
+gts                            @0.7.6          math/gts
+guile                          @1.8.7          lang/guile
+gutenprint                     @5.2.7          print/gutenprint
+gzip                           @1.4            archivers/gzip
+hadoop                         @1.0.3          java/hadoop
+hamcrest-core                  @1.2            java/hamcrest-core
+haproxy                        @1.4.18         net/haproxy
+haskell-mode.el                @2.4            lang/haskell-mode.el
+hdf5-18                        @1.8.9          science/hdf5-18
+help2man                       @1.40.10        textproc/help2man
+hicolor-icon-theme             @0.12           gnome/hicolor-icon-theme
+hping2                         @rc3            net/hping2
+hping3                         @20051105       net/hping3
+hs-binary                      @0.5.0.2        devel/hs-binary
+hs-citeproc                    @0.3.1          devel/hs-citeproc
+hs-digest                      @0.0.0.9        devel/hs-digest
+hs-dlist                       @0.5            devel/hs-dlist
+hs-ghc-paths                   @0.1.0.6        devel/hs-ghc-paths
+hs-haddock                     @2.5.0          devel/hs-haddock
+hs-http                        @4000.1.1       devel/hs-HTTP
+hs-json                        @0.4.4          devel/hs-json
+hs-pandoc-types                @1.8            devel/hs-pandoc-types
+hs-platform-HTTP               @4000.0.6       devel/hs-platform-HTTP
+hs-platform-zlib               @0.5.0.0        devel/hs-platform-zlib
+hs-tagsoup                     @0.12           devel/hs-tagsoup
+hs-texmath                     @0.5            devel/hs-texmath
+hs-utf8-string                 @0.3.6          devel/hs-utf8-string
+hs-xml                         @1.3.7          devel/hs-xml
+hs-zlib                        @0.5.2.0        devel/hs-zlib
+htop                           @0.8.2.1        sysutils/htop
+httperf                        @0.9.0          www/httperf
+hugs98                         @plus-Sep2006   lang/hugs98
+hunspell                       @1.3.2          textproc/hunspell
+hydra                          @5.4            security/hydra
+icns-gimp                      @0.1            graphics/icns-gimp
+icon-naming-utils              @0.8.90         gnome/icon-naming-utils
+icu                            @4.8.1          devel/icu
+iftop                          @1.0            net/iftop
+ilmbase                        @1.0.2          graphics/ilmbase
+ImageMagick                    @6.7.8-3        graphics/ImageMagick
+intltool                       @0.50.2         textproc/intltool
+irssi                          @0.8.15         irc/irssi
+isl                            @0.07           devel/isl
+iso-codes                      @3.35           devel/iso-codes
+jabber                         @1.4.2          net/jabber
+jabberd                        @2.2.9          net/jabberd
+jakarta-log4j                  @1.2.16         java/jakarta-log4j
+jakarta-oro                    @2.0.8          java/jakarta-oro
+jakarta-taglibs-standard-11    @1.1.2          java/jakarta-taglibs-standard-11
+jasper                         @1.900.1        graphics/jasper
+jbig2dec                       @0.11           graphics/jbig2dec
+jbigkit                        @2.0            graphics/jbigkit
+jikes                          @1.22           lang/jikes
+jline                          @0.9.94         devel/jline
+john                           @1.7.6          sysutils/john
+jpeg                           @8d             graphics/jpeg
+jslint                         @2011-05-10     lang/jslint
+junit                          @4.6            java/junit
+jython                         @2.5.2          lang/jython
+kerberos5                      @1.7.2          net/kerberos5
+ksh93                          @2011-02-08     shells/ksh93
+lame                           @3.99.5         audio/lame
+lame                           @3.99.5         audio/lame
+lastfmsubmitd                  @0.35           audio/lastfmsubmitd
+latexdiff                      @0.5            tex/latexdiff
+latexmk                        @4.31           tex/latexmk
+lbdb                           @0.36           mail/lbdb
+lcms                           @1.19           graphics/lcms
+lcms2                          @2.3            graphics/lcms2
+lcov                           @1.9            devel/lcov
+ld64                           @128.2          devel/ld64
+ldns                           @1.6.13         net/ldns
+ldns-tools                     @1.6.10         net/ldns-tools
+lensfun                        @0.2.5          graphics/lensfun
+less                           @444            textproc/less
+lesspipe                       @1.72           textproc/lesspipe
+lftp                           @4.3.5          net/lftp
+libao                          @1.1.0          audio/libao
+libarchive                     @2.8.4          archivers/libarchive
+libart_lgpl                    @2.3.21         graphics/libart_lgpl
+libassuan                      @2.0.2          devel/libassuan
+libbonobo                      @2.32.1         gnome/libbonobo
+libbonoboui                    @2.24.5         gnome/libbonoboui
+libcroco                       @0.6.3          gnome/libcroco
+libcryptopp                    @5.6.1          devel/libcryptopp
+libdnet                        @1.12           net/libdnet
+libdshconfig                   @0.20.13        net/libdshconfig
+libedit                        @20120601-3.0   devel/libedit
+libelf                         @0.8.13         devel/libelf
+libevent                       @2.0.19         devel/libevent
+libevent1                      @1.4.14b        devel/libevent1
+libewf                         @20100226       security/libewf
+libexif                        @0.6.20         graphics/libexif
+libffi                         @3.0.11         devel/libffi
+libgcrypt                      @1.5.0          devel/libgcrypt
+libgdiplus                     @2.10.9         devel/libgdiplus
+libgeoip                       @1.4.8          devel/libgeoip
+libglade2                      @2.6.4          gnome/libglade2
+libgnome                       @2.30.0         gnome/libgnome
+libgnome-keyring               @2.30.1         gnome/libgnome-keyring
+libgnomecanvas                 @2.30.3         gnome/libgnomecanvas
+libgnomecups                   @0.2.3          gnome/libgnomecups
+libgnomemm                     @2.30.0         gnome/libgnomemm
+libgnomeprint                  @2.18.8         gnome/libgnomeprint
+libgnomeprintui                @2.18.6         gnome/libgnomeprintui
+libgnomeui                     @2.24.5         gnome/libgnomeui
+libgpg-error                   @1.10           devel/libgpg-error
+libgsasl                       @1.6.1          security/libgsasl
+libgsf                         @1.14.22        gnome/libgsf
+libgtop                        @2.28.4         gnome/libgtop
+libgweather                    @2.30.3         net/libgweather
+libical                        @0.43           devel/libical
+libiconv                       @1.14           textproc/libiconv
+libid3tag                      @0.15.1b        audio/libid3tag
+libidl                         @0.8.14         devel/libidl
+libidn                         @1.25           mail/libidn
+libLASi                        @1.1.0          print/libLASi
+liblqr                         @1-0.4.1        graphics/liblqr
+libmad                         @0.15.1b        audio/libmad
+libmcrypt                      @2.5.8          devel/libmcrypt
+libmd                          @0.3            devel/libmd
+libmemcached                   @1.0.8          devel/libmemcached
+libmikmod                      @3.2.0-beta2    audio/libmikmod
+libmng                         @1.0.10         graphics/libmng
+libmowgli                      @0.7.1          devel/libmowgli
+libmpc                         @1.0            devel/libmpc
+libmpdclient                   @2.7            audio/libmpdclient
+libnet11                       @1.1.6          net/libnet11
+libnetdude                     @0.12           net/libnetdude
+libnids                        @1.24           net/libnids
+libnotify                      @0.5.2          devel/libnotify
+libogg                         @1.3.0          multimedia/libogg
+liboil                         @0.3.17         devel/liboil
+libopennet                     @0.9.9          net/libopennet
+libopenraw                     @0.0.9          graphics/libopenraw
+libopenraw                     @0.0.9          graphics/libopenraw
+libotr                         @3.2.0          security/libotr
+libpaper                       @1.1.24         print/libpaper
+libpcap                        @1.2.1          net/libpcap
+libpcapnav                     @0.8            net/libpcapnav
+libpixman                      @0.26.2         graphics/libpixman
+libpng                         @1.4.12         graphics/libpng
+libpng                         @1.4.12         graphics/libpng
+libproxy                       @0.4.7          net/libproxy
+librsvg                        @2.36.1         graphics/librsvg
+librsvg                        @2.36.1         graphics/librsvg
+librsync                       @0.9.7          net/librsync
+libsamplerate                  @0.1.8          audio/libsamplerate
+libsdl                         @1.2.15         devel/libsdl
+libsdl_image                   @1.2.12         devel/libsdl_image
+libsdl_mixer                   @1.2.12         audio/libsdl_mixer
+libsdl_net                     @1.2.8          devel/libsdl_net
+libsdl_ttf                     @2.0.11         devel/libsdl_ttf
+libsigcxx2                     @2.2.10         devel/libsigcxx2
+libsndfile                     @1.0.25         audio/libsndfile
+libsoup                        @2.38.1         gnome/libsoup
+libspiro                       @20071029       graphics/libspiro
+libssh                         @0.5.2          devel/libssh
+libssh01                       @0.11           devel/libssh01
+libssh2                        @1.2.7          devel/libssh2
+libsvm                         @3.12           math/libsvm
+libtasn1                       @2.11           devel/libtasn1
+libtheora                      @1.1.1          multimedia/libtheora
+libtomcrypt                    @1.17           security/libtomcrypt
+libtool                        @2.4.2          devel/libtool
+libtorrent                     @0.13.2         net/libtorrent
+libudns                        @0.0.9          net/libudns
+libunwind-headers              @30             devel/libunwind-headers
+libusb                         @1.0.9          devel/libusb
+libusb-compat                  @0.1.4          devel/libusb-compat
+libvorbis                      @1.3.3          audio/libvorbis
+libvpx                         @1.1.0          multimedia/libvpx
+libwmf                         @0.2.8.4        graphics/libwmf
+libxml2                        @2.7.8          textproc/libxml2
+libxslt                        @1.1.26         textproc/libxslt
+libyaml                        @0.1.4          devel/libyaml
+libzzip                        @0.13.62        archivers/libzzip
+links                          @2.5            www/links
+llvm-3.0                       @3.0            lang/llvm-3.0
+llvm_select                    @0.2            sysutils/llvm_select
+lua                            @5.1.4          lang/lua
+luarocks                       @2.0.8          devel/luarocks
+lynx                           @2.8.7rel.1     www/lynx
+lzip                           @1.12           archivers/lzip
+lzo                            @1.08           devel/lzo
+lzo2                           @2.05           archivers/lzo2
+m4                             @1.4.16         devel/m4
+macutil                        @2.0b3          sysutils/macutil
+MailtoMutt                     @0.4.1          aqua/MailtoMutt
+makedepend                     @1.0.4          x11/makedepend
+makeicns                       @1.4.10         graphics/makeicns
+makepasswd                     @1.10-3         security/makepasswd
+maven2                         @2.2.1          java/maven2
+maven3                         @3.0.4          java/maven3
+maven_select                   @0.3            sysutils/maven_select
+mcabber                        @0.9.10         net/mcabber
+mcrypt                         @2.6.8          sysutils/mcrypt
+md5deep                        @4.2            security/md5deep
+md5sha1sum                     @0.9.5          sysutils/md5sha1sum
+memcached                      @1.4.13         sysutils/memcached
+mercurial                      @2.2.3          devel/mercurial
+mesa                           @8.0.4          x11/mesa
+metis                          @5.0.2          math/metis
+mhash                          @0.9.9.9        devel/mhash
+mkfontdir                      @1.0.7          x11/mkfontdir
+mkfontscale                    @1.1.0          x11/mkfontscale
+mmv                            @1.01b-14       sysutils/mmv
+mochiweb                       @2.3.0          erlang/mochiweb
+mono                           @2.10.9         devel/mono
+mosh                           @1.2.2          net/mosh
+mosml                          @2.01           lang/mosml
+mpc                            @0.22           audio/mpc
+mpfr                           @3.1.0-p3       devel/mpfr
+mpich2                         @1.4.1p1        science/mpich2
+MPlayer                        @1.1            multimedia/MPlayer
+msmtp                          @1.4.28         mail/msmtp
+mtr                            @0.82           net/mtr
+multimarkdown                  @3.5            textproc/multimarkdown
+multitail                      @5.2.2          sysutils/multitail
+mutt-devel                     @1.5.21         mail/mutt-devel
+muttils                        @1.1            mail/muttils
+muttprint                      @0.72d          mail/muttprint
+mysql5                         @5.1.63         databases/mysql5
+mysql5-server                  @5.1.63         databases/mysql5-server
+nasm                           @2.10           lang/nasm
+nbtscan                        @1.5.1          security/nbtscan
+ncftp                          @3.2.5          net/ncftp
+ncurses                        @5.9            devel/ncurses
+neon                           @0.29.6         www/neon
+net-snmp                       @5.7.1          net/net-snmp
+netdude                        @0.5.1          net/netdude
+nethack                        @3.4.3          games/nethack
+netpbm                         @10.59.00       graphics/netpbm
+netpipes                       @4.2            net/netpipes
+netwalker-ircc                 @0.5.0          irc/netwalker-ircc
+nginx                          @1.2.2          www/nginx
+ngrep                          @1.45           net/ngrep
+nload                          @0.7.2          net/nload
+nmap                           @6.01           net/nmap
+nodejs                         @0.8.4          devel/nodejs
+nosetests_select               @0.1            python/nosetests_select
+npm                            @1.1.45         devel/npm
+nspr                           @4.8.9          devel/nspr
+nss                            @3.13.3         net/nss
+ntfs-3g                        @2012.1.15      fuse/ntfs-3g
+oath-toolkit                   @1.10.4         security/oath-toolkit
+ocaml                          @4.00.0         lang/ocaml
+oniguruma4                     @4.7.1          devel/oniguruma4
+opencore-amr                   @0.1.3          audio/opencore-amr
+opencv                         @2.4.2          graphics/opencv
+openexr                        @1.7.0          graphics/openexr
+openjpeg                       @1.5.0          graphics/openjpeg
+openldap                       @2.4.21         databases/openldap
+openmotif                      @2.3.3          x11/openmotif
+openmpi                        @1.5.5          science/openmpi
+openssh                        @6.0p1          net/openssh
+openssl                        @1.0.1c         devel/openssl
+openvpn                        @1.6.0          net/openvpn
+openvpn2                       @2.2.1          net/openvpn2
+ophcrack                       @3.3.1          security/ophcrack
+orbit2                         @2.14.19        devel/orbit2
+orc                            @0.4.16         devel/orc
+ossp-uuid                      @1.6.2          devel/ossp-uuid
+p5-xml-parser                  @2.400.0        perl/p5-xml-parser
+p5.12-appconfig                @1.660.0        perl/p5-appconfig
+p5.12-archive-tar              @1.840.0        perl/p5-archive-tar
+p5.12-astro-fits-cfitsio       @1.60.0         perl/p5-astro-fits-cfitsio
+p5.12-astro-fits-header        @3.30.0         perl/p5-astro-fits-header
+p5.12-audio-flac-header        @2.400.0        perl/p5-audio-flac-header
+p5.12-cam-pdf                  @1.520.0        perl/p5-cam-pdf
+p5.12-carp-assert              @0.200.0        perl/p5-carp-assert
+p5.12-carp-assert-more         @1.120.0        perl/p5-carp-assert-more
+p5.12-carp-clan                @6.40.0         perl/p5-carp-clan
+p5.12-class-inspector          @1.250.0        perl/p5-class-inspector
+p5.12-clone                    @0.310.0        perl/p5-clone
+p5.12-compress-raw-bzip2       @2.52.0         perl/p5-compress-raw-bzip2
+p5.12-compress-raw-zlib        @2.54.0         perl/p5-compress-raw-zlib
+p5.12-cpan-meta-yaml           @0.8.0          perl/p5-cpan-meta-yaml
+p5.12-crypt-passwdmd5          @1.300.0        perl/p5-crypt-passwdmd5
+p5.12-crypt-rc4                @2.20.0         perl/p5-crypt-rc4
+p5.12-curses                   @1.150.0        perl/p5-curses
+p5.12-dancer                   @1.309.200      perl/p5-dancer
+p5.12-dancer-plugin-database   @1.810.0        perl/p5-dancer-plugin-database
+p5.12-data-dump                @1.210.0        perl/p5-data-dump
+p5.12-dbi                      @1.616.0        perl/p5-dbi
+p5.12-devel-ppport             @3.200.0        perl/p5-devel-ppport
+p5.12-encode-locale            @1.20.0         perl/p5-encode-locale
+p5.12-error                    @0.170.160      perl/p5-error
+p5.12-extutils-cbuilder        @0.280.205      perl/p5-extutils-cbuilder
+p5.12-extutils-f77             @1.160.0        perl/p5-extutils-f77
+p5.12-extutils-install         @1.540.0        perl/p5-extutils-install
+p5.12-extutils-parsexs         @2.220.600      perl/p5-extutils-parsexs
+p5.12-file-listing             @6.20.0         perl/p5-file-listing
+p5.12-file-remove              @1.520.0        perl/p5-file-remove
+p5.12-file-temp                @0.220.0        perl/p5-file-temp
+p5.12-font-afm                 @1.200.0        perl/p5-font-afm
+p5.12-font-ttf                 @0.480.0        perl/p5-font-ttf
+p5.12-gd                       @2.450.0        perl/p5-gd
+p5.12-getopt-long              @2.380.0        perl/p5-getopt-long
+p5.12-html-form                @6.0.0          perl/p5-html-form
+p5.12-html-format              @2.90.0         perl/p5-html-format
+p5.12-html-parser              @3.690.0        perl/p5-html-parser
+p5.12-html-tagset              @3.200.0        perl/p5-html-tagset
+p5.12-html-tree                @4.200.0        perl/p5-html-tree
+p5.12-http-body                @1.110.0        perl/p5-http-body
+p5.12-http-cookies             @6.0.0          perl/p5-http-cookies
+p5.12-http-daemon              @6.0.0          perl/p5-http-daemon
+p5.12-http-date                @6.0.0          perl/p5-http-date
+p5.12-http-message             @6.20.0         perl/p5-http-message
+p5.12-http-negotiate           @6.0.0          perl/p5-http-negotiate
+p5.12-http-server-simple       @0.430.0        perl/p5-http-server-simple
+p5.12-http-server-simple-psgi  @0.140.0        perl/p5-http-server-simple-psgi
+p5.12-inline                   @0.460.0        perl/p5-inline
+p5.12-io-compress              @2.52.0         perl/p5-io-compress
+p5.12-io-kqueue                @0.320.0        perl/p5-io-kqueue
+p5.12-io-pty-easy              @0.70.0         perl/p5-io-pty-easy
+p5.12-io-socket-ssl            @1.440.0        perl/p5-io-socket-ssl
+p5.12-io-stringy               @2.110.0        perl/p5-io-stringy
+p5.12-io-tty                   @1.70.0         perl/p5-io-tty
+p5.12-io-zlib                  @1.100.0        perl/p5-io-zlib
+p5.12-ipc-cmd                  @0.780.0        perl/p5-ipc-cmd
+p5.12-javascript-spidermonkey  @0.200.0        perl/p5-javascript-spidermonkey
+p5.12-json                     @2.530.0        perl/p5-json
+p5.12-libwww-perl              @6.40.0         perl/p5-libwww-perl
+p5.12-locale-gettext           @1.50.0         perl/p5-locale-gettext
+p5.12-locale-maketext-simple   @0.210.0        perl/p5-locale-maketext-simple
+p5.12-lwp-mediatypes           @6.10.0         perl/p5-lwp-mediatypes
+p5.12-lwp-protocol-https       @6.20.0         perl/p5-lwp-protocol-https
+p5.12-lwp-useragent-determined @1.50.0         perl/p5-lwp-useragent-determined
+p5.12-mailtools                @2.80.0         perl/p5-mailtools
+p5.12-mime-base64              @3.130.0        perl/p5-mime-base64
+p5.12-mime-tools               @5.428.0        perl/p5-mime-tools
+p5.12-mime-types               @1.260.0        perl/p5-mime-types
+p5.12-module-build             @0.400.0        perl/p5-module-build
+p5.12-module-corelist          @2.680.0        perl/p5-module-corelist
+p5.12-module-install           @1.60.0         perl/p5-module-install
+p5.12-module-load              @0.220.0        perl/p5-module-load
+p5.12-module-load-conditional  @0.500.0        perl/p5-module-load-conditional
+p5.12-module-metadata          @1.0.9          perl/p5-module-metadata
+p5.12-module-scandeps          @1.80.0         perl/p5-module-scandeps
+p5.12-mojolicious              @2.460.0        perl/p5-mojolicious
+p5.12-mozilla-ca               @20110904       perl/p5-mozilla-ca
+p5.12-mp3-info                 @1.240.0        perl/p5-mp3-info
+p5.12-net-http                 @6.10.0         perl/p5-net-http
+p5.12-net-libidn               @0.120.0        perl/p5-net-libidn
+p5.12-net-pcap                 @0.160.0        perl/p5-net-pcap
+p5.12-net-ssh2                 @0.330.0        perl/p5-net-ssh2
+p5.12-net-ssleay               @1.480.0        perl/p5-net-ssleay
+p5.12-package-constants        @0.20.0         perl/p5-package-constants
+p5.12-par-dist                 @0.480.0        perl/p5-par-dist
+p5.12-params-check             @0.360.0        perl/p5-params-check
+p5.12-params-util              @1.30.0         perl/p5-params-util
+p5.12-parse-cpan-meta          @1.440.400      perl/p5-parse-cpan-meta
+p5.12-parse-recdescent         @1.965.1        perl/p5-parse-recdescent
+p5.12-pathtools                @3.330.0        perl/p5-pathtools
+p5.12-pdf-api2                 @2.16.0         perl/p5-pdf-api2
+p5.12-pdf-reuse                @0.330.0        perl/p5-pdf-reuse
+p5.12-perl-ostype              @1.2.0          perl/p5-perl-ostype
+p5.12-scalar-list-utils        @1.230.0        perl/p5-scalar-list-utils
+p5.12-soap-lite                @0.712.0        perl/p5-soap-lite
+p5.12-sql-statement            @1.330.0        perl/p5-sql-statement
+p5.12-sub-uplevel              @0.220.0        perl/p5-sub-uplevel
+p5.12-task-weaken              @1.30.0         perl/p5-task-weaken
+p5.12-template-toolkit         @2.220.0        perl/p5-template-toolkit
+p5.12-term-readkey             @2.300.0        perl/p5-term-readkey
+p5.12-term-readline-gnu        @1.200.0        perl/p5-term-readline-gnu
+p5.12-test-deep                @0.108.0        perl/p5-test-deep
+p5.12-test-exception           @0.310.0        perl/p5-test-exception
+p5.12-test-mockobject          @1.90.0         perl/p5-test-mockobject
+p5.12-test-nowarnings          @1.20.0         perl/p5-test-nowarnings
+p5.12-test-simple              @0.980.0        perl/p5-test-simple
+p5.12-test-tester              @0.107.0        perl/p5-test-tester
+p5.12-test-warn                @0.220.0        perl/p5-test-warn
+p5.12-text-balanced            @2.20.0         perl/p5-text-balanced
+p5.12-text-iconv               @1.400.0        perl/p5-text-iconv
+p5.12-text-pdf                 @0.290.0        perl/p5-text-pdf
+p5.12-text-simpletable         @2.30.0         perl/p5-text-simpletable
+p5.12-timedate                 @1.200.0        perl/p5-timedate
+p5.12-tree-dag_node            @1.60.0         perl/p5-tree-dag_node
+p5.12-try-tiny                 @0.90.0         perl/p5-try-tiny
+p5.12-universal-can            @1.160.0        perl/p5-universal-can
+p5.12-universal-isa            @1.30.0         perl/p5-universal-isa
+p5.12-uri                      @1.590.0        perl/p5-uri
+p5.12-version                  @0.990.0        perl/p5-version
+p5.12-www-mechanize            @1.660.0        perl/p5-www-mechanize
+p5.12-www-robotrules           @6.10.0         perl/p5-www-robotrules
+p5.12-xml-namespacesupport     @1.110.0        perl/p5-xml-namespacesupport
+p5.12-xml-parser               @2.400.0        perl/p5-xml-parser
+p5.12-xml-sax                  @0.990.0        perl/p5-xml-sax
+p5.12-xml-sax-base             @1.80.0         perl/p5-xml-sax-base
+p5.12-xml-sax-expat            @0.400.0        perl/p5-xml-sax-expat
+p5.12-xml-simple               @2.180.0        perl/p5-xml-simple
+p5.12-xml-xpath                @1.130.0        perl/p5-xml-xpath
+p5.12-yaml                     @0.730.0        perl/p5-yaml
+p5.12-yaml-syck                @1.200.0        perl/p5-yaml-syck
+p5.12-yaml-tiny                @1.510.0        perl/p5-yaml-tiny
+p7zip                          @9.20.1         archivers/p7zip
+pamtester                      @0.1.2          devel/pamtester
+pango                          @1.30.1         x11/pango
+pangomm                        @2.28.4         x11/pangomm
+parallel                       @20120622       sysutils/parallel
+pcre                           @8.30           devel/pcre
+pcrexx                         @0.9.5          devel/pcrexx
+pdfjam                         @2.08           textproc/pdfjam
+pdflib                         @7.0.5          print/pdflib
+perl5                          @5.12.4         lang/perl5
+perl5.8                        @5.8.9          lang/perl5.8
+perl5.12                       @5.12.4         lang/perl5.12
+perl5.14                       @5.14.2         lang/perl5.14
+pgf                            @2.10           tex/pgf
+php5                           @5.3.15         lang/php5
+php5-apc                       @3.1.9          php/php5-apc
+php5-calendar                  @5.3.15         php/php5-calendar
+php5-curl                      @5.3.15         php/php5-curl
+php5-dba                       @5.3.15         php/php5-dba
+php5-exif                      @5.3.15         php/php5-exif
+php5-ftp                       @5.3.15         php/php5-ftp
+php5-gd                        @5.3.15         php/php5-gd
+php5-gettext                   @5.3.15         php/php5-gettext
+php5-gmp                       @5.3.15         php/php5-gmp
+php5-iconv                     @5.3.15         php/php5-iconv
+php5-imap                      @5.3.15         php/php5-imap
+php5-mbstring                  @5.3.15         php/php5-mbstring
+php5-mcrypt                    @5.3.15         php/php5-mcrypt
+php5-memcache                  @2.2.6          php/php5-memcache
+php5-mssql                     @5.3.15         php/php5-mssql
+php5-mysql                     @5.3.15         php/php5-mysql
+php5-odbc                      @5.3.15         php/php5-odbc
+php5-openssl                   @5.3.15         php/php5-openssl
+php5-pcntl                     @5.3.15         php/php5-pcntl
+php5-posix                     @5.3.15         php/php5-posix
+php5-postgresql                @5.3.15         php/php5-postgresql
+php5-soap                      @5.3.15         php/php5-soap
+php5-sockets                   @5.3.15         php/php5-sockets
+php5-spidermonkey              @0.1.4          php/php5-spidermonkey
+php5-SPL_Types                 @0.4.0          php/php5-SPL_Types
+php5-sqlite                    @5.3.15         php/php5-sqlite
+php5-tidy                      @5.3.15         php/php5-tidy
+php5-wddx                      @5.3.15         php/php5-wddx
+php5-xmlrpc                    @5.3.15         php/php5-xmlrpc
+php5-xsl                       @5.3.15         php/php5-xsl
+php5-zip                       @5.3.15         php/php5-zip
+pipebench                      @0.40           benchmarks/pipebench
+pkgconfig                      @0.27           devel/pkgconfig
+pkgconfig                      @0.27           devel/pkgconfig
+policykit                      @0.103          security/policykit
+poppler                        @0.20.2         graphics/poppler
+poppler-data                   @0.4.5          graphics/poppler-data
+popt                           @1.16           devel/popt
+portaudio                      @19.20111121    audio/portaudio
+postgresql91                   @9.1.4          databases/postgresql91
+postgresql_select              @0.1            databases/postgresql_select
+ppl                            @1.0            devel/ppl
+proctools                      @0.4pre1        sysutils/proctools
+prolog-mode.el                 @1.22           lang/prolog-mode.el
+protobuf-cpp                   @2.4.1          devel/protobuf-cpp
+protobuf-java                  @2.4.1          devel/protobuf-java
+protobuf-python                @2.3.0          devel/protobuf-python
+protobuf-python27              @2.4.1          devel/protobuf-python27
+pstree                         @2.33           sysutils/pstree
+psutils                        @p17            print/psutils
+pth                            @2.0.7          devel/pth
+pv                             @1.3.4          sysutils/pv
+py-beautifulsoup               @3.2.1          python/py-beautifulsoup
+py-cairo                       @1.4.12         python/py-cairo
+py-construct                   @2.00           python/py-construct
+py-ctypes                      @1.0.2          python/py-ctypes
+py-exif                        @1.0.2          python/py-exif
+py-gmpy                        @1.15           python/py-gmpy
+py-gnupg                       @0.3.0          python/py-gnupg
+py-gobject                     @2.18.0         python/py-gobject
+py-gtk2                        @2.12.1         python/py-gtk2
+py-gtkmvc                      @0.9.2          python/py-gtkmvc
+py-jabber                      @0.5-0          python/py-jabber
+py-kqueue                      @2.0.1          python/py-kqueue
+py-lepl                        @5.1.3          python/py-lepl
+py-libxml2                     @2.7.8          python/py-libxml2
+py-numpy                       @1.6.2          python/py-numpy
+py-openssl                     @0.9            python/py-openssl
+py-pexpect                     @2.4            python/py-pexpect
+py-pipedream                   @0.2.0          python/py-pipedream
+py-pycluster                   @1.50           python/py-pycluster
+py-pylibmc                     @1.2.3          python/py-pylibmc
+py24-crypto                    @2.6            python/py-crypto
+py24-crypto                    @2.6            python/py-crypto
+py24-distribute                @0.6.28         python/py-distribute
+py24-irclib                    @0.4.8          python/py-irclib
+py24-nose                      @1.1.2          python/py-nose
+py24-numpy                     @1.6.2          python/py-numpy
+py24-pexpect                   @2.4            python/py-pexpect
+py24-pylibpcap                 @0.6.4          python/py-pylibpcap
+py24-readline                  @6.2.2          python/py-readline
+py25-crypto                    @2.6            python/py-crypto
+py25-crypto                    @2.6            python/py-crypto
+py25-distribute                @0.6.28         python/py-distribute
+py25-gnuplot                   @1.8            python/py-gnuplot
+py25-libdnet                   @1.12           python/py25-libdnet
+py25-nose                      @1.1.2          python/py-nose
+py25-numpy                     @1.6.2          python/py-numpy
+py25-pylibpcap                 @0.6.4          python/py-pylibpcap
+py25-pyx                       @0.11.1         python/py-pyx
+py25-readline                  @6.2.2          python/py-readline
+py26-babel                     @0.9.6          python/py26-babel
+py26-crypto                    @2.6            python/py-crypto
+py26-crypto                    @2.6            python/py-crypto
+py26-distribute                @0.6.28         python/py-distribute
+py26-genshi                    @0.6            python/py-genshi
+py26-gnuplot                   @1.8            python/py-gnuplot
+py26-iniparse                  @0.3.1          python/py-iniparse
+py26-libdnet                   @1.12           python/py26-libdnet
+py26-nose                      @1.1.2          python/py-nose
+py26-numpy                     @1.6.2          python/py-numpy
+py26-pygments                  @1.4            python/py-pygments
+py26-pylibpcap                 @0.6.4          python/py-pylibpcap
+py26-pyx                       @0.11.1         python/py-pyx
+py26-scapy                     @2.1.0          net/py26-scapy
+py26-sip                       @4.13.2         python/py-sip
+py26-sqlite                    @2.6.3          python/py26-sqlite
+py26-tz                        @2012c          python/py-tz
+py27-altgraph                  @0.9            python/py-altgraph
+py27-bdist_mpkg                @0.4.4          python/py-bdist_mpkg
+py27-boto                      @2.2.2          python/py-boto
+py27-cairo                     @1.8.10         python/py27-cairo
+py27-configobj                 @4.6.0          python/py27-configobj
+py27-crypto                    @2.6            python/py-crypto
+py27-crypto                    @2.6            python/py-crypto
+py27-curl                      @7.19.0         python/py27-curl
+py27-dateutil                  @1.5            python/py-dateutil
+py27-distribute                @0.6.28         python/py-distribute
+py27-docutils                  @0.9.1          python/py-docutils
+py27-docutils                  @0.9.1          python/py-docutils
+py27-game                      @1.9.1          python/py-game
+py27-gevent                    @0.13.7         python/py-gevent
+py27-gmpy                      @1.15           python/py-gmpy
+py27-gnupg                     @0.3.0          python/py-gnupg
+py27-gobject                   @2.26.0         python/py27-gobject
+py27-greenlet                  @0.3.4          python/py-greenlet
+py27-gtk                       @2.22.0         python/py27-gtk
+py27-imread                    @0.2.4          python/py-imread
+py27-imread                    @0.2.4          python/py-imread
+py27-lepl                      @5.1.3          python/py-lepl
+py27-lepl                      @5.1.3          python/py-lepl
+py27-libdnet                   @1.12           python/py27-libdnet
+py27-libxml2                   @2.7.8          python/py27-libxml2
+py27-macholib                  @1.4.3          python/py-macholib
+py27-matplotlib                @1.1.0          python/py-matplotlib
+py27-modulegraph               @0.9.1          python/py-modulegraph
+py27-mysql                     @1.2.3          python/py-mysql
+py27-nltk                      @2.0.1rc1       python/py27-nltk
+py27-nose                      @1.1.2          python/py-nose
+py27-numpy                     @1.6.2          python/py-numpy
+py27-opengl                    @3.0.1          python/py-opengl
+py27-opengl-accelerate         @3.0.1          python/py-opengl-accelerate
+py27-paramiko                  @1.7.7.1        python/py-paramiko
+py27-pil                       @1.1.7          python/py-pil
+py27-ply                       @3.4            python/py-ply
+py27-pp                        @1.6.2          python/py-pp
+py27-pp                        @1.6.2          python/py-pp
+py27-psyco                     @dev            python/py27-psyco
+py27-py                        @1.1.1          python/py27-py
+py27-pygccxml-devel            @20120123       python/py-pygccxml-devel
+py27-pygments                  @1.4            python/py-pygments
+py27-pylibmc                   @1.2.3          python/py-pylibmc
+py27-pymacs                    @0.23           python/py27-pymacs
+py27-pyobjc                    @2.3            python/py27-pyobjc
+py27-pyobjc-cocoa              @2.3            python/py27-pyobjc-cocoa
+py27-pyplusplus-devel          @20120123       python/py-pyplusplus-devel
+py27-pyrex                     @0.9.9          python/py27-pyrex
+py27-pyside                    @1.1.0          python/py-pyside
+py27-pyside-tools              @0.2.13         python/py-pyside-tools
+py27-pyusb-devel               @1.0.0-a1       python/py27-pyusb-devel
+py27-readline                  @6.2.2          python/py-readline
+py27-redis                     @2.4.13         python/py-redis
+py27-roman                     @1.4.0          python/py-roman
+py27-rope                      @0.9.2          python/py27-rope
+py27-scipy                     @0.10.1         python/py-scipy
+py27-shiboken                  @1.1.0          python/py-shiboken
+py27-tkinter                   @2.7.3          python/py-tkinter
+py27-tz                        @2012c          python/py-tz
+py27-yaml                      @3.10           python/py-yaml
+py27-yaml                      @3.10           python/py-yaml
+py27-zmq                       @2.2.0          python/py-zmq
+pypy                           @1.9            lang/pypy
+python-mode.el                 @1.0            lang/python-mode.el
+python24                       @2.4.6          lang/python24
+python25                       @2.5.6          lang/python25
+python26                       @2.6.8          lang/python26
+python27                       @2.7.3          lang/python27
+python33                       @3.3.0b1        lang/python33
+python_select                  @0.3            sysutils/python_select
+qhull                          @2012.1         math/qhull
+qt4-mac                        @4.8.2          aqua/qt4-mac
+rabbitmq-server                @2.8.4          net/rabbitmq-server
+rarian                         @0.8.1          textproc/rarian
+rb-cheat                       @1.2.1          ruby/rb-cheat
+rb-compass                     @0.10.6         ruby/rb-compass
+rb-rubygems                    @1.3.7          ruby/rb-rubygems
+rb19-archive-tar-minitar       @0.5.2          ruby/rb19-archive-tar-minitar
+rb19-bundler                   @1.0.21         ruby/rb19-bundler
+rb19-core_source               @0.1.4          ruby/rb19-core_source
+rb19-hpricot                   @0.8.4          ruby/rb19-hpricot
+rb19-mustache                  @0.11.2         ruby/rb19-mustache
+rb19-rdiscount                 @1.6.5          ruby/rb19-rdiscount
+rb19-ronn                      @0.7.3          ruby/rb19-ronn
+rb19-rspec                     @1.3.0          ruby/rb19-rspec
+rb19-yajl                      @0.7.6          ruby/rb19-yajl
+rdesktop                       @1.6.0          net/rdesktop
+re2                            @20111209-d49d9934b9aa devel/re2
+readline                       @6.2.000        devel/readline
+Readown                        @1.0.4          aqua/Readown
+redis                          @2.4.10         databases/redis
+remind                         @03.01.09       textproc/remind
+renameutils                    @0.10.0         sysutils/renameutils
+rlwrap                         @0.37           sysutils/rlwrap
+rmtrash                        @0.3.3          sysutils/rmtrash
+rrdtool                        @1.4.7          net/rrdtool
+rsync                          @3.0.8          net/rsync
+rtorrent                       @0.9.2          net/rtorrent
+ruby                           @1.8.7-p370     lang/ruby
+ruby19                         @1.9.3-p194     lang/ruby19
+scala2.9                       @2.9.2          lang/scala2.9
+scala29                        @2.9.2          lang/scala29
+scala_select                   @0.1            sysutils/scala_select
+scapy                          @2.2.0          net/scapy
+schroedinger                   @1.0.11         multimedia/schroedinger
+scons                          @2.0.1          devel/scons
+screen                         @4.0.3          sysutils/screen
+screen                         @4.0.3          sysutils/screen
+serf0                          @0.7.2          www/serf0
+serf1                          @1.1.0          www/serf1
+serf1                          @1.1.0          www/serf1
+servlet23-api                  @1              java/servlet23-api
+servlet24-api                  @5.5.28         java/servlet24-api
+shakespeare                    @1.2.1          lang/shakespeare
+shapelib                       @1.2.10         graphics/shapelib
+shared-mime-info               @1.0            devel/shared-mime-info
+shmux                          @1.0.2          sysutils/shmux
+sic                            @1.1            irc/sic
+sipcalc                        @1.1.4          net/sipcalc
+sloccount                      @2.26           textproc/sloccount
+slurm                          @0.3.3          net/slurm
+smlnj                          @110.72         lang/smlnj
+smpeg                          @0.4.4          multimedia/smpeg
+snappy                         @1.0.4          archivers/snappy
+snort                          @2.9.1.2        net/snort
+sox                            @14.4.0         audio/sox
+speex                          @1.2rc1         audio/speex
+spidermonkey                   @1.7.0          lang/spidermonkey
+sqlite3                        @3.7.13         databases/sqlite3
+squid                          @2.7.STABLE9    net/squid
+sshfs                          @2.4            fuse/sshfs
+sshfs-gui                      @1.3            fuse/sshfs-gui
+sshpass                        @1.04           sysutils/sshpass
+sslh                           @1.12           net/sslh
+startup-notification           @0.12           gnome/startup-notification
+startup-notification           @0.12           gnome/startup-notification
+struts                         @1.2.7          java/struts
+struts                         @1.2.7          java/struts
+stunnel                        @4.47           security/stunnel
+subversion                     @1.7.5          devel/subversion
+subversion-python26bindings    @1.7.5          devel/subversion-python26bindings
+subversion-python27bindings    @1.7.5          devel/subversion-python27bindings
+SuiteSparse                    @4.0.0          math/SuiteSparse
+SuiteSparse                    @4.0.0          math/SuiteSparse
+swi-prolog                     @6.0.2          lang/swi-prolog
+swig                           @2.0.7          devel/swig
+swig-python                    @2.0.7          devel/swig
+szip                           @2.1            archivers/szip
+t1lib                          @5.1.2          devel/t1lib
+task                           @1.9.4          office/task
+tcl                            @8.5.11         lang/tcl
+tcp_wrappers                   @20             net/tcp_wrappers
+tcpdstat                       @1.0            net/tcpdstat
+tcpdump                        @4.2.1          net/tcpdump
+tcptrace                       @6.6.7          net/tcptrace
+tcptraceroute                  @1.5beta7       net/tcptraceroute
+testdisk                       @6.13           sysutils/testdisk
+texi2html                      @5.0            textproc/texi2html
+texinfo                        @4.13           textproc/texinfo
+texlive                        @2012           tex/texlive
+texlive-basic                  @26926          tex/texlive-basic
+texlive-bin                    @2012           tex/texlive-bin
+texlive-bin-extra              @26926          tex/texlive-bin-extra
+texlive-common                 @2012           tex/texlive-common
+texlive-context                @26873          tex/texlive-context
+texlive-documentation-base     @26923          tex/texlive-documentation-base
+texlive-documentation-english  @26760          tex/texlive-documentation-english
+texlive-fonts-recommended      @26838          tex/texlive-fonts-recommended
+texlive-fontutils              @26926          tex/texlive-fontutils
+texlive-generic-recommended    @26785          tex/texlive-generic-recommended
+texlive-lang-czechslovak       @26926          tex/texlive-lang-czechslovak
+texlive-lang-dutch             @25990          tex/texlive-lang-dutch
+texlive-lang-english           @25990          tex/texlive-lang-english
+texlive-lang-french            @26756          tex/texlive-lang-french
+texlive-lang-german            @26867          tex/texlive-lang-german
+texlive-lang-italian           @26234          tex/texlive-lang-italian
+texlive-lang-polish            @25990          tex/texlive-lang-polish
+texlive-lang-portuguese        @25990          tex/texlive-lang-portuguese
+texlive-lang-spanish           @25990          tex/texlive-lang-spanish
+texlive-latex                  @26725          tex/texlive-latex
+texlive-latex-extra            @26807          tex/texlive-latex-extra
+texlive-latex-recommended      @26788          tex/texlive-latex-recommended
+texlive-luatex                 @26718          tex/texlive-luatex
+texlive-math-extra             @26720          tex/texlive-math-extra
+texlive-metapost               @26926          tex/texlive-metapost
+texlive-pictures               @26791          tex/texlive-pictures
+texlive-xetex                  @26926          tex/texlive-xetex
+tidy                           @20090325       www/tidy
+tiff                           @3.9.5          graphics/tiff
+tk                             @8.5.11         x11/tk
+tmux                           @1.6            sysutils/tmux
+tokyocabinet                   @1.4.47         databases/tokyocabinet
+tor                            @0.2.2.35       security/tor
+trac                           @0.12.3         devel/trac
+tripwire                       @2.4.1.2        security/tripwire
+tsocks                         @1.8.4          net/tsocks
+tsung                          @1.4.2          erlang/tsung
+twolame                        @0.3.13         audio/twolame
+udis86                         @1.7            devel/udis86
+ufraw                          @0.18           graphics/ufraw
+uncrustify                     @0.59           devel/uncrustify
+unhash                         @1.1            security/unhash
+unison                         @2.40.65        net/unison
+unison                         @2.40.65        net/unison
+unixODBC                       @2.3.1          databases/unixODBC
+unsermake                      @0.4-20070824   devel/unsermake
+urlview                        @0.9-19         www/urlview
+urw-fonts                      @1.0.7pre44     x11/urw-fonts
+valgrind-devel                 @3.8.0-r12627   devel/valgrind-devel
+valgrind-devel                 @3.8.0-r12627   devel/valgrind-devel
+vantages                       @0.8.8b         net/vantages
+vte                            @0.28.2         gnome/vte
+vtk5                           @5.10.0         graphics/vtk5
+w3m                            @0.5.3          www/w3m
+w3m                            @0.5.3          www/w3m
+watch                          @3.2.8          sysutils/watch
+wavpack                        @4.60.1         audio/wavpack
+webkit-gtk                     @1.6.3          www/webkit-gtk
+webp                           @0.1.3          graphics/webp
+weechat                        @0.3.8          irc/weechat
+weechat                        @0.3.8          irc/weechat
+wget                           @1.13.4         net/wget
+wxWidgets                      @2.8.12         graphics/wxWidgets
+wyrd                           @1.4.4          textproc/wyrd
+x264                           @20111210       multimedia/x264
+xalanj                         @2.7.1          java/xalanj
+xauth                          @1.0.7          x11/xauth
+xbitmaps                       @1.1.1          x11/xbitmaps
+xercesj                        @2.11.0         java/xercesj
+Xft2                           @2.3.1          x11/Xft2
+Xft2                           @2.3.1          x11/Xft2
+xinetd                         @2.3.14         net/xinetd
+xjobs                          @20120412       sysutils/xjobs
+xmlcatmgr                      @2.2            textproc/xmlcatmgr
+xmlto                          @0.0.25         textproc/xmlto
+xorg-bigreqsproto              @1.1.2          x11/xorg-bigreqsproto
+xorg-compositeproto            @0.4.2          x11/xorg-compositeproto
+xorg-damageproto               @1.2.1          x11/xorg-damageproto
+xorg-dri2proto                 @2.8            x11/xorg-dri2proto
+xorg-fixesproto                @5.0            x11/xorg-fixesproto
+xorg-font-util                 @1.3.0          x11/xorg-font-util
+xorg-fontsproto                @2.1.2          x11/xorg-fontsproto
+xorg-glproto                   @1.4.16         x11/xorg-glproto
+xorg-inputproto                @2.2            x11/xorg-inputproto
+xorg-kbproto                   @1.0.6          x11/xorg-kbproto
+xorg-libfontenc                @1.1.1          x11/xorg-libfontenc
+xorg-libice                    @1.0.8          x11/xorg-libice
+xorg-libpthread-stubs          @0.3            x11/xorg-libpthread-stubs
+xorg-libsm                     @1.2.1          x11/xorg-libsm
+xorg-libX11                    @1.5.0          x11/xorg-libX11
+xorg-libX11                    @1.5.0          x11/xorg-libX11
+xorg-libXau                    @1.0.7          x11/xorg-libXau
+xorg-libXaw                    @1.0.11         x11/xorg-libXaw
+xorg-libXaw                    @1.0.11         x11/xorg-libXaw
+xorg-libxcb                    @1.8.1          x11/xorg-libxcb
+xorg-libXcomposite             @0.4.3          x11/xorg-libXcomposite
+xorg-libXcursor                @1.1.13         x11/xorg-libXcursor
+xorg-libXdamage                @1.1.3          x11/xorg-libXdamage
+xorg-libXdmcp                  @1.1.1          x11/xorg-libXdmcp
+xorg-libXext                   @1.3.1          x11/xorg-libXext
+xorg-libXfixes                 @5.0            x11/xorg-libXfixes
+xorg-libXfont                  @1.4.5          x11/xorg-libXfont
+xorg-libXi                     @1.6.1          x11/xorg-libXi
+xorg-libXinerama               @1.1.2          x11/xorg-libXinerama
+xorg-libXmu                    @1.1.1          x11/xorg-libXmu
+xorg-libXp                     @1.0.1          x11/xorg-libXp
+xorg-libXrandr                 @1.3.2          x11/xorg-libXrandr
+xorg-libXScrnSaver             @1.2.2          x11/xorg-libXScrnSaver
+xorg-libXt                     @1.1.3          x11/xorg-libXt
+xorg-libXtst                   @1.2.1          x11/xorg-libXtst
+xorg-printproto                @1.0.5          x11/xorg-printproto
+xorg-randrproto                @1.4.0          x11/xorg-randrproto
+xorg-randrproto                @1.4.0          x11/xorg-randrproto
+xorg-recordproto               @1.14.2         x11/xorg-recordproto
+xorg-renderproto               @0.11.1         x11/xorg-renderproto
+xorg-scrnsaverproto            @1.2.2          x11/xorg-scrnsaverproto
+xorg-util-macros               @1.17           x11/xorg-util-macros
+xorg-xcb-proto                 @1.7.1          x11/xorg-xcb-proto
+xorg-xcb-util                  @0.3.9          x11/xorg-xcb-util
+xorg-xcb-util                  @0.3.9          x11/xorg-xcb-util
+xorg-xcmiscproto               @1.2.2          x11/xorg-xcmiscproto
+xorg-xextproto                 @7.2.1          x11/xorg-xextproto
+xorg-xf86bigfontproto          @1.2.0          x11/xorg-xf86bigfontproto
+xorg-xineramaproto             @1.2.1          x11/xorg-xineramaproto
+xorg-xproto                    @7.0.23         x11/xorg-xproto
+xorg-xtrans                    @1.2.7          x11/xorg-xtrans
+xpm                            @3.5.10         x11/xpm
+xrender                        @0.9.7          x11/xrender
+XviD                           @1.3.2          multimedia/XviD
+xz                             @5.0.4          archivers/xz
+xz                             @5.0.4          archivers/xz
+yajl                           @2.0.4          devel/yajl
+yasm                           @1.2.0          lang/yasm
+yersinia                       @0.7.1          net/yersinia
+youtube-dl                     @2012.02.27     net/youtube-dl
+ZendFramework                  @1.11.12        www/ZendFramework
+zlib                           @1.2.7          archivers/zlib
+zmq                            @2.2.0          sysutils/zmq
+zsh                            @4.2.7          shells/zsh
+zsh-templates-osx              @2.0.4          sysutils/zsh-templates-osx
