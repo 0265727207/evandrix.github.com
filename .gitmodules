@@ -1,5 +1,5 @@
-[submodule "HTML5/gridless-boilerplate"]
-	path = HTML5/gridless-boilerplate
+[submodule "HTML5:CSS3/gridless-boilerplate"]
+	path = HTML5:CSS3/gridless-boilerplate
 	url  = git://github.com/thatcoolguy/gridless-boilerplate
 [submodule "js/NodeBeginnerBook"]
 	path = js/NodeBeginnerBook
@@ -16,8 +16,8 @@
 [submodule "xcode-ios/PagePeel"]
 	path = xcode-ios/PagePeel
 	url  = git://github.com/markrickert/iOS-PagePeel-Example.git
-[submodule "HTML5/bootstrap"]
-	path = HTML5/bootstrap
+[submodule "HTML5:CSS3/bootstrap"]
+	path = HTML5:CSS3/bootstrap
 	url  = git://github.com/twitter/bootstrap.git
 [submodule "webkit-headless/html2pdf-WEBKIT-MacRuby/1-slidedown"]
 	path = webkit-headless/html2pdf-WEBKIT-MacRuby/1-slidedown
@@ -26,5 +26,35 @@
 	path = webkit-headless/html2pdf-WEBKIT-MacRuby/2-slidedown-to-pdf
 	url  = git://github.com/nmerouze/slidedown-to-pdf.git
 [submodule "webkit-headless/html2pdf-WEBKIT-MacRuby/macruby-snapper"]
-	path =webkit-headless/html2pdf-WEBKIT-MacRuby/macruby-snapper
+	path = webkit-headless/html2pdf-WEBKIT-MacRuby/macruby-snapper
 	url  = git://github.com/tomafro/macruby-snapper.git
+[submodule "HTML5:CSS3/HTML5-Reset"]
+	path = HTML5:CSS3/HTML5-Reset
+	url  = git://github.com/murtaugh/HTML5-Reset.git
+[submodule "js/heatwave"]
+	path = js/heatwave
+	url  = git://github.com/substack/heatwave.git
+[submodule "js/osmus"]
+	path = js/osmus
+	url  = git://github.com/borismus/osmus.git
+[submodule "js/scrolldeck.js"]
+	path = js/scrolldeck.js
+	url  = git://github.com/johnpolacek/scrolldeck.js.git
+[submodule "projects/HNmobile"]
+	path = projects/HNmobile
+	url  = git://github.com/cheeaun/hnmobile.git
+[submodule "projects/zxcvbn"]
+	path = projects/zxcvbn
+	url  = git://github.com/lowe/zxcvbn.git
+[submodule "rb/gitlabhq"]
+	path = rb/gitlabhq/annotate
+	url  = git://github.com/gitlabhq/gitlabhq.git
+[submodule "rb/spine.rails3"]
+	path = rb/spine.rails3
+	url  = git://github.com/maccman/spine.rails3.git
+[submodule "xcode-ios/HelloWorld_Xcode4"]
+	path = xcode-ios/HelloWorld_Xcode4
+	url  = git://github.com/Matze13/Hello-World-.git
+[submodule "xcode-osx/FlashbackChecker"]
+	path = xcode-osx/FlashbackChecker
+	url  = git://github.com/jils/FlashbackChecker.git
