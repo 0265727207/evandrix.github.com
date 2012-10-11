@@ -47,7 +47,7 @@
 	path = projects/zxcvbn
 	url  = git://github.com/lowe/zxcvbn.git
 [submodule "rb/gitlabhq"]
-	path = rb/gitlabhq/annotate
+	path = rb/gitlabhq
 	url  = git://github.com/gitlabhq/gitlabhq.git
 [submodule "rb/spine.rails3"]
 	path = rb/spine.rails3
