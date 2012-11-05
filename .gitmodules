@@ -52,9 +52,6 @@
 [submodule "rb/spine.rails3"]
 	path = rb/spine.rails3
 	url  = git://github.com/maccman/spine.rails3.git
-[submodule "xcode-ios/HelloWorld_Xcode4"]
-	path = xcode-ios/HelloWorld_Xcode4
-	url  = git://github.com/Matze13/Hello-World-.git
 [submodule "xcode-osx/FlashbackChecker"]
 	path = xcode-osx/FlashbackChecker
 	url  = git://github.com/jils/FlashbackChecker.git
