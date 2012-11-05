@@ -1,7 +1,0 @@
-indexes:
-- kind: LivecountCounter
-  properties:
-  - name: namespace
-  - name: count
-    direction: desc
-

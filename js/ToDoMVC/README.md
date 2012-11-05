@@ -1,105 +1,121 @@
-![TodoMVC!](http://addyosmani.com/blog/wp-content/uploads/2011/09/logo.gif)
+# ![TodoMVC](https://raw.github.com/addyosmani/todomvc/gh-pages/media/logo.png)
 
-##TodoMVC - A common demo application for popular JavaScript MVC frameworks (0.1 pre)
-####Including SproutCore 2.0, YUILibrary, JavaScriptMVC, Spine.js, Backbone, Sammy, KnockoutJS, AngularJS and more.
-
-
-####Screenshots:
-
-Three of the seven demo apps included:
-
-<img width="90%" src='http://www.blarnee.com/images/scr342342.jpg'/>
+## Helping you select an MV\* framework
 
 
-##Introducing TodoMVC
+Developers these days are spoiled with choice when it comes to selecting an MV\* framework for structuring and organizing JavaScript web apps.
 
-Over the past year, we've seen interest in lightweight JavaScript MVC frameworks continue
-to increase steadily. Backbone, Spine, SproutCore 2.0, YUILibrary, JavaScriptMVC...
-the list of choices has never been so ever-growing and developers looking to select an 
-option would be forgiven for feeling lost in a sea of what may appear to be (at face)
-quite similar solutions.
+Backbone, Ember, AngularJS, Spine... the list of new and stable solutions goes on and on, but just how do you decide on which to use in a sea of so many options?
 
-In many cases it comes down to very subtle differences between these frameworks, so how 
-do you choose exactly?. In my previous posts on structured application development I've
-attempted to distinguish the pros and cons of such solutions, but when it comes down to
-the MVC coding style they offer perhaps there's another way these differences can be 
-compared.
-
-You may know that many frameworks now come with their own variation of the 'Todo' example.
-It's a simple demo that illustrates how models, views and controllers may be used to write
-a completely functional list-based application. 
-
-###Whilst many frameworks attempt to include a version of the 'Todo' example, there are issues here:
-
-####Problem 1: Implementations are inconsistent
-There's no standard or specification around how the Todo application should be written - indeed, some may ask if a demo app even needs one. 
-
-When you actually delve into framework demos you might be surprised at just how much they can actually differ. Some solutions will opt for a completely different MVC structure to the application, others will opt for JavaScript templating to insert new items whilst some will prefer cloning HTML markup to insert new 'rows' instead. Again, the lack of what we consider a consistent experience causes problems here. 
-
-Regardless, this is why although some frameworks will implement the example with similar features and a look/feel consistent with their peers, others will stray away from this quite heavily. 
-
-This is an issue because if you're attempting to directly compare how one framework might achieve a task vs another, very disparate implementations make this significantly more difficult to do.
+To help solve this problem, we created TodoMVC - a project which offers the same Todo application implemented using MV* concepts in most of the popular JavaScript MV\* frameworks of today.
 
 
+#### Todo apps are included for:
 
-####Problem 2: Lack of a Todo example altogether
-I can't speak for all developers, but after reviewing the feature list on such solutions, my first port of call is usually to look for their Todo app as I find this the quickest way to determine whether I'm going to like using their brand of MVC for structuring my apps. This isn't in any way stating an incapability of determining this from code samples in a frameworks docs, but rather, I prefer to review differences in a complete application. I know that other developers feel the same about this too.
-
-
-###Solution
-
-
-So, I had an idea (which you may or may not find useful): 
-<ul>
-<li>Why not create a centralized fork of the various framework Todo examples</li>
-<li>Attempt to make these Todo examples more consistent in features, look and feel</li>
-<li>Add a Todo app for those that are missing one altogether or don't have an officially 'endorsed' implementation.</li>
-</ul>
-
-The initial result of my efforts is TodoMVC - a library of (almost) consistent Todo demo apps for MVC frameworks which include:
-
-<ul>
-<li>SproutCore 2.0</li>
-<li>Backbone.js</li>
-<li>Spine.js</li>
-<li>JavaScriptMVC</li>
-<li>Sammy.js</li>
-<li>YUILibrary</li>
-<li>KnockoutJS (MVVM)</li>
-<li>AngularJS</li>
-</ul>
+- [Backbone.js](http://documentcloud.github.com/backbone)
+- [Ember.js](http://emberjs.com)
+- [AngularJS](http://angularjs.org)
+- [Spine](http://spinejs.com)
+- [KnockoutJS](http://knockoutjs.com) (MVVM)
+- [Dojo](http://dojotoolkit.org)
+- [YUI](http://yuilibrary.com)
+- [Batman.js](http://batmanjs.org)
+- [Closure](http://code.google.com/closure/library/)
+- [Agility.js](http://agilityjs.com)
+- [Knockback.js](http://kmalakoff.github.com/knockback)
+- [Google Web Toolkit](https://developers.google.com/web-toolkit/)
 
 
+###### Non MV*
 
-All of the demos are completely self-contained, so in the case of say, a framework like 
-JavaScriptMVC - not only are all dependencies included but the demo is also 'pre-compiled'
-so you can try it out of the box (unlike the version on the official repo). I may also 
-expand the example-set to include demos for other new libraries such as Batman.js and Agility
-if these are requested.
+- [jQuery](http://jquery.com)
+- Vanilla JS
 
-At the end of the day, I want to make it easier for developers to make a choice between frameworks
-and this may be just one other source of information about their differences which you may find 
-of assistance.
+###### RequireJS
 
-####TodoMVC is built on the efforts of a number of other developers including: Jérôme Gravel-Niquet (who I believe created the first version of this style of Todo app), Justin Meyer, Alex MacCaw, Brandon Aaron, Ashish Sharma, Christoph Burgdorf and Tom Dale.
+- [Backbone.js](http://documentcloud.github.com/backbone) + [RequireJS](http://requirejs.org) (using AMD)
+- [Ember.js](http://emberjs.com) + [RequireJS](http://requirejs.org) (using AMD)
 
-##Frequently Asked Questions:
 
-####Q:Framework authors with a Todo example update their versions at regular intervals. Will TodoMVC be integrating the same changes into its versions? 
+#### Labs
 
-A: Time permitting, yes. I want to ensure that all examples in the collection are up to date and
-relevant to current releases, otherwise whatever learning benefit might be gained from them 
-goes straight out the door.
+We also have a number of in-progress applications in Labs:
 
-####Q:Why not simply fork the examples and push your changes upstream? 
+- [CanJS](http://canjs.us)
+- [Maria.js](https://github.com/petermichaux/maria)
+- [cujo.js](http://cujojs.github.com)
+- [Meteor](http://meteor.com)
+- [Derby](http://derbyjs.com)
+- [SocketStream](http://www.socketstream.org) + [jQuery](http://jquery.com)
+- [Ext.js](http://www.sencha.com/products/extjs)
+- [Sammy.js](http://sammyjs.org)
+- [JavaScriptMVC](http://javascriptmvc.com)
+- [Stapes.js](http://hay.github.com/stapes)
+- [Epitome](http://dimitarchristoff.github.com/Epitome)
+- [TroopJS](https://github.com/troopjs)
+- [soma.js](http://somajs.github.com/somajs)
+- [DUEL](https://bitbucket.org/mckamey/duel/wiki/Home)
+- [Fidel](https://github.com/jgallen23/fidel)
+- [Olives](https://github.com/flams/olives)
+- [PlastronJS](https://github.com/rhysbrettbowen/PlastronJS)
+- [Dijon](https://github.com/creynders/dijon-framework)
+- [rAppid.js](http://www.rappidjs.com)
+- [o_O](http://weepy.github.com/o_O)
+- [KnockoutJS](http://knockoutjs.com) + [RequireJS](http://requirejs.org) (using AMD)
+- [AngularJS](http://angularjs.org) + [RequireJS](http://requirejs.org) (using AMD)
+- [AngularJS](http://angularjs.org) (optimized)
+- [Backbone.xmpp](https://github.com/ggozad/Backbone.xmpp)
 
-A:Good question. Whilst this might be considered at some point, I like the idea of developers having a single pack of examples they can grab and study to decide whether a framework is right for them. I'd explored the option of maintaining forks as submodules however decided against it as changes to the demos that the project might suggest may not always be agreed upon, or seen as necessary by framework authors.
 
-####Q:Will this collection contain tests for the Todo applications?. 
+## Live demos
 
-A:I'm currently still deciding whether there would be a great benefit to this. I regularly state that OS solutions should contain both tests and documentation, however, a few developers have suggested there not being a need nor  expectation as these are essentially usage examples. If enough people request tests, I'm happy to support them.
+Live demos are available on our [website](http://todomvc.com)
 
-####Q:I don't really see the point of this project. Wtf, bro?. 
 
-A:That's a valid viewpoint. I'm not in any way saying that a consistent, common MVC example is going to take all of the headache out of selecting a framework to use for your project, but if I was looking at these for the first time personally I would find this helpful and I hope there are some developers out there that will feel the same way too.
+## Screenshot
 
+![screenshot](https://raw.github.com/addyosmani/todomvc/gh-pages/screenshot.png)
+
+
+## Team
+
+TodoMVC would not be possible without a strong team of [contributors](https://github.com/addyosmani/todomvc/contributors) helping push the project forward each day. In addition, we have a core project team composed of:
+
+#### [Addy Osmani](http://github.com/addyosmani) - Founder/Lead
+
+<img align="left" width="40" height="40" src="http://www.gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275.png?s=40">
+Addy is a Developer Platform Engineer at Google who originally created TodoMVC. He oversees the project direction, drives expansion and helps lead core development with Sindre Sorhus (by far our most active contributor!).
+
+#### [Sindre Sorhus](https://github.com/sindresorhus) - Lead Developer
+
+<img align="left" width="40" height="40" src="http://www.gravatar.com/avatar/d36a92237c75c5337c17b60d90686bf9.png?s=40">
+Sindre is a Web Developer who drives core development, quality control and application design for the project. His contributions have helped us ensure consistency and best practices are enforced wherever possible.
+
+#### [Gianni Chiappetta](https://github.com/gf3) - Logo designer
+
+
+## Disclaimer
+
+<img align="right" width="230" height="230" src="https://raw.github.com/addyosmani/todomvc/gh-pages/media/icon-small.png">
+
+TodoMVC has been called many things including the 'Speed-dating' and 'Rosetta Stone' of MV* frameworks. Whilst we hope that this project is able to offer assistance in deciding what frameworks are worth spending more time looking at, remember that the Todo application offers a limited view of what a framework may be capable of.
+
+It is meant to be used as a gateway to reviewing how a basic application using a framework may be structured and we heavily recommend investing time researching a solution in more depth before opting to use it.
+
+
+## Project Status
+
+TodoMVC 1.0 includes re-writes of almost all applications, ensuring they follow a consistent set of specifications and are using the latest versions of all libraries and frameworks in use. We've also addressed framework author concerns about routing by adding this to many of the more mainstream applications in the project.
+
+
+## Getting Involved
+
+Whilst we enjoy implementing and improving existing Todo apps, we're always interested in speaking to framework authors (and users) wishing to share Todo app implementations in their framework/solution of choice.
+
+Check out our [contribution docs](todomvc/blob/gh-pages/contributing.md) for more info.
+
+
+## License
+
+MIT License  
+Copyright (c) Addy Osmani & Sindre Sorhus
