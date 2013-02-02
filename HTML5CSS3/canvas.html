@@ -1,0 +1,329 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        *{margin:0;padding:0;}
+        body {
+            margin: 0px auto; padding: 0px;
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            display: -moz-box;
+            -moz-box-orient: horizontal;
+            display: box;
+            box-orient: horizontal;
+        }
+        section{}
+        canvas {margin: 10px 10px 0px;border:1px solid black }            
+        canvas.myCanvas{
+            background:url("loading_ajax.gif") no-repeat center;
+        }
+        section.controls{
+            margin:10px 10px 5px 10px;
+            padding:15px;
+            border: 1px solid black; 
+            -webkit-box-flex: 1;
+        }
+        .controls h1{
+            padding:0px;
+            text-align:center;
+        }
+        .container{
+            border: 1px dashed black;
+            margin:5px;
+            padding:8px;
+        }
+        .info{margin:10px;}
+        .title{}
+        .container > div{
+            margin: 15px;
+        }
+        .container span{
+            padding:5px;
+        }
+        input[type="range"]{
+            vertical-align:bottom;
+        }
+        .btn{
+            font-size:18px;
+            cursor:pointer;
+            border-radius: 5px;
+            border: 1px solid red;
+        }
+    </style>
+<script>            
+
+//UI
+
+INSTAGRAM = function(){
+        //PROPERTIES
+    var THRESHOLD = 50,
+        MAX_VALUE = 50,
+        DEBUG = false,
+        
+        //UI
+        DEFAULT_IMG = "images/p1.png",
+        DEFAULT_URL_BTN = "#loadURL",
+        DEFAULT_RUN_BTN = "#run",
+        DEFAULT_URL_INPUT = "#url",
+        DEFAULT_IMG_SELECTOR = "#imgSelector";
+        
+    return {
+        init: function(config){
+           this._initializer(config);
+           this._bind();
+           this.loadImage();
+        },
+        _initializer:function(cfg){
+            this.src = document.querySelector(cfg.source);
+            this.dst = document.querySelector(cfg.result);
+            this.img = cfg.img? cfg.img : DEFAULT_IMG;
+        },
+        _bind: function(){
+            var that = this,
+                selector = document.querySelector(DEFAULT_IMG_SELECTOR),
+                runbtn = document.querySelector(DEFAULT_RUN_BTN),
+                btn = document.querySelector(DEFAULT_URL_BTN);
+                
+            selector.addEventListener("change",function(evt){that.changeImage.call(that,evt)},false);
+            runbtn.addEventListener('click',function(evt){that.run.call(that)},false);
+            
+            btn.addEventListener("click",
+                function(evt){
+                    var input = document.querySelector(DEFAULT_URL_INPUT);
+                        that.loadImage.call(that,input.value);
+                },false);
+        },
+        loadImage:function(image){
+            var self = this, 
+                img = new Image(),
+                source = image?image:this.img;
+                img.onload = function(){self._onLoadImage.call(self,img)}
+                img.onerror = function(){alert("Error loading image...")}
+                img.src = source;
+        },
+        _onLoadImage:function(img){
+            var ctx = this.src.getContext("2d");
+            this.src.width = this.dst.width = img.width;
+            this.src.height = this.dst.height = img.height;
+            ctx.drawImage(img, 0, 0);
+            this.img = img;
+            
+        },
+        changeImage: function(evt){
+            this.loadImage(evt.target.value);
+        },
+        run: function(){
+            this.reset();
+            this.searchSlices();
+            this.recomposeImage();
+        },
+        reset:function(){
+            var ctx = this.src.getContext("2d");
+                ctx.drawImage(this.img,0,0);
+        },
+        searchSlices: function(){
+                var width = this.src.width,
+                    matches = new Array();
+                    
+                    for(var j=0; j<width; j++){
+                        var delta = this._analizeColumn(j);
+                        if(delta > 22){
+                            matches.push(j);
+                            //console.log("Columna[" +j+ "]: " +delta +"% of difference. >> marked as HIGH");
+                            this.drawLine(j);
+                        }
+                    }
+                    var diffs = {};
+                    for(var k = matches.length - 1; k >= 0; k--){
+                        var stripDistance = matches[k] - matches[k-1];
+                        diffs[stripDistance] = diffs[stripDistance] ? diffs[stripDistance] + 1 : 1;
+                    }
+                    console.log(diffs);
+                    
+                    var auxMax = 0;
+                    for(var property in diffs){
+                        if(property > 2){
+                            if (diffs[property] > auxMax ){
+                                auxMax = diffs[property];
+                                stripeSize = parseInt(property,10);
+                            } 
+                        }
+                    }
+                    stripes = width/stripeSize;
+                                        
+                    console.log("Stripes length: " + stripeSize + "px. Number stripes: "+ stripes+" stripes" );
+                    
+                    
+                    //redraw correct stripes:
+                        //context.drawImage(img, 0, 0);
+                    for(var z = 0 ; z<width; z+= stripeSize){
+                        this.drawLine(z,"rgba(0, 255, 0, 0.5)");
+                    }  
+                },
+        _analizeColumn: function(index){
+            var context = this.src.getContext("2d"),
+                height = this.src.height,
+                line = (context.getImageData(index,0,2,height)).data,diff = new Array(),r,g,b;
+                
+                for(var i = 0; i<height; i+=2){
+                    r = Math.pow(line[i*4] - line[(i+1)*4],2);
+                    g = Math.pow(line[(i*4) + 1] - line[((i+1)*4) + 1],2);
+                    b = Math.pow(line[(i*4) + 2] - line[((i+1)*4) + 2],2);
+                    diff.push(Math.floor(Math.sqrt(r+g+b)));
+                }
+                var percent = 0.1, 
+                    minDiff = 442 * percent,
+                    totalDiff = 0;
+                    //console.log("Diff greater than: " + minDiff);
+                    for(i = 0 ; i < height; i++){
+                        if(diff[i] > minDiff){
+                            totalDiff++;
+                        }
+                    }
+                    //console.log("Columna[" + index+ "]: " +totalDiff+" differences => "+totalDiff * 100/height +"%");
+                    return  Math.floor(totalDiff * 100 /height);
+        },
+        drawLine:function(xCoord,color){
+                    var rgb = color ? color : "rgba(255, 0, 0, 0.5)",
+                        context = this.src.getContext("2d"),
+                        height = this.src.height;
+                        
+                    context.strokeStyle = rgb;
+                    context.beginPath();
+                    context.moveTo(xCoord,0);
+                    context.lineTo(xCoord,height);
+                    context.closePath();
+                    context.stroke();
+        },
+        recomposeImage: function(){
+                    var pairs = {},delta,lowestStrip,lowestCount,leftLine,rightLine,height = this.src.height,
+                        contextold = this.src.getContext("2d"), contextResult = this.dst.getContext("2d");
+                     
+                    var canvas = document.createElement('canvas');
+                        canvas.width = this.src.width;
+                        canvas.height = this.src.height;
+                    var context = canvas.getContext('2d');
+                    context.drawImage(this.img, 0, 0);
+                    
+                    for(var i=0;i < 20; i++){
+                        pairs[i] = [-1,0]; 
+                    }
+                    
+                    for (var stripOut = 0; stripOut < 20; stripOut++)
+                    {
+                        lowestStrip = -1; lowestCount = -1;
+                        for (var stripIn = 0; stripIn < 20; stripIn++)
+                        {
+                        
+                            leftLine = (context.getImageData(stripOut * 32 + (32 - 1),0,1,height)).data;
+                            rightLine = (context.getImageData(stripIn*32,0,1,height)).data;
+                            delta = this.calculateDiffStripes(leftLine,rightLine);
+                            //console.log("StripOut: " +stripOut+ " StripIn: " +stripIn+" D: "+delta );
+                            
+                            if (lowestCount == -1 || delta < lowestCount)
+                            {
+                                lowestStrip = stripIn;
+                                lowestCount = delta;
+                            }
+                        }
+                        //console.log((stripOut + 1)+"->" + (lowestStrip + 1)+"|"+ lowestCount);
+                        if (pairs[lowestStrip][0] == -1|| pairs[lowestStrip][1] > lowestCount)
+                        {
+                            pairs[lowestStrip][0] = stripOut;
+                            pairs[lowestStrip][1] = lowestCount;
+                        }   
+                    }
+                    console.log(pairs);
+                    var lastNumber = -1;
+                    
+                    for (var i = 0; i < 20; i++)
+                    {
+                        for (var j = 0; j < 20; j++)
+                        {
+                            if (pairs[j][0] == lastNumber)
+                            {
+                                lastNumber = j;
+                                var original = context.getImageData((32 * j), 0, 32, 359);
+                                contextResult.putImageData(original,(32*i),0);
+                                break;
+                            }
+                        }
+                    }
+                    
+                },
+                calculateDiffStripes: function(rightLine,leftLine){
+                    var r,g,b,difference = 0,height = this.src.height;
+                        for(var i = 0; i<height; i++){
+                            r = Math.abs(rightLine[i*4] - leftLine[i*4]);
+                            g = Math.abs(rightLine[(i*4)+1] - leftLine[(i*4) + 1]);
+                            b = Math.abs(rightLine[(i*4)+2] - leftLine[(i*4) + 2]);
+                            difference+= r+g+b;
+                        }
+                        return difference;
+                }
+    }
+}();
+
+window.onload = function(){
+    INSTAGRAM.init({source: "#myCanvas", result:'#myResult'});
+}
+</script>
+    </head>
+    <body>
+        <section class="paint">
+        <div>
+            <canvas id="myCanvas"></canvas>
+        </div>
+        <div>
+            <canvas id="myResult"></canvas>
+        </div>
+        </section>
+        <section class="controls">
+            <h1>Controls</h1>
+            <div class="info">
+                <p>This webpage had been created to solve the : 
+                <a href="http://instagram-engineering.tumblr.com/post/12651721845/instagram-engineering-challenge-the-unshredder"> 
+                    Instagram Engineer Challengue 
+                </a>
+                using only HTML5. We are taking advantage of canvas to convert the image in something we can manage with javascript, 
+                and after that we create a couple of scripts to check the distribution of stripes, and then Unshredder the image.
+                Note that this version is not using Web Workers, but could be a really nice idea in some future approaches.
+                Enjoy!:)
+            </p>
+            
+            </div>
+            <div class="container">
+                <p class="title">Select Image:</p>
+                <div class="controlSelector">
+                    <span>Predefined images </span>
+                    <select id="imgSelector">
+                        <option value="images/p1.png">Image1</option>
+                        <option value="images/p2.png">Image2</option>
+                        <option value="images/p3.png">Image3</option>
+                        <option value="images/p4.png">Image4</option>
+                        <option value="images/p5.png">Image5</option>
+                    </select>
+                    <span>or any url: <span>
+                    <input id="url" type="text">
+                    <input id="loadURL" type="button" value="Load">
+                </div>
+                <p class="title">Customize Parameters: </p>
+                <div class="controlSelector">
+                    <span>Weight differences: </span>
+                    <input id="c1" type="range" min="0" max="100" value="0"/>
+                    <span>Level cut: <span>
+                    <input id="c2" type="range" min="0" max="100" value="0"/>
+                </div>
+                <p class="title">Execution: </p>
+                <div class="controlSelector">
+                    <span id="run" class="btn">Unshredder the image!</span>
+                </div>
+            </div>
+            <div class="info">
+                <p><a href="https://twitter.com/#!/diervo">Diego Ferreiro<a></p> 
+                <p>Angel Prado</p>
+           </div> 
+        </section>
+    </body>
+</html>
