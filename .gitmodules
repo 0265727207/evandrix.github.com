@@ -1,5 +1,5 @@
-[submodule "HTML5:CSS3/gridless-boilerplate"]
-	path = HTML5:CSS3/gridless-boilerplate
+[submodule "HTML5_CSS3/gridless-boilerplate"]
+	path = HTML5_CSS3/gridless-boilerplate
 	url  = git://github.com/thatcoolguy/gridless-boilerplate
 [submodule "js/NodeBeginnerBook"]
 	path = js/NodeBeginnerBook
@@ -16,8 +16,8 @@
 [submodule "xcode-ios/PagePeel"]
 	path = xcode-ios/PagePeel
 	url  = git://github.com/markrickert/iOS-PagePeel-Example.git
-[submodule "HTML5:CSS3/bootstrap"]
-	path = HTML5:CSS3/bootstrap
+[submodule "HTML5_CSS3/bootstrap"]
+	path = HTML5_CSS3/bootstrap
 	url  = git://github.com/twitter/bootstrap.git
 [submodule "webkit-headless/html2pdf-WEBKIT-MacRuby/1-slidedown"]
 	path = webkit-headless/html2pdf-WEBKIT-MacRuby/1-slidedown
@@ -28,8 +28,8 @@
 [submodule "webkit-headless/html2pdf-WEBKIT-MacRuby/macruby-snapper"]
 	path = webkit-headless/html2pdf-WEBKIT-MacRuby/macruby-snapper
 	url  = git://github.com/tomafro/macruby-snapper.git
-[submodule "HTML5:CSS3/HTML5-Reset"]
-	path = HTML5:CSS3/HTML5-Reset
+[submodule "HTML5_CSS3/HTML5-Reset"]
+	path = HTML5_CSS3/HTML5-Reset
 	url  = git://github.com/murtaugh/HTML5-Reset.git
 [submodule "js/heatwave"]
 	path = js/heatwave
